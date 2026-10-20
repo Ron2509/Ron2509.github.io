@@ -519,7 +519,10 @@ function Contact() {
       </Block>
       <Block i={3} className="span2 strip">
         <span className="mono">Car model</span>
-        <span className="credit">Peter Kiss (@peterkissdesign), CC BY-NC-SA</span>
+        <span className="credit">
+          <a href="https://sketchfab.com/3d-models/aston-martin-f1-amr23-2023-f6ba825a43b146a9b669934a4e1fd529" target="_blank" rel="noreferrer">"Aston Martin F1 AMR23 2023" by Redgrund</a>,{' '}
+          <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noreferrer">CC BY 4.0</a>, modified
+        </span>
       </Block>
     </Corner>
   )

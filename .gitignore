@@ -23,8 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 
-# F1 car model is CC BY-NC-SA, "do not share or distribute" - keep it out of the repo
-public/models/
 
 # working screenshots, local tool settings and an old experiment page: not part of the site
 previews/

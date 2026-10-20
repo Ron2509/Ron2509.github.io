@@ -1,6 +1,6 @@
 // Turns the converted source GLB into a web-ready car: no textures (materials are set in code),
 // welded + simplified geometry, meshopt-compressed. Usage: node scripts/build-model.mjs <in.glb> <out.glb> [ratio]
-import { NodeIO } from '@gltf-transform/core'
+import { NodeIO, PropertyType } from '@gltf-transform/core'
 import { ALL_EXTENSIONS, EXTMeshoptCompression } from '@gltf-transform/extensions'
 import { dedup, weld, simplify, prune, meshopt, quantize } from '@gltf-transform/functions'
 import { MeshoptEncoder, MeshoptSimplifier } from 'meshoptimizer'
@@ -32,7 +32,8 @@ console.log('triangles before', Math.round(tris()).toLocaleString())
 
 await doc.transform(
   prune(),
-  dedup(),
+  // materials are told apart by name (Car.tsx assigns the real ones), so identical-looking ones must not merge
+  dedup({ propertyTypes: [PropertyType.ACCESSOR, PropertyType.MESH, PropertyType.TEXTURE] }),
   weld(),
   simplify({ simplifier: MeshoptSimplifier, ratio, error: Number(errorArg), lockBorder: true }),
   prune(),
