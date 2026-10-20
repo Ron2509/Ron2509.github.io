@@ -83,8 +83,8 @@ export const flowGlsl = /* glsl */ `
   vec3 vortex(vec3 p, vec3 c, float s) {
     vec2 r = p.yz - c.yz;
     float rr = dot(r, r);
-    float behind = smoothstep(c.x + 0.05, c.x - 0.35, p.x) * smoothstep(c.x - 3.6, c.x - 1.0, p.x);
-    float k = s * 0.085 * behind * exp(-rr / 0.055) / (rr + 0.0025);
+    float behind = smoothstep(c.x + 0.05, c.x - 0.35, p.x) * smoothstep(c.x - 4.6, c.x - 1.4, p.x);
+    float k = s * 0.13 * behind * exp(-rr / 0.06) / (rr + 0.0025);
     return vec3(0.0, -k * r.y, k * r.x);
   }
   vec3 flow(vec3 p, out float wake, out float press) {
