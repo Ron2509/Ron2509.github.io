@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T17:01:15.205Z",
+  "updated": "2026-10-21T05:07:59.956Z",
   "sources": [
     "MIT Technology Review",
     "The Guardian",
@@ -16,6 +16,83 @@
     "Hugging Face"
   ],
   "items": [
+    {
+      "title": "Tech giants' AI spending to exceed $1 trillion in 2027, lift US growth: UBS",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/tech-giants-ai-spending-to-exceed-1-trillion-in-2027-lift-us-growth-ubs/articleshow/135082507.cms",
+      "source": "The Economic Times",
+      "time": "2026-10-21T04:53:04.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Southeast Asia’s digital economy to hit $368 billion",
+      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
+      "source": "Google AI",
+      "time": "2026-10-21T04:00:00.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate",
+      "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
+      "source": "TechCrunch",
+      "time": "2026-10-20T22:24:02.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Anthropic’s cloud partnerships are getting messy",
+      "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
+      "source": "TechCrunch",
+      "time": "2026-10-20T21:25:22.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "SpaceX’s AI business is beating expectations",
+      "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
+      "source": "TechCrunch",
+      "time": "2026-10-20T20:40:41.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Meta drops the word \"train\" from its commercial TOS after AI backlash",
+      "url": "https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/",
+      "source": "Ars Technica",
+      "time": "2026-10-20T20:07:58.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Gemini's Personal Intelligence is coming to cars",
+      "url": "https://arstechnica.com/google/2026/10/geminis-personal-intelligence-is-coming-to-cars/",
+      "source": "Ars Technica",
+      "time": "2026-10-20T20:00:33.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "OpenAI CEO Sam Altman wins dismissal of sister's lawsuit",
+      "url": "https://www.bbc.co.uk/news/articles/c94g1502el58o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "time": "2026-10-20T19:42:32.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Ukraine’s drone rescue of wounded soldier puts much touted idea into practice",
+      "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drone-rescue-of-wounded-soldier-puts-much-touted-idea-into-practice/",
+      "source": "Ars Technica",
+      "time": "2026-10-20T18:22:54.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
+      "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
+      "source": "Hugging Face",
+      "time": "2026-10-20T18:17:47.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "French Government Calls Emergency Meetings With Platforms Over Protests",
+      "url": "https://www.wired.com/story/french-government-calls-emergency-meetings-with-platforms-over-protests/",
+      "source": "Wired",
+      "time": "2026-10-20T17:41:58.000Z",
+      "kind": "press"
+    },
     {
       "title": "From Iran to AI: the six key voter issues shaping the US midterm elections",
       "url": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/20/voter-issues-midterms-elections",
@@ -36,13 +113,6 @@
       "source": "Hugging Face",
       "time": "2026-10-20T16:09:19.000Z",
       "kind": "lab"
-    },
-    {
-      "title": "Plants can speak using electricity, so this startup built an AI model to decipher their language",
-      "url": "https://techcrunch.com/2026/10/20/plants-can-speak-using-electricity-so-this-startup-built-an-ai-model-to-decipher-their-language/",
-      "source": "TechCrunch",
-      "time": "2026-10-20T16:00:00.000Z",
-      "kind": "press"
     },
     {
       "title": "The new economics of enterprise AI",
@@ -66,20 +136,6 @@
       "kind": "press"
     },
     {
-      "title": "Spotify pulled 50 million AI slop and spam tracks from its recommendations",
-      "url": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed",
-      "source": "The Verge",
-      "time": "2026-10-20T14:18:37.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Figma co-founder Dylan Field thinks MCP is not a perfect protocol",
-      "url": "https://techcrunch.com/2026/10/20/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol/",
-      "source": "TechCrunch",
-      "time": "2026-10-20T14:13:32.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Labor and the Coalition are poised to take a reckless gamble on AI. Haven’t they realised community support has collapsed? | Edward Santow and Sarah Sacher",
       "url": "https://www.theguardian.com/technology/commentisfree/2026/oct/21/labor-coalition-poised-to-take-reckless-gamble-on-ai-joint-select-committee",
       "source": "The Guardian",
@@ -87,31 +143,10 @@
       "kind": "press"
     },
     {
-      "title": "US orders federal agencies to remove China’s DeepSeek AI from their systems",
-      "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/",
-      "source": "TechCrunch",
-      "time": "2026-10-20T13:07:24.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Adobe Lightroom mobile can now open closed eyes in photos with a simple tap",
-      "url": "https://www.theverge.com/tech/1014246/adobe-lightroom-mobile-ai-quick-action-open-eyes-closed-blink-repair",
-      "source": "The Verge",
-      "time": "2026-10-20T13:06:44.000Z",
-      "kind": "press"
-    },
-    {
       "title": "US bans use of China’s DeepSeek AI tools by government agencies",
       "url": "https://www.theguardian.com/us-news/2026/oct/20/us-bans-china-deepseek-ai-tools-government-agencies",
       "source": "The Guardian",
       "time": "2026-10-20T12:33:27.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Meta Muse exposes users' personal and business secrets when they share conversations",
-      "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
-      "source": "Ars Technica",
-      "time": "2026-10-20T12:33:13.000Z",
       "kind": "press"
     },
     {
@@ -129,11 +164,11 @@
       "kind": "press"
     },
     {
-      "title": "Microsoft now treats AI agents as insiders risks that could go rogue",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/microsoft-now-treats-ai-agents-as-insiders-risks-that-could-go-rogue/articleshow/135066500.cms",
-      "source": "The Economic Times",
-      "time": "2026-10-20T09:44:26.000Z",
-      "kind": "press"
+      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+      "url": "https://openai.com/index/ted-taylor-restaurant",
+      "source": "OpenAI",
+      "time": "2026-10-20T10:00:00.000Z",
+      "kind": "lab"
     },
     {
       "title": "A visit to Samsung’s massive new semiconductor hub",
@@ -143,9 +178,16 @@
       "kind": "press"
     },
     {
-      "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
-      "url": "https://huggingface.co/blog/hf-torchtpu",
-      "source": "Hugging Face",
+      "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+      "url": "https://openai.com/index/terminal-x",
+      "source": "OpenAI",
+      "time": "2026-10-20T07:00:00.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "OpenAI acquires Orchestra Bio",
+      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "source": "OpenAI",
       "time": "2026-10-20T00:00:00.000Z",
       "kind": "lab"
     },
@@ -157,60 +199,18 @@
       "kind": "press"
     },
     {
+      "title": "CoreWeave’s debt is becoming the whole AI industry’s problem",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai",
+      "source": "The Verge",
+      "time": "2026-10-19T21:28:20.000Z",
+      "kind": "press"
+    },
+    {
       "title": "Ex-OpenAI worker accused of planting bug had Saudi support, claims prosecutors",
       "url": "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "time": "2026-10-19T21:12:30.000Z",
       "kind": "press"
-    },
-    {
-      "title": "Accused OpenAI spy had folder called “Saudi Gov Docs,” FBI says",
-      "url": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
-      "source": "Ars Technica",
-      "time": "2026-10-19T20:21:53.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "OpenAI Engineer Accused of Spying on Executives Ordered to Remain in Custody",
-      "url": "https://www.wired.com/story/openai-engineer-accused-of-spying-on-executives-ordered-to-remain-in-custody/",
-      "source": "Wired",
-      "time": "2026-10-19T19:49:17.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Germany Wants to Lead the World in Industrial AI: How NVIDIA Will Help",
-      "url": "https://blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help/",
-      "source": "NVIDIA",
-      "time": "2026-10-19T19:27:08.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "US bans China's DeepSeek from government in race for AI dominance",
-      "url": "https://www.bbc.co.uk/news/articles/cjkgeq0k1wevo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "time": "2026-10-19T18:21:54.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "AI game clones are making indie developers afraid to show their work",
-      "url": "https://arstechnica.com/gaming/2026/10/ai-game-clones-are-making-indie-developers-afraid-to-show-their-work/",
-      "source": "Ars Technica",
-      "time": "2026-10-19T16:59:22.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "WhatsApp Help Pages Leaked Hidden Instructions for a Meta Chatbot",
-      "url": "https://www.wired.com/story/whatsapp-help-pages-leaked-hidden-instructions-for-a-meta-chatbot/",
-      "source": "Wired",
-      "time": "2026-10-19T16:00:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
-      "url": "https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production/",
-      "source": "NVIDIA",
-      "time": "2026-10-19T15:00:31.000Z",
-      "kind": "lab"
     }
   ]
 }
