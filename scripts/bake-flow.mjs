@@ -250,15 +250,33 @@ function trace(seed) {
 const lines = []
 const why = {}
 let tried = 0
-// over the top of the car only: a rake across the body's width, from cockpit height up to well clear of it, so
-// each line reads straight in, up and over the bodywork, and straight out again
-for (let y = 0.2; y <= 0.96; y += 0.045) for (let z = -0.5; z <= 0.5001; z += 0.0833) {
+// which lines to keep (argv[4]):
+//   hug:  a few sheets over the top of the car, only the lines that run right along the bodywork
+//   top:  a full curtain over the top of the car, from the bodywork to well clear of it
+//   full: lines all round the car, over it, down its flanks and round its wheels
+const MODE = process.argv[4] || 'hug'
+const SEEDS = {
+  hug: { y: [0.2, 0.96, 0.02], z: [-0.42, 0.42, 0.14], keep: (l) => !l.under && l.wide < 0.3 && l.near <= 0.09 },
+  top: { y: [0.2, 0.96, 0.045], z: [-0.5, 0.5, 0.0833], keep: (l) => !l.under && l.wide < 0.35 && l.near <= 0.45 },
+  full: { y: [0.05, 1.3, 0.085], z: [-1.1, 1.1, 0.085], keep: (l) => l.near <= 0.12 },
+}[MODE]
+for (let y = SEEDS.y[0]; y <= SEEDS.y[1] + 1e-6; y += SEEDS.y[2]) for (let z = SEEDS.z[0]; z <= SEEDS.z[1] + 1e-6; z += SEEDS.z[2]) {
   tried++
   const l = trace([MIN[0] + (NX - 1) * H - 0.15, y, z])
-  // kept if it runs all the way through, passes over the car rather than round its flanks or under its wings,
-  // and comes near enough to be shaped by it
-  if (l.end < -4.5 && l.sp.length > 50 && !l.under && l.wide < 0.35 && l.near <= 0.45) lines.push(l)
-  else (why[[l.end >= -4.5 && 'stopped', l.under && 'under', l.wide >= 0.35 && 'wide', l.near > 0.45 && 'far'].filter(Boolean).join('+') + ' y' + y.toFixed(2)] ??= []).push(z.toFixed(2))
+  // kept if it runs all the way through and is the kind of line this mode wants
+  if (l.end < -4.5 && l.sp.length > 50 && SEEDS.keep(l)) lines.push(l)
+  else (why[[l.end >= -4.5 && 'stopped', l.under && 'under', l.wide >= 0.35 && 'wide', 'near ' + l.near.toFixed(2)].filter(Boolean).join('+') + ' y' + y.toFixed(2)] ??= []).push(z.toFixed(2))
+}
+if (MODE === 'hug') {
+  // in each sheet, lines released close together end up hugging the same stretch of bodywork: keep them apart
+  const bySheet = new Map()
+  for (const l of lines) { const k = l.pts[2].toFixed(2); if (!bySheet.has(k)) bySheet.set(k, []); bySheet.get(k).push(l) }
+  lines.length = 0
+  for (const sheet of bySheet.values()) {
+    sheet.sort((a, b) => a.pts[1] - b.pts[1])
+    let last = -9
+    for (const l of sheet) if (l.pts[1] - last >= 0.035) { lines.push(l); last = l.pts[1] }
+  }
 }
 log('traced', tried, 'kept', lines.length)
 for (const k of Object.keys(why).sort()) console.log(' ', k, why[k].join(' '))

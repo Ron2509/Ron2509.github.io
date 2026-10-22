@@ -6,19 +6,18 @@ import { drive, fx } from '../fx'
 import { store, useStore } from '../store'
 import type { Stream } from './stream'
 
-// The airflow round the car, drawn the way a team's CFD shows it: a few hundred streamlines solved offline from
-// the potential flow round the car's actual shape (scripts/bake-flow.mjs, public/models/flow.bin), over the top,
-// down the sidepods, round the wheels and wound into the wing-tip vortices. Each line is coloured by the air's
-// speed on a muted scale (deep navy where it slows against the nose, steel blue in the free stream, pale cyan
-// where it races over the bodywork, a little warm at the very fastest), and particles of light run along them at
-// the local speed.
+// The airflow over the car, drawn the way a team's CFD shows it: streamlines solved offline from the potential
+// flow round the car's actual shape (scripts/bake-flow.mjs, public/models/flow.bin), only the ones that run along
+// the top of the bodywork, straight in, over the nose, cockpit and engine cover and off the rear wing. Each is a
+// thin glowing line coloured by the air's speed (deep blue where it slows at the nose, cyan-white where it races
+// over the car), with one slow wave of light travelling with the air.
 // It plays by itself while the car is parked on the Jobs corner, and in full (studio dimmed, rolling road
 // running) whenever the wind tunnel is switched on (W).
 
 const FLOW_URL = '/models/flow.bin'
 
-/** how fast the particles run, relative to the air (scene seconds per unit of time of flight) */
-const RUN = 0.9
+/** how fast the wave of light travels with the air (scene seconds per unit of time of flight) */
+const RUN = 0.55
 
 const rayVert = /* glsl */ `
   attribute vec3 aNext;
@@ -32,7 +31,6 @@ const rayVert = /* glsl */ `
   varying float vSide;
   varying float vT;
   varying float vSpeed;
-  varying float vPhase;
   varying float vTime;
   void main() {
     mat4 mvp = projectionMatrix * modelViewMatrix;
@@ -40,9 +38,11 @@ const rayVert = /* glsl */ `
     vec4 n = mvp * vec4(aNext, 1.0);
     vec2 d = n.xy / n.w - c.xy / c.w;
     d = length(d) > 1e-6 ? normalize(d * uRes) : vec2(1.0, 0.0);
-    c.xy += vec2(-d.y, d.x) * aSide * uWidth / uRes * c.w;
+    // a ribbon wide enough for the line's glow; its ends taper to nothing
+    float taper = smoothstep(0.0, 0.08, aT) * (1.0 - smoothstep(0.9, 1.0, aT));
+    c.xy += vec2(-d.y, d.x) * aSide * uWidth * (0.35 + 0.65 * taper) / uRes * c.w;
     gl_Position = c;
-    vSide = aSide; vT = aT; vSpeed = aSpeed; vPhase = aPhase; vTime = aTime;
+    vSide = aSide; vT = aT; vSpeed = aSpeed; vTime = aTime;
   }
 `
 const rayFrag = /* glsl */ `
@@ -51,28 +51,28 @@ const rayFrag = /* glsl */ `
   varying float vSide;
   varying float vT;
   varying float vSpeed;
-  varying float vPhase;
   varying float vTime;
   vec3 ramp(float u) {
-    // a muted velocity scale, slow to fast
-    vec3 c = mix(vec3(0.03, 0.07, 0.2), vec3(0.08, 0.2, 0.46), smoothstep(0.2, 0.75, u));
-    c = mix(c, vec3(0.15, 0.4, 0.68), smoothstep(0.75, 1.05, u));
-    c = mix(c, vec3(0.32, 0.66, 0.76), smoothstep(1.05, 1.35, u));
-    c = mix(c, vec3(0.8, 0.87, 0.84), smoothstep(1.35, 1.65, u));
-    return mix(c, vec3(0.93, 0.74, 0.5), smoothstep(1.7, 2.1, u));
+    // deep blue in the slowed air, azure in the free stream, cyan-white where it races over the car
+    vec3 c = mix(vec3(0.05, 0.13, 0.42), vec3(0.12, 0.45, 0.95), smoothstep(0.0, 0.45, u));
+    return mix(c, vec3(0.78, 0.94, 1.0), smoothstep(0.45, 1.0, u));
   }
   void main() {
-    // a crisp line with a soft edge
-    float core = 1.0 - smoothstep(0.45, 1.0, abs(vSide));
-    // particles of light running along the line at the local air speed, each with a short fading tail
-    float f = fract((vTime - uTime * ${RUN.toFixed(2)}) / 1.1 + vPhase);
-    float dot = smoothstep(0.0, 0.03, f) * (1.0 - smoothstep(0.03, 0.4, f));
-    // in from the dark upstream, out into it downstream
-    float ends = smoothstep(0.0, 0.1, vT) * (1.0 - smoothstep(0.88, 1.0, vT));
-    vec3 col = ramp(vSpeed) * (0.85 + 0.6 * dot);
-    float a = core * (0.3 + 0.4 * dot) * ends * uOn;
-    if (a < 0.004) discard;
-    gl_FragColor = vec4(col, a);
+    // a thin, sharp core in a soft glow
+    float x = abs(vSide);
+    float core = exp(-x * x * 60.0);
+    float glow = exp(-x * x * 6.0);
+    // speed, from the slowed air at the nose to the fastest over the bodywork
+    float u = smoothstep(0.86, 1.28, vSpeed);
+    // one slow wave of light travelling with the air, the same instant on every line, so it reads as a puff of
+    // air passing over the car
+    float f = fract((vTime - uTime * ${RUN.toFixed(2)}) / 3.2);
+    float wave = exp(-pow((f - 0.5) / 0.1, 2.0));
+    float ends = smoothstep(0.0, 0.1, vT) * (1.0 - smoothstep(0.86, 1.0, vT));
+    float lum = (0.55 + 0.45 * u) * (1.0 + 0.8 * wave);
+    float a = (core * 0.75 + glow * 0.12) * lum * ends * uOn;
+    if (a < 0.003) discard;
+    gl_FragColor = vec4(ramp(u) * a, 1.0);
   }
 `
 
@@ -151,7 +151,7 @@ export function WindTunnel() {
       uniforms: { uRes: { value: new THREE.Vector2(1, 1) }, uWidth: { value: 4 }, uTime: { value: 0 }, uOn: { value: 0 } },
       vertexShader: rayVert, fragmentShader: rayFrag,
       // a ribbon faces whichever way its line runs on screen, so both faces are drawn
-      transparent: true, depthWrite: false, toneMapped: false, side: THREE.DoubleSide,
+      transparent: true, depthWrite: false, blending: THREE.AdditiveBlending, toneMapped: false, side: THREE.DoubleSide,
     })
     const mesh = new THREE.Mesh(new THREE.BufferGeometry(), m)
     mesh.frustumCulled = false
@@ -195,7 +195,7 @@ export function WindTunnel() {
     u.uTime.value += dt
     u.uOn.value = shown.current
     u.uRes.value.set(size.width * dpr * 0.5, size.height * dpr * 0.5)
-    u.uWidth.value = 1.25 * dpr
+    u.uWidth.value = 4 * dpr
   })
 
   return (
