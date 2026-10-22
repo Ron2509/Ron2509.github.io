@@ -612,3 +612,96 @@ body.nudge .engine-card .btn-solid { animation: nudge-btn 1.3s var(--ease); }
   .finish-actions { justify-content: stretch; }
   .finish-actions > * { flex: 1; text-align: center; }
 }
+
+/* ---------- the end of the session: the garage shutter comes down (Shutter.tsx) ---------- */
+.shutter { position: fixed; inset: 0; z-index: 15; pointer-events: none; overflow: hidden; }
+.shutter-rail {
+  position: absolute; top: 0; bottom: 0; width: 18px; z-index: 2;
+  background: linear-gradient(90deg, #0b0c0d, #2a2c2f 30%, #4a4d51 45%, #1d1e21 60%, #08090a);
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.8);
+}
+.shutter-rail.l { left: 0; }
+.shutter-rail.r { right: 0; transform: scaleX(-1); }
+.shutter-door {
+  position: absolute; left: 0; right: 0; top: 0; height: 100%; pointer-events: auto; will-change: transform;
+}
+.shutter-door::after {
+  /* the door's shadow on the floor and the car under it */
+  content: ''; position: absolute; left: 0; right: 0; top: 100%; height: 70px; pointer-events: none;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0));
+}
+.shutter-face {
+  position: absolute; inset: 0;
+  /* the slats: a rounded S profile every 44 px, lit from above, the overhead light falling off down the door */
+  background:
+    radial-gradient(120% 60% at 50% -8%, rgba(255, 246, 228, 0.16), rgba(255, 246, 228, 0) 62%),
+    linear-gradient(180deg, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.42)),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 14%, rgba(0, 0, 0, 0) 86%, rgba(0, 0, 0, 0.5)),
+    repeating-linear-gradient(180deg,
+      #2c2e32 0px, #3b3e43 5px, #4d5056 9px, #42454a 14px, #303236 24px, #24262a 33px, #141517 39px, #0a0b0c 41px, #2a2c30 44px);
+}
+.shutter-face::before {
+  /* wear: faint rain streaks and grime running down the slats */
+  content: ''; position: absolute; inset: 0; opacity: 0.5;
+  background: repeating-linear-gradient(90deg, rgba(0, 0, 0, 0) 0 37px, rgba(0, 0, 0, 0.18) 38px 39px, rgba(0, 0, 0, 0) 41px 83px, rgba(0, 0, 0, 0.1) 84px 86px, rgba(0, 0, 0, 0) 88px 131px);
+}
+.shutter-face::after {
+  /* the grain of painted steel */
+  content: ''; position: absolute; inset: 0; opacity: 0.09;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+.shutter-bar {
+  /* the bottom rail: an aluminium extrusion on a rubber seal, two lift handles */
+  position: absolute; left: 0; right: 0; bottom: 0; height: 30px;
+  background: linear-gradient(180deg, #5f6267, #9a9da2 22%, #6c6f74 48%, #3b3d41 80%, #050506 80%, #050506);
+  box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.6);
+}
+.shutter-bar i {
+  position: absolute; top: 5px; width: 64px; height: 12px; border-radius: 3px;
+  background: linear-gradient(180deg, #2b2d30, #111214); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.12);
+}
+.shutter-bar i:first-child { left: 18%; }
+.shutter-bar i:last-child { right: 18%; }
+.shutter-paint {
+  position: absolute; left: 0; right: 0; top: max(56px, 8vh); display: grid; justify-items: center; text-align: center; gap: 10px;
+  padding: 0 var(--gutter);
+}
+.shutter-paint h2 {
+  margin: 0; font-family: 'Big Shoulders Display', var(--display); font-weight: 900; text-transform: uppercase;
+  font-size: clamp(60px, min(12vw, 19vh), 190px); line-height: 0.86; letter-spacing: 0.01em;
+  /* sprayed on: the paint takes the slats' light and shadow, with soft overspray at its edges */
+  color: transparent;
+  background: repeating-linear-gradient(180deg, #d9d5cc 0px, #ebe7de 9px, #cfcbc2 24px, #8f8c86 38px, #6e6b66 41px, #cdc9c0 44px);
+  -webkit-background-clip: text; background-clip: text;
+  opacity: 0.9;
+}
+.shutter-k, .shutter-sub { color: rgba(220, 216, 208, 0.62); font-size: 11px; letter-spacing: 0.24em; text-transform: uppercase; }
+.shutter-plates { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: 18px; }
+.shutter-plates a {
+  /* riveted plates bolted to the door */
+  position: relative; display: grid; gap: 3px; padding: 10px 18px 11px; min-width: 150px;
+  color: #e9e6df; text-decoration: none; font-size: 14px; letter-spacing: 0.01em;
+  background: linear-gradient(180deg, #4a4d52, #2e3034); border: 1px solid #1a1b1d;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.14), 0 6px 14px rgba(0, 0, 0, 0.55);
+  transition: background 0.25s, transform 0.25s var(--ease);
+}
+.shutter-plates a span { color: rgba(220, 216, 208, 0.55); font-size: 9.5px; letter-spacing: 0.2em; text-transform: uppercase; }
+.shutter-plates a::before, .shutter-plates a::after {
+  content: ''; position: absolute; top: 50%; width: 5px; height: 5px; margin-top: -2.5px; border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, #9fa2a6, #2a2b2e);
+}
+.shutter-plates a::before { left: 6px; }
+.shutter-plates a::after { right: 6px; }
+.shutter-plates a:hover { background: linear-gradient(180deg, #575a60, #36383c); transform: translateY(-2px); }
+.finish { z-index: 16; }
+@media (max-width: 820px) {
+  .shutter-paint { top: 9vh; }
+  .shutter-plates a { min-width: 0; padding: 8px 14px 9px; font-size: 12px; }
+}
+/* on the closed shutter the card is the timing sheet alone: the door already says whose garage it is */
+.finish { padding: 18px 22px 16px; }
+.finish-top { grid-template-columns: 132px 1fr; gap: 22px; }
+.finish-head h2 { display: none; }
+.finish-bar { margin: 14px 0 10px; }
+.finish-actions { margin-top: 14px; padding-top: 12px; }
+.finish .flag { height: 96px; }

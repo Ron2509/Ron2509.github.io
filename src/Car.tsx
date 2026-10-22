@@ -582,7 +582,8 @@ export function Car() {
       if (atEnd && !end.here) { end.here = true; end.at = now + 250 }
       if (!atEnd) { end.here = false; end.at = 0; hurryDust(du) }
       if (end.at && now >= end.at) { end.at = 0; playDust(du) }
-      if (s.finished && !end.flag) { end.flag = true; if (atEnd) playDust(du) }
+      // the flag closes the garage on the car (Shutter.tsx); the dust is the Contact corner's alone
+      if (s.finished && !end.flag) end.flag = true
       if (!s.finished) end.flag = false
       if (du.queued && du.t < 0 && atEnd) { du.queued = false; playDust(du) }
       camRig.copy(state.camera.position).applyMatrix4(uniforms.uCarInv.value)

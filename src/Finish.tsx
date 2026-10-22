@@ -2,13 +2,14 @@ import { useEffect, useRef } from 'react'
 import { AnimatePresence, motion } from 'motion/react'
 import { carRig } from './Car'
 import { engine, setRev } from './engine'
-import { DUST_LENGTH } from './dust'
+import { Shutter, SHUTTER_AT, SHUTTER_FALL } from './Shutter'
 import { flag, fmt, SECTORS, type Lap } from './lap'
 import { store, useStore } from './store'
 
-// The chequered flag. Scrolling on past the last corner ends the lap: the flag comes out, the car does a slow
-// victory burnout, and a timing graphic gives the visitor their lap and its sectors, coloured the way the
-// timing screens do it (purple: your best, yellow: slower than your best on this browser).
+// The chequered flag. Scrolling on past the last corner ends the lap: the car does a slow victory burnout, the
+// garage shutter comes down over it (Shutter.tsx), and on the closed door a timing graphic gives the visitor
+// their lap and its sectors, coloured the way the timing screens do it (purple: your best, yellow: slower than
+// your best on this browser).
 
 /** A cloth flag, pinned on its left edge, waving: drawn as shaded strips so the folds catch the light. */
 function Flag() {
@@ -76,7 +77,7 @@ function Timing({ onRestart, onContact }: { onRestart: () => void; onContact: ()
   return (
     <motion.div className="finish card" role="dialog" aria-label="Lap complete"
       initial={{ opacity: 0, y: 28, filter: 'blur(8px)' }}
-      animate={{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 0.9, ease: [0.16, 1, 0.3, 1], delay: 0.5 } }}
+      animate={{ opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 0.9, ease: [0.16, 1, 0.3, 1], delay: SHUTTER_AT + SHUTTER_FALL + 0.4 } }}
       exit={{ opacity: 0, y: 18, filter: 'blur(6px)', transition: { duration: 0.4 } }}>
       <div className="finish-top">
         <Flag />
@@ -117,11 +118,12 @@ function Timing({ onRestart, onContact }: { onRestart: () => void; onContact: ()
 export function Finish({ onRestart }: { onRestart: () => void }) {
   const finished = useStore((s) => s.finished)
   const atContact = useStore((s) => s.chapter === 5 && s.hold && s.loaded)
-  // the victory burnout: once the car has turned to dust and come back (dust.ts), held long
-  // enough to smoke, let go slowly
+  // the victory burnout, held long enough to smoke, let go slowly as the shutter comes down
   useEffect(() => {
     if (!finished) return
-    const after = (carRig.dust?.ready ? DUST_LENGTH * 1000 : 0) + 350
+    // (a car still rebuilding from the Contact corner's dust finishes that first)
+    const du = carRig.dust
+    const after = (du && du.t >= 0 ? 2600 : 0) + 350
     const ids = [
       setTimeout(() => { if (engine.running) setRev(true) }, after),
       setTimeout(() => setRev(false), after + 3500),
@@ -131,6 +133,7 @@ export function Finish({ onRestart }: { onRestart: () => void }) {
   return (
     <AnimatePresence>
       {/* Get in touch puts the flag away: back to the radio card, with the mail, GitHub and LinkedIn */}
+      {finished && <Shutter key="shutter" />}
       {finished && <Timing key="finish" onRestart={onRestart} onContact={() => store.set({ finished: false })} />}
       {!finished && atContact && (
         <motion.div key="hint" className="finish-hint mono" aria-hidden="true"
