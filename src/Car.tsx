@@ -5,7 +5,7 @@ import gsap from 'gsap'
 import * as THREE from 'three'
 import { acceleratedRaycast, computeBoundsTree } from 'three-mesh-bvh'
 import { store, scroll } from './store'
-import { LENS_OF, LIVERIES, trialLivery, type LiveryDef } from './liveries'
+import { LENS_OF, LIVERIES, trialLivery, petrolIn, type LiveryDef } from './liveries'
 import { LiveryPainter } from './liveryMaterial'
 import { makeTyreMaterial } from './tyreMaterial'
 import { pitSwivel } from './PitWall'
@@ -213,7 +213,19 @@ export function Car() {
         steer.add(spin)
         s.add(steer)
         steer.updateMatrixWorld(true)
-        parts.forEach((p) => spin.attach(p))
+        // only what is round and centred on the axle turns with the wheel (tyre, rim, disc, nut); the upright, brake
+        // duct and caliper sit off the axle and steer with the wheel but never spin, or they orbit the hub
+        const tsize = new THREE.Box3().setFromObject(tyre).getSize(new THREE.Vector3())
+        const axis = tsize.x < tsize.y && tsize.x < tsize.z ? 0 : tsize.y < tsize.z ? 1 : 2
+        const plane = [0, 1, 2].filter((i) => i !== axis)
+        const pb = new THREE.Box3(), pc = new THREE.Vector3(), ps = new THREE.Vector3()
+        parts.forEach((p) => {
+          pb.setFromObject(p); pb.getCenter(pc); pb.getSize(ps)
+          const off = Math.hypot(pc.getComponent(plane[0]) - hub.getComponent(plane[0]), pc.getComponent(plane[1]) - hub.getComponent(plane[1]))
+          const a = ps.getComponent(plane[0]), b = ps.getComponent(plane[1])
+          const round = p === tyre || (off < 0.02 && Math.abs(a - b) <= 0.12 * Math.max(a, b))
+          ;(round ? spin : steer).attach(p)
+        })
         spinners.current.push(spin)
         if (axle === 'Bk') rearWheels.current.push(steer)
         else steerers.current.push(steer)
@@ -322,6 +334,7 @@ export function Car() {
       const first = LIVERIES.find((l) => l.id === store.get().liveries[0]) ?? LIVERIES[0]
       painter.set(first, SPONSOR_SETS[0])
       if (import.meta.env.DEV) (window as unknown as { __tryColour: (hex: string) => void }).__tryColour = (hex) => painter.set(trialLivery(hex), SPONSOR_SETS[2])
+      if (import.meta.env.DEV) (window as unknown as { __tryPetrol: (hex: string) => void }).__tryPetrol = (hex) => painter.set(petrolIn(hex), SPONSOR_SETS[1])
       document.documentElement.style.setProperty('--accent', first.accent)
       livery.current.current = first.id + '|' + SPONSOR_SETS[0].id
       livery.current.ready = true

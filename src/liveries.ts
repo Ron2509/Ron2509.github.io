@@ -354,6 +354,30 @@ export const LIVERIES: LiveryDef[] = [
   },
 ]
 
+/** Dev only: the Deep Petrol design (its black band and panels) in any body colour, to compare shades. */
+export function petrolIn(hex: string): LiveryDef {
+  const base = LIVERIES.find((l) => l.id === 'petrol')!
+  const mixc = (to: number, k: number) => {
+    const n = parseInt(hex.slice(1), 16)
+    const ch = [n >> 16, (n >> 8) & 255, n & 255].map((v) => Math.round(v + (to - v) * k))
+    return '#' + ch.map((v) => v.toString(16).padStart(2, '0')).join('')
+  }
+  const lo = mixc(0, 0.28), hi = mixc(255, 0.08)
+  return {
+    ...base, id: 'petrol-' + hex, a: hex,
+    side(c) {
+      fillAll(c, gradU(c, [[0, lo], [0.55, hex], [1, hi]]))
+      shape(c, [[0.5, 1], [0.6, 1], [0.66, 0.26], [0.56, 0.27]], BLACK, false)
+      lowerBlack(c)
+    },
+    top(c) {
+      fillAll(c, gradU(c, [[0, lo], [0.55, hex], [1, hi]]))
+      shape(c, [[0.5, 0], [0.6, 0], [0.6, 1], [0.5, 1]], BLACK, false)
+      shape(c, [[0, 0], [0.12, 0], [0.12, 1], [0, 1]], BLACK, false)
+    },
+  }
+}
+
 /** Dev only: the Cognac layout in any colour, to compare candidate liveries on the real car. */
 export function trialLivery(hex: string): LiveryDef {
   const mixc = (to: number, k: number) => {
