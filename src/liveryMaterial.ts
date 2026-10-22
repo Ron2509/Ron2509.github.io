@@ -255,6 +255,11 @@ export class LiveryPainter {
           }
           // black lettering and panels are gloss on the satin colour, the way real decals catch the light
           float inkM = 1.0 - smoothstep(0.004, 0.0068, max(lvCol.r, max(lvCol.g, lvCol.b)));
+          // liquid gold (lettering and graphics in the gold hue): real metal, glossy, catching the lights
+          float goldM = smoothstep(0.12, 0.25, lvCol.r) * smoothstep(0.3, 0.42, lvCol.g / max(lvCol.r, 1e-3))
+                      * (1.0 - smoothstep(0.22, 0.36, lvCol.b / max(lvCol.r, 1e-3)));
+          // the rouge livery's lines and lettering (a pure, bright red) glow faintly, like lit outlines
+          float redM = smoothstep(0.3, 0.5, lvCol.r) * (1.0 - smoothstep(0.04, 0.1, max(lvCol.g, lvCol.b) / max(lvCol.r, 1e-3)));
           #ifdef LIVERY_DEBUG
           {
             float wS = lvN.z * lvN.z + lvN.x * lvN.x * 0.7 + max(-lvN.y, 0.0);
@@ -280,11 +285,11 @@ export class LiveryPainter {
         // inside the lens the finish follows the revealed livery
         .replace(
           '#include <roughnessmap_fragment>',
-          '#include <roughnessmap_fragment>\nroughnessFactor = mix(mix(mix(roughnessFactor, uLensRough, lensM), 0.12, inkM), 0.5, lvPit);',
+          '#include <roughnessmap_fragment>\nroughnessFactor = mix(mix(mix(mix(roughnessFactor, uLensRough, lensM), 0.12, inkM), 0.3, goldM), 0.5, lvPit);',
         )
         .replace(
           '#include <metalnessmap_fragment>',
-          '#include <metalnessmap_fragment>\nmetalnessFactor = mix(metalnessFactor, uLensMetal, lensM);',
+          '#include <metalnessmap_fragment>\nmetalnessFactor = mix(mix(metalnessFactor, uLensMetal, lensM), 0.7, goldM * (1.0 - lvPit));',
         )
         .replace(
           '#include <normal_fragment_maps>',
@@ -293,13 +298,14 @@ export class LiveryPainter {
           {
             vec3 fc = floor(vCar * vec3(9000.0, 1800.0, 3600.0));
             vec3 fr = fract(sin(vec3(dot(fc, vec3(12.99, 78.23, 37.72)), dot(fc, vec3(39.35, 11.13, 83.15)), dot(fc, vec3(73.16, 52.24, 19.47)))) * 43758.5453);
-            normal = normalize(normal + (fr - 0.5) * 0.22 * uFlake);
+            // (gold is smooth metal: no flake in it)
+            normal = normalize(normal + (fr - 0.5) * 0.22 * uFlake * (1.0 - goldM));
           }`,
         )
-        .replace('#include <emissivemap_fragment>', '#include <emissivemap_fragment>\ntotalEmissiveRadiance += livSeam;')
+        .replace('#include <emissivemap_fragment>', '#include <emissivemap_fragment>\ntotalEmissiveRadiance += livSeam + lvCol * redM * 1.6 * (1.0 - lvPit);')
     }
     if (import.meta.env.DEV && location.search.includes('liverydebug')) mat.defines = { ...mat.defines, LIVERY_DEBUG: '' }
-    mat.customProgramCacheKey = () => 'livery-atlas-v13' + (mat.defines?.LIVERY_DEBUG !== undefined ? 'd' : '')
+    mat.customProgramCacheKey = () => 'livery-atlas-v18' + (mat.defines?.LIVERY_DEBUG !== undefined ? 'd' : '')
     mat.needsUpdate = true
   }
 }

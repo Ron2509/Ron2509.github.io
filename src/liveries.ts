@@ -33,6 +33,8 @@ export type LiveryDef = {
   accent: string
   /** wheel rim colour */
   rim: string
+  /** lettering colour on this livery's dark paint (White Sand when not given) */
+  ink?: string
   metalness: number
   roughness: number
   clearcoat: number
@@ -60,6 +62,25 @@ function gradU(c: View, stops: [number, string][]) {
   const gr = c.g.createLinearGradient(xa, 0, xb, 0)
   stops.forEach(([o, col]) => gr.addColorStop(o, col))
   return gr
+}
+
+/** A thin smooth line through (u, v) points, w canvas px wide. */
+function line(c: View, pts: [number, number][], color: string, w: number) {
+  const g = c.g
+  const p = pts.map(([u, v]) => P(c, u, v))
+  g.save()
+  g.beginPath()
+  g.moveTo(...p[0])
+  for (let i = 1; i < p.length - 1; i++) g.quadraticCurveTo(p[i][0], p[i][1], (p[i][0] + p[i + 1][0]) / 2, (p[i][1] + p[i + 1][1]) / 2)
+  g.lineTo(...p[p.length - 1])
+  g.strokeStyle = color; g.lineWidth = w; g.lineCap = 'round'; g.lineJoin = 'round'
+  g.stroke()
+  g.restore()
+}
+
+/** Liquid gold along the car: light and dark bands, the way chrome gold reflects a studio. */
+function goldU(c: View) {
+  return gradU(c, [[0, '#a8782a'], [0.18, '#e9c86a'], [0.34, '#b88a33'], [0.5, '#f2d77e'], [0.68, '#c0913a'], [0.84, '#e5c260'], [1, '#a57629']])
 }
 
 function shape(c: View, pts: [number, number][], fill: string | CanvasGradient, smooth = true) {
@@ -99,7 +120,7 @@ function inkAt(c: View, _l: LiveryDef, x: number, y: number) {
   const i = ground ? (Math.min(PROBE_H - 1, Math.max(0, (y / PROBE) | 0)) * PROBE_W + Math.min(PROBE_W - 1, Math.max(0, (x / PROBE) | 0))) * 4 : -1
   const d = ground ? ground.subarray(i, i + 4) : c.g.getImageData(Math.round(x), Math.round(y), 1, 1).data
   const lum = (0.2126 * d[0] + 0.7152 * d[1] + 0.0722 * d[2]) / 255
-  return { ink: lum > 0.45 ? '#121214' : WHITE, knock: `rgb(${d[0]},${d[1]},${d[2]})` }
+  return { ink: lum > 0.45 ? '#121214' : (_l.ink ?? WHITE), knock: `rgb(${d[0]},${d[1]},${d[2]})` }
 }
 
 /** A partner mark drawn like a real sponsor lockup, centred on (u, v), fitted inside maxU of the car's length. */
@@ -294,47 +315,93 @@ function decalsTop(c: View, l: LiveryDef, set: SponsorSet) {
 }
 
 // ---------- the liveries ----------
-// The owner's palette: Pantone 19-1650 Rouge Noir taken a step darker than the swatch, a gunmetal grey and a
-// deep petrol worn super matte, and a satin gunmetal with a fine metal flake that catches the studio
-// lights, all with black panels (gloss, like bare carbon). Lettering is White Sand on the dark cars and black
-// on any light one.
-const ROUGE = '#3d0710'
-const PETROL = '#0e3341'
+// The owner's palette: Rouge Noir, now satin black traced with thin glowing rouge lines, a satin midnight navy
+// with liquid-gold lettering, a gold wave over the engine cover and a gold halftone off the tail, and a satin
+// gunmetal with a fine metal flake that catches the studio lights, all with black panels (gloss, like bare
+// carbon). Lettering is White Sand on the dark cars (gold on the navy) and black on any light one.
+/** the rouge livery's lines and lettering: the shader makes this red glow (liveryMaterial.ts) */
+const ROUGE_LINE = '#e3162c'
+const NAVY = '#0f2c50'
+/** liquid gold: the shader reads this hue as metal (liveryMaterial.ts) */
+const GOLD_INK = '#d8ad4c'
 const GREY = '#545c63'
 const MATTE = { metalness: 0.02, roughness: 0.66, clearcoat: 0.04, iridescence: 0 }
 const SATIN = { metalness: 0.62, roughness: 0.34, clearcoat: 0.45, coatRough: 0.26, flake: 0.2, iridescence: 0 }
+const SATIN_BLACK = { metalness: 0.35, roughness: 0.42, clearcoat: 0.5, coatRough: 0.22, flake: 0.12, iridescence: 0 }
+const SATIN_NAVY = { metalness: 0.5, roughness: 0.3, clearcoat: 0.6, coatRough: 0.16, flake: 0.28, iridescence: 0 }
+
+/** Halftone dots over u0..u1, v0..v1, largest at u0 and shrinking to nothing by u1. */
+function halftone(c: View, u0: number, u1: number, v0: number, v1: number, color: string, alpha: number) {
+  const g = c.g
+  const step = 15
+  const [xa, ya] = P(c, u0, v1), [xb, yb] = P(c, u1, v0)
+  g.save()
+  g.fillStyle = color
+  g.globalAlpha = alpha
+  let row = 0
+  for (let y = ya; y <= yb; y += step * 0.866, row++) {
+    for (let x = xa + (row % 2 ? step / 2 : 0); x <= xb; x += step) {
+      const t = (x - xa) / Math.max(1, xb - xa)
+      const r = step * 0.46 * Math.pow(1 - t, 1.4)
+      if (r < 0.6) continue
+      g.beginPath(); g.arc(x, y, r, 0, Math.PI * 2); g.fill()
+    }
+  }
+  g.restore()
+}
 
 // black lower body that rises toward the tail, shared by all three
 const lowerBlack = (c: View) => shape(c, [[0, 0.44], [0.22, 0.33], [0.36, 0.265], [0.5, 0.245], [0.72, 0.245], [1, 0.22], [1, 0], [0, 0]], BLACK)
 
 export const LIVERIES: LiveryDef[] = [
   {
-    id: 'rouge', name: 'Rouge Noir', era: 'Pantone 19-1650 · black · white',
-    a: ROUGE, accent: '#b0283c', rim: '#0b0b0c', ...MATTE,
+    id: 'rouge', name: 'Rouge Noir', era: 'satin black · glowing rouge lines',
+    a: ROUGE_LINE, accent: '#e0263a', rim: '#0b0b0c', ink: ROUGE_LINE, ...SATIN_BLACK,
     side(c) {
-      fillAll(c, gradU(c, [[0, '#2f050c'], [0.55, ROUGE], [1, '#4a0a14']]))
-      // black engine-cover tail and fin, the cut raked forward
-      shape(c, [[0, 1], [0.24, 1], [0.31, 0.62], [0, 0.6]], BLACK, false)
+      fillAll(c, gradU(c, [[0, '#08080a'], [0.5, '#141418'], [1, '#0b0b0d']]))
+      // thin red lines tracing the car's shapes: the top of the sidepod sweeping up the engine cover, the floor
+      // edge, the nose, and the cockpit opening
+      line(c, [[1, 0.45], [0.84, 0.47], [0.68, 0.53], [0.56, 0.6], [0.45, 0.7], [0.36, 0.82], [0.29, 0.95], [0.26, 1]], ROUGE_LINE, 9)
+      line(c, [[0.98, 0.4], [0.84, 0.42], [0.7, 0.46], [0.6, 0.5]], ROUGE_LINE, 5)
+      line(c, [[0.66, 0.26], [0.5, 0.27], [0.36, 0.3], [0.22, 0.36], [0.06, 0.44]], ROUGE_LINE, 7)
+      line(c, [[0.62, 0.64], [0.56, 0.7], [0.5, 0.74], [0.44, 0.76]], ROUGE_LINE, 5)
+      line(c, [[0.3, 0.62], [0.2, 0.66], [0.1, 0.72], [0.02, 0.8]], ROUGE_LINE, 5)
       lowerBlack(c)
+      // and the floor edge itself, on the black
+      line(c, [[0.7, 0.2], [0.5, 0.215], [0.36, 0.235], [0.22, 0.3], [0, 0.42]], ROUGE_LINE, 5)
     },
     top(c) {
-      fillAll(c, gradU(c, [[0, '#2f050c'], [0.55, ROUGE], [1, '#4a0a14']]))
-      shape(c, [[0, 0], [0.2, 0], [0.24, 0.5], [0.2, 1], [0, 1]], BLACK, false)
+      fillAll(c, gradU(c, [[0, '#08080a'], [0.5, '#141418'], [1, '#0b0b0d']]))
+      // a red spine down the nose and engine cover, and the sidepod shoulders traced either side
+      line(c, [[1, 0.5], [0.62, 0.5]], ROUGE_LINE, 7)
+      line(c, [[0.3, 0.5], [0.04, 0.5]], ROUGE_LINE, 7)
+      line(c, [[0.66, 0.26], [0.5, 0.2], [0.34, 0.24], [0.2, 0.36], [0.06, 0.44]], ROUGE_LINE, 5)
+      line(c, [[0.66, 0.74], [0.5, 0.8], [0.34, 0.76], [0.2, 0.64], [0.06, 0.56]], ROUGE_LINE, 5)
     },
   },
   {
-    id: 'petrol', name: 'Deep Petrol', era: 'deep petrol · black · white',
-    a: PETROL, accent: '#3f8fa6', rim: '#0b0b0c', ...MATTE,
+    id: 'navy', name: 'Midnight Gold', era: 'satin midnight navy · liquid gold · black',
+    a: NAVY, accent: '#d6ab4a', rim: '#0b0b0c', ink: GOLD_INK, ...SATIN_NAVY,
     side(c) {
-      fillAll(c, gradU(c, [[0, '#0a2732'], [0.55, PETROL], [1, '#123f50']]))
-      // one black band raked through the cockpit, the rest petrol
-      shape(c, [[0.5, 1], [0.6, 1], [0.66, 0.26], [0.56, 0.27]], BLACK, false)
+      fillAll(c, gradU(c, [[0, '#08182d'], [0.45, NAVY], [0.75, '#16467a'], [1, '#0c2544']]))
+      // gold halftone off the tail, fading out towards the cockpit
+      halftone(c, 0, 0.3, 0.3, 1, '#c99a3a', 0.85)
+      // the liquid-gold wave: rises off the top of the sidepod (clear of its lettering) and pours back over the
+      // engine cover
+      shape(c, [[0.6, 0.52], [0.53, 0.58], [0.46, 0.68], [0.39, 0.8], [0.32, 0.92], [0.27, 1], [0.36, 1], [0.4, 0.88], [0.46, 0.76], [0.52, 0.66], [0.58, 0.6], [0.64, 0.56]], goldU(c))
+      // a thinner echo of it above, and a pinstripe running forward down the nose
+      shape(c, [[0.62, 0.6], [0.55, 0.66], [0.48, 0.76], [0.42, 0.88], [0.38, 1], [0.41, 1], [0.45, 0.89], [0.51, 0.78], [0.57, 0.68], [0.65, 0.62]], goldU(c))
+      shape(c, [[0.63, 0.555], [0.8, 0.5], [1, 0.47], [1, 0.458], [0.8, 0.488], [0.63, 0.54]], goldU(c))
       lowerBlack(c)
     },
     top(c) {
-      fillAll(c, gradU(c, [[0, '#0a2732'], [0.55, PETROL], [1, '#123f50']]))
-      shape(c, [[0.5, 0], [0.6, 0], [0.6, 1], [0.5, 1]], BLACK, false)
-      shape(c, [[0, 0], [0.12, 0], [0.12, 1], [0, 1]], BLACK, false)
+      fillAll(c, gradU(c, [[0, '#08182d'], [0.45, NAVY], [0.75, '#16467a'], [1, '#0c2544']]))
+      halftone(c, 0.1, 0.3, 0, 1, '#c99a3a', 0.85)
+      // gold twin pinstripes down the spine, and the wave crossing the engine cover
+      shape(c, [[0.3, 0.462], [1, 0.462], [1, 0.47], [0.3, 0.47]], goldU(c), false)
+      shape(c, [[0.3, 0.53], [1, 0.53], [1, 0.538], [0.3, 0.538]], goldU(c), false)
+      shape(c, [[0.22, 0], [0.3, 0], [0.34, 0.3], [0.3, 0.5], [0.34, 0.7], [0.3, 1], [0.22, 1], [0.26, 0.7], [0.22, 0.5], [0.26, 0.3]], goldU(c))
+      shape(c, [[0, 0], [0.1, 0], [0.1, 1], [0, 1]], BLACK, false)
     },
   },
   {
@@ -378,8 +445,8 @@ export function trialLivery(hex: string): LiveryDef {
   }
 }
 
-/** What the paint lens shows over each livery: red and petrol reveal each other, the grey reveals red. */
-export const LENS_OF: Record<string, string> = { rouge: 'petrol', petrol: 'rouge', grey: 'rouge' }
+/** What the paint lens shows over each livery: red and navy reveal each other, the grey reveals red. */
+export const LENS_OF: Record<string, string> = { rouge: 'navy', navy: 'rouge', grey: 'rouge' }
 
 // ---------- atlas ----------
 export const ATLAS_W = 4096

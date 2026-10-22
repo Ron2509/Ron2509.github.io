@@ -34,7 +34,7 @@ function lensLivery(current: LiveryDef) {
   const s = store.get()
   const byId = (id: string) => LIVERIES.find((l) => l.id === id) ?? LIVERIES[0]
   if (s.preview && s.preview !== current.id) return byId(s.preview)
-  return byId(LENS_OF[current.id] ?? 'petrol')
+  return byId(LENS_OF[current.id] ?? 'navy')
 }
 
 const SCROLL_HOME = 0.6 // scroll speed above which the car eases back to its framed angle
