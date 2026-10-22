@@ -668,7 +668,7 @@ body.nudge .engine-card .btn-solid { animation: nudge-btn 1.3s var(--ease); }
 }
 .shutter-paint h2 {
   margin: 0; font-family: 'Big Shoulders Display', var(--display); font-weight: 900; text-transform: uppercase;
-  font-size: clamp(60px, min(12vw, 19vh), 190px); line-height: 0.86; letter-spacing: 0.01em;
+  font-size: clamp(56px, min(11vw, 16.5vh), 180px); line-height: 0.86; letter-spacing: 0.01em;
   /* sprayed on: the paint takes the slats' light and shadow, with soft overspray at its edges */
   color: transparent;
   background: repeating-linear-gradient(180deg, #d9d5cc 0px, #ebe7de 9px, #cfcbc2 24px, #8f8c86 38px, #6e6b66 41px, #cdc9c0 44px);
@@ -705,3 +705,11 @@ body.nudge .engine-card .btn-solid { animation: nudge-btn 1.3s var(--ease); }
 .finish-bar { margin: 14px 0 10px; }
 .finish-actions { margin-top: 14px; padding-top: 12px; }
 .finish .flag { height: 96px; }
+/* the shutter's roller housing across the top: dark steel, so the header reads on the closed door */
+.shutter-housing {
+  position: absolute; left: 0; right: 0; top: 0; height: 64px; z-index: 3;
+  background: linear-gradient(180deg, #08090a, #141518 55%, #1d1f22 82%, #050506);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.75), inset 0 -1px 0 rgba(255, 255, 255, 0.06);
+}
+.shutter-k, .shutter-sub { color: rgba(238, 235, 228, 0.92); font-weight: 500; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9), 0 0 10px rgba(0, 0, 0, 0.6); }
+.shutter-paint { top: max(84px, 10vh); }

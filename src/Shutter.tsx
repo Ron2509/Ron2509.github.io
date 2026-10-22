@@ -63,6 +63,8 @@ export function Shutter() {
       initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { duration: 0.3, delay: SHUTTER_AT - 0.2 } }}
       exit={{ opacity: 0, transition: { duration: 0.3, delay: 1.2 } }}>
       <i className="shutter-rail l" /><i className="shutter-rail r" />
+      {/* the housing the door rolls out of, across the top */}
+      <i className="shutter-housing" />
       <motion.div className="shutter-door"
         initial={{ y: '-101%' }}
         animate={{ y: ['-101%', '-88%', '0%', '-0.7%', '0%'], transition: fall }}

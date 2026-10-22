@@ -244,9 +244,13 @@ function useFit(): RefObject<HTMLElement | null> {
     const el = ref.current
     if (!el) return
     const fit = () => {
-      if (matchMedia('(max-width: 820px)').matches) { el.style.transform = ''; return }
-      const band = innerHeight - 84 - 28
+      if (matchMedia('(max-width: 820px)').matches) { el.style.transform = ''; el.style.top = ''; return }
+      // centred in the band below the studio-mode chips (top left, they end ~105 px down) and above the bottom
+      // edge, scaled down only if it cannot fit
+      const top = 114, bottom = 24
+      const band = innerHeight - top - bottom
       const k = Math.min(1, band / Math.max(1, el.offsetHeight))
+      el.style.top = `${top + band / 2}px`
       el.style.transform = `translate3d(0, -50%, 0) scale(${k.toFixed(4)})`
     }
     fit()
