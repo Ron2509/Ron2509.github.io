@@ -105,7 +105,8 @@ function CameraRig() {
     if (A && carRig.root) {
       const base = SHOTS[st.chapter]
       pd.set(base.pos[0] - base.look[0], base.pos[1] - base.look[1], base.pos[2] - base.look[2]).normalize()
-      const near = 6.0
+      // far enough back that the car sits in its air, the flow running in and out of the frame round it
+      const near = 8.4
       partLook.copy(A).applyMatrix4(carRig.root.matrixWorld)
       partPos.copy(partLook).addScaledVector(pd, near)
       partPos.y += 0.2

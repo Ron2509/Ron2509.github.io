@@ -174,6 +174,40 @@ function line(pts: number[], speed: number[]): Stream {
   return { p: new Float32Array(pts), speed: new Float32Array(speed), s, n, through: true }
 }
 
+/** The rear wing's tip vortices (rig space): where each core leaves the wing. */
+const TIP_X = -2.1, TIP_Y = 0.84, TIP_Z = 0.52
+
+/** A smoke rake as a wind tunnel has one: a vertical comb of `n` nozzles far upstream on the centreline, a
+ *  little closer together near the car. */
+export function rake(F: ReturnType<typeof makeField>, n: number, bottom: number, top: number): Stream[] {
+  const ys: number[] = []
+  for (let i = 0; i < n; i++) ys.push(bottom + (top - bottom) * Math.pow(i / (n - 1), 1.2))
+  return sheets(F, { zs: [0], ys })
+}
+
+/** The smoke drawn into each rear wing tip's trailing vortex: a few filaments wound round its core, tighter and
+ *  faster nearer the middle, the core sinking and drifting inboard a little as it goes. */
+export function tipVortices(radii: number[]): Stream[] {
+  const out: Stream[] = []
+  for (const side of [1, -1]) radii.forEach((r, k) => {
+    const pts: number[] = [], sp: number[] = []
+    // a Lamb-Oseen-like swirl: the turn per metre falls off away from the core
+    const w = side * 5.2 * Math.exp(-(r * r) / 0.012)
+    const a0 = k * 2.1
+    for (let x = TIP_X; x >= X_END; x -= DX) {
+      const d = TIP_X - x
+      const cy = TIP_Y - 0.05 * Math.min(d, 3), cz = side * (TIP_Z - 0.035 * Math.min(d, 3))
+      // the filament is drawn in from the tip over the first few tens of centimetres
+      const rr = r * smooth(0, 0.35, d)
+      const th = a0 + w * d
+      pts.push(x, cy + rr * Math.cos(th), cz + rr * Math.sin(th))
+      sp.push(1.15 + 0.6 * Math.exp(-(r * r) / 0.004))
+    }
+    out.push(line(pts, sp))
+  })
+  return out
+}
+
 /** Sheets of streamlines over the car: one vertical sheet per z, one line per release height y0. */
 export function sheets(F: ReturnType<typeof makeField>, opts: { zs: number[]; ys: number[] }): Stream[] {
   const out: Stream[] = []
