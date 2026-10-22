@@ -7,16 +7,16 @@ import { store, useStore } from '../store'
 import { loadField } from './flow'
 import { makeField, sheets, type Stream } from './stream'
 
-// The airflow over the car, drawn the way a CFD render shows it: exact streamlines traced once through the air
-// round the car (stream.ts), as fine lines of blue light, deep where the air is slow and white-hot where it races,
-// with pulses of light running along them downstream. Only the lines that actually work the car are kept: over
-// the nose and the halo, along the sidepods, up off the rear wing, round the wheels, and the spirals off the wing
-// tips. No noise, no particles: every line is smooth and every frame is the same picture, just flowing.
+// The airflow over the car, drawn the way a wind tunnel's smoke rake shows it under a light sheet: streamlines
+// computed from potential-flow physics (stream.ts), dead straight far ahead of the car, lifting smoothly before
+// the nose, hugging the bodywork, and settling back to straight in the wake. Fine, dim filaments in a muted
+// steel blue, paler where the air is squeezed and fast, darker where it slows against the nose, with the smoke's
+// density drifting slowly downstream.
 // It plays by itself while the car is parked on the Jobs corner, and in full (studio dimmed, rolling road
 // running) whenever the wind tunnel is switched on (W).
 
-/** how fast the pulses run along the lines, m/s (scene) */
-const PULSE = 2.4
+/** how fast the smoke's density drifts along the lines, m/s (scene) */
+const DRIFT = 1.6
 
 const rayVert = /* glsl */ `
   attribute vec3 aNext;
@@ -52,18 +52,20 @@ const rayFrag = /* glsl */ `
   varying float vSpeed;
   varying float vPhase;
   void main() {
-    // a crisp core in a soft glow
-    float core = exp(-vSide * vSide * 18.0);
-    float glow = exp(-vSide * vSide * 2.4);
-    // light running downstream along the line: a sharp head with a fading tail, a comet every couple of metres
-    float f = fract((vS - uTime * ${PULSE.toFixed(2)}) / 2.2 + vPhase);
-    float pulse = smoothstep(0.0, 0.015, f) * (1.0 - smoothstep(0.015, 0.2, f));
-    // deep blue where the air is slow, electric blue in the free stream, white where it races
-    vec3 col = mix(vec3(0.05, 0.18, 0.8), vec3(0.1, 0.5, 1.0), smoothstep(1.0, 1.5, vSpeed));
-    col = mix(col, vec3(0.75, 0.92, 1.0), smoothstep(2.0, 2.8, vSpeed));
-    // in out of the dark ahead of the car, gone into it behind
-    float ends = smoothstep(0.0, 0.14, vT) * (1.0 - smoothstep(0.8, 1.0, vT));
-    float a = (core * (0.55 + pulse * 2.0) + glow * (0.07 + pulse * 0.5)) * ends * uOn;
+    // a fine filament, the way a smoke line looks under a light sheet
+    float core = exp(-vSide * vSide * 9.0);
+    // the smoke's density drifts downstream in long, soft swells: it moves, without anything flashing
+    float f = fract((vS - uTime * ${DRIFT.toFixed(2)}) / 1.6 + vPhase);
+    float swell = smoothstep(0.0, 0.55, f) * (1.0 - smoothstep(0.55, 1.0, f));
+    // muted steel blue: dimmer where the air slows (ahead of the nose), paler and brighter where it is squeezed
+    // over the bodywork and runs fast
+    float fast = smoothstep(1.0, 1.7, vSpeed), slow = 1.0 - smoothstep(0.55, 1.0, vSpeed);
+    vec3 col = mix(vec3(0.34, 0.5, 0.74), vec3(0.72, 0.84, 0.98), fast);
+    col = mix(col, vec3(0.16, 0.26, 0.48), slow);
+    float lum = mix(1.0, 1.9, fast) * mix(1.0, 0.7, slow);
+    // fades in far upstream and out far downstream, so the straight runs either side of the car read fully
+    float ends = smoothstep(0.0, 0.07, vT) * (1.0 - smoothstep(0.9, 1.0, vT));
+    float a = core * 0.26 * lum * (0.7 + 0.45 * swell) * ends * uOn;
     if (a < 0.002) discard;
     gl_FragColor = vec4(col * a, 1.0);
   }
@@ -140,11 +142,9 @@ export function WindTunnel() {
       ch.port1.onmessage = () => {
         if (!alive) return
         const lines = sheets(F, {
-          // over the top only: lines beside the car read, from the side, as lines through it
-          zs: [0, 0.22, -0.22, 0.45, -0.45],
-          ys: [0.06, 0.14, 0.25, 0.39, 0.57, 0.8],
-          flankYs: [],
-          flankZs: [],
+          // three sheets over the top, lines from just off the bodywork up to well clear of it
+          zs: [0, 0.3, -0.3],
+          ys: [0.06, 0.13, 0.22, 0.33, 0.47, 0.64, 0.85],
         })
         rays.geometry.dispose()
         rays.geometry = buildRays(lines)
@@ -178,7 +178,7 @@ export function WindTunnel() {
     u.uTime.value += dt
     u.uOn.value = shown.current
     u.uRes.value.set(size.width * dpr * 0.5, size.height * dpr * 0.5)
-    u.uWidth.value = 3.2 * dpr
+    u.uWidth.value = 1.8 * dpr
   })
 
   return (

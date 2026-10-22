@@ -127,25 +127,41 @@ export function closeness(F: ReturnType<typeof makeField>, l: Stream) {
 }
 
 // ---------- streamline sheets ----------
-// Lines that follow the car's contour the way flow over a body is drawn: a line released at height y0 in a
-// vertical sheet rides at y = y0 + B(x) e^(-y0 / H), where B is the top of the car in that sheet, so lines never
-// cross, crowd together (and speed up) against the bodywork and spread apart above it. Sideways sheets do the
-// same round the car's flanks. B and the flank are measured from the distance field, felt a little ahead of the
-// car and let go slowly behind it, the way the air anticipates the body and recovers in its wake.
+// Streamlines over the car the way the air actually moves round a body. In (linearised) potential flow the
+// displacement of the streamlines above a body is a harmonic function: at the body's surface it is the body's own
+// profile B(x), and above it it is B's Poisson integral,
+//     eta(x, y) = (y / pi) * integral of B(s) / ((x - s)^2 + y^2) ds,
+// so a line released at height y0 rides at y0 + eta(x, y0). That one law gives everything a tunnel shows: far
+// ahead the air runs dead straight; it starts to rise well before the nose (the body is felt upstream, more so
+// the higher the line); low lines hug the bodywork while high ones only swell gently over it; and behind the car
+// the lines settle back down and run straight again. The air speed comes from the same field: where neighbouring
+// lines are squeezed together the air is faster, where they fan apart (at the nose) it slows, u = 1 / (1 + d eta/dy).
+// Behind the car the separated wake acts like a body that slowly thins out, so B is let go gradually there.
 
-const X_START = 4.4, X_END = -4.6, DX = 0.02
-const H = 1.25, HZ = 0.95
+const X_START = 4.6, X_END = -5.2, DX = 0.02
 
-function profile(raw: Float32Array, ahead = 0.3, behind = 0.75) {
-  // anticipation upstream (the air starts to move before the body), then a slow recovery downstream
-  const n = raw.length, a = new Float32Array(n), b = new Float32Array(n)
+/** The body's top along a sheet: thin bits filtered out, a gentle blur, and the wake behind it let go slowly. */
+function profile(raw: Float32Array, wake = 0.9) {
+  const n = raw.length, b = new Float32Array(n)
   let carry = 0
-  for (let i = n - 1; i >= 0; i--) { carry = Math.max(raw[i], carry * Math.exp(-DX / ahead)); a[i] = carry }
-  carry = 0
-  for (let i = 0; i < n; i++) { carry = Math.max(a[i], carry * Math.exp(-DX / behind)); b[i] = carry }
-  // a wide blur: lines follow the body's shape, not every antenna, mirror stalk and panel edge on it
-  const out = new Float32Array(n), r = 18
-  for (let i = 0; i < n; i++) { let s = 0, w = 0; for (let k = -r; k <= r; k++) { const j = Math.min(n - 1, Math.max(0, i + k)); const q = Math.exp(-(k * k) / 72); s += b[j] * q; w += q } out[i] = s / w }
+  for (let i = 0; i < n; i++) { carry = Math.max(raw[i], carry * Math.exp(-DX / wake)); b[i] = carry }
+  const out = new Float32Array(n), r = 10
+  for (let i = 0; i < n; i++) { let s = 0, w = 0; for (let k = -r; k <= r; k++) { const j = Math.min(n - 1, Math.max(0, i + k)); const q = Math.exp(-(k * k) / 24); s += b[j] * q; w += q } out[i] = s / w }
+  return out
+}
+
+/** The Poisson integral of B at height y, at every x sample. */
+function lift(B: Float32Array, y: number) {
+  const n = B.length, out = new Float32Array(n)
+  const y2 = y * y, k = (y * DX) / Math.PI
+  // only where the body is: B is zero elsewhere
+  const on: number[] = []
+  for (let j = 0; j < n; j++) if (B[j] > 1e-4) on.push(j)
+  for (let i = 0; i < n; i++) {
+    let s = 0
+    for (const j of on) { const d = (i - j) * DX; s += B[j] / (d * d + y2) }
+    out[i] = s * k
+  }
   return out
 }
 
@@ -158,10 +174,10 @@ function line(pts: number[], speed: number[]): Stream {
   return { p: new Float32Array(pts), speed: new Float32Array(speed), s, n, through: true }
 }
 
-export function sheets(F: ReturnType<typeof makeField>, opts: { zs: number[]; ys: number[]; flankYs: number[]; flankZs: number[] }): Stream[] {
+/** Sheets of streamlines over the car: one vertical sheet per z, one line per release height y0. */
+export function sheets(F: ReturnType<typeof makeField>, opts: { zs: number[]; ys: number[] }): Stream[] {
   const out: Stream[] = []
   const touching = 0.035
-  // over the top: one profile per sheet
   for (const z of opts.zs) {
     const raw = new Float32Array(xs.length)
     xs.forEach((x, i) => {
@@ -172,27 +188,13 @@ export function sheets(F: ReturnType<typeof makeField>, opts: { zs: number[]; ys
     })
     const B = profile(raw)
     for (const y0 of opts.ys) {
+      const h = Math.max(0.01, y0 * 0.15)
+      const e = lift(B, y0), e1 = lift(B, y0 + h), e0 = lift(B, Math.max(0.005, y0 - h))
       const pts: number[] = [], sp: number[] = []
       xs.forEach((x, i) => {
-        const e = Math.exp(-y0 / H)
-        pts.push(x, y0 + B[i] * e, z)
-        // packed closer, the air is faster: the spacing between neighbouring lines, against the free stream's
-        sp.push(1 / Math.max(0.35, 1 - (B[i] / H) * e))
-      })
-      out.push(line(pts, sp))
-    }
-  }
-  // round the flanks: one profile per height, mirrored either side
-  for (const y of opts.flankYs) {
-    const raw = new Float32Array(xs.length)
-    xs.forEach((x, i) => { for (let z = 1.25; z > 0; z -= 0.01) if (F.dist([x, y, z]) < touching || F.dist([x, y, -z]) < touching) { raw[i] = z; break } })
-    const W = profile(raw)
-    for (const z0 of opts.flankZs) for (const side of [1, -1]) {
-      const pts: number[] = [], sp: number[] = []
-      xs.forEach((x, i) => {
-        const e = Math.exp(-z0 / HZ)
-        pts.push(x, y, side * (z0 + W[i] * e))
-        sp.push(1 / Math.max(0.35, 1 - (W[i] / HZ) * e))
+        pts.push(x, y0 + e[i], z)
+        const grad = (e1[i] - e0[i]) / (y0 + h - Math.max(0.005, y0 - h))
+        sp.push(Math.min(2.2, Math.max(0.35, 1 / Math.max(0.2, 1 + grad))))
       })
       out.push(line(pts, sp))
     }

@@ -30,7 +30,7 @@ function lettering() {
   return letteringTex
 }
 
-export function makeTyreMaterial(geometry: THREE.BufferGeometry, band = '#e0242c') {
+export function makeTyreMaterial(geometry: THREE.BufferGeometry, band = '#f2f1ec') {
   geometry.computeBoundingBox()
   const bb = geometry.boundingBox!
   const size = bb.getSize(new THREE.Vector3())
@@ -95,7 +95,7 @@ export function makeTyreMaterial(geometry: THREE.BufferGeometry, band = '#e0242c
           // the compound's coloured stripe, as bold as on a race weekend
           float aaR = fwidth(r) * 1.5;
           float band = smoothstep(0.8 - aaR, 0.8 + aaR, r) * (1.0 - smoothstep(0.85 - aaR, 0.85 + aaR, r)) * side;
-          col = mix(col, uBand * 0.85, band);
+          col = mix(col, uBand * 0.8, band);
           // moulded lettering ring
           vec2 tuv = vec2(ang / 6.2831853 + 0.5, (r - 0.655) / 0.115);
           float txt = 0.0;
