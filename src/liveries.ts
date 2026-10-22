@@ -299,7 +299,7 @@ function decalsTop(c: View, l: LiveryDef, set: SponsorSet) {
 // lights, all with black panels (gloss, like bare carbon). Lettering is White Sand on the dark cars and black
 // on any light one.
 const ROUGE = '#3d0710'
-const PETROL = '#0e3341'
+const PETROL = '#134a66'
 const GREY = '#545c63'
 const MATTE = { metalness: 0.02, roughness: 0.66, clearcoat: 0.04, iridescence: 0 }
 const SATIN = { metalness: 0.62, roughness: 0.34, clearcoat: 0.45, coatRough: 0.26, flake: 0.2, iridescence: 0 }
@@ -326,13 +326,13 @@ export const LIVERIES: LiveryDef[] = [
     id: 'petrol', name: 'Deep Petrol', era: 'deep petrol · black · white',
     a: PETROL, accent: '#3f8fa6', rim: '#0b0b0c', ...MATTE,
     side(c) {
-      fillAll(c, gradU(c, [[0, '#0a2732'], [0.55, PETROL], [1, '#123f50']]))
+      fillAll(c, gradU(c, [[0, '#0e3549'], [0.55, PETROL], [1, '#265872']]))
       // one black band raked through the cockpit, the rest petrol
       shape(c, [[0.5, 1], [0.6, 1], [0.66, 0.26], [0.56, 0.27]], BLACK, false)
       lowerBlack(c)
     },
     top(c) {
-      fillAll(c, gradU(c, [[0, '#0a2732'], [0.55, PETROL], [1, '#123f50']]))
+      fillAll(c, gradU(c, [[0, '#0e3549'], [0.55, PETROL], [1, '#265872']]))
       shape(c, [[0.5, 0], [0.6, 0], [0.6, 1], [0.5, 1]], BLACK, false)
       shape(c, [[0, 0], [0.12, 0], [0.12, 1], [0, 1]], BLACK, false)
     },
