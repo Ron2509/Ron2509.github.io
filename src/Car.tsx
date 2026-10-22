@@ -34,7 +34,7 @@ function lensLivery(current: LiveryDef) {
   const s = store.get()
   const byId = (id: string) => LIVERIES.find((l) => l.id === id) ?? LIVERIES[0]
   if (s.preview && s.preview !== current.id) return byId(s.preview)
-  return byId(LENS_OF[current.id] ?? 'navy')
+  return byId(LENS_OF[current.id] ?? 'petrol')
 }
 
 const SCROLL_HOME = 0.6 // scroll speed above which the car eases back to its framed angle
@@ -142,7 +142,7 @@ export function Car() {
   // every wheel spins on its own hub; the fronts also steer
   const spinners = useRef<THREE.Group[]>([])
   const steerers = useRef<THREE.Group[]>([])
-  const tyres = useRef<{ uBlur: { value: number }; uBand: { value: THREE.Color } }[]>([])
+  const tyres = useRef<{ uBlur: { value: number } }[]>([])
   const pitTl = useRef<gsap.core.Timeline | null>(null)
   const lateralAxis = useRef<'x' | 'z'>('z')
   const body = useRef({ pitch: 0, roll: 0 })
@@ -322,7 +322,6 @@ export function Car() {
       const first = LIVERIES.find((l) => l.id === store.get().liveries[0]) ?? LIVERIES[0]
       painter.set(first, SPONSOR_SETS[0])
       if (import.meta.env.DEV) (window as unknown as { __tryColour: (hex: string) => void }).__tryColour = (hex) => painter.set(trialLivery(hex), SPONSOR_SETS[2])
-      if (import.meta.env.DEV) (window as unknown as { __tryLivery: (id: string) => void }).__tryLivery = (id) => painter.set(LIVERIES.find((l) => l.id === id) ?? LIVERIES[0], SPONSOR_SETS[1])
       document.documentElement.style.setProperty('--accent', first.accent)
       livery.current.current = first.id + '|' + SPONSOR_SETS[0].id
       livery.current.ready = true
@@ -461,8 +460,6 @@ export function Car() {
       store.set({ active: target })
     }
     paintFinish(mats.paint, mats.accent, mats.rim, uniforms.uFlake, target, dt)
-    // the tyres' compound stripe in the livery's colour
-    for (const t of tyres.current) t.uBand.value.lerp(tmpColor.set(target.band ?? '#f2f1ec'), 1 - Math.exp(-dt * 2.5))
 
     // paint lens, on every corner: wherever the cursor is on the car, that patch shows the next livery
     const h = hover.current

@@ -36,7 +36,7 @@ type State = {
 }
 
 let state: State = {
-  liveries: ['rouge', 'navy', 'heritage', 'rouge', 'navy', 'heritage'],
+  liveries: ['rouge', 'petrol', 'grey', 'rouge', 'petrol', 'grey'],
   active: LIVERIES[0],
   partners: SPONSOR_SETS[0],
   finish: 'gloss',
