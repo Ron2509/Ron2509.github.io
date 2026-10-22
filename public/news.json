@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T19:32:28.881Z",
+  "updated": "2026-10-22T10:02:28.689Z",
   "sources": [
     "MIT Technology Review",
     "The Guardian",
@@ -17,200 +17,200 @@
   ],
   "items": [
     {
-      "title": "Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers",
-      "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
-      "source": "TechCrunch",
-      "time": "2026-10-20T18:38:24.000Z",
+      "title": "India needs AI that no one else can switch off: Andrew Ng",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/india-needs-ai-that-no-one-else-can-switch-off-andrew-ng/articleshow/135114695.cms",
+      "source": "The Economic Times",
+      "time": "2026-10-22T09:46:32.000Z",
       "kind": "press"
     },
     {
-      "title": "ChatGPT now lets you lock your chats",
-      "url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
-      "source": "TechCrunch",
-      "time": "2026-10-20T18:36:53.000Z",
+      "title": "AI’s hidden storage bill: What inference leaves behind",
+      "url": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
+      "source": "MIT Technology Review",
+      "time": "2026-10-22T08:41:18.000Z",
       "kind": "press"
     },
     {
-      "title": "Ukraine’s drone rescue of wounded soldier puts much touted idea into practice",
-      "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drone-rescue-of-wounded-soldier-puts-much-touted-idea-into-practice/",
-      "source": "Ars Technica",
-      "time": "2026-10-20T18:22:54.000Z",
+      "title": "Barclays to cut 5,000 jobs as bank’s bosses hail AI productivity advances",
+      "url": "https://www.theguardian.com/business/2026/oct/22/barclays-profits-up-as-uk-banks-brace-for-tax-increase-in-budget",
+      "source": "The Guardian",
+      "time": "2026-10-22T08:40:42.000Z",
       "kind": "press"
     },
     {
-      "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
-      "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
+      "title": "Ensemble forecasting with IBM Granite time-series models",
+      "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
       "source": "Hugging Face",
-      "time": "2026-10-20T18:17:47.000Z",
+      "time": "2026-10-22T07:51:31.000Z",
       "kind": "lab"
     },
     {
-      "title": "Meta pauses Muse sharing after researchers find AI chats on the web",
-      "url": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
-      "source": "The Verge",
-      "time": "2026-10-20T18:07:34.000Z",
+      "title": "Why business leaders must rethink how they lead in the age of AI",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/why-business-leaders-must-rethink-how-they-lead-in-the-age-of-ai/articleshow/135110512.cms",
+      "source": "The Economic Times",
+      "time": "2026-10-22T06:59:45.000Z",
       "kind": "press"
     },
     {
-      "title": "Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei",
-      "url": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/",
-      "source": "TechCrunch",
-      "time": "2026-10-20T17:55:12.000Z",
+      "title": "Why sovereign AI is critical to India’s next growth leap?",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/why-sovereign-ai-is-critical-to-indias-next-growth-leap/articleshow/135108347.cms",
+      "source": "The Economic Times",
+      "time": "2026-10-22T05:49:16.000Z",
       "kind": "press"
     },
     {
-      "title": "French Government Calls Emergency Meetings With Platforms Over Protests",
-      "url": "https://www.wired.com/story/french-government-calls-emergency-meetings-with-platforms-over-protests/",
-      "source": "Wired",
-      "time": "2026-10-20T17:41:58.000Z",
-      "kind": "press"
+      "title": "Leading European Financial Services Organizations Embrace Open Models to Build Proprietary Intelligence",
+      "url": "https://blogs.nvidia.com/blog/european-financial-services-organizations-open-models-proprietary-intelligence/",
+      "source": "NVIDIA",
+      "time": "2026-10-22T05:00:56.000Z",
+      "kind": "lab"
     },
     {
-      "title": "Meta tries to scapegoat staff who downloaded torrents to spare execs",
-      "url": "https://arstechnica.com/tech-policy/2026/10/meta-ordered-to-name-execs-who-approved-torrenting-for-ai-training/",
-      "source": "Ars Technica",
-      "time": "2026-10-20T17:40:20.000Z",
-      "kind": "press"
+      "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
+      "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
+      "source": "NVIDIA",
+      "time": "2026-10-22T05:00:27.000Z",
+      "kind": "lab"
     },
     {
-      "title": "From Iran to AI: the six key voter issues shaping the US midterm elections",
-      "url": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/20/voter-issues-midterms-elections",
+      "title": "How Companies Are Using NVIDIA DSX to Break the Power Bottleneck",
+      "url": "https://blogs.nvidia.com/blog/dsx-power/",
+      "source": "NVIDIA",
+      "time": "2026-10-22T05:00:25.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "AI firms say UK has a year to head off datacentre protests before construction is threatened",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/22/ai-firms-say-uk-has-a-year-to-head-off-datacentre-protests-before-construction-is-threatened",
       "source": "The Guardian",
       "time": "2026-10-22T05:00:08.000Z",
       "kind": "press"
     },
     {
-      "title": "Zoom wants AI agents to do the work that follows the meeting",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/zoom-wants-ai-agents-to-do-the-work-that-follows-the-meeting/articleshow/135069267.cms",
-      "source": "The Economic Times",
-      "time": "2026-10-20T16:31:00.000Z",
+      "title": "‘I’d consider replacing one of my children’: Taika Waititi on robot kids, his cheese-o-meter and Klara and the Sun",
+      "url": "https://www.theguardian.com/film/2026/oct/22/taika-waititi-kazuo-ishiguro-robot-friend-klara-and-the-sun",
+      "source": "The Guardian",
+      "time": "2026-10-22T04:00:06.000Z",
       "kind": "press"
     },
     {
-      "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
-      "url": "https://huggingface.co/blog/allenai/fairstress",
-      "source": "Hugging Face",
-      "time": "2026-10-20T16:09:19.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "The new economics of enterprise AI",
-      "url": "https://www.technologyreview.com/2026/10/20/1146937/the-new-economics-of-enterprise-ai/",
-      "source": "MIT Technology Review",
-      "time": "2026-10-20T15:20:25.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
-      "source": "Hugging Face",
-      "time": "2026-10-20T15:19:48.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "An AI Agent Joined a Listserv of Top Internet Researchers. The Reply-All Chaos Is Still Unfolding",
-      "url": "https://www.wired.com/story/an-ai-agent-joined-a-listserv-of-top-internet-researchers-the-reply-all-chaos-is-still-unfolding/",
+      "title": "Hackers Exploited the PHP Vulnerabilities Days Before They Were Patched",
+      "url": "https://www.wired.com/story/hackers-exploited-the-php-vulnerabilities-days-before-they-were-patched/",
       "source": "Wired",
-      "time": "2026-10-20T15:07:43.000Z",
+      "time": "2026-10-22T02:24:17.000Z",
       "kind": "press"
     },
     {
-      "title": "Spotify pulled 50 million AI slop and spam tracks from its recommendations",
-      "url": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed",
+      "title": "Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown",
+      "url": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
+      "source": "TechCrunch",
+      "time": "2026-10-21T22:51:22.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Mark Zuckerberg Agrees to Stay in California Despite Billionaires’ Tax Ballot Measure",
+      "url": "https://www.wired.com/story/mark-zuckerberg-agrees-to-stay-in-california-despite-billionaires-tax-ballot-measure/",
+      "source": "Wired",
+      "time": "2026-10-21T22:39:50.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Data centers could erase decades of air quality gains",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report",
       "source": "The Verge",
-      "time": "2026-10-20T14:18:37.000Z",
+      "time": "2026-10-21T22:33:44.000Z",
       "kind": "press"
     },
     {
-      "title": "Labor and the Coalition are poised to take a reckless gamble on AI. Haven’t they realised community support has collapsed? | Edward Santow and Sarah Sacher",
-      "url": "https://www.theguardian.com/technology/commentisfree/2026/oct/21/labor-coalition-poised-to-take-reckless-gamble-on-ai-joint-select-committee",
-      "source": "The Guardian",
-      "time": "2026-10-20T14:00:38.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Adobe Lightroom mobile can now open closed eyes in photos with a simple tap",
-      "url": "https://www.theverge.com/tech/1014246/adobe-lightroom-mobile-ai-quick-action-open-eyes-closed-blink-repair",
+      "title": "Meta to create a new class of shares to fund AI push",
+      "url": "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings",
       "source": "The Verge",
-      "time": "2026-10-20T13:06:44.000Z",
+      "time": "2026-10-21T21:30:02.000Z",
       "kind": "press"
     },
     {
-      "title": "US bans use of China’s DeepSeek AI tools by government agencies",
-      "url": "https://www.theguardian.com/us-news/2026/oct/20/us-bans-china-deepseek-ai-tools-government-agencies",
-      "source": "The Guardian",
-      "time": "2026-10-20T12:33:27.000Z",
+      "title": "TechCrunch Founder Summit 2026: Everything you need to know",
+      "url": "https://techcrunch.com/2026/10/21/techcrunch-founder-summit-2026-everything-you-need-to-know/",
+      "source": "TechCrunch",
+      "time": "2026-10-21T21:16:20.000Z",
       "kind": "press"
     },
     {
-      "title": "Meta Muse exposes users' personal and business secrets when they share conversations",
-      "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+      "title": "Meta says Muse has over 10M users, with shopping a top activity",
+      "url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
+      "source": "TechCrunch",
+      "time": "2026-10-21T21:14:19.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Broad access through consistent standards",
+      "url": "https://openai.com/index/broad-access-through-consistent-standards",
+      "source": "OpenAI",
+      "time": "2026-10-21T21:00:00.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Anthropic takes on Muse with Claude Duet, its new AI agent",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent",
+      "source": "The Verge",
+      "time": "2026-10-21T19:53:20.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "The new human-crafted Apple Music brand matters in an AI world",
+      "url": "https://arstechnica.com/culture/2026/10/the-new-human-crafted-apple-music-brand-matters-in-an-ai-world/",
       "source": "Ars Technica",
-      "time": "2026-10-20T12:33:13.000Z",
+      "time": "2026-10-21T19:44:40.000Z",
       "kind": "press"
     },
     {
-      "title": "AI adoption by industry shows what other sectors can learn",
-      "url": "https://www.technologyreview.com/2026/10/20/1145423/ai-adoption-by-industry-shows-what-other-sectors-can-learn/",
-      "source": "MIT Technology Review",
-      "time": "2026-10-20T12:00:00.000Z",
+      "title": "OpenAI's latest AI models are coming to Google Cloud and Antigravity",
+      "url": "https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/",
+      "source": "Ars Technica",
+      "time": "2026-10-21T18:51:42.000Z",
       "kind": "press"
     },
     {
-      "title": "From Rome to Washington, why governments are pulling DeepSeek off official systems",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/from-rome-to-washington-why-governments-are-pulling-deepseek-off-official-systems/articleshow/135067413.cms",
-      "source": "The Economic Times",
-      "time": "2026-10-20T11:10:19.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
-      "url": "https://openai.com/index/ted-taylor-restaurant",
-      "source": "OpenAI",
-      "time": "2026-10-20T10:00:00.000Z",
+      "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
+      "url": "https://huggingface.co/blog/nvidia/kumo-relational",
+      "source": "Hugging Face",
+      "time": "2026-10-21T18:26:30.000Z",
       "kind": "lab"
     },
     {
-      "title": "Microsoft now treats AI agents as insiders risks that could go rogue",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/microsoft-now-treats-ai-agents-as-insiders-risks-that-could-go-rogue/articleshow/135066500.cms",
-      "source": "The Economic Times",
-      "time": "2026-10-20T09:44:26.000Z",
+      "title": "Judge rejects Trump’s wild claim EPA can dismiss data center pollution lawsuits",
+      "url": "https://arstechnica.com/tech-policy/2026/10/judge-rejects-trumps-wild-claim-epa-can-dismiss-data-center-pollution-lawsuits/",
+      "source": "Ars Technica",
+      "time": "2026-10-21T18:20:40.000Z",
       "kind": "press"
     },
     {
-      "title": "A visit to Samsung’s massive new semiconductor hub",
-      "url": "https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub/",
-      "source": "MIT Technology Review",
-      "time": "2026-10-20T09:00:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "OpenAI acquires Orchestra Bio",
-      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
-      "source": "OpenAI",
-      "time": "2026-10-20T00:00:00.000Z",
+      "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
+      "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+      "source": "Hugging Face",
+      "time": "2026-10-21T17:35:36.000Z",
       "kind": "lab"
     },
     {
-      "title": "Ex-OpenAI worker accused of planting bug had Saudi support, claims prosecutors",
-      "url": "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo?at_medium=RSS&at_campaign=rss",
+      "title": "Just Eat apologises for AI food mistakes after social media ridicule",
+      "url": "https://www.bbc.co.uk/news/articles/crz981p0klvgo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
-      "time": "2026-10-19T21:12:30.000Z",
+      "time": "2026-10-21T17:04:13.000Z",
       "kind": "press"
     },
     {
-      "title": "OpenAI Engineer Accused of Spying on Executives Ordered to Remain in Custody",
-      "url": "https://www.wired.com/story/openai-engineer-accused-of-spying-on-executives-ordered-to-remain-in-custody/",
-      "source": "Wired",
-      "time": "2026-10-19T19:49:17.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Germany Wants to Lead the World in Industrial AI: How NVIDIA Will Help",
-      "url": "https://blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help/",
-      "source": "NVIDIA",
-      "time": "2026-10-22T05:00:02.000Z",
+      "title": "How AT&T is rethinking in-house legal work with OpenAI",
+      "url": "https://openai.com/index/att-legal",
+      "source": "OpenAI",
+      "time": "2026-10-21T17:00:00.000Z",
       "kind": "lab"
+    },
+    {
+      "title": "This Startup Is All In on Recursive Self-Improvement. Its Latest Model Is Scary Good",
+      "url": "https://www.wired.com/story/recursive-self-improvement-flint-latest-model-scary-good/",
+      "source": "Wired",
+      "time": "2026-10-21T16:00:00.000Z",
+      "kind": "press"
     }
   ]
 }

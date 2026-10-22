@@ -30,6 +30,8 @@ export const fieldUniforms = () => ({
   uMin: { value: new THREE.Vector3(...AERO.min) },
   uSize: { value: new THREE.Vector3(AERO.max[0] - AERO.min[0], AERO.max[1] - AERO.min[1], AERO.max[2] - AERO.min[2]) },
   uTime: { value: 0 },
+  /** how hard the wake churns (smoke lines run calmer than the free particles) */
+  uTurb: { value: 1 },
 })
 
 export const flowGlsl = /* glsl */ `
@@ -38,6 +40,7 @@ export const flowGlsl = /* glsl */ `
   uniform vec3 uMin;
   uniform vec3 uSize;
   uniform float uTime;
+  uniform float uTurb;
   const float DMAX = ${AERO.DIST_MAX.toFixed(3)};
 
   float hash13(vec3 p) { p = fract(p * 0.1031); p += dot(p, p.zyx + 31.32); return fract((p.x + p.y) * p.z); }
@@ -105,7 +108,7 @@ export const flowGlsl = /* glsl */ `
     v.y += max(0.0, 0.08 - p.y) * 3.0;
     // wakes: slower and unsteady, churning behind the wheels and the body
     v.x *= 1.0 - 0.5 * wake;
-    v += curl(p * vec3(1.4, 2.4, 2.4) + vec3(uTime * 1.1, 0.0, 0.0)) * wake * 0.9;
+    v += curl(p * vec3(1.4, 2.4, 2.4) + vec3(uTime * 1.1, 0.0, 0.0)) * wake * 0.9 * uTurb;
     // downforce, made visible: the rear wing flings the air up and over, the diffuser pulls the floor flow up
     float span = 1.0 - smoothstep(0.42, 0.62, abs(p.z));
     v.y += 0.62 * span * smoothstep(-1.9, -2.35, p.x) * smoothstep(-4.2, -2.6, p.x) * smoothstep(0.42, 0.7, p.y) * (1.0 - smoothstep(1.25, 1.7, p.y));
