@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T10:02:28.689Z",
+  "updated": "2026-10-22T17:28:41.542Z",
   "sources": [
     "MIT Technology Review",
     "The Guardian",
@@ -17,6 +17,132 @@
   ],
   "items": [
     {
+      "title": "Someone hacked the Switch 2 by using an old game and AI",
+      "url": "https://www.theverge.com/games/1016862/nintendo-switch-2-jailbreak-ai",
+      "source": "The Verge",
+      "time": "2026-10-22T17:21:31.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
+      "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
+      "source": "TechCrunch",
+      "time": "2026-10-22T16:47:17.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Wildwood’s director says AI is ‘antithetical to everything that we are at this studio’",
+      "url": "https://www.theverge.com/entertainment/1016647/wildwood-travis-knight-interview-ai-laika-stop-motion",
+      "source": "The Verge",
+      "time": "2026-10-22T16:16:15.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+      "source": "Hugging Face",
+      "time": "2026-10-22T16:11:31.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Uber puts all 30,000 employees on ChatGPT Work",
+      "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+      "source": "TechCrunch",
+      "time": "2026-10-22T16:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "OpenAI, Anthropic, and Nvidia had record lobbying quarters",
+      "url": "https://www.theverge.com/policy/1016585/openai-anthropic-nvidia-lobbying-records",
+      "source": "The Verge",
+      "time": "2026-10-22T15:50:30.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Hackers got a four-day head start on epic PHP2Shell vulnerability",
+      "url": "https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/",
+      "source": "Ars Technica",
+      "time": "2026-10-22T15:25:02.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Spotify’s current AI bet is about being the music service that agents choose",
+      "url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
+      "source": "TechCrunch",
+      "time": "2026-10-22T15:03:58.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
+      "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
+      "source": "NVIDIA",
+      "time": "2026-10-22T15:00:02.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Barclays to cut 5,000 jobs as bank’s bosses hail AI productivity advances",
+      "url": "https://www.theguardian.com/business/2026/oct/22/barclays-profits-up-as-uk-banks-brace-for-tax-increase-in-budget",
+      "source": "The Guardian",
+      "time": "2026-10-22T14:39:29.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Beyond tree cover: mapping the world’s forest types",
+      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+      "source": "Google DeepMind",
+      "time": "2026-10-22T14:30:24.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Meet Mori, a Cute Robot Mushroom That Doesn’t Really Say (or Do) Anything",
+      "url": "https://www.wired.com/story/meet-mori-a-cute-robot-mushroom-that-doesnt-really-say-or-do-anything/",
+      "source": "Wired",
+      "time": "2026-10-22T13:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "‘The tech bro fight club is real!’ The titans of AI get the Succession treatment in a wild new TV show",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/oct/22/the-audacity-hbo-max-billionaires-succession-treatment",
+      "source": "The Guardian",
+      "time": "2026-10-22T12:34:33.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "88% Indian firms want FDEs by 2030; only 1% of engineers fit the bill: Scaler-CMR report",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/88-indian-firms-want-fdes-by-2030-only-1-of-engineers-fit-the-bill-scaler-cmr-report/articleshow/135117378.cms",
+      "source": "The Economic Times",
+      "time": "2026-10-22T11:40:09.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "'500 new vulnerabilities' found in government, says AI minister",
+      "url": "https://www.bbc.co.uk/news/videos/c6y8lvg2p50po?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "time": "2026-10-22T10:08:44.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Nvidia launches OpenShell Reference Architecture to contain AI agents",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/nvidia-launches-openshell-reference-architecture-to-contain-ai-agents/articleshow/135115281.cms",
+      "source": "The Economic Times",
+      "time": "2026-10-22T10:01:21.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Making the case for context-aware AI",
+      "url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
+      "source": "MIT Technology Review",
+      "time": "2026-10-22T10:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Hugging Face’s New AI Biology Model Lets You Chat With DNA",
+      "url": "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/",
+      "source": "Wired",
+      "time": "2026-10-22T10:00:00.000Z",
+      "kind": "press"
+    },
+    {
       "title": "India needs AI that no one else can switch off: Andrew Ng",
       "url": "https://economictimes.indiatimes.com/ai/ai-insights/india-needs-ai-that-no-one-else-can-switch-off-andrew-ng/articleshow/135114695.cms",
       "source": "The Economic Times",
@@ -31,13 +157,6 @@
       "kind": "press"
     },
     {
-      "title": "Barclays to cut 5,000 jobs as bank’s bosses hail AI productivity advances",
-      "url": "https://www.theguardian.com/business/2026/oct/22/barclays-profits-up-as-uk-banks-brace-for-tax-increase-in-budget",
-      "source": "The Guardian",
-      "time": "2026-10-22T08:40:42.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Ensemble forecasting with IBM Granite time-series models",
       "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
       "source": "Hugging Face",
@@ -45,18 +164,11 @@
       "kind": "lab"
     },
     {
-      "title": "Why business leaders must rethink how they lead in the age of AI",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/why-business-leaders-must-rethink-how-they-lead-in-the-age-of-ai/articleshow/135110512.cms",
-      "source": "The Economic Times",
-      "time": "2026-10-22T06:59:45.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Why sovereign AI is critical to India’s next growth leap?",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/why-sovereign-ai-is-critical-to-indias-next-growth-leap/articleshow/135108347.cms",
-      "source": "The Economic Times",
-      "time": "2026-10-22T05:49:16.000Z",
-      "kind": "press"
+      "title": "What FDE means at OpenAI",
+      "url": "https://openai.com/index/forward-deployed-engineering-means",
+      "source": "OpenAI",
+      "time": "2026-10-22T06:00:00.000Z",
+      "kind": "lab"
     },
     {
       "title": "Leading European Financial Services Organizations Embrace Open Models to Build Proprietary Intelligence",
@@ -73,24 +185,10 @@
       "kind": "lab"
     },
     {
-      "title": "How Companies Are Using NVIDIA DSX to Break the Power Bottleneck",
-      "url": "https://blogs.nvidia.com/blog/dsx-power/",
-      "source": "NVIDIA",
-      "time": "2026-10-22T05:00:25.000Z",
-      "kind": "lab"
-    },
-    {
       "title": "AI firms say UK has a year to head off datacentre protests before construction is threatened",
       "url": "https://www.theguardian.com/uk-news/2026/oct/22/ai-firms-say-uk-has-a-year-to-head-off-datacentre-protests-before-construction-is-threatened",
       "source": "The Guardian",
       "time": "2026-10-22T05:00:08.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "‘I’d consider replacing one of my children’: Taika Waititi on robot kids, his cheese-o-meter and Klara and the Sun",
-      "url": "https://www.theguardian.com/film/2026/oct/22/taika-waititi-kazuo-ishiguro-robot-friend-klara-and-the-sun",
-      "source": "The Guardian",
-      "time": "2026-10-22T04:00:06.000Z",
       "kind": "press"
     },
     {
@@ -101,46 +199,11 @@
       "kind": "press"
     },
     {
-      "title": "Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown",
-      "url": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
-      "source": "TechCrunch",
-      "time": "2026-10-21T22:51:22.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Mark Zuckerberg Agrees to Stay in California Despite Billionaires’ Tax Ballot Measure",
-      "url": "https://www.wired.com/story/mark-zuckerberg-agrees-to-stay-in-california-despite-billionaires-tax-ballot-measure/",
-      "source": "Wired",
-      "time": "2026-10-21T22:39:50.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Data centers could erase decades of air quality gains",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report",
-      "source": "The Verge",
-      "time": "2026-10-21T22:33:44.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Meta to create a new class of shares to fund AI push",
-      "url": "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings",
-      "source": "The Verge",
-      "time": "2026-10-21T21:30:02.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "TechCrunch Founder Summit 2026: Everything you need to know",
-      "url": "https://techcrunch.com/2026/10/21/techcrunch-founder-summit-2026-everything-you-need-to-know/",
-      "source": "TechCrunch",
-      "time": "2026-10-21T21:16:20.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Meta says Muse has over 10M users, with shopping a top activity",
-      "url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
-      "source": "TechCrunch",
-      "time": "2026-10-21T21:14:19.000Z",
-      "kind": "press"
+      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+      "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+      "source": "OpenAI",
+      "time": "2026-10-22T00:00:00.000Z",
+      "kind": "lab"
     },
     {
       "title": "Broad access through consistent standards",
@@ -148,69 +211,6 @@
       "source": "OpenAI",
       "time": "2026-10-21T21:00:00.000Z",
       "kind": "lab"
-    },
-    {
-      "title": "Anthropic takes on Muse with Claude Duet, its new AI agent",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent",
-      "source": "The Verge",
-      "time": "2026-10-21T19:53:20.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "The new human-crafted Apple Music brand matters in an AI world",
-      "url": "https://arstechnica.com/culture/2026/10/the-new-human-crafted-apple-music-brand-matters-in-an-ai-world/",
-      "source": "Ars Technica",
-      "time": "2026-10-21T19:44:40.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "OpenAI's latest AI models are coming to Google Cloud and Antigravity",
-      "url": "https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/",
-      "source": "Ars Technica",
-      "time": "2026-10-21T18:51:42.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
-      "url": "https://huggingface.co/blog/nvidia/kumo-relational",
-      "source": "Hugging Face",
-      "time": "2026-10-21T18:26:30.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Judge rejects Trump’s wild claim EPA can dismiss data center pollution lawsuits",
-      "url": "https://arstechnica.com/tech-policy/2026/10/judge-rejects-trumps-wild-claim-epa-can-dismiss-data-center-pollution-lawsuits/",
-      "source": "Ars Technica",
-      "time": "2026-10-21T18:20:40.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
-      "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
-      "source": "Hugging Face",
-      "time": "2026-10-21T17:35:36.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Just Eat apologises for AI food mistakes after social media ridicule",
-      "url": "https://www.bbc.co.uk/news/articles/crz981p0klvgo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "time": "2026-10-21T17:04:13.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "How AT&T is rethinking in-house legal work with OpenAI",
-      "url": "https://openai.com/index/att-legal",
-      "source": "OpenAI",
-      "time": "2026-10-21T17:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "This Startup Is All In on Recursive Self-Improvement. Its Latest Model Is Scary Good",
-      "url": "https://www.wired.com/story/recursive-self-improvement-flint-latest-model-scary-good/",
-      "source": "Wired",
-      "time": "2026-10-21T16:00:00.000Z",
-      "kind": "press"
     }
   ]
 }
