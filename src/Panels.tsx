@@ -4,7 +4,7 @@ import { createPortal } from 'react-dom'
 import { EngineControls } from './EngineControls'
 import { engine, setRev } from './engine'
 import { ANCHOR_LABEL, EXPERIENCE, LINKS, PIT_LANE, PROFILE, PROJECTS } from './content'
-import { useStore } from './store'
+import { store, useStore } from './store'
 import { pace } from './stepper'
 import { ago, loadWire, setPitZoom, wire, wireMeshes, type Story } from './PitWall'
 import { view } from './Scene'
@@ -378,6 +378,7 @@ function Projects({ step, onStep }: { step: number; onStep: (k: number) => void 
             {p.note && <p className="body">{p.note}</p>}
             <ul className="tags mono">{p.tags.map((t) => <li key={t}>{t}</li>)}</ul>
             <div className="links mono">
+              <button className="go study-open" onClick={() => store.set({ study: step })}>How it’s built <span aria-hidden="true">→</span></button>
               {p.live && <a className="go" href={p.live} target="_blank" rel="noreferrer">Live demo <span aria-hidden="true">↗</span></a>}
               <a className="go" href={p.href ?? LINKS.githubRepos} target="_blank" rel="noreferrer">
                 {p.href ? 'Repository' : 'GitHub profile'} <span aria-hidden="true">↗</span>

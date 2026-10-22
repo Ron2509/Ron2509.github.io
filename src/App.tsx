@@ -12,6 +12,7 @@ import { CHAPTERS } from './config'
 import { pace } from './stepper'
 import { Modes } from './Modes'
 import { CadLabels } from './cad/CadLabels'
+import { CaseStudy } from './CaseStudy'
 import { Finish } from './Finish'
 import { chequer, resetLap } from './lap'
 import { DWELL } from './Panels'
@@ -207,6 +208,8 @@ export default function App() {
       const t = event.target as HTMLElement | null
       const inner = t?.closest?.('.panel-left') as HTMLElement | null
       if (inner && inner.scrollHeight > inner.clientHeight + 2 && event.type.includes('touch')) return false
+      // an open case study scrolls itself (it is marked data-lenis-prevent); nothing behind it moves
+      if (store.get().study !== null) return false
       if (event.cancelable && event.type !== 'touchstart') event.preventDefault()
       if (!store.get().entered) { if (Math.abs(deltaY) > 2) nudge(); return false }
       const now = performance.now()
@@ -238,6 +241,8 @@ export default function App() {
     }
     const keys = (e: KeyboardEvent) => {
       if ((e.target as HTMLElement)?.closest?.('input, textarea')) return
+      // an open case study reads with the keys (arrows and space scroll it), the lap waits
+      if (store.get().study !== null) return
       const down = ['ArrowDown', 'PageDown'].includes(e.key) || (e.key === ' ' && !engineHasFocus() && !e.shiftKey)
       const up = ['ArrowUp', 'PageUp'].includes(e.key) || (e.key === ' ' && e.shiftKey && !engineHasFocus())
       if (!down && !up) return
@@ -315,6 +320,7 @@ export default function App() {
       <CadLabels />
       <PitBoard />
       <Finish onRestart={() => stepper.restart()} />
+      <CaseStudy />
 
       {/* the scroll track: one stretch per chapter; the content itself is in the fixed panels above */}
       <main aria-hidden="true">

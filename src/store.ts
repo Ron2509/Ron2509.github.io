@@ -33,6 +33,8 @@ type State = {
   tunnel: boolean
   /** scrolled on past the last corner: the chequered flag is out */
   finished: boolean
+  /** the project whose case study is open ("How it's built"), or null */
+  study: number | null
 }
 
 let state: State = {
@@ -53,6 +55,7 @@ let state: State = {
   preview: null,
   tunnel: false,
   finished: false,
+  study: null,
 }
 const listeners = new Set<() => void>()
 
