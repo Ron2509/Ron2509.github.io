@@ -23,10 +23,10 @@ const CAR_LENGTH = 4.55
 // full-detail car (2.45M tris) on desktop, the lighter build on phones and touch devices
 // dev: ?carlo / ?carhi force one or the other, to compare
 const FORCE = import.meta.env.DEV && typeof location !== 'undefined' ? (location.search.includes('carlo') ? 'lo' : location.search.includes('carhi') ? 'hi' : '') : ''
-const MODEL = FORCE ? (FORCE === 'hi' ? '/models/car-hi.glb' : '/models/car.glb')
+const MODEL = FORCE ? (FORCE === 'hi' ? `${import.meta.env.BASE_URL}models/car-hi.glb` : `${import.meta.env.BASE_URL}models/car.glb`)
   : typeof matchMedia !== 'undefined' && matchMedia('(min-width: 900px) and (pointer: fine)').matches
-  ? '/models/car-hi.glb'
-  : '/models/car.glb'
+  ? `${import.meta.env.BASE_URL}models/car-hi.glb`
+  : `${import.meta.env.BASE_URL}models/car.glb`
 /** Livery shown in the paint lens: the hovered swatch, else the next one after what's on the car. */
 // The lens always shows a livery in strong contrast with the car, so the change is unmistakable:
 // light pearl over the dark cars, stealth black over the pearl car. A hovered swatch overrides it.

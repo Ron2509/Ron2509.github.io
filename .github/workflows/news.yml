@@ -1,5 +1,5 @@
 # Refreshes the pit-wall news wire (public/news.json) every 12 hours and commits it.
-# Takes effect once this project is pushed to GitHub; the hosting redeploy picks up the commit.
+# The Pages deploy (deploy.yml) runs after each refresh, so the new headlines go live.
 name: News wire
 on:
   schedule:

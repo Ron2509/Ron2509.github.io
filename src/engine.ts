@@ -46,7 +46,7 @@ function impulse(ac: AudioContext, seconds: number) {
 
 async function build() {
   ctx = new AudioContext({ latencyHint: 'interactive' })
-  await ctx.audioWorklet.addModule('/v8-worklet.js')
+  await ctx.audioWorklet.addModule(`${import.meta.env.BASE_URL}v8-worklet.js`)
   node = new AudioWorkletNode(ctx, 'v8-engine', { outputChannelCount: [2] })
 
   // exhaust chest, a little glue, then the garage

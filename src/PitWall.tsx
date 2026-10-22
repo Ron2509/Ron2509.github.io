@@ -17,7 +17,7 @@ export type Story = { title: string; url: string; source: string; time: string |
 export const wire = { items: [] as Story[], updated: '', featured: 0 }
 let wireLoad: Promise<void> | null = null
 export function loadWire() {
-  wireLoad ??= fetch('/news.json', { cache: 'no-cache' })
+  wireLoad ??= fetch(`${import.meta.env.BASE_URL}news.json`, { cache: 'no-cache' })
     .then((r) => (r.ok ? r.json() : Promise.reject(r.status)))
     .then((j: { items: Story[]; updated: string }) => { wire.items = j.items ?? []; wire.updated = j.updated ?? '' })
     .catch(() => {})

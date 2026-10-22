@@ -13,8 +13,8 @@ import type { Stream } from './stream'
 // in the wakes behind the tyres, the rear wing and the diffuser. A few faint streamlines traced through the same
 // field (public/models/flow.bin) give the flow its shape at a glance. Colour follows the local air speed: deep
 // blue where it slows, cyan in the free stream, ice white where it races.
-const FLOW_URL = '/models/flow.bin'
-const FIELD_URL = '/models/field.bin'
+const FLOW_URL = `${import.meta.env.BASE_URL}models/flow.bin`
+const FIELD_URL = `${import.meta.env.BASE_URL}models/field.bin`
 /** particles in the air at once */
 const PARTICLES = matchMedia("(pointer: coarse)").matches ? 3000 : 6000
 

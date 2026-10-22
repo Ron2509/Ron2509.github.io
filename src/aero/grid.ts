@@ -2,7 +2,7 @@
 // The grid sits in car-rig space: nose to +X, floor at y = 0, centreline on z = 0.
 
 export const AERO = {
-  url: '/models/aero.bin',
+  url: `${import.meta.env.BASE_URL}models/aero.bin`,
   /** cells along x, y, z */
   n: [128, 32, 56] as const,
   min: [-2.95, 0, -1.3] as const,
