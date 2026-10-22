@@ -35,8 +35,10 @@ export const ANCHOR_LABEL: Record<Anchor, string> = {
 }
 
 /** The car's assemblies on the Projects corner's exploded drawing (see explode.ts). */
-export type AssemblyId = 'fwing' | 'rwing' | 'wheels' | 'fsusp' | 'rsusp' | 'body' | 'pu' | 'cockpit' | 'floor'
-/** How a project works, told on the pulled-apart car: one step per assembly, in order nose to tail. */
+export type AssemblyId =
+  | 'fwing' | 'beam' | 'rwing' | 'wheels' | 'rwheels' | 'fsusp' | 'rsusp' | 'mirrors' | 'halo' | 'cooling' | 'cockpit' | 'body' | 'pu' | 'floor'
+/** How a project works, told on the pulled-apart car: one step per assembly, in order nose to tail. Each
+ *  project takes the car apart its own way, so no two pull the same set of parts. */
 export type Step = { on: AssemblyId; title: string; line: string }
 /** A hard number off the project, read at a glance like a timing screen. */
 export type Stat = { v: string; k: string }
@@ -49,11 +51,11 @@ export const PROJECTS: Project[] = [
     tags: ['CNN-LSTM', 'TensorFlow', 'OpenCV', 'SUST-DDD', 'IEEE'],
     anchor: 'halo',
     brief: [
-      { on: 'fwing', title: 'Webcam in', line: 'live frames, 64×64 RGB' },
-      { on: 'fsusp', title: '16-frame buffer', line: 'rolling, oldest frame out' },
-      { on: 'body', title: 'CNN on every frame', line: '32 · 64 · 128 filters, batch norm' },
+      { on: 'mirrors', title: 'Webcam in', line: 'live frames, 64×64 RGB' },
+      { on: 'halo', title: 'CNN on every frame', line: '32 · 64 · 128 filters, batch norm' },
+      { on: 'cooling', title: '16-frame buffer', line: 'rolling, oldest frame out' },
       { on: 'cockpit', title: 'LSTM over time', line: '128 then 64 units: a trend, not a blink' },
-      { on: 'pu', title: 'Two signals agree', line: 'model streak + Haar eye-closed streak' },
+      { on: 'rsusp', title: 'Two signals agree', line: 'model streak + Haar eye-closed streak' },
       { on: 'rwing', title: 'Alarm', line: 'beep, then the counters reset' },
     ],
     kind: 'CNN-LSTM on live video · real-time fatigue alerts · TensorFlow, OpenCV',
@@ -69,11 +71,11 @@ export const PROJECTS: Project[] = [
     anchor: 'nose',
     brief: [
       { on: 'fwing', title: 'Camera and mic', line: 'the face and the speech, together' },
-      { on: 'fsusp', title: 'Face: Haar + 48×48', line: 'every face cropped, scaled 0–1' },
+      { on: 'wheels', title: 'Face: Haar + 48×48', line: 'every face cropped, scaled 0–1' },
       { on: 'body', title: 'Face CNN', line: '4 conv blocks, 7 emotions, FER2013' },
-      { on: 'cockpit', title: 'Voice tone', line: 'how it was said, trained on RAVDESS' },
+      { on: 'floor', title: 'Voice tone', line: 'how it was said, trained on RAVDESS' },
       { on: 'pu', title: 'Transcript sentiment', line: 'what was said, read as text' },
-      { on: 'rwing', title: 'One verdict', line: 'face, voice and text reconciled' },
+      { on: 'rwheels', title: 'One verdict', line: 'face, voice and text reconciled' },
     ],
     kind: 'Face, voice and text fused into one verdict · TensorFlow, OpenCV',
     year: '2025',
@@ -89,10 +91,10 @@ export const PROJECTS: Project[] = [
     brief: [
       { on: 'fwing', title: 'Seller speaks or types', line: 'raw audio to Gemini, Hinglish included' },
       { on: 'fsusp', title: 'Gemini, constrained', line: 'dropdown options become its enums' },
-      { on: 'body', title: 'One form engine', line: '9 field types, knows no category' },
-      { on: 'cockpit', title: 'Zod, built at runtime', line: 'same rows in browser and server: 422' },
-      { on: 'floor', title: 'Postgres hybrid', line: 'questions as rows, answers in JSONB' },
-      { on: 'rwing', title: 'Reviewed lifecycle', line: 'pending → incomplete → live → sold' },
+      { on: 'halo', title: 'One form engine', line: '9 field types, knows no category' },
+      { on: 'cooling', title: 'Zod, built at runtime', line: 'same rows in browser and server: 422' },
+      { on: 'beam', title: 'Postgres hybrid', line: 'questions as rows, answers in JSONB' },
+      { on: 'rwheels', title: 'Reviewed lifecycle', line: 'pending → incomplete → live → sold' },
     ],
     kind: 'Schema-driven C2C listing engine · Next.js 16, Postgres, Prisma, Gemini',
     year: '2026',
@@ -107,12 +109,12 @@ export const PROJECTS: Project[] = [
     tags: ['Kotlin', 'React Native', 'SQLite', 'Expo'],
     anchor: 'engine',
     brief: [
-      { on: 'fwing', title: 'Bank SMS arrives', line: 'Kotlin receiver, app closed or not' },
+      { on: 'wheels', title: 'Bank SMS arrives', line: 'Kotlin receiver, app closed or not' },
       { on: 'fsusp', title: 'Sender check', line: 'DLT codes like HDFCBK: no phone can fake one' },
-      { on: 'body', title: 'Field-by-field parser', line: 'amount, payee, ref; OTPs, failures out' },
+      { on: 'mirrors', title: 'Field-by-field parser', line: 'amount, payee, ref; OTPs, failures out' },
       { on: 'cockpit', title: 'One SQLite ledger', line: 'one writer; bank ref stops duplicates' },
-      { on: 'pu', title: 'Quick sheet', line: 'all mine or ÷2 ÷3 ÷4, from the notification' },
-      { on: 'rwing', title: 'Can’t go online', line: 'INTERNET stripped from the release build' },
+      { on: 'floor', title: 'Quick sheet', line: 'all mine or ÷2 ÷3 ÷4, from the notification' },
+      { on: 'beam', title: 'Can’t go online', line: 'INTERNET stripped from the release build' },
     ],
     kind: 'Offline Android expense tracker that builds itself from bank SMS',
     year: '2026',

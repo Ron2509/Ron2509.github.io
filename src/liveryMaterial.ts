@@ -145,7 +145,7 @@ export class LiveryPainter {
       shader.vertexShader = shader.vertexShader
         .replace(
           '#include <common>',
-          '#include <common>\nuniform mat4 uCarInv;\nuniform vec3 uBMin;\nuniform vec3 uBSize;\nattribute vec4 aRest;\nattribute vec3 aRestN;\nvarying vec3 vCar;\nvarying vec3 vCarN;\nvarying vec3 vRig;',
+          '#include <common>\nuniform mat4 uCarInv;\nuniform vec3 uBMin;\nuniform vec3 uBSize;\nattribute vec4 aRest;\nattribute vec3 aRestN;\nvarying vec3 vCar;\nvarying vec3 vCarN;\nvarying vec3 vRig;\nvarying vec3 vRest;',
         )
         .replace(
           '#include <project_vertex>',
@@ -157,7 +157,8 @@ export class LiveryPainter {
           vec3 lvP = lvRest ? aRest.xyz : lvC;
           vCar = vec3((lvP.x - uBMin.x) / uBSize.x, (lvP.y - uBMin.y) / uBSize.y, lvP.z / (uBSize.z * 0.5));
           vCarN = lvRest ? aRestN : mat3(uCarInv) * normalize(mat3(modelMatrix) * objectNormal);
-          vRig = lvC;`,
+          vRig = lvC;
+          vRest = lvP;`,
         )
       shader.fragmentShader = shader.fragmentShader
         .replace(
@@ -184,6 +185,7 @@ export class LiveryPainter {
           uniform float uLensRough;
           varying vec3 vCar;
           varying vec3 vCarN;
+          varying vec3 vRest;
           vec3 sampleLivery(sampler2D tex, vec3 p, vec3 n) {
             float x = clamp(p.x, 0.002, 0.998);
             float y = clamp(p.y, 0.004, 0.996);
@@ -237,6 +239,20 @@ export class LiveryPainter {
             lvCol = mix(lvCol, rev * mix(1.7, 1.0, smoothstep(0.04, 0.25, rl)), lensM);
           }
           diffuseColor.rgb = lvCol;
+          // the cockpit is bare black carbon inside, as on the real car: the tub below the rim (the opening runs
+          // from the roll hoop to the halo's pillar, rig space), the walls that face in and the floor
+          float lvPit = 0.0;
+          {
+            vec3 q = vRest;
+            float box = smoothstep(-0.27, -0.22, q.x) * (1.0 - smoothstep(0.42, 0.47, q.x))
+                      * (1.0 - smoothstep(0.24, 0.28, abs(q.z)))
+                      * (1.0 - smoothstep(0.6, 0.64, q.y)) * smoothstep(0.3, 0.34, q.y);
+            float inward = 1.0 - smoothstep(0.25, 0.6, lvN.z * sign(q.z));
+            lvPit = box * inward;
+            // a little deeper in shadow towards the floor
+            vec3 pitCol = vec3(0.012, 0.012, 0.014) * mix(0.55, 1.0, smoothstep(0.42, 0.6, q.y));
+            diffuseColor.rgb = mix(diffuseColor.rgb, pitCol, lvPit);
+          }
           // black lettering and panels are gloss on the satin colour, the way real decals catch the light
           float inkM = 1.0 - smoothstep(0.004, 0.0068, max(lvCol.r, max(lvCol.g, lvCol.b)));
           #ifdef LIVERY_DEBUG
@@ -264,7 +280,7 @@ export class LiveryPainter {
         // inside the lens the finish follows the revealed livery
         .replace(
           '#include <roughnessmap_fragment>',
-          '#include <roughnessmap_fragment>\nroughnessFactor = mix(mix(roughnessFactor, uLensRough, lensM), 0.12, inkM);',
+          '#include <roughnessmap_fragment>\nroughnessFactor = mix(mix(mix(roughnessFactor, uLensRough, lensM), 0.12, inkM), 0.5, lvPit);',
         )
         .replace(
           '#include <metalnessmap_fragment>',
@@ -283,7 +299,7 @@ export class LiveryPainter {
         .replace('#include <emissivemap_fragment>', '#include <emissivemap_fragment>\ntotalEmissiveRadiance += livSeam;')
     }
     if (import.meta.env.DEV && location.search.includes('liverydebug')) mat.defines = { ...mat.defines, LIVERY_DEBUG: '' }
-    mat.customProgramCacheKey = () => 'livery-atlas-v12' + (mat.defines?.LIVERY_DEBUG !== undefined ? 'd' : '')
+    mat.customProgramCacheKey = () => 'livery-atlas-v13' + (mat.defines?.LIVERY_DEBUG !== undefined ? 'd' : '')
     mat.needsUpdate = true
   }
 }

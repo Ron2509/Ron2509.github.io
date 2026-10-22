@@ -166,12 +166,12 @@ export function Blueprint() {
     if (carRig.root) { g.matrix.copy(carRig.root.matrixWorld); g.matrixWorldNeedsUpdate = true }
     if (!built.current && carRig.assemblies.length) {
       built.current = true
-      const w = carRig.assemblies.find((a) => a.id === 'wheels')
-      if (!w) return
+      const corners = carRig.assemblies.filter((a) => a.id === 'wheels' || a.id === 'rwheels')
+      if (!corners.length) return
       // the four wheel centres, from the wheel parts' bounds
       const box = new THREE.Box3()
       const xs: number[] = [], zs: number[] = []
-      for (const p of w.parts) {
+      for (const p of corners.flatMap((a) => a.parts)) {
         if (!/^(front|rear)-/.test(p.obj.name)) continue
         box.setFromObject(p.obj)
         const c = box.getCenter(new THREE.Vector3())

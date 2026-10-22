@@ -32,17 +32,26 @@ export type Assembly = {
 
 type Spec = { id: AssemblyId; code: string; name: string; match: RegExp; off: [number, number, number]; anchor?: Anchor; sided?: boolean }
 
-// order is also the order they leave in: outer parts first, then the shell, then what it was hiding
+// order is also the order they leave in: outer parts first, then the shell, then what it was hiding. A part
+// goes to the first assembly that matches it, so the pieces picked out of the bodywork come before it.
+// The body_object0NN pieces are the AMR23's small bodywork parts (scripts/convert-model.py names them in a fixed
+// order): 017 the halo, 019-042 the engine-cover louvres, 009-016 the front suspension fairings, 002/003/018 the
+// cockpit bits.
 const SPECS: Spec[] = [
   { id: 'fwing', code: 'FW-100', name: 'Front wing assembly', match: /^(front_wing_mixer|front_wing_holders|body_front_wings)/, off: [0.95, 0.06, 0], anchor: 'nose' },
+  { id: 'beam', code: 'RW-310', name: 'Beam wing & diffuser', match: /^rear_wing_no_mod0(0[24-9]|1[0-3])$/, off: [-0.45, 0, 0.38], sided: true },
   { id: 'rwing', code: 'RW-300', name: 'Rear wing & DRS', match: /^(rear_wing|drs_)/, off: [-0.85, 0.5, 0] },
-  { id: 'wheels', code: 'WH-500', name: 'Wheel & brake corners', match: /^(front-|rear-|wheelbrake)/, off: [0, 0.02, 0.82], sided: true },
-  { id: 'fsusp', code: 'FS-210', name: 'Front suspension', match: /^(front_upper_arm|front_lower_arm|steering_rod|front_inner_cover_fins|front_brakeduct_inner|brakes_duct_front)/, off: [0, 0.04, 0.42], sided: true },
-  { id: 'rsusp', code: 'RS-410', name: 'Rear suspension & ducts', match: /^(upper_arms|lower_arms|push_rod_rear|brakes_duct_rear|rear_brake_duct_blades)/, off: [0, 0.04, 0.42], sided: true },
-  { id: 'body', code: 'BW-200', name: 'Bodywork & sidepods', match: /^(body_object|body_top_wing|body_side_top_wings|ram_intake_inner|mirror_|antennas|pitot_|cockpit_inner|front_arms_body_connection)/, off: [0, 1.0, 0], anchor: 'sidepod' },
-  { id: 'pu', code: 'PU-600', name: 'Power unit & gearbox', match: /^(gearbox_cover|exhaust|rear_body_inner|rear_led|rear_arms_rubber_connection|rear_suspension_rubber)/, off: [-0.6, 0.32, 0], anchor: 'engine' },
-  { id: 'cockpit', code: 'CK-700', name: 'Survival cell & driver', match: /^(seat|steering_wheel|paddle|helmet|shell|vizor|top_vent|Top_vent|shoes)/, off: [0, 0.52, 0], anchor: 'halo' },
-  { id: 'floor', code: 'FL-800', name: 'Floor & plank', match: /^floor_/, off: [0, 0, 0] },
+  { id: 'wheels', code: 'WH-500', name: 'Front corners', match: /^(front-|wheelbrake)/, off: [0.1, 0.02, 0.82], sided: true },
+  { id: 'rwheels', code: 'WH-550', name: 'Rear corners', match: /^rear-/, off: [-0.1, 0.02, 0.82], sided: true },
+  { id: 'fsusp', code: 'FS-210', name: 'Front suspension & fairings', match: /^(front_upper_arm|front_lower_arm|steering_rod|front_inner_cover_fins|front_brakeduct_inner|brakes_duct_front)|^body_object0(09|1[0-6])$/, off: [0, 0.04, 0.42], sided: true },
+  { id: 'rsusp', code: 'RS-410', name: 'Rear suspension', match: /^(upper_arms|lower_arms|push_rod_rear|brakes_duct_rear|rear_brake_duct_blades)/, off: [0, 0.04, 0.42], sided: true },
+  { id: 'mirrors', code: 'BW-230', name: 'Mirrors', match: /^mirror_/, off: [0.05, 0.25, 0.45], sided: true },
+  { id: 'halo', code: 'CK-710', name: 'Halo', match: /^body_object017$/, off: [0.15, 0.6, 0] },
+  { id: 'cooling', code: 'BW-250', name: 'Cooling louvres', match: /^body_object0(19|2\d|3\d|4[0-2])$/, off: [0, 0.42, 0.3], sided: true },
+  { id: 'cockpit', code: 'CK-700', name: 'Airbox & roll hoop', match: /^(seat|steering_wheel|paddle|helmet|shell|vizor|top_vent|Top_vent|shoes)|^body_object0(0[23]|18)$/, off: [-0.1, 0.75, 0], anchor: 'halo' },
+  { id: 'body', code: 'BW-200', name: 'Bodywork & sidepods', match: /^(body_object|body_top_wing|body_side_top_wings|ram_intake_inner|antennas|pitot_|cockpit_inner|front_arms_body_connection)/, off: [0, 1.0, 0], anchor: 'sidepod' },
+  { id: 'pu', code: 'PU-600', name: 'Gearbox & rear ducts', match: /^(gearbox_cover|exhaust|rear_body_inner|rear_led|rear_arms_rubber_connection|rear_suspension_rubber)/, off: [-0.35, 0.15, 0.3], anchor: 'engine', sided: true },
+  { id: 'floor', code: 'FL-800', name: 'Floor edges', match: /^floor_/, off: [0, 0, 0.5], sided: true },
 ]
 
 /** Which assembly a part of the model belongs to, by its node name (null for the loose odds and ends). */

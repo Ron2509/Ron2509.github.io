@@ -79,7 +79,8 @@ function makeMaterials() {
   const carbon = new THREE.MeshPhysicalMaterial({ color: '#0d0e10', metalness: 0.2, roughness: 0.42, clearcoat: 0.7, clearcoatRoughness: 0.12 })
   const carbonMatte = new THREE.MeshStandardMaterial({ color: '#0c0c0e', metalness: 0.15, roughness: 0.7 })
   const rubber = new THREE.MeshStandardMaterial({ color: '#121212', metalness: 0, roughness: 0.88 })
-  const rim = new THREE.MeshPhysicalMaterial({ color: '#16171a', metalness: 0.55, roughness: 0.45, clearcoat: 0.2, clearcoatRoughness: 0.4 })
+  // wheel covers and rims: deep, lacquered carbon with a metal edge to the light
+  const rim = new THREE.MeshPhysicalMaterial({ color: '#0b0c0e', metalness: 0.35, roughness: 0.3, clearcoat: 0.7, clearcoatRoughness: 0.18 })
   const metal = new THREE.MeshStandardMaterial({ color: '#8d9096', metalness: 1, roughness: 0.28 })
   const chrome = new THREE.MeshStandardMaterial({ color: '#d6d8dc', metalness: 1, roughness: 0.06 })
   const brass = new THREE.MeshStandardMaterial({ color: '#b08d57', metalness: 1, roughness: 0.3 })
@@ -157,11 +158,19 @@ export function Car() {
     s.updateMatrixWorld(true)
     const drop: THREE.Object3D[] = []
     const list: THREE.Mesh[] = []
+    // only the big panels wear the livery; the small pieces of bodywork (suspension fairings, louvres, cockpit
+    // trim, cameras, aerials) are bare carbon, as on the real car, or the colour bleeds into the car's insides
+    const carLen = new THREE.Box3().setFromObject(s).getSize(new THREE.Vector3()).length()
+    const pieceBox = new THREE.Box3()
     s.traverse((o) => {
       const mesh = o as THREE.Mesh
       if (!mesh.isMesh) return
-      const mat = pick(ownerName(mesh, s), (mesh.material as THREE.Material)?.name ?? '', mats)
+      let mat = pick(ownerName(mesh, s), (mesh.material as THREE.Material)?.name ?? '', mats)
       if (!mat) { drop.push(mesh); return }
+      if (mat === mats.paint && /^body_object/.test(ownerName(mesh, s))) {
+        const size = pieceBox.setFromObject(mesh).getSize(new THREE.Vector3())
+        if (Math.max(size.x, size.y, size.z) < carLen * 0.12) mat = mats.carbon
+      }
       // the four tyres get their own sidewall shader, keyed to each tyre's hub
       if (mat === mats.rubber && /^wheel(Ft|Bk)(L|R)_/.test(ownerName(mesh, s))) {
         const tm = makeTyreMaterial(mesh.geometry)
@@ -266,7 +275,7 @@ export function Car() {
       const bb = new THREE.Box3().setFromObject(ex)
       carRig.exhaust.set(bb.min.x, (bb.min.y + bb.max.y) / 2, (bb.min.z + bb.max.z) / 2)
     }
-    if (import.meta.env.DEV) (window as unknown as { __car: THREE.Object3D }).__car = outer
+    if (import.meta.env.DEV) Object.assign(window, { __car: outer, __THREE: THREE })
     return outer
   }, [scene, mats, uniforms])
 
