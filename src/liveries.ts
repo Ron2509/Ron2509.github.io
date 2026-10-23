@@ -315,8 +315,7 @@ export const LIVERIES: LiveryDef[] = [
       fillAll(c, gradU(c, [[0, '#2f050c'], [0.55, ROUGE], [1, '#4a0a14']]))
       // black engine-cover tail and fin, the cut raked forward
       shape(c, [[0, 1], [0.24, 1], [0.31, 0.62], [0, 0.6]], BLACK, false)
-      // and black all along underneath: red over black, the line rising from the nose to the tail
-      shape(c, [[0, 0.6], [0.18, 0.52], [0.34, 0.44], [0.5, 0.405], [0.66, 0.385], [0.82, 0.35], [1, 0.31], [1, 0], [0, 0]], BLACK)
+      lowerBlack(c)
     },
     top(c) {
       fillAll(c, gradU(c, [[0, '#2f050c'], [0.55, ROUGE], [1, '#4a0a14']]))
@@ -351,6 +350,18 @@ export const LIVERIES: LiveryDef[] = [
       fillAll(c, gradU(c, [[0, '#40474d'], [0.55, GREY], [1, '#646d75']]))
       shape(c, [[0, 0], [0.18, 0], [0.2, 0.5], [0.18, 1], [0, 1]], BLACK, false)
       shape(c, [[0.93, 0], [1, 0], [1, 1], [0.93, 1]], BLACK, false)
+    },
+  },
+  // seen only through the paint lens, under the red: what's beneath the paint
+  {
+    id: 'noir', name: 'Stealth Black', era: 'stealth black · white',
+    a: '#101013', accent: '#c9c6c0', rim: '#0b0b0c', ...MATTE,
+    side(c) {
+      fillAll(c, gradU(c, [[0, '#09090b'], [0.55, '#121215'], [1, '#18181c']]))
+      lowerBlack(c)
+    },
+    top(c) {
+      fillAll(c, gradU(c, [[0, '#09090b'], [0.55, '#121215'], [1, '#18181c']]))
     },
   },
 ]
@@ -403,8 +414,9 @@ export function trialLivery(hex: string): LiveryDef {
   }
 }
 
-/** What the paint lens shows over each livery: red and petrol reveal each other, the grey reveals red. */
-export const LENS_OF: Record<string, string> = { rouge: 'petrol', petrol: 'rouge', grey: 'rouge' }
+/** What the paint lens shows over each livery: under the red is stealth black, petrol and red reveal each other,
+ *  and the grey reveals red. */
+export const LENS_OF: Record<string, string> = { rouge: 'noir', petrol: 'rouge', grey: 'rouge' }
 
 // ---------- atlas ----------
 export const ATLAS_W = 4096
