@@ -38,9 +38,12 @@ self.onmessage = async (e: MessageEvent<{ id: number; livery: string; set: strin
     const s = SPONSOR_SETS.find((x) => x.id === set)
     if (!l || !s) { reply({ id, error: true }); return }
     canvas ??= new OffscreenCanvas(ATLAS_W, ATLAS_H)
-    paintAtlas(canvas.getContext('2d') as unknown as CanvasRenderingContext2D, l, s, size)
-    const bmp = canvas.transferToImageBitmap()
-    reply({ id, bmp }, [bmp])
+    const ctx = canvas.getContext('2d', { willReadFrequently: true }) as unknown as CanvasRenderingContext2D
+    paintAtlas(ctx, l, s, size)
+    // the raw pixels, handed over without a copy: the page uploads them to the GPU a strip at a time, which an
+    // ImageBitmap can't do (every partial upload of one converts the whole bitmap)
+    const px = ctx.getImageData(0, 0, ATLAS_W, ATLAS_H).data.buffer
+    reply({ id, px }, [px])
   } catch {
     reply({ id, error: true })
   }

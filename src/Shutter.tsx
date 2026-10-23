@@ -6,7 +6,7 @@ import { LINKS } from './content'
 // The end of the session: the garage's roller shutter comes down over the car. A heavy corrugated steel door on
 // a chain: it gathers speed, runs down its guides with the slats rattling, lands on its rubber seal with a thud
 // and a small bounce, and stays shut with the driver's name sprayed across it and where to find him. Restart lap
-// or Get in touch rolls it back up.
+// or "Drop a line" rolls it back up.
 
 /** when the door starts down, after the flag (s) */
 export const SHUTTER_AT = 1.1

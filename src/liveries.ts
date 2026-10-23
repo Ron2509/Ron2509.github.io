@@ -315,7 +315,8 @@ export const LIVERIES: LiveryDef[] = [
       fillAll(c, gradU(c, [[0, '#2f050c'], [0.55, ROUGE], [1, '#4a0a14']]))
       // black engine-cover tail and fin, the cut raked forward
       shape(c, [[0, 1], [0.24, 1], [0.31, 0.62], [0, 0.6]], BLACK, false)
-      lowerBlack(c)
+      // and black all along underneath: red over black, the line rising from the nose to the tail
+      shape(c, [[0, 0.6], [0.18, 0.52], [0.34, 0.44], [0.5, 0.405], [0.66, 0.385], [0.82, 0.35], [1, 0.31], [1, 0], [0, 0]], BLACK)
     },
     top(c) {
       fillAll(c, gradU(c, [[0, '#2f050c'], [0.55, ROUGE], [1, '#4a0a14']]))

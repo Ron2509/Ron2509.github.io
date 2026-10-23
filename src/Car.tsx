@@ -129,7 +129,7 @@ export function Car() {
   const camRef = useRef(camera)
   camRef.current = camera
   const mats = useMemo(makeMaterials, [])
-  const painter = useMemo(() => new LiveryPainter(Math.min(8, gl.capabilities.getMaxAnisotropy())), [gl])
+  const painter = useMemo(() => { const p = new LiveryPainter(Math.min(8, gl.capabilities.getMaxAnisotropy())); p.attach(gl); return p }, [gl])
   const uniforms = painter.uniforms
   const root = useRef<THREE.Group>(null)
   const yaw = useRef({ value: 0, vel: 0, dragging: false, lastX: 0, lastY: 0 })
@@ -137,7 +137,8 @@ export function Car() {
   // the paint lens lives on the car: a raycast finds the point under the cursor, a trail follows it
   const lens = useRef({ ray: new THREE.Raycaster(), ndc: new THREE.Vector2(), hit: new THREE.Vector3(0, -99, 0), last: new THREE.Vector3(0, -99, 0), ring: 1, onCar: false })
   const painted = useRef<THREE.Mesh[]>([])
-  const livery = useRef({ current: '', tween: null as gsap.core.Tween | null, ready: false })
+  // current: what the car is being painted with; shown: the livery whose finish and accent the car wears now
+  const livery = useRef({ current: '', tween: null as gsap.core.Tween | null, ready: false, shown: LIVERIES[0] as LiveryDef })
   const rearWheels = useRef<THREE.Group[]>([])
   // every wheel spins on its own hub; the fronts also steer
   const spinners = useRef<THREE.Group[]>([])
@@ -336,6 +337,7 @@ export function Car() {
       if (import.meta.env.DEV) (window as unknown as { __tryColour: (hex: string) => void }).__tryColour = (hex) => painter.set(trialLivery(hex), SPONSOR_SETS[2])
       if (import.meta.env.DEV) (window as unknown as { __tryPetrol: (hex: string) => void }).__tryPetrol = (hex) => painter.set(petrolIn(hex), SPONSOR_SETS[1])
       document.documentElement.style.setProperty('--accent', first.accent)
+      livery.current.shown = first
       livery.current.current = first.id + '|' + SPONSOR_SETS[0].id
       livery.current.ready = true
       performance.mark('car:painted')
@@ -460,7 +462,18 @@ export function Car() {
         .to(pit, { gun: 0, duration: 0.25 }, 0.62)
         .call(() => {
           // painted in the background; the sweep runs once the new paint is ready
-          void painter.next(target, partners).then((ok) => { if (ok) lv.tween = gsap.to(uniforms.uMix, { value: 1, duration: 1.7, ease: 'sine.inOut' }) })
+          void painter.next(target, partners).then((ok) => {
+            if (!ok) return
+            // the old finish stays where the old paint is; the new one flows on with the colour (liveryMaterial.ts)
+            const was = lv.shown
+            uniforms.uPrevRough.value = was.roughness
+            uniforms.uPrevMetal.value = was.metalness
+            uniforms.uPrevCoat.value = was.clearcoat
+            uniforms.uPrevFlake.value = was.flake ?? 0
+            lv.shown = target
+            document.documentElement.style.setProperty('--accent', target.accent)
+            lv.tween = gsap.to(uniforms.uMix, { value: 1, duration: 1.7, ease: 'sine.inOut' })
+          })
           fx.aberration = 0.35
           store.set({ partners })
         }, [], 0.3)
@@ -469,11 +482,8 @@ export function Car() {
         .to(pit, { lift: 0, duration: 0.42, ease: 'bounce.out' }, stop - 0.4)
       pitTl.current = tl
     }
-    if (s.active.id !== target.id) {
-      document.documentElement.style.setProperty('--accent', target.accent)
-      store.set({ active: target })
-    }
-    paintFinish(mats.paint, mats.accent, mats.rim, uniforms.uFlake, target, dt)
+    if (s.active.id !== target.id) store.set({ active: target })
+    paintFinish(mats.paint, mats.accent, mats.rim, uniforms.uFlake, lv.shown, dt)
 
     // paint lens, on every corner: wherever the cursor is on the car, that patch shows the next livery
     const h = hover.current
@@ -652,14 +662,16 @@ const shadowTex = (() => {
 })()
 
 function paintFinish(paint: THREE.MeshPhysicalMaterial, accent: THREE.MeshPhysicalMaterial, rim: THREE.MeshPhysicalMaterial, flake: { value: number }, l: LiveryDef, dt: number) {
-  // matte by default: a soft, slightly rough clear coat over a flat base; the gunmetal is satin, with flake
+  // the livery's own finish, set outright: while a sweep runs the shader blends from the previous finish to this
+  // one along the sweep's front (uPrev*), so nothing changes ahead of the paint. Matte by default; the gunmetal
+  // is satin, with flake.
+  paint.roughness = l.roughness
+  paint.metalness = l.metalness
+  paint.clearcoat = l.clearcoat
+  paint.clearcoatRoughness = l.coatRough ?? 0.42
+  paint.iridescence = 0
+  flake.value = l.flake ?? 0
   const f = 1 - Math.exp(-dt * 2.5)
-  paint.roughness += (l.roughness - paint.roughness) * f
-  paint.metalness += (l.metalness - paint.metalness) * f
-  paint.clearcoat += (l.clearcoat - paint.clearcoat) * f
-  paint.clearcoatRoughness += ((l.coatRough ?? 0.42) - paint.clearcoatRoughness) * f
-  paint.iridescence += (0 - paint.iridescence) * f
-  flake.value += ((l.flake ?? 0) - flake.value) * f
   accent.color.lerp(tmpColor.set(l.accent), f)
   rim.color.lerp(tmpColor.set(l.rim), f)
 }

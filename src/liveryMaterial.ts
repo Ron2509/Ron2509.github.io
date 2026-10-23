@@ -32,14 +32,21 @@ export class LiveryPainter {
     uLensR: { value: 0.6 },
     uLensMetal: { value: 1 },
     uLensRough: { value: 0.12 },
+    // the finish of the livery being swept away: the shader blends from it to the material's own finish along
+    // the sweep's front, so the shine changes with the colour, not ahead of it
+    uPrevRough: { value: 0.66 },
+    uPrevMetal: { value: 0.02 },
+    uPrevCoat: { value: 0.04 },
+    uPrevFlake: { value: 0 },
   }
   private slots: { canvas: HTMLCanvasElement; tex: THREE.CanvasTexture; id: string }[] = []
   private front = 1
   private ticket = 0
   // the atlases after the first are painted by a worker (atlasWorker.ts), off the main thread
   private worker: Worker | null = null
-  private jobs = new Map<number, (bmp: ImageBitmap | null) => void>()
+  private jobs = new Map<number, (px: ArrayBuffer | null) => void>()
   private jobId = 0
+  private renderer: THREE.WebGLRenderer | null = null
 
   constructor(anisotropy: number) {
     for (let i = 0; i < 3; i++) {
@@ -60,6 +67,42 @@ export class LiveryPainter {
       this.slots.push({ canvas, tex, id: '' })
       liveryTextures.add(tex)
     }
+  }
+
+  /** The renderer, so a new atlas can go up to the GPU a strip at a time (see upload). */
+  attach(renderer: THREE.WebGLRenderer) { this.renderer = renderer }
+
+  /** A new atlas from the worker goes to the GPU in strips, one per frame, straight into the texture three
+   *  allocated at start-up: a whole 4096 atlas in one go stalls a frame for a tenth of a second, which is the
+   *  hitch the pit-stop sweep used to start with. Resolves once it is all there, mipmaps included. Falls back to
+   *  a plain update if the texture isn't on the GPU yet. */
+  private upload(s: (typeof this.slots)[number], px: ArrayBuffer): Promise<void> {
+    const r = this.renderer
+    const gl = r?.getContext()
+    const glt = r ? (r.properties.get(s.tex) as { __webglTexture?: WebGLTexture }).__webglTexture : undefined
+    if (!r || !glt || !(gl instanceof WebGL2RenderingContext)) {
+      this.show(s, new ImageData(new Uint8ClampedArray(px), ATLAS_W, ATLAS_H) as unknown as HTMLCanvasElement)
+      return Promise.resolve()
+    }
+    const data = new Uint8Array(px)
+    const strips = 8, h = Math.ceil(ATLAS_H / strips)
+    return new Promise((resolve) => {
+      let i = 0
+      const step = () => {
+        r.state.bindTexture(gl.TEXTURE_2D, glt)
+        gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, false)
+        gl.pixelStorei(gl.UNPACK_PREMULTIPLY_ALPHA_WEBGL, s.tex.premultiplyAlpha)
+        gl.pixelStorei(gl.UNPACK_COLORSPACE_CONVERSION_WEBGL, gl.NONE)
+        gl.pixelStorei(gl.UNPACK_ALIGNMENT, 4)
+        const y = i * h, rows = Math.min(h, ATLAS_H - y)
+        gl.texSubImage2D(gl.TEXTURE_2D, 0, 0, y, ATLAS_W, rows, gl.RGBA, gl.UNSIGNED_BYTE, data, y * ATLAS_W * 4)
+        if (++i < strips) { requestAnimationFrame(step); return }
+        gl.generateMipmap(gl.TEXTURE_2D)
+        // the pixels are on the GPU now; the texture keeps pointing at its own canvas rather than holding 32 MB
+        resolve()
+      }
+      requestAnimationFrame(step)
+    })
   }
 
   /** On the main thread, at once (the first paint, behind the loader, and the dev colour trials). */
@@ -90,10 +133,10 @@ export class LiveryPainter {
     if (!this.worker) {
       try {
         this.worker = new Worker(new URL('./atlasWorker.ts', import.meta.url), { type: 'module' })
-        this.worker.onmessage = (e: MessageEvent<{ id: number; bmp?: ImageBitmap; error?: boolean }>) => {
+        this.worker.onmessage = (e: MessageEvent<{ id: number; px?: ArrayBuffer; error?: boolean }>) => {
           const done = this.jobs.get(e.data.id)
           this.jobs.delete(e.data.id)
-          done?.(e.data.bmp ?? null)
+          done?.(e.data.px ?? null)
         }
       } catch { this.paint(slot, l, set); return Promise.resolve() }
     }
@@ -101,11 +144,12 @@ export class LiveryPainter {
     const id = ++this.jobId
     const size = this.uniforms.uBSize.value
     return new Promise((resolve) => {
-      this.jobs.set(id, (bmp) => {
+      this.jobs.set(id, (px) => {
         // a later paint of the same slot has taken over
-        if (s.id !== key) { bmp?.close(); resolve(); return }
-        if (bmp) this.show(s, bmp)
-        else { s.id = ''; this.paint(slot, l, set) }
+        if (s.id !== key) { resolve(); return }
+        if (px) { void this.upload(s, px).then(resolve); return }
+        s.id = ''
+        this.paint(slot, l, set)
         resolve()
       })
       this.worker!.postMessage({ id, livery: l.id, set: set.id, size: { x: size.x, y: size.y, z: size.z } })
@@ -187,6 +231,10 @@ export class LiveryPainter {
           varying vec3 vRig;
           uniform float uLensMetal;
           uniform float uLensRough;
+          uniform float uPrevRough;
+          uniform float uPrevMetal;
+          uniform float uPrevCoat;
+          uniform float uPrevFlake;
           varying vec3 vCar;
           varying vec3 vCarN;
           varying vec3 vRest;
@@ -284,11 +332,11 @@ export class LiveryPainter {
         // inside the lens the finish follows the revealed livery
         .replace(
           '#include <roughnessmap_fragment>',
-          '#include <roughnessmap_fragment>\nroughnessFactor = mix(mix(mix(roughnessFactor, uLensRough, lensM), 0.12, inkM), 0.5, lvPit);',
+          '#include <roughnessmap_fragment>\nroughnessFactor = mix(mix(mix(mix(uPrevRough, roughnessFactor, sm), uLensRough, lensM), 0.12, inkM), 0.5, lvPit);',
         )
         .replace(
           '#include <metalnessmap_fragment>',
-          '#include <metalnessmap_fragment>\nmetalnessFactor = mix(metalnessFactor, uLensMetal, lensM);',
+          '#include <metalnessmap_fragment>\nmetalnessFactor = mix(mix(uPrevMetal, metalnessFactor, sm), uLensMetal, lensM);',
         )
         .replace(
           '#include <normal_fragment_maps>',
@@ -297,13 +345,14 @@ export class LiveryPainter {
           {
             vec3 fc = floor(vCar * vec3(9000.0, 1800.0, 3600.0));
             vec3 fr = fract(sin(vec3(dot(fc, vec3(12.99, 78.23, 37.72)), dot(fc, vec3(39.35, 11.13, 83.15)), dot(fc, vec3(73.16, 52.24, 19.47)))) * 43758.5453);
-            normal = normalize(normal + (fr - 0.5) * 0.22 * uFlake);
+            normal = normalize(normal + (fr - 0.5) * 0.22 * mix(uPrevFlake, uFlake, sm));
           }`,
         )
+        .replace('#include <lights_physical_fragment>', '#include <lights_physical_fragment>\n#ifdef USE_CLEARCOAT\nmaterial.clearcoat = mix(uPrevCoat, material.clearcoat, sm);\n#endif')
         .replace('#include <emissivemap_fragment>', '#include <emissivemap_fragment>\ntotalEmissiveRadiance += livSeam;')
     }
     if (import.meta.env.DEV && location.search.includes('liverydebug')) mat.defines = { ...mat.defines, LIVERY_DEBUG: '' }
-    mat.customProgramCacheKey = () => 'livery-atlas-v13' + (mat.defines?.LIVERY_DEBUG !== undefined ? 'd' : '')
+    mat.customProgramCacheKey = () => 'livery-atlas-v14' + (mat.defines?.LIVERY_DEBUG !== undefined ? 'd' : '')
     mat.needsUpdate = true
   }
 }

@@ -109,7 +109,7 @@ function Timing({ onRestart, onContact }: { onRestart: () => void; onContact: ()
       </ol>
       <div className="finish-actions">
         <button className="finish-btn" onClick={onRestart}><span aria-hidden="true">↺</span> Restart lap</button>
-        <button className="finish-btn solid" onClick={onContact}>Get in touch <span aria-hidden="true">→</span></button>
+        <button className="finish-btn solid" onClick={onContact}>Let’s start the warm-up lap · Drop a line <span aria-hidden="true">→</span></button>
       </div>
     </motion.div>
   )
@@ -132,7 +132,7 @@ export function Finish({ onRestart }: { onRestart: () => void }) {
   }, [finished])
   return (
     <AnimatePresence>
-      {/* Get in touch puts the flag away: back to the radio card, with the mail, GitHub and LinkedIn */}
+      {/* "Drop a line" puts the flag away: back to the radio card, with the mail, GitHub and LinkedIn */}
       {finished && <Shutter key="shutter" />}
       {finished && <Timing key="finish" onRestart={onRestart} onContact={() => store.set({ finished: false })} />}
       {!finished && atContact && (
