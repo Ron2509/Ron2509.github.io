@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T17:28:41.542Z",
+  "updated": "2026-10-23T05:10:59.663Z",
   "sources": [
     "MIT Technology Review",
     "The Guardian",
@@ -17,24 +17,108 @@
   ],
   "items": [
     {
-      "title": "Someone hacked the Switch 2 by using an old game and AI",
-      "url": "https://www.theverge.com/games/1016862/nintendo-switch-2-jailbreak-ai",
-      "source": "The Verge",
-      "time": "2026-10-22T17:21:31.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
-      "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
+      "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia",
+      "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
       "source": "TechCrunch",
-      "time": "2026-10-22T16:47:17.000Z",
+      "time": "2026-10-23T04:00:00.000Z",
       "kind": "press"
     },
     {
-      "title": "Wildwood’s director says AI is ‘antithetical to everything that we are at this studio’",
-      "url": "https://www.theverge.com/entertainment/1016647/wildwood-travis-knight-interview-ai-laika-stop-motion",
+      "title": "Kazakhstan Expands Compute for Its AI Future",
+      "url": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
+      "source": "NVIDIA",
+      "time": "2026-10-23T02:00:13.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "US banks are blocking third-party AI agents access to customer accounts, sources say",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/us-banks-are-blocking-third-party-ai-agents-access-to-customer-accounts-sources-say/articleshow/135131006.cms",
+      "source": "The Economic Times",
+      "time": "2026-10-23T00:55:51.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Left alone with nothing to do, AI agents started playing",
+      "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
+      "source": "TechCrunch",
+      "time": "2026-10-23T00:45:37.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "source": "Hugging Face",
+      "time": "2026-10-22T22:24:34.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
+      "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+      "source": "TechCrunch",
+      "time": "2026-10-22T22:08:24.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Canva’s first AI image model plans designs before generating them",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
       "source": "The Verge",
-      "time": "2026-10-22T16:16:15.000Z",
+      "time": "2026-10-22T21:51:25.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Sharp drops for AI stocks overwhelm markets worldwide as oil prices jump",
+      "url": "https://www.theguardian.com/business/2026/oct/22/stock-markets-drop-ai-oil",
+      "source": "The Guardian",
+      "time": "2026-10-22T21:50:13.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Designing an AI serving harness built to last",
+      "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
+      "source": "MIT Technology Review",
+      "time": "2026-10-22T21:17:29.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Meta’s AI could still scrape news sites, legal experts say",
+      "url": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
+      "source": "The Verge",
+      "time": "2026-10-22T20:32:05.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Meta turns Muse sharing back on",
+      "url": "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts",
+      "source": "The Verge",
+      "time": "2026-10-22T20:24:04.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "The Social Society Helping Women Join the AI Boom",
+      "url": "https://www.wired.com/story/aged-intelligence-society-interview/",
+      "source": "Wired",
+      "time": "2026-10-22T19:56:32.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Build more responsive apps with the Decisions API",
+      "url": "https://openai.com/index/decisions-api",
+      "source": "OpenAI",
+      "time": "2026-10-22T19:00:00.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "The Foundations of Scalable AI",
+      "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
+      "source": "MIT Technology Review",
+      "time": "2026-10-22T18:48:04.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "The Guardian view on AI safety: the push for global regulation must advance | Editorial",
+      "url": "https://www.theguardian.com/commentisfree/2026/oct/22/the-guardian-view-on-ai-safety-the-push-for-global-regulation-must-advance",
+      "source": "The Guardian",
+      "time": "2026-10-22T17:30:45.000Z",
       "kind": "press"
     },
     {
@@ -45,31 +129,10 @@
       "kind": "lab"
     },
     {
-      "title": "Uber puts all 30,000 employees on ChatGPT Work",
-      "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
-      "source": "TechCrunch",
-      "time": "2026-10-22T16:00:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "OpenAI, Anthropic, and Nvidia had record lobbying quarters",
-      "url": "https://www.theverge.com/policy/1016585/openai-anthropic-nvidia-lobbying-records",
-      "source": "The Verge",
-      "time": "2026-10-22T15:50:30.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Hackers got a four-day head start on epic PHP2Shell vulnerability",
       "url": "https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/",
       "source": "Ars Technica",
       "time": "2026-10-22T15:25:02.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Spotify’s current AI bet is about being the music service that agents choose",
-      "url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
-      "source": "TechCrunch",
-      "time": "2026-10-22T15:03:58.000Z",
       "kind": "press"
     },
     {
@@ -98,13 +161,6 @@
       "url": "https://www.wired.com/story/meet-mori-a-cute-robot-mushroom-that-doesnt-really-say-or-do-anything/",
       "source": "Wired",
       "time": "2026-10-22T13:00:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "‘The tech bro fight club is real!’ The titans of AI get the Succession treatment in a wild new TV show",
-      "url": "https://www.theguardian.com/tv-and-radio/2026/oct/22/the-audacity-hbo-max-billionaires-succession-treatment",
-      "source": "The Guardian",
-      "time": "2026-10-22T12:34:33.000Z",
       "kind": "press"
     },
     {
@@ -143,20 +199,6 @@
       "kind": "press"
     },
     {
-      "title": "India needs AI that no one else can switch off: Andrew Ng",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/india-needs-ai-that-no-one-else-can-switch-off-andrew-ng/articleshow/135114695.cms",
-      "source": "The Economic Times",
-      "time": "2026-10-22T09:46:32.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "AI’s hidden storage bill: What inference leaves behind",
-      "url": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
-      "source": "MIT Technology Review",
-      "time": "2026-10-22T08:41:18.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Ensemble forecasting with IBM Granite time-series models",
       "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
       "source": "Hugging Face",
@@ -168,48 +210,6 @@
       "url": "https://openai.com/index/forward-deployed-engineering-means",
       "source": "OpenAI",
       "time": "2026-10-22T06:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Leading European Financial Services Organizations Embrace Open Models to Build Proprietary Intelligence",
-      "url": "https://blogs.nvidia.com/blog/european-financial-services-organizations-open-models-proprietary-intelligence/",
-      "source": "NVIDIA",
-      "time": "2026-10-22T05:00:56.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
-      "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
-      "source": "NVIDIA",
-      "time": "2026-10-22T05:00:27.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "AI firms say UK has a year to head off datacentre protests before construction is threatened",
-      "url": "https://www.theguardian.com/uk-news/2026/oct/22/ai-firms-say-uk-has-a-year-to-head-off-datacentre-protests-before-construction-is-threatened",
-      "source": "The Guardian",
-      "time": "2026-10-22T05:00:08.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Hackers Exploited the PHP Vulnerabilities Days Before They Were Patched",
-      "url": "https://www.wired.com/story/hackers-exploited-the-php-vulnerabilities-days-before-they-were-patched/",
-      "source": "Wired",
-      "time": "2026-10-22T02:24:17.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
-      "url": "https://openai.com/index/uber-chatgpt-work-rollout",
-      "source": "OpenAI",
-      "time": "2026-10-22T00:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Broad access through consistent standards",
-      "url": "https://openai.com/index/broad-access-through-consistent-standards",
-      "source": "OpenAI",
-      "time": "2026-10-21T21:00:00.000Z",
       "kind": "lab"
     }
   ]
