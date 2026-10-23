@@ -36,7 +36,8 @@ const STEPS = [1, 3, PROJECTS.length, EXPERIENCE.length, 1, 1]
 function Loader() {
   const { progress, active } = useProgress()
   const loaded = useStore((s) => s.loaded)
-  const done = loaded && !active
+  const compiled = useStore((s) => s.compiled)
+  const done = loaded && compiled && !active
   const track = useRef<SVGPathElement>(null)
   const dot = useRef<SVGCircleElement>(null)
   useEffect(() => {
@@ -48,7 +49,7 @@ function Loader() {
     const pt = p.getPointAtLength((len * progress) / 100)
     dot.current?.setAttribute('transform', `translate(${pt.x} ${pt.y})`)
   }, [progress])
-  useEffect(() => { if (done) document.body.classList.add('lit') }, [done])
+  useEffect(() => { if (done) { performance.mark('loader:done'); document.body.classList.add('lit') } }, [done])
   return (
     <div className={'loader' + (done ? ' done' : '')} aria-hidden={done}>
       <div className="loader-in">

@@ -338,6 +338,7 @@ export function Car() {
       document.documentElement.style.setProperty('--accent', first.accent)
       livery.current.current = first.id + '|' + SPONSOR_SETS[0].id
       livery.current.ready = true
+      performance.mark('car:painted')
       store.set({ loaded: true })
     })
     return () => { alive = false }

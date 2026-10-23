@@ -35,6 +35,8 @@ type State = {
   finished: boolean
   /** the project whose case study is open ("How it's built"), or null */
   study: number | null
+  /** every shader the opening scene needs is compiled, so the first frames don't stall (Scene.tsx) */
+  compiled: boolean
 }
 
 let state: State = {
@@ -56,6 +58,7 @@ let state: State = {
   tunnel: false,
   finished: false,
   study: null,
+  compiled: false,
 }
 const listeners = new Set<() => void>()
 

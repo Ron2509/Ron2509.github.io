@@ -8,6 +8,9 @@ import type { SponsorSet } from './sponsors'
  */
 export const LENS_N = 20
 
+/** Every livery atlas texture, so the start-up can put them on the GPU before the first frame (Scene.tsx). */
+export const liveryTextures = new Set<THREE.Texture>()
+
 export class LiveryPainter {
   uniforms = {
     uTex0: { value: null as THREE.Texture | null },
@@ -55,6 +58,7 @@ export class LiveryPainter {
       tex.flipY = false
       tex.premultiplyAlpha = true
       this.slots.push({ canvas, tex, id: '' })
+      liveryTextures.add(tex)
     }
   }
 

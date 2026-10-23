@@ -9,9 +9,9 @@ import { LINKS } from './content'
 // or Get in touch rolls it back up.
 
 /** when the door starts down, after the flag (s) */
-export const SHUTTER_AT = 2.6
+export const SHUTTER_AT = 1.1
 /** how long it takes to come down (s) */
-export const SHUTTER_FALL = 2.5
+export const SHUTTER_FALL = 2.1
 
 let ac: AudioContext | null = null
 /** The door's own sound, only when the visitor has the engine (and so sound) on: the slats rattling through the

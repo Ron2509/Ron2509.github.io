@@ -1,10 +1,11 @@
-import { Suspense, useEffect, useMemo, useRef, useState } from 'react'
+import { Suspense, useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { Canvas, useFrame, useThree } from '@react-three/fiber'
 import { Environment, Lightformer, MeshReflectorMaterial, PerformanceMonitor } from '@react-three/drei'
 import { Bloom, ChromaticAberration, DepthOfField, EffectComposer, N8AO, Noise, ToneMapping, Vignette } from '@react-three/postprocessing'
-import { BlendFunction, ToneMappingMode, type DepthOfFieldEffect } from 'postprocessing'
+import { BlendFunction, ToneMappingMode, type DepthOfFieldEffect, type EffectComposer as EffectComposerImpl } from 'postprocessing'
 import * as THREE from 'three'
 import { Car, anchorNow, carRig } from './Car'
+import { liveryTextures } from './liveryMaterial'
 import { Smoke } from './Smoke'
 import { NameWall } from './NameWall'
 import { PitWall, pitZoom } from './PitWall'
@@ -405,18 +406,78 @@ const caOffset = new THREE.Vector2(0, 0)
 /** Once the car is in, every material in the studio is compiled in the background (parallel shader compile),
  *  into a render target the way the post-processing chain draws them, so the first sight of anything later in
  *  the lap doesn't stall a frame while its shader builds. */
-function WarmUp() {
+/** Nothing is drawn while the car loads. Once it is in the scene every shader the studio needs is compiled in
+ *  the background (the browser's parallel compile, off the main thread), and only then do frames start and the
+ *  loader lift. Drawing first would compile each shader the moment it is first used, one after another, freezing
+ *  the page for seconds on Windows. Compiled with a render target bound, as the effects pipeline draws into one,
+ *  so the programs match the ones actually used. */
+/** Every material the effects pipeline uses (its passes' full-screen materials and their helpers), found by
+ *  walking the passes; the scene, camera and renderer they point at are left out. */
+function passMaterials(passes: object[]) {
+  const out = new Set<THREE.Material>()
+  const seen = new Set<object>()
+  const skip = new Set(['scene', 'camera', 'renderer', 'mainScene', 'mainCamera', 'parent', 'children', 'composer'])
+  const walk = (o: unknown, depth: number) => {
+    if (!o || typeof o !== 'object' || seen.has(o) || depth > 6) return
+    seen.add(o)
+    if (o instanceof THREE.Material) { out.add(o); return }
+    if (o instanceof THREE.Texture || o instanceof THREE.WebGLRenderTarget || o instanceof THREE.BufferGeometry || o instanceof THREE.Camera || o instanceof THREE.Scene) return
+    for (const [k, v] of Object.entries(o)) if (!skip.has(k)) walk(v, depth + 1)
+  }
+  passes.forEach((p) => walk(p, 0))
+  return out
+}
+
+function WarmUp({ onReady, composer }: { onReady: () => void; composer: React.RefObject<EffectComposerImpl | null> }) {
   const { gl, scene, camera } = useThree()
   const loaded = useStore((s) => s.loaded)
   useEffect(() => {
     if (!loaded) return
+    let fired = false
+    const go = () => {
+      if (fired) return
+      fired = true
+      if (import.meta.env.DEV) Object.assign(window, { __gl: gl, __progsAtCompile: gl.info.programs?.map((x) => x.cacheKey) ?? [] })
+      performance.mark('gl:compiled')
+      store.set({ compiled: true })
+      onReady()
+    }
+    performance.mark('gl:compile')
     const rt = new THREE.WebGLRenderTarget(1, 1)
     const prev = gl.getRenderTarget()
     gl.setRenderTarget(rt)
     const done = gl.compileAsync(scene, camera)
+    // and the effects pipeline: each effect pass builds its final shader first, so it matches what renders
+    const passes = composer.current?.passes ?? []
+    passes.forEach((p) => (p as unknown as { recompile?: () => void }).recompile?.())
+    const fx = new THREE.Scene()
+    const quad = new THREE.PlaneGeometry(2, 2)
+    for (const m of passMaterials(passes)) { const q = new THREE.Mesh(quad, m); q.frustumCulled = false; fx.add(q) }
+    const fxDone = gl.compileAsync(fx, camera)
     gl.setRenderTarget(prev)
-    done.then(() => rt.dispose())
-  }, [loaded, gl, scene, camera])
+    performance.mark('gl:compile-queued')
+    // reading each shader's error log on first use is slow on Windows (and only for development), so it is
+    // skipped in production; and the textures go up to the GPU now, while the main thread waits on the compile,
+    // instead of in the first frame
+    if (!import.meta.env.DEV) gl.debug.checkShaderErrors = false
+    const textures = new Set<THREE.Texture>()
+    const take = (v: unknown) => { if (v instanceof THREE.Texture && !(v as THREE.Texture & { isRenderTargetTexture?: boolean }).isRenderTargetTexture) textures.add(v) }
+    scene.traverse((o) => {
+      const mat = (o as THREE.Mesh).material
+      for (const m of Array.isArray(mat) ? mat : mat ? [mat] : []) {
+        Object.values(m).forEach(take)
+        const u = (m as THREE.ShaderMaterial).uniforms
+        if (u) Object.values(u).forEach((x) => take(x?.value))
+      }
+    })
+    liveryTextures.forEach((t) => textures.add(t))
+    textures.forEach((t) => gl.initTexture(t))
+    performance.mark('gl:textures')
+    Promise.all([done, fxDone]).then(go, go).finally(() => { rt.dispose(); quad.dispose() })
+    // never hold the studio back for long, whatever the driver does
+    const t = setTimeout(go, 8000)
+    return () => clearTimeout(t)
+  }, [loaded, gl, scene, camera, onReady, composer])
   return null
 }
 
@@ -454,6 +515,10 @@ function FocusPuller({ dof }: { dof: React.RefObject<DepthOfFieldEffect | null> 
 const parked = () => store.get().hold && drive.speed < 0.01
 
 export function Scene() {
+  // no frames until the opening scene's shaders are compiled (WarmUp)
+  const [loop, setLoop] = useState<'never' | 'always'>('never')
+  const start = useCallback(() => setLoop('always'), [])
+  const composer = useRef<EffectComposerImpl>(null)
   const dof = useRef<DepthOfFieldEffect | null>(null)
   // the lens rain is a full-screen pass of its own, so it is only in the chain while it is raining
   useWeather()
@@ -462,6 +527,7 @@ export function Scene() {
   const [dpr, setDpr] = useState(() => Math.min(typeof devicePixelRatio === 'number' ? devicePixelRatio : 1, 1.5))
   return (
     <Canvas
+      frameloop={loop}
       className="stage"
       style={{ position: 'fixed', inset: 0, width: '100%', height: '100%' }}
       shadows={off('noshadow') ? false : 'soft'}
@@ -509,9 +575,9 @@ export function Scene() {
       <RollingRoad />
       <LightStreaks />
       <CameraRig />
-      <WarmUp />
+      <WarmUp onReady={start} composer={composer} />
       <AberrationDriver />
-      <EffectComposer multisampling={off('nomsaa') ? 0 : 2} enableNormalPass enabled={!off('nopost')}>
+      <EffectComposer ref={composer} multisampling={off('nomsaa') ? 0 : 2} enableNormalPass enabled={!off('nopost')}>
         {/* contact darkening in seams, under the floor and around the suspension: the biggest step away from 'CG' */}
         {off('noao') ? <></> : <N8AO aoRadius={0.45} distanceFalloff={0.6} intensity={2.6} quality="medium" halfRes />}
         {/* the exploded drawing's feature lines and blueprint grade (Projects corner) */}
