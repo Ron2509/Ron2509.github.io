@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T05:10:59.663Z",
+  "updated": "2026-10-23T17:21:14.999Z",
   "sources": [
     "MIT Technology Review",
     "The Guardian",
@@ -17,7 +17,98 @@
   ],
   "items": [
     {
-      "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia",
+      "title": "Intel gets waiver after worries fuzzy US ban on foreign-made robots may hit fabs",
+      "url": "https://arstechnica.com/ai/2026/10/intel-gets-waiver-after-worries-fuzzy-us-ban-on-foreign-made-robots-may-hit-fabs/",
+      "source": "Ars Technica",
+      "time": "2026-10-23T17:18:31.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "The iPhone Duo should have been an iPad",
+      "url": "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast",
+      "source": "The Verge",
+      "time": "2026-10-23T17:00:18.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "source": "OpenAI",
+      "time": "2026-10-23T17:00:00.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Now Google says it might use your Gmail and Google Photos data to target ads",
+      "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+      "source": "The Verge",
+      "time": "2026-10-23T16:52:55.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+      "url": "https://huggingface.co/blog/allenai/litpivot",
+      "source": "Hugging Face",
+      "time": "2026-10-23T16:15:50.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "What kind of AI economy does India want to build?",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/what-kind-of-ai-economy-does-india-want-to-build/articleshow/135149011.cms",
+      "source": "The Economic Times",
+      "time": "2026-10-23T15:33:02.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Meta delays new business terms after publisher pushback on AI scraping",
+      "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
+      "source": "The Verge",
+      "time": "2026-10-23T14:47:41.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "eMudhra security lapse explained | Co-founder Kaushik Srinivasan on what went wrong",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/emudhra-security-lapse-explained-co-founder-kaushik-srinivasan-on-what-went-wrong/videoshow/135148226.cms",
+      "source": "The Economic Times",
+      "time": "2026-10-23T14:05:10.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Experts cast doubt on Anthropic report detailing how AI has altered work at the company",
+      "url": "https://www.theguardian.com/technology/2026/oct/23/anthropic-report-ai-workplace-shifts",
+      "source": "The Guardian",
+      "time": "2026-10-23T14:00:28.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Is a job guarantee the solution to mass AI unemployment?",
+      "url": "https://www.theguardian.com/technology/2026/oct/23/job-guarantee-ai-mass-unemployment",
+      "source": "The Guardian",
+      "time": "2026-10-23T10:00:30.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Meta’s bigger budget, Tesla’s smaller one leave Wall Street uneasy",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/metas-bigger-budget-teslas-smaller-one-leave-wall-street-uneasy/articleshow/135140429.cms",
+      "source": "The Economic Times",
+      "time": "2026-10-23T08:54:19.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "The Indian workers filming their work to train AI",
+      "url": "https://www.bbc.co.uk/news/articles/ckvgyml6pdm9o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "time": "2026-10-23T08:04:17.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Can AI really predict cancer survival better than a doctor? I have my doubts | Devi Sridhar",
+      "url": "https://www.theguardian.com/commentisfree/2026/oct/23/ai-cancer-survival-doctor-selfie-health-research",
+      "source": "The Guardian",
+      "time": "2026-10-23T07:00:03.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony AI and Nvidia",
       "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
       "source": "TechCrunch",
       "time": "2026-10-23T04:00:00.000Z",
@@ -31,18 +122,25 @@
       "kind": "lab"
     },
     {
-      "title": "US banks are blocking third-party AI agents access to customer accounts, sources say",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/us-banks-are-blocking-third-party-ai-agents-access-to-customer-accounts-sources-say/articleshow/135131006.cms",
-      "source": "The Economic Times",
-      "time": "2026-10-23T00:55:51.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Left alone with nothing to do, AI agents started playing",
       "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
       "source": "TechCrunch",
       "time": "2026-10-23T00:45:37.000Z",
       "kind": "press"
+    },
+    {
+      "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "source": "OpenAI",
+      "time": "2026-10-23T00:00:00.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Does Your Model Run on AWS Trainium? Look It Up",
+      "url": "https://huggingface.co/blog/torch-neuronx-model-support",
+      "source": "Hugging Face",
+      "time": "2026-10-23T00:00:00.000Z",
+      "kind": "lab"
     },
     {
       "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
@@ -59,38 +157,10 @@
       "kind": "press"
     },
     {
-      "title": "Canva’s first AI image model plans designs before generating them",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
-      "source": "The Verge",
-      "time": "2026-10-22T21:51:25.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Sharp drops for AI stocks overwhelm markets worldwide as oil prices jump",
-      "url": "https://www.theguardian.com/business/2026/oct/22/stock-markets-drop-ai-oil",
-      "source": "The Guardian",
-      "time": "2026-10-22T21:50:13.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Designing an AI serving harness built to last",
       "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
       "source": "MIT Technology Review",
       "time": "2026-10-22T21:17:29.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Meta’s AI could still scrape news sites, legal experts say",
-      "url": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
-      "source": "The Verge",
-      "time": "2026-10-22T20:32:05.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Meta turns Muse sharing back on",
-      "url": "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts",
-      "source": "The Verge",
-      "time": "2026-10-22T20:24:04.000Z",
       "kind": "press"
     },
     {
@@ -115,20 +185,6 @@
       "kind": "press"
     },
     {
-      "title": "The Guardian view on AI safety: the push for global regulation must advance | Editorial",
-      "url": "https://www.theguardian.com/commentisfree/2026/oct/22/the-guardian-view-on-ai-safety-the-push-for-global-regulation-must-advance",
-      "source": "The Guardian",
-      "time": "2026-10-22T17:30:45.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
-      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
-      "source": "Hugging Face",
-      "time": "2026-10-22T16:11:31.000Z",
-      "kind": "lab"
-    },
-    {
       "title": "Hackers got a four-day head start on epic PHP2Shell vulnerability",
       "url": "https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/",
       "source": "Ars Technica",
@@ -143,13 +199,6 @@
       "kind": "lab"
     },
     {
-      "title": "Barclays to cut 5,000 jobs as bank’s bosses hail AI productivity advances",
-      "url": "https://www.theguardian.com/business/2026/oct/22/barclays-profits-up-as-uk-banks-brace-for-tax-increase-in-budget",
-      "source": "The Guardian",
-      "time": "2026-10-22T14:39:29.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Beyond tree cover: mapping the world’s forest types",
       "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
       "source": "Google DeepMind",
@@ -162,55 +211,6 @@
       "source": "Wired",
       "time": "2026-10-22T13:00:00.000Z",
       "kind": "press"
-    },
-    {
-      "title": "88% Indian firms want FDEs by 2030; only 1% of engineers fit the bill: Scaler-CMR report",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/88-indian-firms-want-fdes-by-2030-only-1-of-engineers-fit-the-bill-scaler-cmr-report/articleshow/135117378.cms",
-      "source": "The Economic Times",
-      "time": "2026-10-22T11:40:09.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "'500 new vulnerabilities' found in government, says AI minister",
-      "url": "https://www.bbc.co.uk/news/videos/c6y8lvg2p50po?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "time": "2026-10-22T10:08:44.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Nvidia launches OpenShell Reference Architecture to contain AI agents",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/nvidia-launches-openshell-reference-architecture-to-contain-ai-agents/articleshow/135115281.cms",
-      "source": "The Economic Times",
-      "time": "2026-10-22T10:01:21.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Making the case for context-aware AI",
-      "url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
-      "source": "MIT Technology Review",
-      "time": "2026-10-22T10:00:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Hugging Face’s New AI Biology Model Lets You Chat With DNA",
-      "url": "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/",
-      "source": "Wired",
-      "time": "2026-10-22T10:00:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Ensemble forecasting with IBM Granite time-series models",
-      "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
-      "source": "Hugging Face",
-      "time": "2026-10-22T07:51:31.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "What FDE means at OpenAI",
-      "url": "https://openai.com/index/forward-deployed-engineering-means",
-      "source": "OpenAI",
-      "time": "2026-10-22T06:00:00.000Z",
-      "kind": "lab"
     }
   ]
 }
