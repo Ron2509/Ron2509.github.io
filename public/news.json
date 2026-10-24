@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T17:21:14.999Z",
+  "updated": "2026-10-24T04:53:33.714Z",
   "sources": [
     "MIT Technology Review",
     "The Guardian",
@@ -16,6 +16,83 @@
     "Hugging Face"
   ],
   "items": [
+    {
+      "title": "OpenAI resumes frontier AI training after security overhaul, discloses flaw in widely used software",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/openai-resumes-frontier-ai-training-after-security-overhaul-discloses-flaw-in-widely-used-software/articleshow/135159680.cms",
+      "source": "The Economic Times",
+      "time": "2026-10-24T01:52:50.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "UK to invest £100m in 'world first' AI Biosecurity Lab",
+      "url": "https://www.bbc.co.uk/news/articles/cqdjv8xllvyyo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "time": "2026-10-24T00:05:45.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+      "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+      "source": "TechCrunch",
+      "time": "2026-10-23T23:05:49.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Blue Planet III features cloudier footage to prove authenticity amid AI boom",
+      "url": "https://www.theguardian.com/media/2026/oct/24/blue-planet-iii-cloudier-footage-prove-authenticity-ai-boom",
+      "source": "The Guardian",
+      "time": "2026-10-23T23:01:16.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
+      "url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
+      "source": "TechCrunch",
+      "time": "2026-10-23T21:59:19.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "OpenAI now trains its frontier AI models with no internet access",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+      "source": "The Verge",
+      "time": "2026-10-23T21:11:07.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Updated Google privacy policy says your Gmail might be used for advertising",
+      "url": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
+      "source": "Ars Technica",
+      "time": "2026-10-23T20:19:55.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
+      "source": "The Verge",
+      "time": "2026-10-23T19:32:39.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
+      "url": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
+      "source": "TechCrunch",
+      "time": "2026-10-23T19:06:23.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Centre recognises AI needs more regulation: IT Secretary",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/centre-recognises-ai-needs-more-regulation-it-secretary/articleshow/135154257.cms",
+      "source": "The Economic Times",
+      "time": "2026-10-23T19:00:51.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "‘Black October’: cybersecurity experts sound the alarm over new era of AI-enabled hacking",
+      "url": "https://www.theguardian.com/technology/2026/oct/23/cybersecurity-ai-hacking-php-vulnerability",
+      "source": "The Guardian",
+      "time": "2026-10-23T18:48:48.000Z",
+      "kind": "press"
+    },
     {
       "title": "Intel gets waiver after worries fuzzy US ban on foreign-made robots may hit fabs",
       "url": "https://arstechnica.com/ai/2026/10/intel-gets-waiver-after-worries-fuzzy-us-ban-on-foreign-made-robots-may-hit-fabs/",
@@ -38,13 +115,6 @@
       "kind": "lab"
     },
     {
-      "title": "Now Google says it might use your Gmail and Google Photos data to target ads",
-      "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
-      "source": "The Verge",
-      "time": "2026-10-23T16:52:55.000Z",
-      "kind": "press"
-    },
-    {
       "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
       "url": "https://huggingface.co/blog/allenai/litpivot",
       "source": "Hugging Face",
@@ -59,20 +129,6 @@
       "kind": "press"
     },
     {
-      "title": "Meta delays new business terms after publisher pushback on AI scraping",
-      "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
-      "source": "The Verge",
-      "time": "2026-10-23T14:47:41.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "eMudhra security lapse explained | Co-founder Kaushik Srinivasan on what went wrong",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/emudhra-security-lapse-explained-co-founder-kaushik-srinivasan-on-what-went-wrong/videoshow/135148226.cms",
-      "source": "The Economic Times",
-      "time": "2026-10-23T14:05:10.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Experts cast doubt on Anthropic report detailing how AI has altered work at the company",
       "url": "https://www.theguardian.com/technology/2026/oct/23/anthropic-report-ai-workplace-shifts",
       "source": "The Guardian",
@@ -80,18 +136,11 @@
       "kind": "press"
     },
     {
-      "title": "Is a job guarantee the solution to mass AI unemployment?",
-      "url": "https://www.theguardian.com/technology/2026/oct/23/job-guarantee-ai-mass-unemployment",
-      "source": "The Guardian",
-      "time": "2026-10-23T10:00:30.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Meta’s bigger budget, Tesla’s smaller one leave Wall Street uneasy",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/metas-bigger-budget-teslas-smaller-one-leave-wall-street-uneasy/articleshow/135140429.cms",
-      "source": "The Economic Times",
-      "time": "2026-10-23T08:54:19.000Z",
-      "kind": "press"
+      "title": "Securing our frontier model training environment",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "source": "OpenAI",
+      "time": "2026-10-23T10:00:00.000Z",
+      "kind": "lab"
     },
     {
       "title": "The Indian workers filming their work to train AI",
@@ -101,32 +150,11 @@
       "kind": "press"
     },
     {
-      "title": "Can AI really predict cancer survival better than a doctor? I have my doubts | Devi Sridhar",
-      "url": "https://www.theguardian.com/commentisfree/2026/oct/23/ai-cancer-survival-doctor-selfie-health-research",
-      "source": "The Guardian",
-      "time": "2026-10-23T07:00:03.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony AI and Nvidia",
-      "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
-      "source": "TechCrunch",
-      "time": "2026-10-23T04:00:00.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Kazakhstan Expands Compute for Its AI Future",
       "url": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
       "source": "NVIDIA",
       "time": "2026-10-23T02:00:13.000Z",
       "kind": "lab"
-    },
-    {
-      "title": "Left alone with nothing to do, AI agents started playing",
-      "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
-      "source": "TechCrunch",
-      "time": "2026-10-23T00:45:37.000Z",
-      "kind": "press"
     },
     {
       "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
@@ -150,13 +178,6 @@
       "kind": "lab"
     },
     {
-      "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
-      "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
-      "source": "TechCrunch",
-      "time": "2026-10-22T22:08:24.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Designing an AI serving harness built to last",
       "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
       "source": "MIT Technology Review",
@@ -171,45 +192,10 @@
       "kind": "press"
     },
     {
-      "title": "Build more responsive apps with the Decisions API",
-      "url": "https://openai.com/index/decisions-api",
-      "source": "OpenAI",
-      "time": "2026-10-22T19:00:00.000Z",
-      "kind": "lab"
-    },
-    {
       "title": "The Foundations of Scalable AI",
       "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
       "source": "MIT Technology Review",
       "time": "2026-10-22T18:48:04.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Hackers got a four-day head start on epic PHP2Shell vulnerability",
-      "url": "https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/",
-      "source": "Ars Technica",
-      "time": "2026-10-22T15:25:02.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
-      "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
-      "source": "NVIDIA",
-      "time": "2026-10-22T15:00:02.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Beyond tree cover: mapping the world’s forest types",
-      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-      "source": "Google DeepMind",
-      "time": "2026-10-22T14:30:24.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Meet Mori, a Cute Robot Mushroom That Doesn’t Really Say (or Do) Anything",
-      "url": "https://www.wired.com/story/meet-mori-a-cute-robot-mushroom-that-doesnt-really-say-or-do-anything/",
-      "source": "Wired",
-      "time": "2026-10-22T13:00:00.000Z",
       "kind": "press"
     }
   ]
