@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T04:53:33.714Z",
+  "updated": "2026-10-24T16:09:42.392Z",
   "sources": [
     "MIT Technology Review",
     "The Guardian",
@@ -17,10 +17,66 @@
   ],
   "items": [
     {
-      "title": "OpenAI resumes frontier AI training after security overhaul, discloses flaw in widely used software",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/openai-resumes-frontier-ai-training-after-security-overhaul-discloses-flaw-in-widely-used-software/articleshow/135159680.cms",
+      "title": "Block’s new voice model sounds eerily human",
+      "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+      "source": "TechCrunch",
+      "time": "2026-10-24T16:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+      "source": "TechCrunch",
+      "time": "2026-10-24T15:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "AI could unlock $2.52 trillion in annual global economic value: Report",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/ai-could-unlock-2-52-trillion-in-annual-global-economic-value-report/articleshow/135172514.cms",
       "source": "The Economic Times",
-      "time": "2026-10-24T01:52:50.000Z",
+      "time": "2026-10-24T14:37:25.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Here are the top AI agents that can live in your text messages",
+      "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "source": "TechCrunch",
+      "time": "2026-10-24T14:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "The PHP Meltdown Shows How AI Makes Bugs More Exploitable",
+      "url": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
+      "source": "Wired",
+      "time": "2026-10-24T12:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "inDrive taps Pony.ai and Nvidia to test robotaxis in one of the world's coldest capitals",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/indrive-taps-pony-ai-and-nvidia-to-test-robotaxis-in-one-of-the-worlds-coldest-capitals/articleshow/135169539.cms",
+      "source": "The Economic Times",
+      "time": "2026-10-24T11:30:37.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "OpenAI enters Jev’s turf with a decision API for AI agents",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/openai-enters-jevs-turf-with-a-decision-api-for-ai-agents/articleshow/135168886.cms",
+      "source": "The Economic Times",
+      "time": "2026-10-24T11:03:59.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Blue Planet III features cloudier footage to prove authenticity amid AI boom",
+      "url": "https://www.theguardian.com/media/2026/oct/24/blue-planet-iii-cloudier-footage-prove-authenticity-ai-boom",
+      "source": "The Guardian",
+      "time": "2026-10-24T08:32:56.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "John Healey pledges to use budget to harness power of AI to bolster Britain’s security",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/24/john-healey-pledges-to-use-budget-to-harness-power-of-ai-to-bolster-britains-security",
+      "source": "The Guardian",
+      "time": "2026-10-24T05:00:24.000Z",
       "kind": "press"
     },
     {
@@ -28,27 +84,6 @@
       "url": "https://www.bbc.co.uk/news/articles/cqdjv8xllvyyo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "time": "2026-10-24T00:05:45.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
-      "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
-      "source": "TechCrunch",
-      "time": "2026-10-23T23:05:49.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Blue Planet III features cloudier footage to prove authenticity amid AI boom",
-      "url": "https://www.theguardian.com/media/2026/oct/24/blue-planet-iii-cloudier-footage-prove-authenticity-ai-boom",
-      "source": "The Guardian",
-      "time": "2026-10-23T23:01:16.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
-      "url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
-      "source": "TechCrunch",
-      "time": "2026-10-23T21:59:19.000Z",
       "kind": "press"
     },
     {
@@ -70,20 +105,6 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
       "source": "The Verge",
       "time": "2026-10-23T19:32:39.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
-      "url": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
-      "source": "TechCrunch",
-      "time": "2026-10-23T19:06:23.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Centre recognises AI needs more regulation: IT Secretary",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/centre-recognises-ai-needs-more-regulation-it-secretary/articleshow/135154257.cms",
-      "source": "The Economic Times",
-      "time": "2026-10-23T19:00:51.000Z",
       "kind": "press"
     },
     {
@@ -122,20 +143,6 @@
       "kind": "lab"
     },
     {
-      "title": "What kind of AI economy does India want to build?",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/what-kind-of-ai-economy-does-india-want-to-build/articleshow/135149011.cms",
-      "source": "The Economic Times",
-      "time": "2026-10-23T15:33:02.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Experts cast doubt on Anthropic report detailing how AI has altered work at the company",
-      "url": "https://www.theguardian.com/technology/2026/oct/23/anthropic-report-ai-workplace-shifts",
-      "source": "The Guardian",
-      "time": "2026-10-23T14:00:28.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Securing our frontier model training environment",
       "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
       "source": "OpenAI",
@@ -147,55 +154,6 @@
       "url": "https://www.bbc.co.uk/news/articles/ckvgyml6pdm9o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "time": "2026-10-23T08:04:17.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Kazakhstan Expands Compute for Its AI Future",
-      "url": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
-      "source": "NVIDIA",
-      "time": "2026-10-23T02:00:13.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
-      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
-      "source": "OpenAI",
-      "time": "2026-10-23T00:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Does Your Model Run on AWS Trainium? Look It Up",
-      "url": "https://huggingface.co/blog/torch-neuronx-model-support",
-      "source": "Hugging Face",
-      "time": "2026-10-23T00:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
-      "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
-      "source": "Hugging Face",
-      "time": "2026-10-22T22:24:34.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Designing an AI serving harness built to last",
-      "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
-      "source": "MIT Technology Review",
-      "time": "2026-10-22T21:17:29.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "The Social Society Helping Women Join the AI Boom",
-      "url": "https://www.wired.com/story/aged-intelligence-society-interview/",
-      "source": "Wired",
-      "time": "2026-10-22T19:56:32.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "The Foundations of Scalable AI",
-      "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
-      "source": "MIT Technology Review",
-      "time": "2026-10-22T18:48:04.000Z",
       "kind": "press"
     }
   ]
