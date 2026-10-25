@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T05:04:40.172Z",
+  "updated": "2026-10-25T16:41:07.673Z",
   "sources": [
     "MIT Technology Review",
     "The Guardian",
@@ -16,6 +16,34 @@
     "Hugging Face"
   ],
   "items": [
+    {
+      "title": "The hottest AI wearables and gadgets you should know about",
+      "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+      "source": "TechCrunch",
+      "time": "2026-10-25T14:10:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Google’s AI search changes upended online publishing",
+      "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+      "source": "The Verge",
+      "time": "2026-10-25T12:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "AI companies turn to religion for moral guidance, but experts warn of oversimplification",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/ai-companies-turn-to-religion-for-moral-guidance-but-experts-warn-of-oversimplification/articleshow/135189602.cms",
+      "source": "The Economic Times",
+      "time": "2026-10-25T11:19:55.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "What the US Movement Against Data Centers Can Learn From Abroad",
+      "url": "https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/",
+      "source": "Wired",
+      "time": "2026-10-25T10:00:00.000Z",
+      "kind": "press"
+    },
     {
       "title": "Blue Planet III is keeping the rough edges in the age of AI",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
@@ -52,13 +80,6 @@
       "kind": "press"
     },
     {
-      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
-      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
-      "source": "TechCrunch",
-      "time": "2026-10-24T15:00:00.000Z",
-      "kind": "press"
-    },
-    {
       "title": "AI could unlock $2.52 trillion in annual global economic value: Report",
       "url": "https://economictimes.indiatimes.com/ai/ai-insights/ai-could-unlock-2-52-trillion-in-annual-global-economic-value-report/articleshow/135172514.cms",
       "source": "The Economic Times",
@@ -80,13 +101,6 @@
       "kind": "press"
     },
     {
-      "title": "OpenAI enters Jev’s turf with a decision API for AI agents",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/openai-enters-jevs-turf-with-a-decision-api-for-ai-agents/articleshow/135168886.cms",
-      "source": "The Economic Times",
-      "time": "2026-10-24T11:03:59.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Blue Planet III features cloudier footage to prove authenticity amid AI boom",
       "url": "https://www.theguardian.com/media/2026/oct/24/blue-planet-iii-cloudier-footage-prove-authenticity-ai-boom",
       "source": "The Guardian",
@@ -98,34 +112,6 @@
       "url": "https://www.theguardian.com/uk-news/2026/oct/24/john-healey-pledges-to-use-budget-to-harness-power-of-ai-to-bolster-britains-security",
       "source": "The Guardian",
       "time": "2026-10-24T05:00:24.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "UK to invest £100m in 'world first' AI Biosecurity Lab",
-      "url": "https://www.bbc.co.uk/news/articles/cqdjv8xllvyyo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "time": "2026-10-24T00:05:45.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "OpenAI now trains its frontier AI models with no internet access",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
-      "source": "The Verge",
-      "time": "2026-10-23T21:11:07.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Updated Google privacy policy says your Gmail might be used for advertising",
-      "url": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
-      "source": "Ars Technica",
-      "time": "2026-10-23T20:19:55.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Intel gets waiver after worries fuzzy US ban on foreign-made robots may hit fabs",
-      "url": "https://arstechnica.com/ai/2026/10/intel-gets-waiver-after-worries-fuzzy-us-ban-on-foreign-made-robots-may-hit-fabs/",
-      "source": "Ars Technica",
-      "time": "2026-10-23T17:18:31.000Z",
       "kind": "press"
     }
   ]
