@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26T05:08:18.515Z",
+  "updated": "2026-10-26T18:48:01.298Z",
   "sources": [
     "MIT Technology Review",
     "The Guardian",
@@ -17,74 +17,172 @@
   ],
   "items": [
     {
-      "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
-      "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
-      "source": "TechCrunch",
-      "time": "2026-10-25T21:31:16.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Anthropic sued for allegedly using 274 Elvis Presley songs to train AI models",
-      "url": "https://www.theguardian.com/us-news/2026/oct/25/elvis-presley-anthropic-lawsuit-ai-models-music",
-      "source": "The Guardian",
-      "time": "2026-10-25T18:25:59.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
-      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
-      "source": "TechCrunch",
-      "time": "2026-10-25T16:57:32.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "The hottest AI wearables and gadgets you should know about",
-      "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
-      "source": "TechCrunch",
-      "time": "2026-10-25T14:10:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "r/opensource just banned AI, non-English speakers, and more",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
-      "source": "The Verge",
-      "time": "2026-10-25T13:25:32.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Google’s AI search changes upended online publishing",
-      "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
-      "source": "The Verge",
-      "time": "2026-10-25T12:00:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "AI companies turn to religion for moral guidance, but experts warn of oversimplification",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/ai-companies-turn-to-religion-for-moral-guidance-but-experts-warn-of-oversimplification/articleshow/135189602.cms",
+      "title": "How AI is redefining brand discovery and the future of digital marketing | Kirthiga Reddy",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/how-ai-is-redefining-brand-discovery-and-the-future-of-digital-marketing-kirthiga-reddy/videoshow/135217283.cms",
       "source": "The Economic Times",
-      "time": "2026-10-25T11:19:55.000Z",
+      "time": "2026-10-26T17:56:26.000Z",
       "kind": "press"
     },
     {
-      "title": "What the US Movement Against Data Centers Can Learn From Abroad",
-      "url": "https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/",
-      "source": "Wired",
-      "time": "2026-10-25T10:00:00.000Z",
+      "title": "Will the real Anthropic please stand up",
+      "url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
+      "source": "MIT Technology Review",
+      "time": "2026-10-26T17:45:43.000Z",
       "kind": "press"
     },
     {
-      "title": "Blue Planet III is keeping the rough edges in the age of AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
-      "source": "The Verge",
-      "time": "2026-10-24T21:29:12.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "‘Synthetic twin’: Why Socceroo Cristian Volpato is the latest footballer to license his AI clone",
-      "url": "https://www.theguardian.com/technology/2026/oct/25/synthetic-twin-why-socceroo-cristian-volpato-is-the-latest-footballer-to-license-his-ai-clone",
+      "title": "AI book prize judges face a major speed-reading challenge | Brief letters",
+      "url": "https://www.theguardian.com/technology/2026/oct/26/ai-book-prize-judges-face-a-major-speed-reading-challenge",
       "source": "The Guardian",
-      "time": "2026-10-24T19:00:40.000Z",
+      "time": "2026-10-26T17:38:50.000Z",
       "kind": "press"
+    },
+    {
+      "title": "The RealReal won’t let AI agents hog designer clothing",
+      "url": "https://www.theverge.com/news/1018713/meta-muse-agentic-shopping-ai-the-realreal",
+      "source": "The Verge",
+      "time": "2026-10-26T17:30:55.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Highway thieves are spoofing GPS to steal millions in data center-bound cargo",
+      "url": "https://arstechnica.com/tech-policy/2026/10/highway-thieves-are-spoofing-gps-to-steal-millions-in-data-center-bound-cargo/",
+      "source": "Ars Technica",
+      "time": "2026-10-26T17:26:36.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Anthropic's blockbuster share listing - 5 surprising things we now know",
+      "url": "https://www.bbc.co.uk/news/articles/cwn8d7g29vd9o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "time": "2026-10-26T17:20:54.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Five weird details from Anthropic’s IPO filing",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018738/anthropic-ipo-s1-filing-weird-details",
+      "source": "The Verge",
+      "time": "2026-10-26T17:10:23.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
+      "url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
+      "source": "TechCrunch",
+      "time": "2026-10-26T16:49:42.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "SpaceX locks in $40B GPU financing deal with Apollo",
+      "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
+      "source": "TechCrunch",
+      "time": "2026-10-26T16:46:36.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing",
+      "url": "https://www.bbc.co.uk/news/articles/cq398p1wd1evo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "time": "2026-10-26T16:27:17.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Anthropic reveals rapid revenue gains and larger losses in stock market filing",
+      "url": "https://www.theguardian.com/technology/2026/oct/26/anthropic-files-listing-stock-market",
+      "source": "The Guardian",
+      "time": "2026-10-26T16:22:28.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "The Anthropic S-1 Filing Is Also an AI Doomsday Primer",
+      "url": "https://www.wired.com/story/the-anthropic-ipo-is-also-a-doomsday-primer/",
+      "source": "Wired",
+      "time": "2026-10-26T16:01:55.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Our newest AI Quest: Mapping the human brain",
+      "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+      "source": "Google AI",
+      "time": "2026-10-26T16:00:00.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Microsoft offers buyouts to 60,000 employees",
+      "url": "https://www.theverge.com/tech/1018666/microsoft-expands-buyouts-60000-employees-eligible",
+      "source": "The Verge",
+      "time": "2026-10-26T15:58:27.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Anthropic files for stock market IPO; Meta announces $95bn fundraising drive to pay for AI expansion – as it happened",
+      "url": "https://www.theguardian.com/business/live/2026/oct/26/ai-cloud-computing-companies-guppy-level-death-elon-musk-stock-markets-dollar-oil-bond-yieds-latest-news-updates",
+      "source": "The Guardian",
+      "time": "2026-10-26T15:33:24.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Anthropic’s IPO Prospectus Reveals What’s Under the Hood",
+      "url": "https://www.wired.com/story/anthropic-ipo-filings-reveal-finances-risks-strategy/",
+      "source": "Wired",
+      "time": "2026-10-26T14:50:47.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Anthropic officially files for its public debut",
+      "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+      "source": "TechCrunch",
+      "time": "2026-10-26T14:35:22.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Tesla gave up the EV crown. Now it wants to win the autonomy race.",
+      "url": "https://arstechnica.com/cars/2026/10/tesla-wants-ai-and-software-to-be-its-next-profit-engine/",
+      "source": "Ars Technica",
+      "time": "2026-10-26T14:30:27.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Apple Pay in India: Visa, Apple Pay & Axis Bank Shape the Next Chapter of Digital Commerce",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/apple-pay-in-india-visa-apple-pay-axis-bank-shape-the-next-chapter-of-digital-commerce/videoshow/135212459.cms",
+      "source": "The Economic Times",
+      "time": "2026-10-26T12:52:58.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Anthropic is said to plan public filing for Mega-IPO Monday",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/anthropic-is-said-to-plan-public-filing-for-mega-ipo-monday/articleshow/135211786.cms",
+      "source": "The Economic Times",
+      "time": "2026-10-26T12:23:45.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "ChatGPT’s expanding world of work",
+      "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "source": "OpenAI",
+      "time": "2026-10-26T10:00:00.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Meet the AI Agents Trying to Be Real-Life Journalists",
+      "url": "https://www.wired.com/story/ai-agents-are-trying-to-be-journalists-now/",
+      "source": "Wired",
+      "time": "2026-10-26T09:30:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "The focus on AI safety disasters ignores everyday harms",
+      "url": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/",
+      "source": "MIT Technology Review",
+      "time": "2026-10-26T09:01:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "How Fanatics and OpenAI streamline the fan experience",
+      "url": "https://openai.com/index/fanatics-streamline-fan-experience",
+      "source": "OpenAI",
+      "time": "2026-10-26T07:00:00.000Z",
+      "kind": "lab"
     }
   ]
 }
