@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27T05:23:17.005Z",
+  "updated": "2026-10-27T18:09:56.402Z",
   "sources": [
     "MIT Technology Review",
     "The Guardian",
@@ -17,53 +17,158 @@
   ],
   "items": [
     {
-      "title": "Why corporate reskilling needs to move beyond training courses",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/why-corporate-reskilling-needs-to-move-beyond-training-courses/articleshow/135224860.cms",
-      "source": "The Economic Times",
-      "time": "2026-10-27T05:05:17.000Z",
-      "kind": "press"
+      "title": "Build specialized multimodal models with LFM3",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "source": "Hugging Face",
+      "time": "2026-10-27T17:16:52.000Z",
+      "kind": "lab"
     },
     {
-      "title": "Four takeaways from Anthropic’s potentially record-breaking stock market filing",
-      "url": "https://www.theguardian.com/technology/2026/oct/26/anthropic-stock-market-filing-takeaways",
-      "source": "The Guardian",
-      "time": "2026-10-27T05:00:04.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Chinese markets lose trillions as race for AI supremacy with US takes its toll",
-      "url": "https://www.theguardian.com/world/2026/oct/27/chinese-markets-lose-trillions-ai-race-beijing",
-      "source": "The Guardian",
-      "time": "2026-10-27T04:42:50.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
-      "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
+      "title": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?",
+      "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
       "source": "TechCrunch",
-      "time": "2026-10-27T02:00:00.000Z",
+      "time": "2026-10-27T17:08:08.000Z",
       "kind": "press"
     },
     {
-      "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
-      "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
-      "source": "TechCrunch",
-      "time": "2026-10-27T01:12:21.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "‘Digital hostile environment’: AI secretly being embedded across Home Office, report claims",
-      "url": "https://www.theguardian.com/politics/2026/oct/27/digital-hostile-environment-ai-secretly-embedded-home-office-report",
-      "source": "The Guardian",
-      "time": "2026-10-27T00:01:02.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "OpenAI announces three big science discoveries and a new way to work with academics",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
+      "title": "Anthropic’s elaborate plan to keep Wall Street at bay",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety",
       "source": "The Verge",
-      "time": "2026-10-26T23:34:58.000Z",
+      "time": "2026-10-27T16:51:22.000Z",
       "kind": "press"
+    },
+    {
+      "title": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
+      "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+      "source": "TechCrunch",
+      "time": "2026-10-27T16:30:57.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Firefox’s Smart Window adds AI form filling and webpage monitoring",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms",
+      "source": "The Verge",
+      "time": "2026-10-27T16:14:18.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Can we trust LLMs to judge whether a research idea is novel?",
+      "url": "https://huggingface.co/blog/allenai/novelty-bench",
+      "source": "Hugging Face",
+      "time": "2026-10-27T16:12:42.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Genie 4: A new generation of world simulation",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "source": "Google DeepMind",
+      "time": "2026-10-27T16:01:38.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "DeepMind unveils Genie 4 world model promising more realistic physics and humans",
+      "url": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/",
+      "source": "Ars Technica",
+      "time": "2026-10-27T16:00:22.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Google’s next Genie AI model generates more realistic experiences",
+      "url": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model",
+      "source": "The Verge",
+      "time": "2026-10-27T16:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "UK Home Office May Face Investigation Over Use of OpenAI Tech",
+      "url": "https://www.wired.com/story/uk-home-office-may-face-investigation-over-use-of-openai-tools/",
+      "source": "Wired",
+      "time": "2026-10-27T15:10:26.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia",
+      "url": "https://blogs.nvidia.com/blog/open-source-ai-tools-cbrain-dementia/",
+      "source": "NVIDIA",
+      "time": "2026-10-27T15:00:20.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
+      "url": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
+      "source": "TechCrunch",
+      "time": "2026-10-27T14:59:09.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "‘Meaningless as a laptop screensaver’: reviewers slate Musk’s AI-made Odyssey film",
+      "url": "https://www.theguardian.com/technology/2026/oct/27/reviewers-slate-musk-ai-grok-odyssey-film-nolan",
+      "source": "The Guardian",
+      "time": "2026-10-27T14:08:41.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Elon Musk’s AI Odyssey review – the dullest, most pointless riposte possible to Christopher Nolan’s brilliant epic",
+      "url": "https://www.theguardian.com/film/2026/oct/27/elon-musk-ai-odyssey-movie-grok-christopher-nolan",
+      "source": "The Guardian",
+      "time": "2026-10-27T13:01:46.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Industrial Intelligence: The next growth opportunity for manufacturing",
+      "url": "https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing/",
+      "source": "MIT Technology Review",
+      "time": "2026-10-27T11:19:18.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Who controls powerful AI? Anthropic has a plan for long after its leaders depart",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/who-controls-powerful-ai-anthropic-has-a-plan-for-long-after-its-leaders-depart/articleshow/135231847.cms",
+      "source": "The Economic Times",
+      "time": "2026-10-27T11:03:56.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "AI Agents Are Media’s New Favorite Audience",
+      "url": "https://www.wired.com/story/ai-agents-are-medias-new-favorite-audience/",
+      "source": "Wired",
+      "time": "2026-10-27T11:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Former GitHub CEO launches GitHub rival Entire with India data hosting",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/former-github-ceo-launches-github-rival-entire-with-india-data-hosting/articleshow/135231138.cms",
+      "source": "The Economic Times",
+      "time": "2026-10-27T10:37:53.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "AI-driven disinformation running rampant on social media before US midterms, experts warn",
+      "url": "https://www.theguardian.com/us-news/2026/oct/27/ai-disinformation-social-media-midterm-elections",
+      "source": "The Guardian",
+      "time": "2026-10-27T10:00:10.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "I Tested Every Major AI Agent for a Day. Here’s the Best One",
+      "url": "https://www.wired.com/story/i-tested-every-major-ai-agent-for-a-day-heres-the-best-one/",
+      "source": "Wired",
+      "time": "2026-10-27T09:30:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Sarvam enters defence AI with projects across Army, Navy and Air Force",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/sarvam-enters-defence-ai-with-projects-across-army-navy-and-air-force/articleshow/135227528.cms",
+      "source": "The Economic Times",
+      "time": "2026-10-27T07:27:49.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+      "source": "OpenAI",
+      "time": "2026-10-27T07:00:00.000Z",
+      "kind": "lab"
     },
     {
       "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
@@ -71,20 +176,6 @@
       "source": "OpenAI",
       "time": "2026-10-26T22:00:00.000Z",
       "kind": "lab"
-    },
-    {
-      "title": "Anthropic is burning gas to feed the AI boom",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
-      "source": "The Verge",
-      "time": "2026-10-26T21:45:31.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Why Anthropic’s IPO Prospectus Is Missing So Many Key Figures",
-      "url": "https://www.wired.com/story/anthropic-prospectus-leaves-out-some-numbers/",
-      "source": "Wired",
-      "time": "2026-10-26T21:27:15.000Z",
-      "kind": "press"
     },
     {
       "title": "Apple releases iOS and macOS 27.2 with new Siri AI features, new Music logo",
@@ -108,13 +199,6 @@
       "kind": "press"
     },
     {
-      "title": "How AI is redefining brand discovery and the future of digital marketing | Kirthiga Reddy",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/how-ai-is-redefining-brand-discovery-and-the-future-of-digital-marketing-kirthiga-reddy/videoshow/135217283.cms",
-      "source": "The Economic Times",
-      "time": "2026-10-26T17:56:26.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Will the real Anthropic please stand up",
       "url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
       "source": "MIT Technology Review",
@@ -122,80 +206,10 @@
       "kind": "press"
     },
     {
-      "title": "The RealReal won’t let AI agents hog designer clothing",
-      "url": "https://www.theverge.com/news/1018713/meta-muse-agentic-shopping-ai-the-realreal",
-      "source": "The Verge",
-      "time": "2026-10-26T17:30:55.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Highway thieves are spoofing GPS to steal millions in data center-bound cargo",
-      "url": "https://arstechnica.com/tech-policy/2026/10/highway-thieves-are-spoofing-gps-to-steal-millions-in-data-center-bound-cargo/",
-      "source": "Ars Technica",
-      "time": "2026-10-26T17:26:36.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
-      "url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
-      "source": "TechCrunch",
-      "time": "2026-10-26T16:49:42.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing",
       "url": "https://www.bbc.co.uk/news/articles/cq398p1wd1evo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "time": "2026-10-26T16:27:17.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "The Anthropic S-1 Filing Is Also an AI Doomsday Primer",
-      "url": "https://www.wired.com/story/the-anthropic-ipo-is-also-a-doomsday-primer/",
-      "source": "Wired",
-      "time": "2026-10-26T16:01:55.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Our newest AI Quest: Mapping the human brain",
-      "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
-      "source": "Google AI",
-      "time": "2026-10-26T16:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Anthropic’s IPO Prospectus Reveals What’s Under the Hood",
-      "url": "https://www.wired.com/story/anthropic-ipo-filings-reveal-finances-risks-strategy/",
-      "source": "Wired",
-      "time": "2026-10-26T14:50:47.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Working with academic communities to build scientific understanding",
-      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
-      "source": "OpenAI",
-      "time": "2026-10-26T14:30:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
-      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
-      "source": "OpenAI",
-      "time": "2026-10-26T13:45:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Apple Pay in India: Visa, Apple Pay & Axis Bank Shape the Next Chapter of Digital Commerce",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/apple-pay-in-india-visa-apple-pay-axis-bank-shape-the-next-chapter-of-digital-commerce/videoshow/135212459.cms",
-      "source": "The Economic Times",
-      "time": "2026-10-26T12:52:58.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "The focus on AI safety disasters ignores everyday harms",
-      "url": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/",
-      "source": "MIT Technology Review",
-      "time": "2026-10-26T09:01:00.000Z",
       "kind": "press"
     }
   ]
