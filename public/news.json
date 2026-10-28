@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T06:01:43.636Z",
+  "updated": "2026-10-28T18:26:15.874Z",
   "sources": [
     "MIT Technology Review",
     "The Guardian",
@@ -17,38 +17,150 @@
   ],
   "items": [
     {
-      "title": "‘Emotional intimacy’ from AI chatbots would be banned under Australia’s digital duty of care laws",
-      "url": "https://www.theguardian.com/australia-news/2026/oct/28/emotional-intimacy-ai-chatbots-ban-digital-duty-of-care-laws-australian-politics",
+      "title": "Google AI gets cagey when asked who won the 2020 elections",
+      "url": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/",
+      "source": "Ars Technica",
+      "time": "2026-10-28T17:46:32.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Gemini 4 Carbon: Our next frontier model",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+      "source": "Google DeepMind",
+      "time": "2026-10-28T17:00:58.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Chrome’s AI-powered Autofill can now dig through your Gmail to fill out forms",
+      "url": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/",
+      "source": "TechCrunch",
+      "time": "2026-10-28T17:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
+      "url": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
+      "source": "TechCrunch",
+      "time": "2026-10-28T17:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Chrome’s enhanced autofill can now pull info from Gmail to help you fill out forms",
+      "url": "https://www.theverge.com/tech/1020626/chrome-enhanced-autofill-gmail-forms-gemini-personal-intelligence",
+      "source": "The Verge",
+      "time": "2026-10-28T17:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Meta says it’ll probably delay its controversial new business terms again",
+      "url": "https://www.theverge.com/tech/1020769/meta-updated-business-terms-delay-indefinitely",
+      "source": "The Verge",
+      "time": "2026-10-28T16:15:30.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "AI execs may be too out of touch to build for the general public",
+      "url": "https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/",
+      "source": "TechCrunch",
+      "time": "2026-10-28T15:53:52.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/",
+      "source": "NVIDIA",
+      "time": "2026-10-28T15:00:46.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "source": "Hugging Face",
+      "time": "2026-10-28T14:58:17.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "xAI is buying out homeowners who promise not to sue over data center noise",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit",
+      "source": "The Verge",
+      "time": "2026-10-28T14:44:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Castle Walls review – Prime’s first fully AI-generated show is here, and it’s a Vaseline-smeared mess",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/oct/29/castle-walls-review-prime-first-fully-ai-generated-tv-show",
       "source": "The Guardian",
-      "time": "2026-10-28T05:31:55.000Z",
+      "time": "2026-10-28T14:00:05.000Z",
       "kind": "press"
     },
     {
-      "title": "VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more",
-      "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
-      "source": "TechCrunch",
-      "time": "2026-10-28T01:15:28.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
-      "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
-      "source": "TechCrunch",
-      "time": "2026-10-27T23:34:27.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "The data center boom has an upside: innovation for the US grid",
-      "url": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/",
-      "source": "TechCrunch",
-      "time": "2026-10-27T22:55:41.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "AI bots flooded 2023 UK government consultation on disposable vapes ban",
-      "url": "https://www.theguardian.com/society/2026/oct/27/ai-bots-flooded-2023-uk-government-consultation-disposable-vapes-ban",
+      "title": "Will it be AI or the climate crisis that ends humanity? We can make it neither | Adam McKay and Philip Eubanks",
+      "url": "https://www.theguardian.com/commentisfree/2026/oct/28/ai-climate-crisis-humanity",
       "source": "The Guardian",
-      "time": "2026-10-27T22:30:45.000Z",
+      "time": "2026-10-28T12:00:04.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Pairing industrial AI autonomy and human control",
+      "url": "https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control/",
+      "source": "MIT Technology Review",
+      "time": "2026-10-28T12:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "‘There is no inevitable dystopia’: Jeanette Winterson on AI and the future of humanity",
+      "url": "https://www.theguardian.com/books/2026/oct/28/no-inevitable-dystopia-jeanette-winterson-ai-future-of-humanity",
+      "source": "The Guardian",
+      "time": "2026-10-28T10:00:05.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "The future of the firm",
+      "url": "https://openai.com/index/the-future-of-the-firm",
+      "source": "OpenAI",
+      "time": "2026-10-28T10:00:00.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "AI an economic equaliser, tech at its best when inclusive, democratic: Google India's Preeti Lobana",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/ai-an-economic-equaliser-tech-at-its-best-when-inclusive-democratic-google-indias-preeti-lobana/articleshow/135259718.cms",
+      "source": "The Economic Times",
+      "time": "2026-10-28T09:39:28.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Legora is building the agentic operating system for legal work",
+      "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+      "source": "OpenAI",
+      "time": "2026-10-28T09:30:00.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Anthropic's Claude cut Enveda's drug records' review time by 89%",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/anthropics-claude-cut-envedas-drug-records-review-time-by-89/articleshow/135259473.cms",
+      "source": "The Economic Times",
+      "time": "2026-10-28T09:28:13.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "AI Emergency Alerts Are Coming. Humans Might Not Be Ready",
+      "url": "https://www.wired.com/story/ai-emergency-alerts-coming-humans-not-ready/",
+      "source": "Wired",
+      "time": "2026-10-28T08:30:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Amazon asks engineers to reconnect with customers as AI reshapes software development",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/amazon-asks-engineers-to-reconnect-with-customers-as-ai-reshapes-software-development/articleshow/135254616.cms",
+      "source": "The Economic Times",
+      "time": "2026-10-28T06:38:28.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Should AI Decide Your Court Case? This Judge Says Yes",
+      "url": "https://www.wired.com/story/geoffrey-vos-uk-judge-ai-legal-profession-challenges/",
+      "source": "Wired",
+      "time": "2026-10-28T06:00:00.000Z",
       "kind": "press"
     },
     {
@@ -66,31 +178,10 @@
       "kind": "press"
     },
     {
-      "title": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
-      "source": "The Verge",
-      "time": "2026-10-27T20:48:58.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Anthropic Says It Will Revolutionize Biology—Some Day",
       "url": "https://www.wired.com/story/anthropic-says-it-will-revolutionize-biology-some-day/",
       "source": "Wired",
       "time": "2026-10-27T19:39:04.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Vibe genes? Natural(ish) language comes to protein, genome design software",
-      "url": "https://arstechnica.com/science/2026/10/vibe-genes-naturalish-language-comes-to-protein-genome-design-software/",
-      "source": "Ars Technica",
-      "time": "2026-10-27T18:49:08.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "VisionQuest is what happens when AI really goes rogue",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1017064/visionquest-marvel-rogue-ai",
-      "source": "The Verge",
-      "time": "2026-10-27T17:30:00.000Z",
       "kind": "press"
     },
     {
@@ -99,13 +190,6 @@
       "source": "Hugging Face",
       "time": "2026-10-27T17:16:52.000Z",
       "kind": "lab"
-    },
-    {
-      "title": "Anthropic’s elaborate plan to keep Wall Street at bay",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety",
-      "source": "The Verge",
-      "time": "2026-10-27T16:51:22.000Z",
-      "kind": "press"
     },
     {
       "title": "Can we trust LLMs to judge whether a research idea is novel?",
@@ -122,88 +206,11 @@
       "kind": "lab"
     },
     {
-      "title": "UK Home Office May Face Investigation Over Use of OpenAI Tech",
-      "url": "https://www.wired.com/story/uk-home-office-may-face-investigation-over-use-of-openai-tools/",
-      "source": "Wired",
-      "time": "2026-10-27T15:10:26.000Z",
-      "kind": "press"
-    },
-    {
       "title": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia",
       "url": "https://blogs.nvidia.com/blog/open-source-ai-tools-cbrain-dementia/",
       "source": "NVIDIA",
       "time": "2026-10-27T15:00:20.000Z",
       "kind": "lab"
-    },
-    {
-      "title": "Retell uses OpenAI models to help power 100M monthly calls",
-      "url": "https://openai.com/index/retell-ai",
-      "source": "OpenAI",
-      "time": "2026-10-27T15:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "‘Meaningless as a laptop screensaver’: reviewers slate Musk’s AI-made Odyssey film",
-      "url": "https://www.theguardian.com/technology/2026/oct/27/reviewers-slate-musk-ai-grok-odyssey-film-nolan",
-      "source": "The Guardian",
-      "time": "2026-10-27T14:08:41.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Industrial Intelligence: The next growth opportunity for manufacturing",
-      "url": "https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing/",
-      "source": "MIT Technology Review",
-      "time": "2026-10-27T11:19:18.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Who controls powerful AI? Anthropic has a plan for long after its leaders depart",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/who-controls-powerful-ai-anthropic-has-a-plan-for-long-after-its-leaders-depart/articleshow/135231847.cms",
-      "source": "The Economic Times",
-      "time": "2026-10-27T11:03:56.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "AI Agents Are Media’s New Favorite Audience",
-      "url": "https://www.wired.com/story/ai-agents-are-medias-new-favorite-audience/",
-      "source": "Wired",
-      "time": "2026-10-27T11:00:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Former GitHub CEO launches GitHub rival Entire with India data hosting",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/former-github-ceo-launches-github-rival-entire-with-india-data-hosting/articleshow/135231138.cms",
-      "source": "The Economic Times",
-      "time": "2026-10-27T10:37:53.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Sarvam enters defence AI with projects across Army, Navy and Air Force",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/sarvam-enters-defence-ai-with-projects-across-army-navy-and-air-force/articleshow/135227528.cms",
-      "source": "The Economic Times",
-      "time": "2026-10-27T07:27:49.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
-      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
-      "source": "OpenAI",
-      "time": "2026-10-27T07:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "How Check Point accelerates vulnerability research with Daybreak",
-      "url": "https://openai.com/index/check-point-daybreak",
-      "source": "OpenAI",
-      "time": "2026-10-27T00:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Anthropic's blockbuster share listing - 5 surprising things we now know",
-      "url": "https://www.bbc.co.uk/news/articles/cwn8d7g29vd9o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "time": "2026-10-26T19:57:23.000Z",
-      "kind": "press"
     }
   ]
 }
