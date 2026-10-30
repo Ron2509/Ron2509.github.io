@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T06:12:40.054Z",
+  "updated": "2026-10-30T18:08:22.614Z",
   "sources": [
     "MIT Technology Review",
     "The Guardian",
@@ -17,38 +17,129 @@
   ],
   "items": [
     {
-      "title": "You don’t need to believe in a god to get a religious exemption from using AI at work",
-      "url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
+      "title": "nemotron-halloween",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "source": "Hugging Face",
+      "time": "2026-10-30T17:57:24.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Zest’s new AI agent finds restaurants and books reservations over text",
+      "url": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
       "source": "TechCrunch",
-      "time": "2026-10-30T01:20:48.000Z",
+      "time": "2026-10-30T17:47:12.000Z",
       "kind": "press"
     },
     {
-      "title": "AWS will be a $1T business, Jassy says. But first, it will spend big.",
-      "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
-      "source": "TechCrunch",
-      "time": "2026-10-29T23:42:22.000Z",
+      "title": "US tech stocks see sharp falls as AI spending nears $1tn",
+      "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "time": "2026-10-30T17:47:01.000Z",
       "kind": "press"
     },
     {
-      "title": "More than half of Victorian lawyers use AI – but only a quarter have cut client fees as a result",
-      "url": "https://www.theguardian.com/law/2026/oct/30/victorian-lawyers-ai-clients-fees",
+      "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+      "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
+      "source": "Ars Technica",
+      "time": "2026-10-30T17:38:19.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Starbucks wants to use AI to show you a ‘personalized digital menu’ at the drive-thru",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru",
+      "source": "The Verge",
+      "time": "2026-10-30T17:38:04.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Credit where it’s due to AI for uncovering the PHP flaw – and discredit to the leaker | Letters",
+      "url": "https://www.theguardian.com/technology/2026/oct/30/credit-where-its-due-to-ai-for-uncovering-the-php-flaw-and-discredit-to-the-leaker",
       "source": "The Guardian",
-      "time": "2026-10-29T23:00:37.000Z",
+      "time": "2026-10-30T17:10:09.000Z",
       "kind": "press"
     },
     {
-      "title": "Google value plunges by $500bn as AI fears rattle Wall Street",
+      "title": "Google’s first data center satellite is online and writing poetry",
+      "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+      "source": "TechCrunch",
+      "time": "2026-10-30T17:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Thousands of “ghost students” use AI to steal millions in student loans, DOJ says",
+      "url": "https://arstechnica.com/tech-policy/2026/10/doj-exposes-ghost-students-using-ai-to-complete-courses-steal-student-loans/",
+      "source": "Ars Technica",
+      "time": "2026-10-30T16:53:49.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Theranos whistleblower Tyler Shultz warns that the AI boom is ‘a great opportunity to go deceive people’",
+      "url": "https://techcrunch.com/2026/10/30/theranos-whistleblower-tyler-shultz-warns-that-the-ai-boom-is-a-great-opportunity-to-go-deceive-people/",
+      "source": "TechCrunch",
+      "time": "2026-10-30T16:03:45.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Ghost in the machine: how AI is haunting the search for the supernatural",
+      "url": "https://www.theguardian.com/technology/ng-interactive/2026/oct/30/ai-ghost-hunting",
+      "source": "The Guardian",
+      "time": "2026-10-30T15:00:16.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
+      "url": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/",
+      "source": "NVIDIA",
+      "time": "2026-10-30T15:00:10.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Pope Leo calls for the disarmament of AI: ‘Machines are tools, not persons’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai",
+      "source": "The Verge",
+      "time": "2026-10-30T14:58:06.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Experts warn AI copyright changes could breach Australian constitution and spark huge compensation rights case",
+      "url": "https://www.theguardian.com/law/2026/oct/31/experts-warn-ai-copyright-changes-could-breach-australian-constitution-and-spark-huge-compensation-rights-case",
+      "source": "The Guardian",
+      "time": "2026-10-30T14:00:18.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Silicon Valley wants you to invest in miracles",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles",
+      "source": "The Verge",
+      "time": "2026-10-30T13:11:05.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Google value plunges by $500bn as its own AI search hits ad sales",
       "url": "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
-      "time": "2026-10-29T22:17:52.000Z",
+      "time": "2026-10-30T12:04:02.000Z",
       "kind": "press"
     },
     {
-      "title": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
-      "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
-      "source": "TechCrunch",
-      "time": "2026-10-29T20:08:31.000Z",
+      "title": "Community safety report and new protections for teens",
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "source": "OpenAI",
+      "time": "2026-10-30T09:00:00.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Spotify targets 2027 launch for AI remix service, FT reports",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/spotify-targets-2027-launch-for-ai-remix-service-ft-reports/articleshow/135348854.cms",
+      "source": "The Economic Times",
+      "time": "2026-10-30T07:09:04.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "How should companies measure performance when AI does part of the work?",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/how-should-companies-measure-performance-when-ai-does-part-of-the-work/articleshow/135347735.cms",
+      "source": "The Economic Times",
+      "time": "2026-10-30T06:42:25.000Z",
       "kind": "press"
     },
     {
@@ -56,13 +147,6 @@
       "url": "https://arstechnica.com/gadgets/2026/10/trump-declares-robot-imports-a-national-security-threat/",
       "source": "Ars Technica",
       "time": "2026-10-29T19:07:53.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "You can generate and edit Google Docs files directly in Gemini chats now",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
-      "source": "The Verge",
-      "time": "2026-10-29T18:45:31.000Z",
       "kind": "press"
     },
     {
@@ -80,13 +164,6 @@
       "kind": "lab"
     },
     {
-      "title": "Google admits AI search makes less money, but it's fixing that with more ads",
-      "url": "https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/",
-      "source": "Ars Technica",
-      "time": "2026-10-29T16:24:55.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
       "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
       "source": "NVIDIA",
@@ -94,31 +171,10 @@
       "kind": "lab"
     },
     {
-      "title": "Microsoft’s AI future has fewer jobs",
-      "url": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad",
-      "source": "The Verge",
-      "time": "2026-10-29T16:00:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "What is it like to work when your co-workers are AI agents?",
-      "url": "https://www.theguardian.com/technology/2026/oct/29/ai-agent-coworker",
-      "source": "The Guardian",
-      "time": "2026-10-29T15:00:46.000Z",
-      "kind": "press"
-    },
-    {
       "title": "The ‘Pain in the Ass’ Math That Could Save Vibe Coding From Itself",
       "url": "https://www.wired.com/story/software-verification-is-the-hot-new-answer-to-the-ai-safety-crisis/",
       "source": "Wired",
       "time": "2026-10-29T15:00:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "The NYT Cooking app is testing AI recipe modifications",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool",
-      "source": "The Verge",
-      "time": "2026-10-29T14:39:37.000Z",
       "kind": "press"
     },
     {
@@ -136,13 +192,6 @@
       "kind": "lab"
     },
     {
-      "title": "Could Abdul El-Sayed’s plan for AI companies stave off catastrophe? | Jerel Ezell",
-      "url": "https://www.theguardian.com/commentisfree/2026/oct/29/abdul-el-sayed-ai-companies-public-ownership",
-      "source": "The Guardian",
-      "time": "2026-10-29T13:00:44.000Z",
-      "kind": "press"
-    },
-    {
       "title": "We urgently need to monitor AI agents’ actions in real time",
       "url": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
       "source": "MIT Technology Review",
@@ -157,60 +206,11 @@
       "kind": "press"
     },
     {
-      "title": "AI could wipe out $200 billion of IT services work by 2030: BCG",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/ai-could-wipe-out-200-billion-of-it-services-work-by-2030-bcg/articleshow/135298880.cms",
-      "source": "The Economic Times",
-      "time": "2026-10-29T09:26:16.000Z",
-      "kind": "press"
-    },
-    {
       "title": "How we detect frontier model misalignment",
       "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
       "source": "OpenAI",
       "time": "2026-10-29T09:00:00.000Z",
       "kind": "lab"
-    },
-    {
-      "title": "Your boss may soon know what you’re asking Claude to do at work",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/your-boss-may-soon-know-what-youre-asking-claude-to-do-at-work/articleshow/135294493.cms",
-      "source": "The Economic Times",
-      "time": "2026-10-29T07:00:24.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "How Ropes & Gray is developing AI for transactional diligence",
-      "url": "https://openai.com/index/ropes-gray-ai-diligence",
-      "source": "OpenAI",
-      "time": "2026-10-29T07:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Details of thousands of US immigration agents leaked in major hack",
-      "url": "https://www.bbc.co.uk/news/articles/cq8jzkpjr28vo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "time": "2026-10-29T01:30:43.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
-      "url": "https://huggingface.co/blog/announcing-project-protostar",
-      "source": "Hugging Face",
-      "time": "2026-10-29T00:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
-      "url": "https://huggingface.co/blog/mistral-large4",
-      "source": "Hugging Face",
-      "time": "2026-10-29T00:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Creating AI value with enterprise context",
-      "url": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
-      "source": "MIT Technology Review",
-      "time": "2026-10-28T20:32:02.000Z",
-      "kind": "press"
     }
   ]
 }
