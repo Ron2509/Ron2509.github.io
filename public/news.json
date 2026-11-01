@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T06:36:10.887Z",
+  "updated": "2026-11-01T18:01:51.999Z",
   "sources": [
     "MIT Technology Review",
     "The Guardian",
@@ -16,6 +16,34 @@
     "Hugging Face"
   ],
   "items": [
+    {
+      "title": "National Grid to site biggest substation on Teesside, near planned AI datacentre",
+      "url": "https://www.theguardian.com/business/2026/nov/01/national-grid-to-site-biggest-substation-on-teesside-near-planned-ai-datacentre",
+      "source": "The Guardian",
+      "time": "2026-11-01T17:10:52.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "AI is stealing Indigenous Australian art and churning out ‘Temu slop’, artist says",
+      "url": "https://www.theguardian.com/artanddesign/2026/nov/02/ai-stealing-indigenous-australian-art-temu-slop-artist-says-ntwnfb",
+      "source": "The Guardian",
+      "time": "2026-11-01T14:00:13.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Chatbots Are Leading Hikers Astray, With Dangerous Consequences",
+      "url": "https://www.wired.com/story/chatbots-are-leading-hikers-astray-with-dangerous-consequences/",
+      "source": "Wired",
+      "time": "2026-11-01T10:30:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Saudi Aramco takes 49% stake in AI firm Humain, commits $2.6 billion",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/saudi-aramco-takes-49-stake-in-ai-firm-humain-commits-2-6-billion/articleshow/135423450.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-01T09:46:33.000Z",
+      "kind": "press"
+    },
     {
       "title": "When my AI bargains with your AI: The next great bazaar may be where our agents haggle for milliseconds",
       "url": "https://economictimes.indiatimes.com/ai/ai-insights/when-my-ai-bargains-with-your-ai-the-next-great-bazaar-may-be-where-our-agents-haggle-for-milliseconds/articleshow/135417039.cms",
@@ -66,20 +94,6 @@
       "kind": "press"
     },
     {
-      "title": "A-listers and AI stylists: how high-street brands are staging a fashion comeback",
-      "url": "https://www.theguardian.com/fashion/2026/oct/31/a-listers-ai-stylists-high-street-brands-fashion-comeback",
-      "source": "The Guardian",
-      "time": "2026-10-31T16:00:47.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Is AI your new wingman? How chatbots are transforming dating",
-      "url": "https://www.theguardian.com/lifeandstyle/2026/oct/31/ai-your-wingman-chatbots-transforming-dating",
-      "source": "The Guardian",
-      "time": "2026-10-31T12:00:42.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Spooky New Infostealer Malware Uses AI to ‘Autodox’ Victims",
       "url": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/",
       "source": "Wired",
@@ -94,66 +108,10 @@
       "kind": "press"
     },
     {
-      "title": "An AI Agent Injected Drugs Into a Live Mouse’s Brain",
-      "url": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/",
-      "source": "Wired",
-      "time": "2026-10-31T10:00:00.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Besides the bubble, a big AI risk could be growing in the shadows",
       "url": "https://economictimes.indiatimes.com/ai/ai-insights/besides-the-bubble-a-big-ai-risk-could-be-growing-in-the-shadows/articleshow/135396630.cms",
       "source": "The Economic Times",
       "time": "2026-10-31T09:48:10.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "MeitY unveils DEPA handbook to enable trusted data sharing for AI training",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/meity-unveils-depa-handbook-to-enable-trusted-data-sharing-for-ai-training/articleshow/135394062.cms",
-      "source": "The Economic Times",
-      "time": "2026-10-31T08:19:05.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Apple Intelligence is finally coming to China with iOS 27.3",
-      "url": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
-      "source": "The Verge",
-      "time": "2026-10-30T22:32:53.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Supersonic airliner in doubt as company shifts to powering AI data centers",
-      "url": "https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029/",
-      "source": "Ars Technica",
-      "time": "2026-10-30T21:41:54.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
-      "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
-      "source": "Ars Technica",
-      "time": "2026-10-30T21:09:54.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
-      "source": "The Verge",
-      "time": "2026-10-30T20:48:43.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Dartmouth's provost warned us about AI cheating—but his own AI use cost him his job",
-      "url": "https://arstechnica.com/tech-policy/2026/10/dartmouths-provost-warned-us-about-ai-cheating-but-his-own-ai-use-cost-him-his-job/",
-      "source": "Ars Technica",
-      "time": "2026-10-30T20:40:13.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "US tech stocks see sharp falls as AI spending nears $1tn",
-      "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "time": "2026-10-30T20:34:46.000Z",
       "kind": "press"
     }
   ]
