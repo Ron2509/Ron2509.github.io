@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T17:19:31.981Z",
+  "updated": "2026-11-01T06:36:10.887Z",
   "sources": [
     "MIT Technology Review",
     "The Guardian",
@@ -17,10 +17,52 @@
   ],
   "items": [
     {
-      "title": "OpenAI reportedly lowers funding target for new round",
-      "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+      "title": "When my AI bargains with your AI: The next great bazaar may be where our agents haggle for milliseconds",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/when-my-ai-bargains-with-your-ai-the-next-great-bazaar-may-be-where-our-agents-haggle-for-milliseconds/articleshow/135417039.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-01T04:13:38.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "These firms you've never heard of are feeding fears the AI bubble could burst",
+      "url": "https://www.bbc.co.uk/news/articles/cje36degrgv5o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "time": "2026-11-01T01:37:26.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+      "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
       "source": "TechCrunch",
-      "time": "2026-10-31T16:12:55.000Z",
+      "time": "2026-10-31T21:41:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale",
+      "url": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/",
+      "source": "TechCrunch",
+      "time": "2026-10-31T21:36:07.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+      "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+      "source": "TechCrunch",
+      "time": "2026-10-31T21:17:03.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Disquiet grows in Albanese’s back yard as Grayndler artists unite against ‘insane’ AI proposal",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/01/artists-against-ai-proposal-anthony-albanese-grayndler-sydney-inner-west",
+      "source": "The Guardian",
+      "time": "2026-10-31T19:00:52.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "I built an AI Tamagotchi before Meta could",
+      "url": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
+      "source": "The Verge",
+      "time": "2026-10-31T16:05:00.000Z",
       "kind": "press"
     },
     {
@@ -73,27 +115,6 @@
       "kind": "press"
     },
     {
-      "title": "Relying on AI is rotting your brain. But here’s what you can do about it | Carly Dober",
-      "url": "https://www.theguardian.com/commentisfree/2026/oct/31/ai-rely-brain-new-tech-product-lives-boredom",
-      "source": "The Guardian",
-      "time": "2026-10-31T08:00:37.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
-      "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
-      "source": "TechCrunch",
-      "time": "2026-10-31T01:20:05.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Ollie, a privacy-focused AI assistant, is shutting down",
-      "url": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
-      "source": "TechCrunch",
-      "time": "2026-10-30T22:56:13.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Apple Intelligence is finally coming to China with iOS 27.3",
       "url": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
       "source": "The Verge",
@@ -134,55 +155,6 @@
       "source": "BBC News",
       "time": "2026-10-30T20:34:46.000Z",
       "kind": "press"
-    },
-    {
-      "title": "The biggest names in AI are backing a new way to opt out of scraping",
-      "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
-      "source": "The Verge",
-      "time": "2026-10-30T20:26:10.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Private equity companies add AI-disruption clauses to buyout loan agreements",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/private-equity-companies-add-ai-disruption-clauses-to-buyout-loan-agreements/articleshow/135375189.cms",
-      "source": "The Economic Times",
-      "time": "2026-10-30T18:49:49.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "nemotron-halloween",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
-      "source": "Hugging Face",
-      "time": "2026-10-30T17:57:24.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
-      "url": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/",
-      "source": "NVIDIA",
-      "time": "2026-10-30T15:00:10.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Google value plunges by $500bn as its own AI search hits ad sales",
-      "url": "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "time": "2026-10-30T12:04:02.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Making it easier for websites to express AI training preferences",
-      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
-      "source": "OpenAI",
-      "time": "2026-10-30T09:30:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Community safety report and new protections for teens",
-      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
-      "source": "OpenAI",
-      "time": "2026-10-30T09:00:00.000Z",
-      "kind": "lab"
     }
   ]
 }
