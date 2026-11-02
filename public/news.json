@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T18:01:51.999Z",
+  "updated": "2026-11-02T06:36:15.676Z",
   "sources": [
     "MIT Technology Review",
     "The Guardian",
@@ -17,10 +17,17 @@
   ],
   "items": [
     {
-      "title": "National Grid to site biggest substation on Teesside, near planned AI datacentre",
-      "url": "https://www.theguardian.com/business/2026/nov/01/national-grid-to-site-biggest-substation-on-teesside-near-planned-ai-datacentre",
-      "source": "The Guardian",
-      "time": "2026-11-01T17:10:52.000Z",
+      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+      "source": "TechCrunch",
+      "time": "2026-11-01T21:55:23.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
+      "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
+      "source": "TechCrunch",
+      "time": "2026-11-01T20:57:58.000Z",
       "kind": "press"
     },
     {
@@ -66,20 +73,6 @@
       "kind": "press"
     },
     {
-      "title": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale",
-      "url": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/",
-      "source": "TechCrunch",
-      "time": "2026-10-31T21:36:07.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
-      "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
-      "source": "TechCrunch",
-      "time": "2026-10-31T21:17:03.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Disquiet grows in Albanese’s back yard as Grayndler artists unite against ‘insane’ AI proposal",
       "url": "https://www.theguardian.com/australia-news/2026/nov/01/artists-against-ai-proposal-anthony-albanese-grayndler-sydney-inner-west",
       "source": "The Guardian",
@@ -91,6 +84,13 @@
       "url": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
       "source": "The Verge",
       "time": "2026-10-31T16:05:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "A-listers and AI stylists: how high-street brands are staging a fashion comeback",
+      "url": "https://www.theguardian.com/fashion/2026/oct/31/a-listers-ai-stylists-high-street-brands-fashion-comeback",
+      "source": "The Guardian",
+      "time": "2026-10-31T16:00:47.000Z",
       "kind": "press"
     },
     {
@@ -113,6 +113,83 @@
       "source": "The Economic Times",
       "time": "2026-10-31T09:48:10.000Z",
       "kind": "press"
+    },
+    {
+      "title": "Apple Intelligence is finally coming to China with iOS 27.3",
+      "url": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
+      "source": "The Verge",
+      "time": "2026-10-30T22:32:53.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Supersonic airliner in doubt as company shifts to powering AI data centers",
+      "url": "https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029/",
+      "source": "Ars Technica",
+      "time": "2026-10-30T21:41:54.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
+      "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+      "source": "Ars Technica",
+      "time": "2026-10-30T21:09:54.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
+      "source": "The Verge",
+      "time": "2026-10-30T20:48:43.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Dartmouth's provost warned us about AI cheating—but his own AI use cost him his job",
+      "url": "https://arstechnica.com/tech-policy/2026/10/dartmouths-provost-warned-us-about-ai-cheating-but-his-own-ai-use-cost-him-his-job/",
+      "source": "Ars Technica",
+      "time": "2026-10-30T20:40:13.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "US tech stocks see sharp falls as AI spending nears $1tn",
+      "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "time": "2026-10-30T20:34:46.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "nemotron-halloween",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "source": "Hugging Face",
+      "time": "2026-10-30T17:57:24.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
+      "url": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/",
+      "source": "NVIDIA",
+      "time": "2026-10-30T15:00:10.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Google value plunges by $500bn as its own AI search hits ad sales",
+      "url": "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "time": "2026-10-30T12:04:02.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Making it easier for websites to express AI training preferences",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "source": "OpenAI",
+      "time": "2026-10-30T09:30:00.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Community safety report and new protections for teens",
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "source": "OpenAI",
+      "time": "2026-10-30T09:00:00.000Z",
+      "kind": "lab"
     }
   ]
 }
