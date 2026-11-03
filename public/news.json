@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03T07:06:11.227Z",
+  "updated": "2026-11-03T19:42:12.325Z",
   "sources": [
     "MIT Technology Review",
     "The Guardian",
@@ -17,6 +17,146 @@
   ],
   "items": [
     {
+      "title": "AI inference startup Fal doubles its valuation to $16B as demand surges",
+      "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
+      "source": "TechCrunch",
+      "time": "2026-11-03T19:34:43.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Netflix’s new AI Discover tab helps you find something to watch based on your mood",
+      "url": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
+      "source": "TechCrunch",
+      "time": "2026-11-03T18:42:16.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Apple’s latest watchOS beta includes its new always-on Audio Intelligence features",
+      "url": "https://www.theverge.com/tech/1025002/apple-watch-audio-intelligence-watchos-beta",
+      "source": "The Verge",
+      "time": "2026-11-03T18:31:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "OpenAI says ChatGPT is catching up to Google in search",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search",
+      "source": "The Verge",
+      "time": "2026-11-03T18:30:42.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Indie games are missing launch dates because Steam is backed up",
+      "url": "https://www.theverge.com/games/1025596/valve-steam-indie-games-missing-launch-dates",
+      "source": "The Verge",
+      "time": "2026-11-03T18:14:50.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Google will let schools skip AI tools, but they have to give up search, too",
+      "url": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
+      "source": "Ars Technica",
+      "time": "2026-11-03T17:54:43.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "StateBench: Testing how language models track state changes over long documents",
+      "url": "https://huggingface.co/blog/allenai/statebench",
+      "source": "Hugging Face",
+      "time": "2026-11-03T17:15:21.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Anthropic is still grappling with the economics of compute",
+      "url": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/",
+      "source": "TechCrunch",
+      "time": "2026-11-03T17:07:01.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Agentic cheminformatics with Google Antigravity",
+      "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+      "source": "Google DeepMind",
+      "time": "2026-11-03T17:01:49.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Datacentres are deeply unpopular – so the geniuses at OpenAI are rebranding them | Arwa Mahdawi",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/03/datacentres-are-deeply-unpopular-so-the-geniuses-at-openai-are-rebranding-them",
+      "source": "The Guardian",
+      "time": "2026-11-03T16:58:55.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Bakers and cake lovers: have you used AI for inspiration?",
+      "url": "https://www.theguardian.com/food/2026/nov/03/bakers-and-cake-lovers-have-you-used-ai-for-inspiration",
+      "source": "The Guardian",
+      "time": "2026-11-03T16:42:27.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Palette: teaching a small model to build decks in your design language",
+      "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+      "source": "Hugging Face",
+      "time": "2026-11-03T16:35:36.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
+      "url": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
+      "source": "NVIDIA",
+      "time": "2026-11-03T16:00:45.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Here’s Why You Shouldn’t Use AI to Vote",
+      "url": "https://www.wired.com/story/heres-why-you-shouldnt-use-ai-to-vote/",
+      "source": "Wired",
+      "time": "2026-11-03T14:45:08.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Soket Labs, ZenteiQ launch indigenous foundation models under IndiaAI Mission",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/soket-labs-zenteiq-launch-indigenous-foundation-models-under-indiaai-mission/articleshow/135502992.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-03T14:30:28.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Accelerating engineering for the physical world",
+      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+      "source": "OpenAI",
+      "time": "2026-11-03T12:00:00.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "UK’s most polluting power plant could power country’s largest AI datacentre",
+      "url": "https://www.theguardian.com/business/2026/nov/03/uk-drax-power-station-ai-datacentre",
+      "source": "The Guardian",
+      "time": "2026-11-03T11:55:28.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "‘Our Risk, Their Reward’: Zohran Mamdani on AI and Data Centers",
+      "url": "https://www.wired.com/story/the-big-interview-podcast-nyc-mayor-zohran-mamdani/",
+      "source": "Wired",
+      "time": "2026-11-03T11:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "How “reverse game theory” could keep AI agents in check",
+      "url": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
+      "source": "MIT Technology Review",
+      "time": "2026-11-03T10:43:41.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Heimstaden is changing residential real estate management with AI",
+      "url": "https://openai.com/index/heimstaden",
+      "source": "OpenAI",
+      "time": "2026-11-03T08:00:00.000Z",
+      "kind": "lab"
+    },
+    {
       "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
       "url": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/",
       "source": "NVIDIA",
@@ -31,13 +171,6 @@
       "kind": "press"
     },
     {
-      "title": "‘A serious failure’: CPS prosecutor cites imaginary case to high court after AI search",
-      "url": "https://www.theguardian.com/technology/2026/nov/03/a-serious-failure-cps-prosecutor-cites-imaginary-case-to-high-court-after-ai-search",
-      "source": "The Guardian",
-      "time": "2026-11-03T06:00:40.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test",
       "url": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/",
       "source": "MIT Technology Review",
@@ -45,39 +178,11 @@
       "kind": "press"
     },
     {
-      "title": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
-      "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/",
-      "source": "TechCrunch",
-      "time": "2026-11-03T03:30:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Apple may try to increase revenue by doing…something with third-party AI apps",
-      "url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
-      "source": "TechCrunch",
-      "time": "2026-11-03T01:49:52.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
-      "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
-      "source": "TechCrunch",
-      "time": "2026-11-03T00:35:52.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "AI-powered malware ‘highly likely’ to be used to hack UK infrastructure by 2028",
-      "url": "https://www.theguardian.com/technology/2026/nov/03/ai-powered-malware-artificial-intelligence-hacking-critical-uk-infrastructure",
-      "source": "The Guardian",
-      "time": "2026-11-03T00:01:32.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Anthropic clamps down on Claude’s AI video game clones",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
-      "source": "The Verge",
-      "time": "2026-11-02T18:56:02.000Z",
-      "kind": "press"
+      "title": "CWE-bench v2: More coverage, quality, and transparency",
+      "url": "https://huggingface.co/blog/cwe-bench",
+      "source": "Hugging Face",
+      "time": "2026-11-03T00:00:00.000Z",
+      "kind": "lab"
     },
     {
       "title": "Coming in 2027: Apple’s $1,000 home robot for FaceTime and switching on lights",
@@ -94,13 +199,6 @@
       "kind": "press"
     },
     {
-      "title": "OpenAI pitches data center power plants as a way to protect nearby areas",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
-      "source": "The Verge",
-      "time": "2026-11-02T18:01:30.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Rewarding defenders with bigger bug bounties",
       "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
       "source": "OpenAI",
@@ -108,60 +206,11 @@
       "kind": "lab"
     },
     {
-      "title": "Preparing our next security sprint to harden OpenAI",
-      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
-      "source": "OpenAI",
-      "time": "2026-11-02T18:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "The New York Times sues Brave web browser for AI scraping and bypassing paywalls",
-      "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
-      "source": "The Verge",
-      "time": "2026-11-02T17:51:19.000Z",
-      "kind": "press"
-    },
-    {
       "title": "The latest AI news we announced in October 2026",
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
       "source": "Google AI",
       "time": "2026-11-02T17:45:00.000Z",
       "kind": "lab"
-    },
-    {
-      "title": "Raising the quality of insights in agentic analytics",
-      "url": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
-      "source": "MIT Technology Review",
-      "time": "2026-11-02T17:00:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Scaling Git at OpenAI",
-      "url": "https://openai.com/index/scaling-git-at-openai",
-      "source": "OpenAI",
-      "time": "2026-11-02T15:30:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Stop counting tokens, start counting what ships",
-      "url": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/",
-      "source": "MIT Technology Review",
-      "time": "2026-11-02T13:10:32.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "When You Should—and Shouldn’t—Use AI to Search the Web",
-      "url": "https://www.wired.com/story/when-you-should-and-shouldnt-use-ai-to-search-the-web/",
-      "source": "Wired",
-      "time": "2026-11-02T12:00:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Palantir AI tech unused or little used by 29 NHS trusts said to be benefiting from it",
-      "url": "https://www.theguardian.com/technology/2026/nov/02/palantir-unused-nhs-hospital-trusts",
-      "source": "The Guardian",
-      "time": "2026-11-02T10:19:46.000Z",
-      "kind": "press"
     }
   ]
 }
