@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T21:51:36.983Z",
+  "updated": "2026-11-03T07:06:11.227Z",
   "sources": [
     "MIT Technology Review",
     "The Guardian",
@@ -17,17 +17,59 @@
   ],
   "items": [
     {
-      "title": "Web host Squarespace lays off 19% of its employees",
-      "url": "https://techcrunch.com/2026/11/02/web-host-squarespace-lays-off-19-of-its-employees/",
-      "source": "TechCrunch",
-      "time": "2026-11-02T19:25:59.000Z",
+      "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+      "url": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/",
+      "source": "NVIDIA",
+      "time": "2026-11-03T07:00:12.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "When AI Goes Out of Control, how to plan for it! | Walmart CTO Explains",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/when-ai-goes-out-of-control-how-to-plan-for-it-walmart-cto-explains/videoshow/135484927.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-03T06:12:56.000Z",
       "kind": "press"
     },
     {
-      "title": "New York Times and other outlets sue web browser Brave over alleged content scraping",
-      "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+      "title": "‘A serious failure’: CPS prosecutor cites imaginary case to high court after AI search",
+      "url": "https://www.theguardian.com/technology/2026/nov/03/a-serious-failure-cps-prosecutor-cites-imaginary-case-to-high-court-after-ai-search",
+      "source": "The Guardian",
+      "time": "2026-11-03T06:00:40.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test",
+      "url": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/",
+      "source": "MIT Technology Review",
+      "time": "2026-11-03T04:18:47.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
+      "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/",
       "source": "TechCrunch",
-      "time": "2026-11-02T19:19:17.000Z",
+      "time": "2026-11-03T03:30:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Apple may try to increase revenue by doing…something with third-party AI apps",
+      "url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
+      "source": "TechCrunch",
+      "time": "2026-11-03T01:49:52.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
+      "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+      "source": "TechCrunch",
+      "time": "2026-11-03T00:35:52.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "AI-powered malware ‘highly likely’ to be used to hack UK infrastructure by 2028",
+      "url": "https://www.theguardian.com/technology/2026/nov/03/ai-powered-malware-artificial-intelligence-hacking-critical-uk-infrastructure",
+      "source": "The Guardian",
+      "time": "2026-11-03T00:01:32.000Z",
       "kind": "press"
     },
     {
@@ -59,6 +101,20 @@
       "kind": "press"
     },
     {
+      "title": "Rewarding defenders with bigger bug bounties",
+      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "source": "OpenAI",
+      "time": "2026-11-02T18:00:00.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Preparing our next security sprint to harden OpenAI",
+      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "source": "OpenAI",
+      "time": "2026-11-02T18:00:00.000Z",
+      "kind": "lab"
+    },
+    {
       "title": "The New York Times sues Brave web browser for AI scraping and bypassing paywalls",
       "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
       "source": "The Verge",
@@ -80,17 +136,10 @@
       "kind": "press"
     },
     {
-      "title": "42AI comes out of stealth with $62.5M and a world model that can ‘predict human behavior’",
-      "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/",
-      "source": "TechCrunch",
-      "time": "2026-11-02T16:30:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Introducing the Grid Protectors Program",
-      "url": "https://openai.com/index/grid-protectors-program",
+      "title": "Scaling Git at OpenAI",
+      "url": "https://openai.com/index/scaling-git-at-openai",
       "source": "OpenAI",
-      "time": "2026-11-02T15:00:00.000Z",
+      "time": "2026-11-02T15:30:00.000Z",
       "kind": "lab"
     },
     {
@@ -112,48 +161,6 @@
       "url": "https://www.theguardian.com/technology/2026/nov/02/palantir-unused-nhs-hospital-trusts",
       "source": "The Guardian",
       "time": "2026-11-02T10:19:46.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "It’s time to block reckless AI IPOs and tax billionaires | Naomi Klein and Ilana Glazer",
-      "url": "https://www.theguardian.com/commentisfree/2026/nov/02/ai-ipos-tax-billionaires",
-      "source": "The Guardian",
-      "time": "2026-11-02T10:00:38.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "The agentic web is here",
-      "url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
-      "source": "MIT Technology Review",
-      "time": "2026-11-02T09:35:19.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "LifeVal",
-      "url": "https://openai.com/index/lifeval",
-      "source": "OpenAI",
-      "time": "2026-11-02T09:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Qodo builds context into AI code review with Codex",
-      "url": "https://openai.com/index/qodo-codex-plugin",
-      "source": "OpenAI",
-      "time": "2026-11-02T00:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "AI is stealing Indigenous Australian art and churning out ‘Temu slop’, artist says",
-      "url": "https://www.theguardian.com/artanddesign/2026/nov/02/ai-stealing-indigenous-australian-art-temu-slop-artist-says-ntwnfb",
-      "source": "The Guardian",
-      "time": "2026-11-01T14:00:13.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Chatbots Are Leading Hikers Astray, With Dangerous Consequences",
-      "url": "https://www.wired.com/story/chatbots-are-leading-hikers-astray-with-dangerous-consequences/",
-      "source": "Wired",
-      "time": "2026-11-01T10:30:00.000Z",
       "kind": "press"
     }
   ]
