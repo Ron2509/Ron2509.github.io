@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03T19:42:12.325Z",
+  "updated": "2026-11-04T06:50:47.391Z",
   "sources": [
     "MIT Technology Review",
     "The Guardian",
@@ -17,38 +17,80 @@
   ],
   "items": [
     {
-      "title": "AI inference startup Fal doubles its valuation to $16B as demand surges",
-      "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
+      "title": "Beyond ‘no subscription’, NeoSapien sees a paid future for advanced AI features",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/beyond-no-subscription-neosapien-sees-a-paid-future-for-advanced-ai-features/articleshow/135525141.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-04T05:34:58.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "The biggest modding site in PC gaming is taking a stance on AI",
+      "url": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures",
+      "source": "The Verge",
+      "time": "2026-11-04T00:42:10.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Graduates are managing AI - but are they learning much else?",
+      "url": "https://www.bbc.co.uk/news/articles/c820vz6wyp65o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "time": "2026-11-04T00:04:35.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Please stop asking me when the AI bubble will pop",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds",
+      "source": "The Verge",
+      "time": "2026-11-03T23:37:45.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Anthropic is working on a system to prove AI models’ identity",
+      "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
       "source": "TechCrunch",
-      "time": "2026-11-03T19:34:43.000Z",
+      "time": "2026-11-03T22:41:03.000Z",
       "kind": "press"
     },
     {
-      "title": "Netflix’s new AI Discover tab helps you find something to watch based on your mood",
-      "url": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
+      "title": "Data centers are turning to old jet engines as the wait for power grows",
+      "url": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
       "source": "TechCrunch",
-      "time": "2026-11-03T18:42:16.000Z",
+      "time": "2026-11-03T22:19:53.000Z",
       "kind": "press"
     },
     {
-      "title": "Apple’s latest watchOS beta includes its new always-on Audio Intelligence features",
-      "url": "https://www.theverge.com/tech/1025002/apple-watch-audio-intelligence-watchos-beta",
-      "source": "The Verge",
-      "time": "2026-11-03T18:31:00.000Z",
+      "title": "US tech stocks recover after selloff spooks investors over AI spending",
+      "url": "https://www.theguardian.com/business/2026/nov/03/us-tech-stocks-recovery-ai-spending",
+      "source": "The Guardian",
+      "time": "2026-11-03T22:18:45.000Z",
       "kind": "press"
     },
     {
-      "title": "OpenAI says ChatGPT is catching up to Google in search",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search",
-      "source": "The Verge",
-      "time": "2026-11-03T18:30:42.000Z",
+      "title": "Ted Schlein’s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom",
+      "url": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
+      "source": "TechCrunch",
+      "time": "2026-11-03T21:43:08.000Z",
       "kind": "press"
     },
     {
-      "title": "Indie games are missing launch dates because Steam is backed up",
-      "url": "https://www.theverge.com/games/1025596/valve-steam-indie-games-missing-launch-dates",
+      "title": "AI ‘godfather’ Geoffrey Hinton: it might turn out we were better off without AI",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
+      "source": "The Guardian",
+      "time": "2026-11-03T21:35:42.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Those Jeff Bezos hair transplant photos are very fake",
+      "url": "https://www.theverge.com/tech/1025745/fake-jeff-bezos-hair-replacement-photos-debunk",
       "source": "The Verge",
-      "time": "2026-11-03T18:14:50.000Z",
+      "time": "2026-11-03T21:01:07.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Ukraine’s drone strikes spur hasty Russian plans for underground data centers",
+      "url": "https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/",
+      "source": "Ars Technica",
+      "time": "2026-11-03T20:39:55.000Z",
       "kind": "press"
     },
     {
@@ -66,13 +108,6 @@
       "kind": "lab"
     },
     {
-      "title": "Anthropic is still grappling with the economics of compute",
-      "url": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/",
-      "source": "TechCrunch",
-      "time": "2026-11-03T17:07:01.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Agentic cheminformatics with Google Antigravity",
       "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
       "source": "Google DeepMind",
@@ -84,13 +119,6 @@
       "url": "https://www.theguardian.com/commentisfree/2026/nov/03/datacentres-are-deeply-unpopular-so-the-geniuses-at-openai-are-rebranding-them",
       "source": "The Guardian",
       "time": "2026-11-03T16:58:55.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Bakers and cake lovers: have you used AI for inspiration?",
-      "url": "https://www.theguardian.com/food/2026/nov/03/bakers-and-cake-lovers-have-you-used-ai-for-inspiration",
-      "source": "The Guardian",
-      "time": "2026-11-03T16:42:27.000Z",
       "kind": "press"
     },
     {
@@ -129,13 +157,6 @@
       "kind": "lab"
     },
     {
-      "title": "UK’s most polluting power plant could power country’s largest AI datacentre",
-      "url": "https://www.theguardian.com/business/2026/nov/03/uk-drax-power-station-ai-datacentre",
-      "source": "The Guardian",
-      "time": "2026-11-03T11:55:28.000Z",
-      "kind": "press"
-    },
-    {
       "title": "‘Our Risk, Their Reward’: Zohran Mamdani on AI and Data Centers",
       "url": "https://www.wired.com/story/the-big-interview-podcast-nyc-mayor-zohran-mamdani/",
       "source": "Wired",
@@ -148,6 +169,13 @@
       "source": "MIT Technology Review",
       "time": "2026-11-03T10:43:41.000Z",
       "kind": "press"
+    },
+    {
+      "title": "How Cisco defends at machine speed with OpenAI",
+      "url": "https://openai.com/index/cisco-cyber",
+      "source": "OpenAI",
+      "time": "2026-11-03T08:00:00.000Z",
+      "kind": "lab"
     },
     {
       "title": "Heimstaden is changing residential real estate management with AI",
@@ -182,34 +210,6 @@
       "url": "https://huggingface.co/blog/cwe-bench",
       "source": "Hugging Face",
       "time": "2026-11-03T00:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Coming in 2027: Apple’s $1,000 home robot for FaceTime and switching on lights",
-      "url": "https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat/",
-      "source": "Ars Technica",
-      "time": "2026-11-02T18:32:21.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Claude’s new rules against game cloning won’t stop the AI copying boom",
-      "url": "https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/",
-      "source": "Ars Technica",
-      "time": "2026-11-02T18:05:31.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Rewarding defenders with bigger bug bounties",
-      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
-      "source": "OpenAI",
-      "time": "2026-11-02T18:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "The latest AI news we announced in October 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
-      "source": "Google AI",
-      "time": "2026-11-02T17:45:00.000Z",
       "kind": "lab"
     }
   ]
