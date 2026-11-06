@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T07:10:12.881Z",
+  "updated": "2026-11-06T19:37:14.371Z",
   "sources": [
     "MIT Technology Review",
     "The Guardian",
@@ -17,31 +17,157 @@
   ],
   "items": [
     {
-      "title": "Global stocks tumble as AI panic grips markets after Democrats’ midterm success – business live",
-      "url": "https://www.theguardian.com/business/live/2026/nov/06/global-stocks-tumble-ai-panic-markets-democrats-midterms-success-jobs-oil-dollar-latest-news-updates",
-      "source": "The Guardian",
-      "time": "2026-11-06T07:05:53.000Z",
+      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+      "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+      "source": "TechCrunch",
+      "time": "2026-11-06T18:44:38.000Z",
       "kind": "press"
+    },
+    {
+      "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+      "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+      "source": "TechCrunch",
+      "time": "2026-11-06T18:44:20.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Free Chinese AI Models Are Getting Scary Good at Hacking",
+      "url": "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/",
+      "source": "Wired",
+      "time": "2026-11-06T18:43:43.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Why the US midterms sparked an AI stock selloff",
+      "url": "https://www.bbc.co.uk/news/articles/crlykkzwwpydo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "time": "2026-11-06T18:32:16.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Meta’s Muse AI can create custom ‘spaces’ for the version of the app you need right now",
+      "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
+      "source": "The Verge",
+      "time": "2026-11-06T18:10:10.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "How a Blue Wave midterm might reshape the AI industry",
+      "url": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
+      "source": "TechCrunch",
+      "time": "2026-11-06T18:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "The Guardian view on the AI backlash: American voters want a say in their future | Editorial",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/06/the-guardian-view-on-the-ai-backlash-american-voters-want-a-say-in-their-future",
+      "source": "The Guardian",
+      "time": "2026-11-06T17:58:05.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "“Does Meta think we can’t read?” Meta abandons sketchy commercial terms update.",
+      "url": "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/",
+      "source": "Ars Technica",
+      "time": "2026-11-06T17:43:02.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Could the AI bubble burst after Democrats' midterms sweep? - The Latest",
+      "url": "https://www.theguardian.com/news/video/2026/nov/06/could-the-ai-bubble-burst-after-democrats-midterms-sweep-the-latest",
+      "source": "The Guardian",
+      "time": "2026-11-06T17:04:41.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "AI stocks climb after trillions wiped from market values",
+      "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "time": "2026-11-06T17:03:02.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "AI is the new dating dealbreaker",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity",
+      "source": "The Verge",
+      "time": "2026-11-06T17:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Could the AI bubble burst after Democrats’ midterms sweep? – The Latest",
+      "url": "https://www.theguardian.com/news/audio/2026/nov/06/could-the-ai-bubble-burst-after-democrats-midterms-sweep-the-latest",
+      "source": "The Guardian",
+      "time": "2026-11-06T16:49:19.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Big Tech lost big in the 2026 election",
+      "url": "https://www.theverge.com/podcast/1028731/2026-midterms-tech-ai-vergecast",
+      "source": "The Verge",
+      "time": "2026-11-06T16:38:02.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Could potential AI clones of GTA VI force a quicker official port?",
+      "url": "https://arstechnica.com/gaming/2026/11/could-potential-ai-clones-of-gta-vi-force-a-quicker-official-port/",
+      "source": "Ars Technica",
+      "time": "2026-11-06T16:19:12.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
+      "url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
+      "source": "NVIDIA",
+      "time": "2026-11-06T16:00:35.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "AI Companies Really, Really Want to Buy Your Work Files and Emails",
+      "url": "https://www.wired.com/story/ai-companies-really-really-want-to-buy-your-work-files-and-emails/",
+      "source": "Wired",
+      "time": "2026-11-06T16:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+      "url": "https://huggingface.co/blog/allenai/toyblocks",
+      "source": "Hugging Face",
+      "time": "2026-11-06T14:00:48.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Global stocks plunge as fears over US AI slowdown spread to Asia and Europe",
+      "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "time": "2026-11-06T13:25:50.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "India focused on becoming AI application capital of the world: Ashwini Vaishnaw",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/india-focused-on-becoming-ai-application-capital-of-the-world-ashwini-vaishnaw/articleshow/135603356.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-06T10:27:26.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
+      "url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+      "source": "MIT Technology Review",
+      "time": "2026-11-06T10:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "url": "https://openai.com/index/partnering-with-hacktron",
+      "source": "OpenAI",
+      "time": "2026-11-06T08:00:00.000Z",
+      "kind": "lab"
     },
     {
       "title": "Over half of consumers use AI for wellness, yet concerns over accuracy persist: McKinsey",
       "url": "https://economictimes.indiatimes.com/ai/ai-insights/over-half-of-consumers-use-ai-for-wellness-yet-concerns-over-accuracy-persist-mckinsey/articleshow/135597185.cms",
       "source": "The Economic Times",
       "time": "2026-11-06T06:57:51.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
-      "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
-      "source": "TechCrunch",
-      "time": "2026-11-06T06:28:32.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Global tech stocks plunge as US midterms add to AI slowdown fears",
-      "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "time": "2026-11-06T06:00:59.000Z",
       "kind": "press"
     },
     {
@@ -52,39 +178,18 @@
       "kind": "press"
     },
     {
-      "title": "Cashfree opens checkout to AI agents, leaves final say with shoppers",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/cashfree-opens-checkout-to-ai-agents-leaves-final-say-with-shoppers/articleshow/135594642.cms",
-      "source": "The Economic Times",
-      "time": "2026-11-06T05:29:52.000Z",
-      "kind": "press"
+      "title": "Measuring how AI agents handle everyday wet-lab science",
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "source": "OpenAI",
+      "time": "2026-11-06T00:00:00.000Z",
+      "kind": "lab"
     },
     {
-      "title": "OpenAI is stepping back from NDAs for data center projects",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
-      "source": "The Verge",
-      "time": "2026-11-06T00:37:56.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Airbnb is working on an AI travel agent",
-      "url": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
-      "source": "The Verge",
-      "time": "2026-11-06T00:06:12.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
-      "url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
-      "source": "TechCrunch",
-      "time": "2026-11-05T22:40:55.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Perplexity launches its own take on AI agents for work",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
-      "source": "The Verge",
-      "time": "2026-11-05T22:26:50.000Z",
-      "kind": "press"
+      "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+      "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+      "source": "Hugging Face",
+      "time": "2026-11-06T00:00:00.000Z",
+      "kind": "lab"
     },
     {
       "title": "Google: Schools can keep search while skipping Gemini, but AI search is non-negotiable",
@@ -101,116 +206,11 @@
       "kind": "press"
     },
     {
-      "title": "Nasdaq sees worst day in 19 months as investors bet on AI slowdown after Democrats’ election triumph",
-      "url": "https://www.theguardian.com/business/2026/nov/05/nasdaq-heading-for-worst-day-in-18-months-as-wall-street-sustains-widespread-losses",
-      "source": "The Guardian",
-      "time": "2026-11-05T21:23:18.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
       "url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
       "source": "NVIDIA",
       "time": "2026-11-05T20:00:41.000Z",
       "kind": "lab"
-    },
-    {
-      "title": "Cult.fit builds operational muscle with Codex",
-      "url": "https://openai.com/index/cultfit-builds-with-codex",
-      "source": "OpenAI",
-      "time": "2026-11-05T20:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Meta says US users can now video chat with their Muse AI avatar",
-      "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
-      "source": "TechCrunch",
-      "time": "2026-11-05T19:48:28.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
-      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
-      "source": "Hugging Face",
-      "time": "2026-11-05T19:35:16.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Winner of the Prix Goncourt literary prize admits to using AI",
-      "url": "https://www.theguardian.com/books/2026/nov/05/winner-of-the-prix-goncourt-literary-prize-admits-to-using-ai-philippe-jaenada",
-      "source": "The Guardian",
-      "time": "2026-11-05T18:08:58.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-      "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
-      "source": "Google DeepMind",
-      "time": "2026-11-05T17:05:16.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
-      "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
-      "source": "NVIDIA",
-      "time": "2026-11-05T17:00:35.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Australian universities are creating AI-native graduates",
-      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
-      "source": "OpenAI",
-      "time": "2026-11-05T17:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Reddit Founder Says Building Social Media Apps Is ‘Not Cool Anymore’",
-      "url": "https://www.wired.com/story/wired-world-fair-2026-alexis-ohanian/",
-      "source": "Wired",
-      "time": "2026-11-05T16:26:57.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models",
-      "url": "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk/",
-      "source": "NVIDIA",
-      "time": "2026-11-05T16:00:05.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Exclusive: Aina’s Smart Ring Wants to Be a Remote Control for Your AI Agent",
-      "url": "https://www.wired.com/story/aina-smart-ring/",
-      "source": "Wired",
-      "time": "2026-11-05T14:00:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Agility Robotics' Nasdaq debut invites scrutiny of humanoid robot market",
-      "url": "https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market/",
-      "source": "Ars Technica",
-      "time": "2026-11-05T12:00:41.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
-      "url": "https://openai.com/index/introducing-gpt-6-cyber",
-      "source": "OpenAI",
-      "time": "2026-11-05T09:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
-      "url": "https://huggingface.co/blog/phonon-tts",
-      "source": "Hugging Face",
-      "time": "2026-11-05T00:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Big Tech claims voters’ AI backlash is “anti-Trump” not “anti-tech”",
-      "url": "https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/",
-      "source": "Ars Technica",
-      "time": "2026-11-04T20:55:50.000Z",
-      "kind": "press"
     }
   ]
 }
