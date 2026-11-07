@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T19:37:14.371Z",
+  "updated": "2026-11-07T06:22:03.481Z",
   "sources": [
     "MIT Technology Review",
     "The Guardian",
@@ -17,17 +17,73 @@
   ],
   "items": [
     {
+      "title": "Crusoe sells troubled Wyoming data center project to Google",
+      "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+      "source": "TechCrunch",
+      "time": "2026-11-07T01:40:28.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+      "source": "The Verge",
+      "time": "2026-11-06T23:46:18.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "The Guardian view on the AI backlash: American voters want a say in their future | Editorial",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/06/the-guardian-view-on-the-ai-backlash-american-voters-want-a-say-in-their-future",
+      "source": "The Guardian",
+      "time": "2026-11-06T23:45:52.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "China reportedly recruited AI exec to spy on Jensen Huang",
+      "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+      "source": "The Verge",
+      "time": "2026-11-06T23:00:44.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+      "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "source": "TechCrunch",
+      "time": "2026-11-06T22:53:46.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Global stocks fall amid ‘big worries over AI’ after Democrats’ midterms triumph",
+      "url": "https://www.theguardian.com/business/2026/nov/06/global-stocks-plunge-amid-ai-slowdown-fears-after-democrats-midterm-triumph",
+      "source": "The Guardian",
+      "time": "2026-11-06T21:23:54.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Three men charged in US with using AI to impersonate CEOs and steal millions",
+      "url": "https://www.theguardian.com/us-news/2026/nov/06/ai-ceo-impersonation-theft",
+      "source": "The Guardian",
+      "time": "2026-11-06T21:20:49.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "AI stocks climb after trillions wiped from market values",
+      "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "time": "2026-11-06T21:06:25.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "All the latest updates on AI data centers",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+      "source": "The Verge",
+      "time": "2026-11-06T20:02:22.000Z",
+      "kind": "press"
+    },
+    {
       "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
       "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
       "source": "TechCrunch",
       "time": "2026-11-06T18:44:38.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
-      "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
-      "source": "TechCrunch",
-      "time": "2026-11-06T18:44:20.000Z",
       "kind": "press"
     },
     {
@@ -45,66 +101,10 @@
       "kind": "press"
     },
     {
-      "title": "Meta’s Muse AI can create custom ‘spaces’ for the version of the app you need right now",
-      "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
-      "source": "The Verge",
-      "time": "2026-11-06T18:10:10.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "How a Blue Wave midterm might reshape the AI industry",
-      "url": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
-      "source": "TechCrunch",
-      "time": "2026-11-06T18:00:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "The Guardian view on the AI backlash: American voters want a say in their future | Editorial",
-      "url": "https://www.theguardian.com/commentisfree/2026/nov/06/the-guardian-view-on-the-ai-backlash-american-voters-want-a-say-in-their-future",
-      "source": "The Guardian",
-      "time": "2026-11-06T17:58:05.000Z",
-      "kind": "press"
-    },
-    {
       "title": "“Does Meta think we can’t read?” Meta abandons sketchy commercial terms update.",
       "url": "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/",
       "source": "Ars Technica",
       "time": "2026-11-06T17:43:02.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Could the AI bubble burst after Democrats' midterms sweep? - The Latest",
-      "url": "https://www.theguardian.com/news/video/2026/nov/06/could-the-ai-bubble-burst-after-democrats-midterms-sweep-the-latest",
-      "source": "The Guardian",
-      "time": "2026-11-06T17:04:41.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "AI stocks climb after trillions wiped from market values",
-      "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "time": "2026-11-06T17:03:02.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "AI is the new dating dealbreaker",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity",
-      "source": "The Verge",
-      "time": "2026-11-06T17:00:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Could the AI bubble burst after Democrats’ midterms sweep? – The Latest",
-      "url": "https://www.theguardian.com/news/audio/2026/nov/06/could-the-ai-bubble-burst-after-democrats-midterms-sweep-the-latest",
-      "source": "The Guardian",
-      "time": "2026-11-06T16:49:19.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Big Tech lost big in the 2026 election",
-      "url": "https://www.theverge.com/podcast/1028731/2026-midterms-tech-ai-vergecast",
-      "source": "The Verge",
-      "time": "2026-11-06T16:38:02.000Z",
       "kind": "press"
     },
     {
