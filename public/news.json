@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T06:22:03.481Z",
+  "updated": "2026-11-07T17:49:33.996Z",
   "sources": [
     "MIT Technology Review",
     "The Guardian",
@@ -17,17 +17,73 @@
   ],
   "items": [
     {
+      "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
+      "url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+      "source": "The Verge",
+      "time": "2026-11-07T15:50:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "The US let Nvidia sell chips to an empty office in China",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+      "source": "The Verge",
+      "time": "2026-11-07T15:43:45.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "AI broke the cybersecurity world. What’s next?",
+      "url": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
+      "source": "The Verge",
+      "time": "2026-11-07T15:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Apps for Caregivers Get a Dose of AI, but That Might Not Be Enough",
+      "url": "https://www.wired.com/story/apps-for-caregivers-get-a-dose-of-ai-but-that-might-not-be-enough/",
+      "source": "Wired",
+      "time": "2026-11-07T11:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Lanarkshire AI datacentre to fully rely on National Grid despite renewables claim",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/07/lanarkshire-ai-datacentre-datavita-chapelhall-national-grid-renewable-energy",
+      "source": "The Guardian",
+      "time": "2026-11-07T10:00:08.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "India on right track in AI; firms moving from pilots to production: Oracle's Shailender Kumar",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/india-on-right-track-in-ai-firms-moving-from-pilots-to-production-oracles-shailender-kumar/articleshow/135632098.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-07T09:18:04.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Environmental groups embrace AI, even as they warn of data center impacts",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/environmental-groups-embrace-ai-even-as-they-warn-of-data-center-impacts/articleshow/135630457.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-07T07:49:45.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Can AI really save you money on your heating bill? I spent two years testing to find out",
+      "url": "https://www.theguardian.com/money/2026/nov/07/can-ai-save-you-money-heating-bill",
+      "source": "The Guardian",
+      "time": "2026-11-07T07:00:07.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Bubble or Revolution? IMF's Krishna Srinivasan on what AI means for Indian jobs",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/bubble-or-revolution-imfs-krishna-srinivasan-on-what-ai-means-for-indian-jobs/videoshow/135629239.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-07T06:52:11.000Z",
+      "kind": "press"
+    },
+    {
       "title": "Crusoe sells troubled Wyoming data center project to Google",
       "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
       "source": "TechCrunch",
       "time": "2026-11-07T01:40:28.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
-      "source": "The Verge",
-      "time": "2026-11-06T23:46:18.000Z",
       "kind": "press"
     },
     {
@@ -38,13 +94,6 @@
       "kind": "press"
     },
     {
-      "title": "China reportedly recruited AI exec to spy on Jensen Huang",
-      "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
-      "source": "The Verge",
-      "time": "2026-11-06T23:00:44.000Z",
-      "kind": "press"
-    },
-    {
       "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
       "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
       "source": "TechCrunch",
@@ -52,31 +101,10 @@
       "kind": "press"
     },
     {
-      "title": "Global stocks fall amid ‘big worries over AI’ after Democrats’ midterms triumph",
-      "url": "https://www.theguardian.com/business/2026/nov/06/global-stocks-plunge-amid-ai-slowdown-fears-after-democrats-midterm-triumph",
-      "source": "The Guardian",
-      "time": "2026-11-06T21:23:54.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Three men charged in US with using AI to impersonate CEOs and steal millions",
-      "url": "https://www.theguardian.com/us-news/2026/nov/06/ai-ceo-impersonation-theft",
-      "source": "The Guardian",
-      "time": "2026-11-06T21:20:49.000Z",
-      "kind": "press"
-    },
-    {
       "title": "AI stocks climb after trillions wiped from market values",
       "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "time": "2026-11-06T21:06:25.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "All the latest updates on AI data centers",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
-      "source": "The Verge",
-      "time": "2026-11-06T20:02:22.000Z",
       "kind": "press"
     },
     {
@@ -143,13 +171,6 @@
       "kind": "press"
     },
     {
-      "title": "India focused on becoming AI application capital of the world: Ashwini Vaishnaw",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/india-focused-on-becoming-ai-application-capital-of-the-world-ashwini-vaishnaw/articleshow/135603356.cms",
-      "source": "The Economic Times",
-      "time": "2026-11-06T10:27:26.000Z",
-      "kind": "press"
-    },
-    {
       "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
       "url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
       "source": "MIT Technology Review",
@@ -161,55 +182,6 @@
       "url": "https://openai.com/index/partnering-with-hacktron",
       "source": "OpenAI",
       "time": "2026-11-06T08:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Over half of consumers use AI for wellness, yet concerns over accuracy persist: McKinsey",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/over-half-of-consumers-use-ai-for-wellness-yet-concerns-over-accuracy-persist-mckinsey/articleshow/135597185.cms",
-      "source": "The Economic Times",
-      "time": "2026-11-06T06:57:51.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "AI boom turns chip packaging into the next battleground for semiconductors",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/ai-boom-turns-chip-packaging-into-the-next-battleground-for-semiconductors/articleshow/135595850.cms",
-      "source": "The Economic Times",
-      "time": "2026-11-06T05:56:29.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Measuring how AI agents handle everyday wet-lab science",
-      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
-      "source": "OpenAI",
-      "time": "2026-11-06T00:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
-      "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
-      "source": "Hugging Face",
-      "time": "2026-11-06T00:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Google: Schools can keep search while skipping Gemini, but AI search is non-negotiable",
-      "url": "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/",
-      "source": "Ars Technica",
-      "time": "2026-11-05T21:40:36.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Ads in Chatbots Have Arrived. Here’s What’s Working—and What’s Not",
-      "url": "https://www.wired.com/story/ads-in-chatbots-have-arrived-heres-whats-working-and-whats-not/",
-      "source": "Wired",
-      "time": "2026-11-05T21:37:18.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
-      "url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
-      "source": "NVIDIA",
-      "time": "2026-11-05T20:00:41.000Z",
       "kind": "lab"
     }
   ]
