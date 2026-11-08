@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T17:49:33.996Z",
+  "updated": "2026-11-08T06:29:16.850Z",
   "sources": [
     "MIT Technology Review",
     "The Guardian",
@@ -16,6 +16,27 @@
     "Hugging Face"
   ],
   "items": [
+    {
+      "title": "AI to boost industrial robotics growth, but manufacturers may benefit less than customers: S&P Global",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/ai-revolutionizes-industrial-robotics-customers-set-to-gain-more-than-manufacturers-says-sp-global-report/articleshow/135651846.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-08T05:25:35.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
+      "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+      "source": "TechCrunch",
+      "time": "2026-11-07T22:07:22.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+      "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+      "source": "TechCrunch",
+      "time": "2026-11-07T21:17:08.000Z",
+      "kind": "press"
+    },
     {
       "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
       "url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
@@ -73,13 +94,6 @@
       "kind": "press"
     },
     {
-      "title": "Bubble or Revolution? IMF's Krishna Srinivasan on what AI means for Indian jobs",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/bubble-or-revolution-imfs-krishna-srinivasan-on-what-ai-means-for-indian-jobs/videoshow/135629239.cms",
-      "source": "The Economic Times",
-      "time": "2026-11-07T06:52:11.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Crusoe sells troubled Wyoming data center project to Google",
       "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
       "source": "TechCrunch",
@@ -94,24 +108,10 @@
       "kind": "press"
     },
     {
-      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
-      "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
-      "source": "TechCrunch",
-      "time": "2026-11-06T22:53:46.000Z",
-      "kind": "press"
-    },
-    {
       "title": "AI stocks climb after trillions wiped from market values",
       "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "time": "2026-11-06T21:06:25.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
-      "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
-      "source": "TechCrunch",
-      "time": "2026-11-06T18:44:38.000Z",
       "kind": "press"
     },
     {
@@ -127,62 +127,6 @@
       "source": "BBC News",
       "time": "2026-11-06T18:32:16.000Z",
       "kind": "press"
-    },
-    {
-      "title": "“Does Meta think we can’t read?” Meta abandons sketchy commercial terms update.",
-      "url": "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/",
-      "source": "Ars Technica",
-      "time": "2026-11-06T17:43:02.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Could potential AI clones of GTA VI force a quicker official port?",
-      "url": "https://arstechnica.com/gaming/2026/11/could-potential-ai-clones-of-gta-vi-force-a-quicker-official-port/",
-      "source": "Ars Technica",
-      "time": "2026-11-06T16:19:12.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
-      "url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
-      "source": "NVIDIA",
-      "time": "2026-11-06T16:00:35.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "AI Companies Really, Really Want to Buy Your Work Files and Emails",
-      "url": "https://www.wired.com/story/ai-companies-really-really-want-to-buy-your-work-files-and-emails/",
-      "source": "Wired",
-      "time": "2026-11-06T16:00:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "ToyBlocks: A controlled world for robot learning and evaluation",
-      "url": "https://huggingface.co/blog/allenai/toyblocks",
-      "source": "Hugging Face",
-      "time": "2026-11-06T14:00:48.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Global stocks plunge as fears over US AI slowdown spread to Asia and Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "time": "2026-11-06T13:25:50.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
-      "url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
-      "source": "MIT Technology Review",
-      "time": "2026-11-06T10:00:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
-      "url": "https://openai.com/index/partnering-with-hacktron",
-      "source": "OpenAI",
-      "time": "2026-11-06T08:00:00.000Z",
-      "kind": "lab"
     }
   ]
 }
