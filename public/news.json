@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T17:59:59.911Z",
+  "updated": "2026-11-09T06:59:49.842Z",
   "sources": [
     "MIT Technology Review",
     "The Guardian",
@@ -17,10 +17,80 @@
   ],
   "items": [
     {
-      "title": "Elvis and Eminem rights holders are suing Suno",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+      "title": "AI power rush sends data centres hunting for used turbines and jet engines",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/ai-power-rush-sends-data-centres-hunting-for-used-turbines-and-jet-engines/articleshow/135673523.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-09T06:34:55.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "UBS CEO says AI investors had been pricing for 'perfection' until sector's sharp correction",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/ubs-ceo-says-ai-investors-had-been-pricing-for-perfection-until-sectors-sharp-correction/articleshow/135672371.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-09T05:48:31.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
+      "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
+      "source": "TechCrunch",
+      "time": "2026-11-09T05:26:29.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Korea Advances Physical AI Across Industries With NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/",
+      "source": "NVIDIA",
+      "time": "2026-11-09T05:00:40.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai/",
+      "source": "NVIDIA",
+      "time": "2026-11-09T05:00:39.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "From Chips to Skills, NVIDIA and Korea Expand Sovereign AI Collaboration",
+      "url": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration/",
+      "source": "NVIDIA",
+      "time": "2026-11-09T05:00:04.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Nvidia opens investigation after report CEO Jensen Huang was target of foreign intelligence",
+      "url": "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation",
+      "source": "The Guardian",
+      "time": "2026-11-09T00:25:28.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
       "source": "The Verge",
-      "time": "2026-11-08T17:23:19.000Z",
+      "time": "2026-11-08T22:54:50.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+      "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+      "source": "TechCrunch",
+      "time": "2026-11-08T21:00:11.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+      "source": "The Verge",
+      "time": "2026-11-08T20:22:39.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Apple is racing to make Siri more agentic",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+      "source": "The Verge",
+      "time": "2026-11-08T19:18:19.000Z",
       "kind": "press"
     },
     {
@@ -52,13 +122,6 @@
       "kind": "press"
     },
     {
-      "title": "‘AI clog’: UK public bodies battle onslaught of chatbot-generated complaints",
-      "url": "https://www.theguardian.com/technology/2026/nov/08/ai-clog-public-bodies-local-authorities-onslaught-chatbot-generated-correspondence",
-      "source": "The Guardian",
-      "time": "2026-11-08T08:00:36.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Companies want AI-powered customer service; EY says they need a bigger reset",
       "url": "https://economictimes.indiatimes.com/ai/ai-insights/companies-want-ai-powered-customer-service-ey-says-they-need-a-bigger-reset/articleshow/135653462.cms",
       "source": "The Economic Times",
@@ -66,52 +129,10 @@
       "kind": "press"
     },
     {
-      "title": "AI to boost industrial robotics growth, but manufacturers may benefit less than customers: S&P Global",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/ai-revolutionizes-industrial-robotics-customers-set-to-gain-more-than-manufacturers-says-sp-global-report/articleshow/135651846.cms",
-      "source": "The Economic Times",
-      "time": "2026-11-08T05:25:35.000Z",
-      "kind": "press"
-    },
-    {
       "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
       "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
       "source": "TechCrunch",
       "time": "2026-11-07T22:07:22.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
-      "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
-      "source": "TechCrunch",
-      "time": "2026-11-07T21:17:08.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
-      "url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
-      "source": "The Verge",
-      "time": "2026-11-07T15:50:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "The US let Nvidia sell chips to an empty office in China",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
-      "source": "The Verge",
-      "time": "2026-11-07T15:43:45.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Apps for Caregivers Get a Dose of AI, but That Might Not Be Enough",
-      "url": "https://www.wired.com/story/apps-for-caregivers-get-a-dose-of-ai-but-that-might-not-be-enough/",
-      "source": "Wired",
-      "time": "2026-11-07T11:00:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "India on right track in AI; firms moving from pilots to production: Oracle's Shailender Kumar",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/india-on-right-track-in-ai-firms-moving-from-pilots-to-production-oracles-shailender-kumar/articleshow/135632098.cms",
-      "source": "The Economic Times",
-      "time": "2026-11-07T09:18:04.000Z",
       "kind": "press"
     }
   ]
