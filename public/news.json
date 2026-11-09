@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T06:59:49.842Z",
+  "updated": "2026-11-09T22:37:11.011Z",
   "sources": [
     "MIT Technology Review",
     "The Guardian",
@@ -17,6 +17,188 @@
   ],
   "items": [
     {
+      "title": "The race is on to sue Nvidia",
+      "url": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
+      "source": "TechCrunch",
+      "time": "2026-11-09T22:23:42.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Jensen Huang’s image has been shattered. Could he be pushed out at Nvidia?",
+      "url": "https://www.theguardian.com/technology/2026/nov/09/jensen-huang-image-nvidia",
+      "source": "The Guardian",
+      "time": "2026-11-09T20:27:07.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Jensen Huang pulls out of ElevenLabs Summit amid Nvidia controversy",
+      "url": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
+      "source": "TechCrunch",
+      "time": "2026-11-09T20:09:06.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "The AI poster boy, the ‘Chinese spy’ and Trump: how an affair may have harmed US security",
+      "url": "https://www.theguardian.com/technology/2026/nov/09/nvidia-affair-huang-trump-national-security",
+      "source": "The Guardian",
+      "time": "2026-11-09T20:01:05.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
+      "url": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "time": "2026-11-09T19:58:01.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "The backlash about data centers might really just be about electricity",
+      "url": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
+      "source": "MIT Technology Review",
+      "time": "2026-11-09T19:35:33.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+      "source": "TechCrunch",
+      "time": "2026-11-09T19:24:51.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Apple’s $50 Intelligence Usage Packs extend access to some AI features",
+      "url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+      "source": "The Verge",
+      "time": "2026-11-09T19:09:58.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Anthropic launches new Claude Fable and Mythos 5.2 models",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+      "source": "The Verge",
+      "time": "2026-11-09T19:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "ChatGPT Enterprise now available in AWS Marketplace",
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "source": "OpenAI",
+      "time": "2026-11-09T19:00:00.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Silicon Valley and Trump rally behind Nvidia CEO after his affair with alleged Chinese spy",
+      "url": "https://www.theguardian.com/technology/2026/nov/09/nvidia-jensen-huang-affair-trump-musk",
+      "source": "The Guardian",
+      "time": "2026-11-09T18:58:37.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Instagram’s Effect Builder makes new filters from AI prompts",
+      "url": "https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters",
+      "source": "The Verge",
+      "time": "2026-11-09T18:07:23.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Claude Code is accidentally exposing secrets all over GitHub",
+      "url": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/",
+      "source": "Ars Technica",
+      "time": "2026-11-09T17:24:26.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Nancy Pelosi’s replacement is ready to regulate AI",
+      "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+      "source": "MIT Technology Review",
+      "time": "2026-11-09T17:05:43.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Nvidia CEO's affair becomes a national security problem",
+      "url": "https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage/",
+      "source": "Ars Technica",
+      "time": "2026-11-09T15:23:20.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+      "source": "Hugging Face",
+      "time": "2026-11-09T15:05:57.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Who is the suspected Chinese spy at centre of the Nvidia investigation?",
+      "url": "https://www.bbc.co.uk/news/videos/c80404zyr53wo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "time": "2026-11-09T14:50:35.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
+      "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+      "source": "NVIDIA",
+      "time": "2026-11-09T14:00:01.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Innovating with AI in the special chemicals industry",
+      "url": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
+      "source": "MIT Technology Review",
+      "time": "2026-11-09T13:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "url": "https://openai.com/index/control-room",
+      "source": "OpenAI",
+      "time": "2026-11-09T13:00:00.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+      "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+      "source": "Hugging Face",
+      "time": "2026-11-09T12:34:29.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Authors Can Defend Against AI Allegations With ‘Paper Trail’ Tools. Is It Enough?",
+      "url": "https://www.wired.com/story/authors-can-defend-against-ai-allegations-with-paper-trail-tools/",
+      "source": "Wired",
+      "time": "2026-11-09T11:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Sarvam names Google Cloud India head Sashikumar Sreedharan as president & chief business officer",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/sarvam-names-google-cloud-india-head-sashikumar-sreedharan-as-president-chief-business-officer/articleshow/135678939.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-09T10:21:51.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
+      "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
+      "source": "NVIDIA",
+      "time": "2026-11-09T08:00:53.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Bikers and Bug-Lovers Join Forces to Fight a New Google Data Center",
+      "url": "https://www.wired.com/story/bug-activists-and-biker-gang-members-are-teaming-up-to-protest-data-centers/",
+      "source": "Wired",
+      "time": "2026-11-09T08:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "CodeRabbit scales agentic software development and ships 20x more",
+      "url": "https://openai.com/index/coderabbit-codex-daybreak",
+      "source": "OpenAI",
+      "time": "2026-11-09T08:00:00.000Z",
+      "kind": "lab"
+    },
+    {
       "title": "AI power rush sends data centres hunting for used turbines and jet engines",
       "url": "https://economictimes.indiatimes.com/ai/ai-insights/ai-power-rush-sends-data-centres-hunting-for-used-turbines-and-jet-engines/articleshow/135673523.cms",
       "source": "The Economic Times",
@@ -28,111 +210,6 @@
       "url": "https://economictimes.indiatimes.com/ai/ai-insights/ubs-ceo-says-ai-investors-had-been-pricing-for-perfection-until-sectors-sharp-correction/articleshow/135672371.cms",
       "source": "The Economic Times",
       "time": "2026-11-09T05:48:31.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
-      "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
-      "source": "TechCrunch",
-      "time": "2026-11-09T05:26:29.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Korea Advances Physical AI Across Industries With NVIDIA",
-      "url": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/",
-      "source": "NVIDIA",
-      "time": "2026-11-09T05:00:40.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA",
-      "url": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai/",
-      "source": "NVIDIA",
-      "time": "2026-11-09T05:00:39.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "From Chips to Skills, NVIDIA and Korea Expand Sovereign AI Collaboration",
-      "url": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration/",
-      "source": "NVIDIA",
-      "time": "2026-11-09T05:00:04.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Nvidia opens investigation after report CEO Jensen Huang was target of foreign intelligence",
-      "url": "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation",
-      "source": "The Guardian",
-      "time": "2026-11-09T00:25:28.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
-      "source": "The Verge",
-      "time": "2026-11-08T22:54:50.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
-      "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
-      "source": "TechCrunch",
-      "time": "2026-11-08T21:00:11.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
-      "source": "The Verge",
-      "time": "2026-11-08T20:22:39.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Apple is racing to make Siri more agentic",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
-      "source": "The Verge",
-      "time": "2026-11-08T19:18:19.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Weakening AI copyright law will spell ‘disaster for creativity’, global music body warns Albanese",
-      "url": "https://www.theguardian.com/technology/2026/nov/09/weakening-ai-copyright-law-will-spell-disaster-for-creativity-australia",
-      "source": "The Guardian",
-      "time": "2026-11-08T14:00:43.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "1-0 to humankind? US midterms vote puts AI, datacentres and the broligarchy back in their box | Heather Stewart",
-      "url": "https://www.theguardian.com/business/2026/nov/08/us-midterms-ai-datacentres-broligarchy-voter-backlash",
-      "source": "The Guardian",
-      "time": "2026-11-08T12:05:58.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "I Used NYT Cooking’s New AI-Powered Recipe Modifier, and It’s Actually Pretty Good",
-      "url": "https://www.wired.com/story/nyt-cooking-new-ai-powered-recipe-modifier-is-pretty-good/",
-      "source": "Wired",
-      "time": "2026-11-08T12:00:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "World Models Will Soon Be Inescapable. Here’s What You Need to Know",
-      "url": "https://www.wired.com/story/world-models-will-soon-be-inescapable-what-you-need-to-know/",
-      "source": "Wired",
-      "time": "2026-11-08T10:00:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Companies want AI-powered customer service; EY says they need a bigger reset",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/companies-want-ai-powered-customer-service-ey-says-they-need-a-bigger-reset/articleshow/135653462.cms",
-      "source": "The Economic Times",
-      "time": "2026-11-08T07:00:45.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
-      "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
-      "source": "TechCrunch",
-      "time": "2026-11-07T22:07:22.000Z",
       "kind": "press"
     }
   ]
