@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T07:37:23.077Z",
+  "updated": "2026-11-10T19:55:30.216Z",
   "sources": [
     "MIT Technology Review",
     "The Guardian",
@@ -17,200 +17,200 @@
   ],
   "items": [
     {
-      "title": "Security Flaws Across UK Government Sites Exposed ‘God-Tier’ Information",
-      "url": "https://www.wired.com/story/security-flaws-across-uk-government-sites-exposed-god-tier-information/",
-      "source": "Wired",
-      "time": "2026-11-10T07:00:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Otter AI can now follow conversations across 30+ languages",
-      "url": "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/",
+      "title": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
+      "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
       "source": "TechCrunch",
-      "time": "2026-11-10T07:00:00.000Z",
+      "time": "2026-11-10T19:23:34.000Z",
       "kind": "press"
     },
     {
-      "title": "Australia to introduce mandatory reporting after OpenAI hack to combat artificial intelligence ‘going rogue’",
-      "url": "https://www.theguardian.com/technology/2026/nov/10/australia-manadatory-reporting-openai-medicare-hack",
-      "source": "The Guardian",
-      "time": "2026-11-10T06:00:52.000Z",
+      "title": "The US is winning the AI race. Jensen Huang could have blown it",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy",
+      "source": "The Verge",
+      "time": "2026-11-10T19:04:05.000Z",
       "kind": "press"
     },
     {
-      "title": "Moonshot AI rents Nvidia’s top AI chips in China, documents show",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/moonshot-ai-rents-nvidias-top-ai-chips-in-china-documents-show/articleshow/135700895.cms",
-      "source": "The Economic Times",
-      "time": "2026-11-10T05:52:43.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Mandatory AI safety and security protections announced after OpenAI breach of Medicare – video",
-      "url": "https://www.theguardian.com/australia-news/video/2026/nov/10/mandatory-ai-safety-and-security-protections-announced-after-openai-breach-of-medicare-video",
-      "source": "The Guardian",
-      "time": "2026-11-10T05:29:32.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Australia considers criminal penalties for rogue AI in wake of OpenAI hack",
-      "url": "https://www.bbc.co.uk/news/articles/cmp3g37l566po?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "time": "2026-11-10T05:22:39.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "A New AI Tool From Google DeepMind Proved the Signal Protocol Is Secure",
-      "url": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/",
-      "source": "Wired",
-      "time": "2026-11-10T05:01:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "When AI starts operating machines, the network becomes industrial infrastructure",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/when-ai-starts-operating-machines-the-network-becomes-industrial-infrastructure/articleshow/135699427.cms",
-      "source": "The Economic Times",
-      "time": "2026-11-10T04:43:01.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
-      "url": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "time": "2026-11-10T03:58:13.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Qantas to cut 850 Australian jobs and outsource work to India under AI-driven overhaul",
-      "url": "https://www.theguardian.com/business/2026/nov/10/qantas-850-job-cuts-outsource-work-to-india-ai-overhaul",
-      "source": "The Guardian",
-      "time": "2026-11-10T01:34:47.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Anthropic reportedly plans to move forward with IPO plans",
-      "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
+      "title": "PSI is trying to make a business out of AI-driven scientific discovery",
+      "url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/",
       "source": "TechCrunch",
-      "time": "2026-11-10T01:27:12.000Z",
+      "time": "2026-11-10T19:03:52.000Z",
       "kind": "press"
     },
     {
-      "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
-      "url": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
-      "source": "The Verge",
-      "time": "2026-11-10T00:28:49.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Jensen Huang’s Troubles Leave the AI Industry Reeling",
-      "url": "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/",
-      "source": "Wired",
-      "time": "2026-11-10T00:18:19.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "What could China get from Jensen Huang?",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
-      "source": "The Verge",
-      "time": "2026-11-09T23:51:58.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Here’s what Trump said he knew about Jensen Huang",
-      "url": "https://www.theverge.com/tech/1030446/trump-jensen-huang-press-conference",
-      "source": "The Verge",
-      "time": "2026-11-09T23:47:46.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "A short seller flagged Nvidia CEO’s ties to a suspected Chinese spy six months before the scandal",
-      "url": "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/",
-      "source": "TechCrunch",
-      "time": "2026-11-09T22:46:09.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
-      "url": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "time": "2026-11-09T19:58:01.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "The backlash about data centers might really just be about electricity",
-      "url": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
-      "source": "MIT Technology Review",
-      "time": "2026-11-09T19:35:33.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "ChatGPT Enterprise now available in AWS Marketplace",
-      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
-      "source": "OpenAI",
-      "time": "2026-11-09T19:00:00.000Z",
+      "title": "Gemini Intelligence: New features, on more devices",
+      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+      "source": "Google AI",
+      "time": "2026-11-10T19:00:00.000Z",
       "kind": "lab"
     },
     {
-      "title": "Claude Code is accidentally exposing secrets all over GitHub",
-      "url": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/",
-      "source": "Ars Technica",
-      "time": "2026-11-09T17:24:26.000Z",
+      "title": "OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google",
+      "url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
+      "source": "TechCrunch",
+      "time": "2026-11-10T18:49:52.000Z",
       "kind": "press"
     },
     {
-      "title": "Nancy Pelosi’s replacement is ready to regulate AI",
-      "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
-      "source": "MIT Technology Review",
-      "time": "2026-11-09T17:05:43.000Z",
+      "title": "ChatGPT is getting verified AI ‘Business Agents’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub",
+      "source": "The Verge",
+      "time": "2026-11-10T18:00:00.000Z",
       "kind": "press"
     },
     {
-      "title": "Nvidia CEO's affair becomes a national security problem",
-      "url": "https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage/",
-      "source": "Ars Technica",
-      "time": "2026-11-09T15:23:20.000Z",
+      "title": "Claude chatbot maker set for $1.3tn stock market debut despite 'catastrophic' AI warning",
+      "url": "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "time": "2026-11-10T17:56:12.000Z",
       "kind": "press"
     },
     {
-      "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
-      "source": "Hugging Face",
-      "time": "2026-11-09T15:05:57.000Z",
+      "title": "The indie game community is in disarray over AI and Big Walk",
+      "url": "https://www.theverge.com/games/1030994/big-walk-independent-games-festival-igf-ai",
+      "source": "The Verge",
+      "time": "2026-11-10T17:32:47.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Anthropic targets valuation of up to $1.4tn in stock market flotation",
+      "url": "https://www.theguardian.com/technology/2026/nov/10/anthropic-valuation-stock-market-flotation-ipo-wall-street-ai",
+      "source": "The Guardian",
+      "time": "2026-11-10T16:13:13.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Gemini 4 Carbon is now available",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+      "source": "Google DeepMind",
+      "time": "2026-11-10T16:03:47.000Z",
       "kind": "lab"
     },
     {
-      "title": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
-      "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+      "title": "NVIDIA Expands Open Source Commitment With OpenShell Donation and New AI Infrastructure",
+      "url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
       "source": "NVIDIA",
-      "time": "2026-11-09T14:00:01.000Z",
+      "time": "2026-11-10T16:00:03.000Z",
       "kind": "lab"
     },
     {
-      "title": "Innovating with AI in the special chemicals industry",
-      "url": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
-      "source": "MIT Technology Review",
-      "time": "2026-11-09T13:00:00.000Z",
+      "title": "Nvidia shaken by scandal amid wider political new order for big tech",
+      "url": "https://www.theguardian.com/global/2026/nov/10/nvidias-silicon-valley-political-power",
+      "source": "The Guardian",
+      "time": "2026-11-10T15:04:38.000Z",
       "kind": "press"
     },
     {
-      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
-      "url": "https://openai.com/index/control-room",
+      "title": "DeepMind reveals Gemini Robotics 2.5 and open safety benchmark \"ASIMOV-jailbreak\"",
+      "url": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
+      "source": "Ars Technica",
+      "time": "2026-11-10T15:00:39.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "This New Linux-Based Desktop Operating System Is Built for AI Nerds",
+      "url": "https://www.wired.com/story/kora-new-linux-based-desktop-operating-system-is-built-for-ai-nerds/",
+      "source": "Wired",
+      "time": "2026-11-10T14:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+      "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+      "source": "Google AI",
+      "time": "2026-11-10T14:00:00.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Even Martin Scorsese uses AI for storyboards. Can the art survive?",
+      "url": "https://www.theguardian.com/film/2026/nov/10/storyboard-artists-ai",
+      "source": "The Guardian",
+      "time": "2026-11-10T13:00:24.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Google Cloud launches Gemini for healthcare.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+      "source": "Google AI",
+      "time": "2026-11-10T13:00:00.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Ukraine’s fiber-optic drones get squeezed by AI data center demand",
+      "url": "https://arstechnica.com/gadgets/2026/11/ukraines-fiber-optic-drones-get-squeezed-by-ai-data-center-demand/",
+      "source": "Ars Technica",
+      "time": "2026-11-10T12:15:32.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "source": "Google DeepMind",
+      "time": "2026-11-10T12:02:28.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Helping caregivers use AI in everyday life",
+      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
       "source": "OpenAI",
-      "time": "2026-11-09T13:00:00.000Z",
+      "time": "2026-11-10T12:00:00.000Z",
       "kind": "lab"
     },
     {
-      "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
-      "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
-      "source": "Hugging Face",
-      "time": "2026-11-09T12:34:29.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Sarvam names Google Cloud India head Sashikumar Sreedharan as president & chief business officer",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/sarvam-names-google-cloud-india-head-sashikumar-sreedharan-as-president-chief-business-officer/articleshow/135678939.cms",
-      "source": "The Economic Times",
-      "time": "2026-11-09T10:21:51.000Z",
+      "title": "Tear Down Those Guardrails! Meet the Renegades Freeing Chatbots From Corporate Enslavers",
+      "url": "https://www.wired.com/story/tear-down-those-guardrails-meet-the-renegades-freeing-chatbots-from-corporate-enslavers/",
+      "source": "Wired",
+      "time": "2026-11-10T11:00:00.000Z",
       "kind": "press"
+    },
+    {
+      "title": "The AI Safety Debate Has Lost the Plot. We Asked 10 Experts What the Real Nightmares Are",
+      "url": "https://www.wired.com/story/the-ai-safety-debate-has-lost-the-plot-we-asked-10-experts-what-the-real-nightmares-are/",
+      "source": "Wired",
+      "time": "2026-11-10T11:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "AI can now build an OS from scratch, claims Anthropic",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/ai-can-now-build-an-os-from-scratch-claims-anthropic/articleshow/135705945.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-10T10:04:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Introducing Businesses in ChatGPT",
+      "url": "https://openai.com/index/introducing-businesses-chatgpt",
+      "source": "OpenAI",
+      "time": "2026-11-10T10:00:00.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Faisal Islam: What the boss of US tech giant Nvidia told me about China and national security",
+      "url": "https://www.bbc.co.uk/news/articles/c64g1gzy2vdzo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "time": "2026-11-10T09:23:55.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "ShareChat hires creative directors as AI cuts microdrama costs by 40%: CTO Nitin Jain",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/sharechat-hires-creative-directors-as-ai-cuts-microdrama-costs-by-40-cto-nitin-jain/articleshow/135705713.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-10T09:16:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Jensen Huang row gives US lawmakers fresh ammo on chip controls",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/jensen-huang-row-gives-us-lawmakers-fresh-ammo-on-chip-controls/articleshow/135705373.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-10T09:10:10.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Closing the AI guidance gap in education",
+      "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+      "source": "OpenAI",
+      "time": "2026-11-10T09:00:00.000Z",
+      "kind": "lab"
     }
   ]
 }
