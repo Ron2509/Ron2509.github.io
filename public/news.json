@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T07:31:37.326Z",
+  "updated": "2026-11-12T20:16:09.454Z",
   "sources": [
     "MIT Technology Review",
     "The Guardian",
@@ -17,53 +17,186 @@
   ],
   "items": [
     {
-      "title": "Fewer hours and higher wages – or more burnout and surveillance: employers told to prepare for AI",
-      "url": "https://www.theguardian.com/technology/2026/nov/12/fewer-hours-and-higher-wages-or-more-burnout-and-surveillance-employers-told-to-prepare-for-ai",
+      "title": "Ars Live: Can the cloud survive drone strikes on data centers?",
+      "url": "https://arstechnica.com/gadgets/2026/11/ars-live-can-the-cloud-survive-drone-strikes-on-data-centers/",
+      "source": "Ars Technica",
+      "time": "2026-11-12T19:59:59.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
+      "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+      "source": "TechCrunch",
+      "time": "2026-11-12T19:27:45.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
+      "url": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
+      "source": "Ars Technica",
+      "time": "2026-11-12T19:23:03.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+      "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+      "source": "TechCrunch",
+      "time": "2026-11-12T19:11:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "source": "Hugging Face",
+      "time": "2026-11-12T19:07:35.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Jensen Huang’s $470 Billion Affair",
+      "url": "https://www.wired.com/story/uncanny-valley-podcast-jensen-huangs-dollar470-billion-affair/",
+      "source": "Wired",
+      "time": "2026-11-12T18:59:58.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Google faces calls for AI moratoriums in schools after Gemini pilot backlash",
+      "url": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/",
+      "source": "Ars Technica",
+      "time": "2026-11-12T18:57:45.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Jensen Huang was a busted flush at Nvidia – he had to go | Nils Pratley",
+      "url": "https://www.theguardian.com/technology/nils-pratley-on-finance/2026/nov/12/jensen-huang-was-a-busted-flush-at-nvidia-he-had-to-go",
       "source": "The Guardian",
-      "time": "2026-11-12T06:55:44.000Z",
+      "time": "2026-11-12T18:46:48.000Z",
       "kind": "press"
     },
     {
-      "title": "Investors worry the AI trade needs Nvidia's Jensen Huang and its largesse",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/investors-worry-the-ai-trade-needs-nvidias-jensen-huang-and-its-largesse/articleshow/135758764.cms",
-      "source": "The Economic Times",
-      "time": "2026-11-12T06:50:09.000Z",
+      "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+      "source": "TechCrunch",
+      "time": "2026-11-12T18:39:23.000Z",
       "kind": "press"
     },
     {
-      "title": "Thursday briefing: What we do (and don’t) know about Alice Huang and the Nvidia affair",
-      "url": "https://www.theguardian.com/world/2026/nov/12/thursday-briefing-what-we-do-and-dont-know-about-alice-huang-and-the-nvidia-affair",
+      "title": "Google DeepMind Staff Tap the UK Government to Escalate Their Unionization Fight",
+      "url": "https://www.wired.com/story/google-deepmind-staff-escalate-their-union-fight/",
+      "source": "Wired",
+      "time": "2026-11-12T18:05:41.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Introducing Gemini 4 Hydrogen",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "source": "Google DeepMind",
+      "time": "2026-11-12T18:00:50.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+      "source": "Google AI",
+      "time": "2026-11-12T18:00:00.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Jensen Huang Basically Lit More Than $1 Trillion on Fire in Less Than a Month",
+      "url": "https://www.wired.com/story/jensen-huang-tanked-a-trillion-dollars-in-less-than-a-month/",
+      "source": "Wired",
+      "time": "2026-11-12T17:59:15.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Jensen Huang built an AI kingdom. Now he’s gone, will Nvidia’s ramparts be breached?",
+      "url": "https://www.theguardian.com/technology/2026/nov/12/jensen-huang-built-an-ai-kingdom-now-hes-gone-will-nvidias-ramparts-be-breached",
       "source": "The Guardian",
-      "time": "2026-11-12T06:43:31.000Z",
+      "time": "2026-11-12T17:50:35.000Z",
       "kind": "press"
     },
     {
-      "title": "Chinese AI firms rush to secure Nvidia chip capacity as spy scandal stirs fear of US curbs",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/chinese-ai-firms-rush-to-secure-nvidia-chip-capacity-as-spy-scandal-stirs-fear-of-us-curbs/articleshow/135758167.cms",
-      "source": "The Economic Times",
-      "time": "2026-11-12T06:24:17.000Z",
+      "title": "The Jensen Huang scandal is hardly over",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling",
+      "source": "The Verge",
+      "time": "2026-11-12T17:44:33.000Z",
       "kind": "press"
     },
     {
-      "title": "What we know as pressure builds on embattled Nvidia CEO Jensen Huang",
+      "title": "AI chatbots are recommending fake retail websites, study finds",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
+      "source": "The Verge",
+      "time": "2026-11-12T17:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "More game developers are starting to use generative AI",
+      "url": "https://www.theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs",
+      "source": "The Verge",
+      "time": "2026-11-12T17:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Zoe Kleinman: How AI visionary Jensen Huang was undone by his own bad decisions",
+      "url": "https://www.bbc.co.uk/news/articles/cq5y13819gpjo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "time": "2026-11-12T16:43:36.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "From washing dishes at Denny’s to rockstar of AI: the rise and fall of Nvidia’s Jensen Huang",
+      "url": "https://www.theguardian.com/technology/2026/nov/12/rise-and-fall-of-nvidia-ceo-jensen-huang-profile",
+      "source": "The Guardian",
+      "time": "2026-11-12T16:17:31.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "What we know as Nvidia CEO Jensen Huang resigns over affair allegations",
       "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
-      "time": "2026-11-12T04:18:33.000Z",
+      "time": "2026-11-12T15:26:39.000Z",
       "kind": "press"
     },
     {
-      "title": "Who could replace Jensen Huang? A highly unscientific list of possible successors",
-      "url": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
-      "source": "TechCrunch",
-      "time": "2026-11-12T03:13:10.000Z",
+      "title": "Who is Nvidia's interim CEO Colette Kress - and who could take over permanently?",
+      "url": "https://www.bbc.co.uk/news/articles/cqgm37dv20e8o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "time": "2026-11-12T15:10:32.000Z",
       "kind": "press"
     },
     {
-      "title": "The (alleged) spy who loved me: the Nvidia scandal - podcast",
-      "url": "https://www.theguardian.com/news/audio/2026/nov/12/the-alleged-spy-who-loved-me-the-nvidia-scandal-podcast",
-      "source": "The Guardian",
-      "time": "2026-11-12T03:00:07.000Z",
+      "title": "Help wanted: AI firms court ex-spies as Nvidia drama spotlights security risks",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/help-wanted-ai-firms-court-ex-spies-as-nvidia-drama-spotlights-security-risks/articleshow/135772033.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-12T13:49:38.000Z",
       "kind": "press"
+    },
+    {
+      "title": "Valuation of top diaspora-led firms jumps 53 pc to USD 15 trillion on AI boom: Report",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/valuation-of-top-diaspora-led-firms-jumps-53-pc-to-usd-15-trn-on-ai-boom-report/articleshow/135769168.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-12T12:21:22.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "AI can bring productivity gains with job risks; impact on India not yet clearly visible: Moody's",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/ai-can-bring-productivity-gains-with-job-risks-impact-on-india-not-yet-clearly-visible-moodys/articleshow/135765323.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-12T10:31:04.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Holiday Extras is rethinking what it can build with Codex",
+      "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+      "source": "OpenAI",
+      "time": "2026-11-12T09:30:00.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Supporting research on AI and children’s safety",
+      "url": "https://openai.com/index/children-first-declaration",
+      "source": "OpenAI",
+      "time": "2026-11-12T00:00:00.000Z",
+      "kind": "lab"
     },
     {
       "title": "Gilbert + Tobin rethinks the business of law with AI",
@@ -73,143 +206,10 @@
       "kind": "lab"
     },
     {
-      "title": "The unfolding Jensen Huang scandal: a timeline",
-      "url": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-      "source": "TechCrunch",
-      "time": "2026-11-11T23:50:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
-      "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
-      "source": "TechCrunch",
-      "time": "2026-11-11T23:28:45.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Nvidia is reportedly preparing to fire Jensen Huang",
-      "url": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
-      "source": "The Verge",
-      "time": "2026-11-11T22:44:36.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "United won’t let your AI agent book your flight",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
-      "source": "The Verge",
-      "time": "2026-11-11T21:54:21.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "I Saw the Future of Robotics in a Virtual Duck That Chases My Cat",
-      "url": "https://www.wired.com/story/i-trained-a-microduck-to-be-my-cats-butler/",
-      "source": "Wired",
-      "time": "2026-11-11T19:55:54.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
-      "url": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
-      "source": "Ars Technica",
-      "time": "2026-11-11T18:16:40.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-      "source": "Google AI",
-      "time": "2026-11-11T18:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Big Walk used AI to fix a bug. Now the indie gaming world is having a reckoning.",
-      "url": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/",
-      "source": "Ars Technica",
-      "time": "2026-11-11T17:37:32.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "A Startup Wants to Fight AI Bioweapons With AI",
-      "url": "https://www.wired.com/story/startup-fights-ai-bioweapons-with-ai/",
-      "source": "Wired",
-      "time": "2026-11-11T17:00:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "The AO3 Shutdown Is Pitting Fanfic Readers Against Authors",
-      "url": "https://www.wired.com/story/the-ao3-shutdown-is-pitting-fanfic-readers-against-authors/",
-      "source": "Wired",
-      "time": "2026-11-11T16:13:03.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Google’s Tabletop AI experiment lets you build custom collaboration apps",
-      "url": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability",
-      "source": "The Verge",
-      "time": "2026-11-11T16:00:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
-      "source": "Google AI",
-      "time": "2026-11-11T16:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
-      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
-      "source": "Google DeepMind",
-      "time": "2026-11-11T15:00:15.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Google DeepMind just mathematically verified key parts of Signal",
-      "url": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
-      "source": "Ars Technica",
-      "time": "2026-11-11T14:08:57.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "India ranked an 'AI Rising Contender' by BCG, built on talent rather than compute",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/india-ranked-an-ai-rising-contender-by-bcg-built-on-talent-rather-than-compute/articleshow/135736932.cms",
-      "source": "The Economic Times",
-      "time": "2026-11-11T12:11:31.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "New Indian mega library rocked by scandal over 'AI-generated books'",
-      "url": "https://www.bbc.co.uk/news/articles/c54gne3plvrxo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "time": "2026-11-11T11:33:24.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Experience the art and legacy of Dr. Esther Mahlangu",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
-      "source": "Google AI",
-      "time": "2026-11-11T09:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "ChatGPT Plus for veterans and servicemembers",
-      "url": "https://openai.com/index/chatgpt-plus-for-veterans",
-      "source": "OpenAI",
-      "time": "2026-11-11T08:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
-      "url": "https://huggingface.co/blog/qvac/botpsy",
+      "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+      "url": "https://huggingface.co/blog/3d-lora-finetuning",
       "source": "Hugging Face",
-      "time": "2026-11-11T05:01:16.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
-      "url": "https://blogs.nvidia.com/blog/ai-recycling-startups/",
-      "source": "NVIDIA",
-      "time": "2026-11-11T03:00:20.000Z",
+      "time": "2026-11-12T00:00:00.000Z",
       "kind": "lab"
     }
   ]
