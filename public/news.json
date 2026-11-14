@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T06:52:23.183Z",
+  "updated": "2026-11-14T18:23:50.744Z",
   "sources": [
     "MIT Technology Review",
     "The Guardian",
@@ -16,6 +16,62 @@
     "Hugging Face"
   ],
   "items": [
+    {
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "source": "TechCrunch",
+      "time": "2026-11-14T17:30:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+      "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+      "source": "TechCrunch",
+      "time": "2026-11-14T16:34:15.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
+      "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+      "source": "The Verge",
+      "time": "2026-11-14T15:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Beware the New AI-Fueled Ransomware Boom",
+      "url": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/",
+      "source": "Wired",
+      "time": "2026-11-14T13:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Jensen Huang and the decline of the visionary showman founder CEO",
+      "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+      "source": "The Verge",
+      "time": "2026-11-14T12:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "No Pilots. Few Air Traffic Controllers. What Could Go Wrong?",
+      "url": "https://www.wired.com/story/no-pilots-few-air-traffic-controllers-what-could-go-wrong/",
+      "source": "Wired",
+      "time": "2026-11-14T11:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "India could gain as global investors rotate out of AI stocks, says Jefferies",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/india-could-gain-as-global-investors-rotate-out-of-ai-stocks-says-jefferies/articleshow/135828687.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-14T09:28:44.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "‘It’s like the wild west’: how AI has rocked the literary world",
+      "url": "https://www.theguardian.com/books/ng-interactive/2026/nov/14/its-like-the-wild-west-how-ai-has-rocked-the-literary-world",
+      "source": "The Guardian",
+      "time": "2026-11-14T09:00:40.000Z",
+      "kind": "press"
+    },
     {
       "title": "AI debt hits $687 billion as Big Tech's funding appetite soars",
       "url": "https://economictimes.indiatimes.com/ai/ai-insights/ai-debt-hits-687-billion-as-big-techs-funding-appetite-soars/articleshow/135824839.cms",
@@ -45,13 +101,6 @@
       "kind": "press"
     },
     {
-      "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
-      "source": "The Verge",
-      "time": "2026-11-13T20:45:10.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Pressure grows on Trump's Commerce Secretary Lutnick in fallout from Nvidia scandal",
       "url": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -66,13 +115,6 @@
       "kind": "press"
     },
     {
-      "title": "AI agent startup LangChain hits $3B valuation",
-      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
-      "source": "TechCrunch",
-      "time": "2026-11-13T19:37:57.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Why the Nvidia scandal is far from over - The Latest",
       "url": "https://www.theguardian.com/news/video/2026/nov/13/why-the-nvidia-scandal-is-far-from-over-the-latest",
       "source": "The Guardian",
@@ -84,20 +126,6 @@
       "url": "https://www.wired.com/story/microsoft-365-crawls-back-to-life-after-a-24-hour-outage/",
       "source": "Wired",
       "time": "2026-11-13T19:08:57.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Why the Nvidia scandal is far from over – The Latest",
-      "url": "https://www.theguardian.com/news/audio/2026/nov/13/why-the-nvidia-scandal-is-far-from-over-the-latest",
-      "source": "The Guardian",
-      "time": "2026-11-13T19:01:38.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
-      "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
-      "source": "TechCrunch",
-      "time": "2026-11-13T18:40:30.000Z",
       "kind": "press"
     },
     {
@@ -122,25 +150,11 @@
       "kind": "lab"
     },
     {
-      "title": "Jensen Huang and the End of the Founder Fairy Tale",
-      "url": "https://www.wired.com/story/jensen-huang-and-the-end-of-the-founder-fairy-tale/",
-      "source": "Wired",
-      "time": "2026-11-13T16:00:00.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Introducing ChatGPT Wallet",
       "url": "https://openai.com/index/introducing-chatgpt-wallet",
       "source": "OpenAI",
       "time": "2026-11-13T15:00:00.000Z",
       "kind": "lab"
-    },
-    {
-      "title": "What’s really at stake in the Jensen Huang saga",
-      "url": "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast",
-      "source": "The Verge",
-      "time": "2026-11-13T14:47:16.000Z",
-      "kind": "press"
     },
     {
       "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
@@ -157,24 +171,10 @@
       "kind": "lab"
     },
     {
-      "title": "This Startup Is Betting on AI Microdramas to Get More Black Stories in Hollywood",
-      "url": "https://www.wired.com/story/black-roles-are-disappearing-in-hollywood-this-startup-is-using-ai-microdramas-to-fight-back/",
-      "source": "Wired",
-      "time": "2026-11-13T11:45:00.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Future of Knowledge Work Summit 2026: Six reasons business leaders should be at the event",
       "url": "https://economictimes.indiatimes.com/ai/ai-insights/future-of-knowledge-work-summit-2026-six-reasons-business-leaders-should-be-at-the-event/articleshow/135801426.cms",
       "source": "The Economic Times",
       "time": "2026-11-13T11:44:28.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Jensen Huang exit and US scrutiny imperil $3 billion in Chinese AI projects reliant on Nvidia",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/jensen-huang-exit-and-us-scrutiny-imperil-3-billion-in-chinese-ai-projects-reliant-on-nvidia/articleshow/135795850.cms",
-      "source": "The Economic Times",
-      "time": "2026-11-13T08:50:42.000Z",
       "kind": "press"
     },
     {
@@ -183,34 +183,6 @@
       "source": "OpenAI",
       "time": "2026-11-13T08:00:00.000Z",
       "kind": "lab"
-    },
-    {
-      "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
-      "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "time": "2026-11-13T03:57:01.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
-      "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
-      "source": "MIT Technology Review",
-      "time": "2026-11-12T20:16:24.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-      "url": "https://openai.com/business/customer-stories/amplitude",
-      "source": "OpenAI",
-      "time": "2026-11-12T20:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Ars Live: What drone attacks on data centers mean for modern life in the cloud",
-      "url": "https://arstechnica.com/gadgets/2026/11/ars-live-can-the-cloud-survive-drone-strikes-on-data-centers/",
-      "source": "Ars Technica",
-      "time": "2026-11-12T19:59:59.000Z",
-      "kind": "press"
     }
   ]
 }
