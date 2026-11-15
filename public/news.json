@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T06:56:39.582Z",
+  "updated": "2026-11-15T19:01:32.594Z",
   "sources": [
     "MIT Technology Review",
     "The Guardian",
@@ -17,10 +17,45 @@
   ],
   "items": [
     {
-      "title": "‘Jensen Huang lost his mind’: how AI’s smartest man fell for the world’s oldest trick",
-      "url": "https://www.theguardian.com/technology/2026/nov/14/jensen-huang-affair-nvidia-nightmare",
+      "title": "The Guardian view on civil service reform: AI cannot conjure a capable state on its own | Editorial",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/15/the-guardian-view-on-civil-service-reform-ai-cannot-conjure-a-capable-state-on-its-own",
       "source": "The Guardian",
-      "time": "2026-11-15T06:00:06.000Z",
+      "time": "2026-11-15T17:25:19.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+      "url": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "time": "2026-11-15T14:56:21.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Is the AI job apocalypse finally here? The evidence suggests otherwise | John Quiggin",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/16/is-the-ai-job-apocalypse-finally-here-the-evidence-suggests-otherwise",
+      "source": "The Guardian",
+      "time": "2026-11-15T14:00:19.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "An overview of Jensen Huang’s messy days",
+      "url": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
+      "source": "The Verge",
+      "time": "2026-11-15T13:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "This AI Tamagotchi Turns Everyday Objects Into Needy Virtual Pets",
+      "url": "https://www.wired.com/story/this-ai-tamagotchi-oats-turns-everyday-objects-into-needy-virtual-pets/",
+      "source": "Wired",
+      "time": "2026-11-15T11:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "160 questions, only one wrong: top scorer in South Korea tax exam admits AI cheating",
+      "url": "https://www.theguardian.com/technology/2026/nov/15/ai-cheating-south-korea-college-entrance-exam",
+      "source": "The Guardian",
+      "time": "2026-11-15T08:56:11.000Z",
       "kind": "press"
     },
     {
@@ -35,13 +70,6 @@
       "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
       "source": "TechCrunch",
       "time": "2026-11-14T21:41:22.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Art ‘must not be sacrificed on the altar of corporate profit’, Liberal senator says as AI policy debate rages",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/15/art-over-profit-ai-policy-debate-andrew-mclachlan",
-      "source": "The Guardian",
-      "time": "2026-11-14T19:00:52.000Z",
       "kind": "press"
     },
     {
@@ -84,48 +112,6 @@
       "url": "https://economictimes.indiatimes.com/ai/ai-insights/india-could-gain-as-global-investors-rotate-out-of-ai-stocks-says-jefferies/articleshow/135828687.cms",
       "source": "The Economic Times",
       "time": "2026-11-14T09:28:44.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "‘It’s like the wild west’: how AI has rocked the literary world",
-      "url": "https://www.theguardian.com/books/ng-interactive/2026/nov/14/its-like-the-wild-west-how-ai-has-rocked-the-literary-world",
-      "source": "The Guardian",
-      "time": "2026-11-14T09:00:40.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "AI debt hits $687 billion as Big Tech's funding appetite soars",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/ai-debt-hits-687-billion-as-big-techs-funding-appetite-soars/articleshow/135824839.cms",
-      "source": "The Economic Times",
-      "time": "2026-11-14T06:20:22.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Amazon has a plan to index the world’s online shopping data",
-      "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
-      "source": "The Verge",
-      "time": "2026-11-13T23:49:11.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
-      "url": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
-      "source": "Ars Technica",
-      "time": "2026-11-13T21:20:47.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Pressure grows on Trump's Commerce Secretary Lutnick in fallout from Nvidia scandal",
-      "url": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "time": "2026-11-13T19:53:57.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Microsoft 365 Crawls Back to Life After a 24-Hour Outage",
-      "url": "https://www.wired.com/story/microsoft-365-crawls-back-to-life-after-a-24-hour-outage/",
-      "source": "Wired",
-      "time": "2026-11-13T19:08:57.000Z",
       "kind": "press"
     }
   ]
