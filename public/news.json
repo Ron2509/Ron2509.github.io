@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T18:23:50.744Z",
+  "updated": "2026-11-15T06:56:39.582Z",
   "sources": [
     "MIT Technology Review",
     "The Guardian",
@@ -17,17 +17,38 @@
   ],
   "items": [
     {
+      "title": "‘Jensen Huang lost his mind’: how AI’s smartest man fell for the world’s oldest trick",
+      "url": "https://www.theguardian.com/technology/2026/nov/14/jensen-huang-affair-nvidia-nightmare",
+      "source": "The Guardian",
+      "time": "2026-11-15T06:00:06.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Where was Nvidia’s security team?",
+      "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+      "source": "TechCrunch",
+      "time": "2026-11-15T00:08:07.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+      "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+      "source": "TechCrunch",
+      "time": "2026-11-14T21:41:22.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Art ‘must not be sacrificed on the altar of corporate profit’, Liberal senator says as AI policy debate rages",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/15/art-over-profit-ai-policy-debate-andrew-mclachlan",
+      "source": "The Guardian",
+      "time": "2026-11-14T19:00:52.000Z",
+      "kind": "press"
+    },
+    {
       "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
       "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
       "source": "TechCrunch",
       "time": "2026-11-14T17:30:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
-      "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
-      "source": "TechCrunch",
-      "time": "2026-11-14T16:34:15.000Z",
       "kind": "press"
     },
     {
@@ -87,13 +108,6 @@
       "kind": "press"
     },
     {
-      "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
-      "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
-      "source": "TechCrunch",
-      "time": "2026-11-13T22:43:00.000Z",
-      "kind": "press"
-    },
-    {
       "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
       "url": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
       "source": "Ars Technica",
@@ -108,81 +122,11 @@
       "kind": "press"
     },
     {
-      "title": "Nvidia scandal: US treasury chief blames Lutnick’s commerce department over alleged lack of action",
-      "url": "https://www.theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china",
-      "source": "The Guardian",
-      "time": "2026-11-13T19:51:28.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Why the Nvidia scandal is far from over - The Latest",
-      "url": "https://www.theguardian.com/news/video/2026/nov/13/why-the-nvidia-scandal-is-far-from-over-the-latest",
-      "source": "The Guardian",
-      "time": "2026-11-13T19:20:53.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Microsoft 365 Crawls Back to Life After a 24-Hour Outage",
       "url": "https://www.wired.com/story/microsoft-365-crawls-back-to-life-after-a-24-hour-outage/",
       "source": "Wired",
       "time": "2026-11-13T19:08:57.000Z",
       "kind": "press"
-    },
-    {
-      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
-      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
-      "source": "Hugging Face",
-      "time": "2026-11-13T18:00:39.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "OpenAI board member worries an AI \"takeover\" of society could be months away",
-      "url": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
-      "source": "Ars Technica",
-      "time": "2026-11-13T17:25:45.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "XYBench: Helping with the problem behind the question",
-      "url": "https://huggingface.co/blog/allenai/xybench",
-      "source": "Hugging Face",
-      "time": "2026-11-13T17:02:35.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Introducing ChatGPT Wallet",
-      "url": "https://openai.com/index/introducing-chatgpt-wallet",
-      "source": "OpenAI",
-      "time": "2026-11-13T15:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
-      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
-      "source": "Hugging Face",
-      "time": "2026-11-13T14:05:22.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "How AI Is Helping Care Teams Get Patients the Right Care, Sooner",
-      "url": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/",
-      "source": "NVIDIA",
-      "time": "2026-11-13T13:00:42.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Future of Knowledge Work Summit 2026: Six reasons business leaders should be at the event",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/future-of-knowledge-work-summit-2026-six-reasons-business-leaders-should-be-at-the-event/articleshow/135801426.cms",
-      "source": "The Economic Times",
-      "time": "2026-11-13T11:44:28.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Shield helps technicians hand off legacy portal work with OpenAI",
-      "url": "https://openai.com/business/customer-stories/shield",
-      "source": "OpenAI",
-      "time": "2026-11-13T08:00:00.000Z",
-      "kind": "lab"
     }
   ]
 }
