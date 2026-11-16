@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T19:01:32.594Z",
+  "updated": "2026-11-16T07:01:59.866Z",
   "sources": [
     "MIT Technology Review",
     "The Guardian",
@@ -17,17 +17,101 @@
   ],
   "items": [
     {
-      "title": "The Guardian view on civil service reform: AI cannot conjure a capable state on its own | Editorial",
-      "url": "https://www.theguardian.com/commentisfree/2026/nov/15/the-guardian-view-on-civil-service-reform-ai-cannot-conjure-a-capable-state-on-its-own",
-      "source": "The Guardian",
-      "time": "2026-11-15T17:25:19.000Z",
+      "title": "From Carnegie to Claude: AI wealth could reshape philanthropy",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/from-carnegie-to-claude-ai-wealth-could-reshape-philanthropy/articleshow/135874528.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-16T05:46:11.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Investors sue chip giant Intel after 29% stock plunge",
+      "url": "https://www.bbc.co.uk/news/articles/cw62p42p288do?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "time": "2026-11-16T03:04:01.000Z",
       "kind": "press"
     },
     {
       "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
       "url": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
-      "time": "2026-11-15T14:56:21.000Z",
+      "time": "2026-11-16T01:47:57.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Apple launches new app to study how people use AI for health",
+      "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+      "source": "TechCrunch",
+      "time": "2026-11-16T01:30:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
+      "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+      "source": "The Verge",
+      "time": "2026-11-16T01:26:56.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Elon Musk joins 165,000 others calling for Nvidia to bring back Jensen Huang in open letter",
+      "url": "https://www.theguardian.com/technology/2026/nov/16/elon-musk-tech-execs-open-letter-jensen-huang-return-nvidia-ceo",
+      "source": "The Guardian",
+      "time": "2026-11-16T01:01:08.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities",
+      "url": "https://blogs.nvidia.com/blog/ai-day-seoul-wrapup/",
+      "source": "NVIDIA",
+      "time": "2026-11-16T00:00:28.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+      "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+      "source": "TechCrunch",
+      "time": "2026-11-15T23:30:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "A step toward defining the Standard Model on a lattice",
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "source": "OpenAI",
+      "time": "2026-11-15T22:00:01.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Our new blog for science",
+      "url": "https://openai.com/index/our-new-blog-for-science",
+      "source": "OpenAI",
+      "time": "2026-11-15T22:00:00.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
+      "url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
+      "source": "TechCrunch",
+      "time": "2026-11-15T21:56:35.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
+      "url": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
+      "source": "The Verge",
+      "time": "2026-11-15T20:43:49.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+      "source": "The Verge",
+      "time": "2026-11-15T19:15:43.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "The Guardian view on civil service reform: AI cannot conjure a capable state on its own | Editorial",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/15/the-guardian-view-on-civil-service-reform-ai-cannot-conjure-a-capable-state-on-its-own",
+      "source": "The Guardian",
+      "time": "2026-11-15T17:25:19.000Z",
       "kind": "press"
     },
     {
@@ -38,80 +122,10 @@
       "kind": "press"
     },
     {
-      "title": "An overview of Jensen Huang’s messy days",
-      "url": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
-      "source": "The Verge",
-      "time": "2026-11-15T13:00:00.000Z",
-      "kind": "press"
-    },
-    {
       "title": "This AI Tamagotchi Turns Everyday Objects Into Needy Virtual Pets",
       "url": "https://www.wired.com/story/this-ai-tamagotchi-oats-turns-everyday-objects-into-needy-virtual-pets/",
       "source": "Wired",
       "time": "2026-11-15T11:00:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "160 questions, only one wrong: top scorer in South Korea tax exam admits AI cheating",
-      "url": "https://www.theguardian.com/technology/2026/nov/15/ai-cheating-south-korea-college-entrance-exam",
-      "source": "The Guardian",
-      "time": "2026-11-15T08:56:11.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Where was Nvidia’s security team?",
-      "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
-      "source": "TechCrunch",
-      "time": "2026-11-15T00:08:07.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
-      "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
-      "source": "TechCrunch",
-      "time": "2026-11-14T21:41:22.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
-      "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-      "source": "TechCrunch",
-      "time": "2026-11-14T17:30:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
-      "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
-      "source": "The Verge",
-      "time": "2026-11-14T15:00:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Beware the New AI-Fueled Ransomware Boom",
-      "url": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/",
-      "source": "Wired",
-      "time": "2026-11-14T13:00:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Jensen Huang and the decline of the visionary showman founder CEO",
-      "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
-      "source": "The Verge",
-      "time": "2026-11-14T12:00:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "No Pilots. Few Air Traffic Controllers. What Could Go Wrong?",
-      "url": "https://www.wired.com/story/no-pilots-few-air-traffic-controllers-what-could-go-wrong/",
-      "source": "Wired",
-      "time": "2026-11-14T11:00:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "India could gain as global investors rotate out of AI stocks, says Jefferies",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/india-could-gain-as-global-investors-rotate-out-of-ai-stocks-says-jefferies/articleshow/135828687.cms",
-      "source": "The Economic Times",
-      "time": "2026-11-14T09:28:44.000Z",
       "kind": "press"
     }
   ]
