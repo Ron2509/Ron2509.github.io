@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T22:25:16.476Z",
+  "updated": "2026-11-17T08:18:22.462Z",
   "sources": [
     "MIT Technology Review",
     "The Guardian",
@@ -17,10 +17,87 @@
   ],
   "items": [
     {
-      "title": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
+      "title": "Millionaire factory: Anthropic IPO set to fuel AI gold rush in London’s high-end property market",
+      "url": "https://www.theguardian.com/business/2026/nov/17/millionaire-factory-anthropic-ipo-set-to-fuel-ai-gold-rush-in-londons-high-end-property-market",
+      "source": "The Guardian",
+      "time": "2026-11-17T07:00:07.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Karnataka aims to become global hub for AI, deep tech, semiconductors: CM D K Shivakumar",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/karnataka-aims-to-become-global-hub-for-ai-deep-tech-semiconductors-cm-d-k-shivakumar/articleshow/135914517.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-17T06:53:51.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Beyond Networking: 5 Business Opportunities You Can Unlock at Bengaluru Tech Summit 2026",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/beyond-networking-5-business-opportunities-you-can-unlock-at-bengaluru-tech-summit-2026/articleshow/135913817.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-17T06:39:41.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "The Next Big Business Advantage Is AI: Why technology leaders must be at Bengaluru Tech Summit 2026",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/the-next-big-business-advantage-is-ai-why-technology-leaders-must-be-at-bengaluru-tech-summit-2026/articleshow/135913572.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-17T06:29:35.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex boss",
       "url": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
-      "time": "2026-11-16T22:21:27.000Z",
+      "time": "2026-11-17T02:37:53.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Strengthening NATO and allied cyber defenses with AI",
+      "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+      "source": "OpenAI",
+      "time": "2026-11-17T00:00:00.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+      "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+      "source": "TechCrunch",
+      "time": "2026-11-16T23:32:32.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "The AI start-ups fixing India's broken roads and messy land records",
+      "url": "https://www.bbc.co.uk/news/articles/c820vnln2lzpo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "time": "2026-11-16T23:25:53.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
+      "url": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
+      "source": "The Verge",
+      "time": "2026-11-16T23:17:34.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "OpenAI sued by California over Hugging Face attack",
+      "url": "https://www.bbc.co.uk/news/articles/c6wy4xv2mxglo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "time": "2026-11-16T23:12:24.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
+      "url": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
+      "source": "NVIDIA",
+      "time": "2026-11-16T23:00:05.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Robo-soldier startup backed by Eric Trump misses payroll, may collapse",
+      "url": "https://arstechnica.com/ai/2026/11/robo-soldier-startup-backed-by-eric-trump-misses-payroll-may-collapse/",
+      "source": "Ars Technica",
+      "time": "2026-11-16T22:58:27.000Z",
       "kind": "press"
     },
     {
@@ -59,13 +136,6 @@
       "kind": "press"
     },
     {
-      "title": "Big Nuclear isn’t worried about the Democrats stopping data centers",
-      "url": "https://www.theverge.com/science/1034694/nuclear-energy-constellation-earnings-data-centers-democrats",
-      "source": "The Verge",
-      "time": "2026-11-16T20:29:37.000Z",
-      "kind": "press"
-    },
-    {
       "title": "California state AG sues OpenAI over rogue agent incidents",
       "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
       "source": "TechCrunch",
@@ -80,13 +150,6 @@
       "kind": "lab"
     },
     {
-      "title": "Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security",
-      "url": "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/",
-      "source": "TechCrunch",
-      "time": "2026-11-16T19:12:02.000Z",
-      "kind": "press"
-    },
-    {
       "title": "US moves to cut China’s remote access to AI chips",
       "url": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/",
       "source": "Ars Technica",
@@ -98,13 +161,6 @@
       "url": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
       "source": "MIT Technology Review",
       "time": "2026-11-16T18:38:47.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Trump backs calls for reinstatement of Jensen Huang as Nvidia CEO",
-      "url": "https://www.theguardian.com/technology/2026/nov/16/trump-backs-calls-for-reinstatement-of-jensen-huang-as-nvidia-ceo",
-      "source": "The Guardian",
-      "time": "2026-11-16T18:30:57.000Z",
       "kind": "press"
     },
     {
@@ -136,13 +192,6 @@
       "kind": "lab"
     },
     {
-      "title": "NVIDIA Expands Slurm to Bring Quantum Computing Into Supercomputing",
-      "url": "https://blogs.nvidia.com/blog/slurm-quantum-computing-supercomputing/",
-      "source": "NVIDIA",
-      "time": "2026-11-16T16:00:47.000Z",
-      "kind": "lab"
-    },
-    {
       "title": "Jensen Huang allies build a \"war room\" to get him back at Nvidia",
       "url": "https://arstechnica.com/ai/2026/11/jensen-huang-allies-build-a-war-room-to-get-him-back-at-nvidia/",
       "source": "Ars Technica",
@@ -161,55 +210,6 @@
       "url": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/",
       "source": "MIT Technology Review",
       "time": "2026-11-16T13:00:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Science at the Frontier: How scientists use ChatGPT",
-      "url": "https://openai.com/index/science-at-the-frontier",
-      "source": "OpenAI",
-      "time": "2026-11-16T12:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Can Nvidia's $500 billion AI financing machine survive without Jensen Huang?",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/can-nvidias-500-billion-ai-financing-machine-survive-without-jensen-huang/articleshow/135886388.cms",
-      "source": "The Economic Times",
-      "time": "2026-11-16T11:15:05.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Fractal Analytics in talks with up to 25 AI startups for acquisitions, CEO says",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/fractal-analytics-in-talks-with-up-to-25-ai-startups-for-acquisitions-ceo-says/articleshow/135885631.cms",
-      "source": "The Economic Times",
-      "time": "2026-11-16T11:08:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Nvidia Was Already in Trouble Before the Jensen Huang Mess",
-      "url": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
-      "source": "Wired",
-      "time": "2026-11-16T11:00:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Chip tensions loom over Trump-Xi summit, as US and China push AI safety steps",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/chip-tensions-loom-over-trump-xi-summit-as-us-and-china-push-ai-safety-steps/articleshow/135880252.cms",
-      "source": "The Economic Times",
-      "time": "2026-11-16T09:15:06.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
-      "url": "https://openai.com/index/lvmh-media-division-partnership",
-      "source": "OpenAI",
-      "time": "2026-11-16T09:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
-      "url": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "time": "2026-11-16T01:47:57.000Z",
       "kind": "press"
     }
   ]
