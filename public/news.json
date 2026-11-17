@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T08:18:22.462Z",
+  "updated": "2026-11-17T21:12:01.747Z",
   "sources": [
     "MIT Technology Review",
     "The Guardian",
@@ -17,31 +17,164 @@
   ],
   "items": [
     {
-      "title": "Millionaire factory: Anthropic IPO set to fuel AI gold rush in London’s high-end property market",
-      "url": "https://www.theguardian.com/business/2026/nov/17/millionaire-factory-anthropic-ipo-set-to-fuel-ai-gold-rush-in-londons-high-end-property-market",
+      "title": "Not even Sam Altman is safe from AI deepfakes on Instagram",
+      "url": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
+      "source": "The Verge",
+      "time": "2026-11-17T21:00:55.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "“Trump was in bed with Jensen”: Critics balk at Huang’s wish to return to Nvidia",
+      "url": "https://arstechnica.com/tech-policy/2026/11/trump-was-in-bed-with-jensen-critics-balk-at-huangs-wish-to-return-to-nvidia/",
+      "source": "Ars Technica",
+      "time": "2026-11-17T20:32:55.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Model ML raises $250M to automate investment banking grunt work",
+      "url": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
+      "source": "TechCrunch",
+      "time": "2026-11-17T19:32:11.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Google expands access to Gemini Tasks, which can help with calls, purchases",
+      "url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
+      "source": "TechCrunch",
+      "time": "2026-11-17T19:02:20.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free",
+      "url": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free",
+      "source": "The Verge",
+      "time": "2026-11-17T18:58:01.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off",
+      "url": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
+      "source": "TechCrunch",
+      "time": "2026-11-17T18:48:23.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "source": "OpenAI",
+      "time": "2026-11-17T17:45:00.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Jensen Huang says he would be ‘honored’ to return to Nvidia as CEO",
+      "url": "https://www.theguardian.com/technology/2026/nov/17/nvidia-jensen-huang-statement",
       "source": "The Guardian",
-      "time": "2026-11-17T07:00:07.000Z",
+      "time": "2026-11-17T17:35:26.000Z",
       "kind": "press"
     },
     {
-      "title": "Karnataka aims to become global hub for AI, deep tech, semiconductors: CM D K Shivakumar",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/karnataka-aims-to-become-global-hub-for-ai-deep-tech-semiconductors-cm-d-k-shivakumar/articleshow/135914517.cms",
-      "source": "The Economic Times",
-      "time": "2026-11-17T06:53:51.000Z",
+      "title": "Put Gemini to work for you",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+      "source": "Google AI",
+      "time": "2026-11-17T17:00:00.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Google makes it easier to use Gemini without training AI on your data",
+      "url": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/",
+      "source": "Ars Technica",
+      "time": "2026-11-17T16:50:10.000Z",
       "kind": "press"
     },
     {
-      "title": "Beyond Networking: 5 Business Opportunities You Can Unlock at Bengaluru Tech Summit 2026",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/beyond-networking-5-business-opportunities-you-can-unlock-at-bengaluru-tech-summit-2026/articleshow/135913817.cms",
-      "source": "The Economic Times",
-      "time": "2026-11-17T06:39:41.000Z",
+      "title": "The DOJ says it’s investigating Megaspeed",
+      "url": "https://www.theverge.com/policy/1035410/doj-megaspeed-nvidia-investigation-update",
+      "source": "The Verge",
+      "time": "2026-11-17T16:19:03.000Z",
       "kind": "press"
     },
     {
-      "title": "The Next Big Business Advantage Is AI: Why technology leaders must be at Bengaluru Tech Summit 2026",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/the-next-big-business-advantage-is-ai-why-technology-leaders-must-be-at-bengaluru-tech-summit-2026/articleshow/135913572.cms",
+      "title": "Ars Live: What do drone strikes on data centers mean for the future? Talk at 1 pm EST today",
+      "url": "https://arstechnica.com/gadgets/2026/11/ars-live-can-the-cloud-survive-drone-strikes-on-data-centers/",
+      "source": "Ars Technica",
+      "time": "2026-11-17T15:28:59.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Jensen Huang’s departure as Nvidia CEO becomes a political proxy war",
+      "url": "https://www.theguardian.com/global/2026/nov/16/jensen-huang-nvidia-ceo-china",
+      "source": "The Guardian",
+      "time": "2026-11-17T14:50:24.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Research Reports",
+      "url": "https://www.technologyreview.com/2026/11/17/1148203/research-reports/",
+      "source": "MIT Technology Review",
+      "time": "2026-11-17T14:39:46.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "How new US chip restrictions on South East Asia will hit China",
+      "url": "https://www.bbc.co.uk/news/articles/cwq6e2qgvmlgo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "time": "2026-11-17T14:25:45.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Paul Kelly pleads for Albanese to ‘show some backbone’ over AI as creatives campaign for copyright protections",
+      "url": "https://www.theguardian.com/technology/2026/nov/18/paul-kelly-albanese-ai-copyright-protections-creatives-campaign",
+      "source": "The Guardian",
+      "time": "2026-11-17T14:00:15.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
+      "url": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
+      "source": "NVIDIA",
+      "time": "2026-11-17T14:00:10.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Gnani AI partners with Karnataka government to train 1,000 students in voice, agentic AI",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/gnani-ai-partners-with-karnataka-government-to-train-1000-students-in-voice-agentic-ai/articleshow/135925273.cms",
       "source": "The Economic Times",
-      "time": "2026-11-17T06:29:35.000Z",
+      "time": "2026-11-17T12:17:05.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "'Don't wait for AI to settle down', Microsoft India chief tells businesses",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/dont-wait-for-ai-to-settle-down-microsoft-india-chief-tells-businesses/articleshow/135924372.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-17T11:56:22.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Rogue Agents Hacked His Company. Why Is Clément Delangue So Optimistic About AI?",
+      "url": "https://www.wired.com/story/wired-yearbook-2026-clement-delangue/",
+      "source": "Wired",
+      "time": "2026-11-17T11:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "The Apple Watch’s Live Rewind Can Record and Rewind Spoken Conversations. It’s Pretty Awkward",
+      "url": "https://www.wired.com/story/apple-watch-audio-intelligence-live-rewind-siri-recap/",
+      "source": "Wired",
+      "time": "2026-11-17T11:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "AI Told These Ex-Google Guys How to Build a Billion-Dollar Weapons Business",
+      "url": "https://www.wired.com/story/ai-told-these-ex-google-guys-how-to-build-a-billion-dollar-weapons-business/",
+      "source": "Wired",
+      "time": "2026-11-17T10:47:45.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Engineers must be retrained to review, certify AI-written code, not write it: Infosys' Gopalakrishnan",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/engineers-must-be-retrained-to-review-certify-ai-written-code-not-write-it-infosys-gopalakrishnan/articleshow/135919337.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-17T10:06:00.000Z",
       "kind": "press"
     },
     {
@@ -59,11 +192,11 @@
       "kind": "lab"
     },
     {
-      "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
-      "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
-      "source": "TechCrunch",
-      "time": "2026-11-16T23:32:32.000Z",
-      "kind": "press"
+      "title": "Introducing OpenAI for Chile",
+      "url": "https://openai.com/index/introducing-openai-for-chile",
+      "source": "OpenAI",
+      "time": "2026-11-17T00:00:00.000Z",
+      "kind": "lab"
     },
     {
       "title": "The AI start-ups fixing India's broken roads and messy land records",
@@ -73,144 +206,11 @@
       "kind": "press"
     },
     {
-      "title": "Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
-      "url": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
-      "source": "The Verge",
-      "time": "2026-11-16T23:17:34.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "OpenAI sued by California over Hugging Face attack",
-      "url": "https://www.bbc.co.uk/news/articles/c6wy4xv2mxglo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "time": "2026-11-16T23:12:24.000Z",
-      "kind": "press"
-    },
-    {
       "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
       "url": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
       "source": "NVIDIA",
       "time": "2026-11-16T23:00:05.000Z",
       "kind": "lab"
-    },
-    {
-      "title": "Robo-soldier startup backed by Eric Trump misses payroll, may collapse",
-      "url": "https://arstechnica.com/ai/2026/11/robo-soldier-startup-backed-by-eric-trump-misses-payroll-may-collapse/",
-      "source": "Ars Technica",
-      "time": "2026-11-16T22:58:27.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "All the questions Nvidia should answer on Tuesday — but probably won’t",
-      "url": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
-      "source": "TechCrunch",
-      "time": "2026-11-16T22:03:02.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "California sues OpenAI over safety concerns after rogue agent hacking",
-      "url": "https://www.theguardian.com/technology/2026/nov/16/california-openai-rogue-agent-hacking-lawsuit",
-      "source": "The Guardian",
-      "time": "2026-11-16T21:41:10.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Albanese signs on to Trump’s AI supply chain pact before leaders’ meeting at Quad summit",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/16/albanese-treads-tightrope-in-upcoming-trump-meeting-wanting-indo-pacific-engagement-and-end-to-iran-and-ukraine-wars",
-      "source": "The Guardian",
-      "time": "2026-11-16T21:00:21.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "California sues OpenAI over rogue AI hacking incidents",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
-      "source": "The Verge",
-      "time": "2026-11-16T20:46:01.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Sam Altman says he wants everyone ‘to have a lot of RAM’",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor",
-      "source": "The Verge",
-      "time": "2026-11-16T20:41:28.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "California state AG sues OpenAI over rogue agent incidents",
-      "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
-      "source": "TechCrunch",
-      "time": "2026-11-16T20:07:13.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
-      "url": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain/",
-      "source": "NVIDIA",
-      "time": "2026-11-16T20:00:37.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "US moves to cut China’s remote access to AI chips",
-      "url": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/",
-      "source": "Ars Technica",
-      "time": "2026-11-16T19:10:09.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "The open-source movement wants Jensen Huang back",
-      "url": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
-      "source": "MIT Technology Review",
-      "time": "2026-11-16T18:38:47.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Broadening access to AI for scientists",
-      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-      "source": "OpenAI",
-      "time": "2026-11-16T17:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Jensen Huang Is Gone. Now What?",
-      "url": "https://www.wired.com/story/the-big-interview-podcast-lauren-goode-jensen-huang/",
-      "source": "Wired",
-      "time": "2026-11-16T16:12:51.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Building trustworthy AI by fencing it in, not predicting it",
-      "url": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
-      "source": "MIT Technology Review",
-      "time": "2026-11-16T16:04:28.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
-      "url": "https://blogs.nvidia.com/blog/lambda-photonics/",
-      "source": "NVIDIA",
-      "time": "2026-11-16T16:00:51.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Jensen Huang allies build a \"war room\" to get him back at Nvidia",
-      "url": "https://arstechnica.com/ai/2026/11/jensen-huang-allies-build-a-war-room-to-get-him-back-at-nvidia/",
-      "source": "Ars Technica",
-      "time": "2026-11-16T14:06:16.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "New Ask Maps features to help with holiday travel and prep",
-      "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
-      "source": "Google AI",
-      "time": "2026-11-16T14:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Building AI that can work across the enterprise",
-      "url": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/",
-      "source": "MIT Technology Review",
-      "time": "2026-11-16T13:00:00.000Z",
-      "kind": "press"
     }
   ]
 }
