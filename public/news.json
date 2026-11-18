@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T21:12:01.747Z",
+  "updated": "2026-11-18T07:49:23.931Z",
   "sources": [
     "MIT Technology Review",
     "The Guardian",
@@ -17,6 +17,111 @@
   ],
   "items": [
     {
+      "title": "Hear from leaders among Salesforce, Reliance Industries, Indeed India at ET’s Future of Knowledge Work Summit 2026",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/hear-from-leaders-among-salesforce-reliance-industries-indeed-india-at-ets-future-of-knowledge-work-summit-2026/articleshow/135949706.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-18T07:45:50.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "OpenAI models support NATO cyber defence as alliance uses up to 300 billion tokens monthly",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/openai-models-support-nato-cyber-defence-as-alliance-uses-up-to-300-billion-tokens-monthly/articleshow/135951717.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-18T06:44:14.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Build AI agents using decades of industry knowledge, TiE Bangalore's Venk Krishnan tells Indian IT",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/build-ai-agents-using-decades-of-industry-knowledge-tie-bangalores-venk-krishnan-tells-indian-it/articleshow/135950115.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-18T06:33:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "How important are Nvidia and Jensen Huang to the US economy?",
+      "url": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "time": "2026-11-18T06:04:21.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Over a Third of Gen Z-ers Rely on AI for Friendship",
+      "url": "https://www.wired.com/story/over-a-third-of-gen-z-rely-on-ai-for-friendship/",
+      "source": "Wired",
+      "time": "2026-11-18T05:01:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future deals in doubt",
+      "url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
+      "source": "TechCrunch",
+      "time": "2026-11-18T01:44:21.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Nvidia says it won't reinstate Huang as it reports soaring sales",
+      "url": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "time": "2026-11-18T01:18:18.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Copilot is \"the new OS for work,\" and now Office runs inside of it",
+      "url": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/",
+      "source": "Ars Technica",
+      "time": "2026-11-18T00:27:29.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Nvidia promises that revenue will keep soaring — for now",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
+      "source": "TechCrunch",
+      "time": "2026-11-18T00:16:50.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Europe plans to catch the next computer chip wave",
+      "url": "https://www.bbc.co.uk/news/articles/cqglwjd450k0o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "time": "2026-11-18T00:00:24.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Satya Nadella says he’s AGI-pilled now",
+      "url": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
+      "source": "The Verge",
+      "time": "2026-11-17T23:41:18.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Nvidia is abandoning China after Jensen Huang’s ouster",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+      "source": "TechCrunch",
+      "time": "2026-11-17T23:37:48.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Nvidia doubles revenue as board says it does not intend to reinstate Jensen Huang",
+      "url": "https://www.theguardian.com/technology/2026/nov/17/nvidia-third-quarter-revenue-jensen-huang",
+      "source": "The Guardian",
+      "time": "2026-11-17T23:32:16.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Nvidia’s Board Has No Plans to Bring Back Jensen Huang",
+      "url": "https://www.wired.com/story/nvidias-board-has-no-plans-to-reinstate-jensen-huang/",
+      "source": "Wired",
+      "time": "2026-11-17T22:19:19.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Nvidia’s Q3 earnings hit the mark, without mentioning the whole Jensen Huang thing",
+      "url": "https://www.theverge.com/tech/1036032/nvidia-q3-2027-jensen-huang",
+      "source": "The Verge",
+      "time": "2026-11-17T21:40:59.000Z",
+      "kind": "press"
+    },
+    {
       "title": "Not even Sam Altman is safe from AI deepfakes on Instagram",
       "url": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
       "source": "The Verge",
@@ -28,34 +133,6 @@
       "url": "https://arstechnica.com/tech-policy/2026/11/trump-was-in-bed-with-jensen-critics-balk-at-huangs-wish-to-return-to-nvidia/",
       "source": "Ars Technica",
       "time": "2026-11-17T20:32:55.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Model ML raises $250M to automate investment banking grunt work",
-      "url": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
-      "source": "TechCrunch",
-      "time": "2026-11-17T19:32:11.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Google expands access to Gemini Tasks, which can help with calls, purchases",
-      "url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
-      "source": "TechCrunch",
-      "time": "2026-11-17T19:02:20.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free",
-      "url": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free",
-      "source": "The Verge",
-      "time": "2026-11-17T18:58:01.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off",
-      "url": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
-      "source": "TechCrunch",
-      "time": "2026-11-17T18:48:23.000Z",
       "kind": "press"
     },
     {
@@ -87,20 +164,6 @@
       "kind": "press"
     },
     {
-      "title": "The DOJ says it’s investigating Megaspeed",
-      "url": "https://www.theverge.com/policy/1035410/doj-megaspeed-nvidia-investigation-update",
-      "source": "The Verge",
-      "time": "2026-11-17T16:19:03.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Ars Live: What do drone strikes on data centers mean for the future? Talk at 1 pm EST today",
-      "url": "https://arstechnica.com/gadgets/2026/11/ars-live-can-the-cloud-survive-drone-strikes-on-data-centers/",
-      "source": "Ars Technica",
-      "time": "2026-11-17T15:28:59.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Jensen Huang’s departure as Nvidia CEO becomes a political proxy war",
       "url": "https://www.theguardian.com/global/2026/nov/16/jensen-huang-nvidia-ceo-china",
       "source": "The Guardian",
@@ -115,39 +178,11 @@
       "kind": "press"
     },
     {
-      "title": "How new US chip restrictions on South East Asia will hit China",
-      "url": "https://www.bbc.co.uk/news/articles/cwq6e2qgvmlgo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "time": "2026-11-17T14:25:45.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Paul Kelly pleads for Albanese to ‘show some backbone’ over AI as creatives campaign for copyright protections",
-      "url": "https://www.theguardian.com/technology/2026/nov/18/paul-kelly-albanese-ai-copyright-protections-creatives-campaign",
-      "source": "The Guardian",
-      "time": "2026-11-17T14:00:15.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
       "url": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
       "source": "NVIDIA",
       "time": "2026-11-17T14:00:10.000Z",
       "kind": "lab"
-    },
-    {
-      "title": "Gnani AI partners with Karnataka government to train 1,000 students in voice, agentic AI",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/gnani-ai-partners-with-karnataka-government-to-train-1000-students-in-voice-agentic-ai/articleshow/135925273.cms",
-      "source": "The Economic Times",
-      "time": "2026-11-17T12:17:05.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "'Don't wait for AI to settle down', Microsoft India chief tells businesses",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/dont-wait-for-ai-to-settle-down-microsoft-india-chief-tells-businesses/articleshow/135924372.cms",
-      "source": "The Economic Times",
-      "time": "2026-11-17T11:56:22.000Z",
-      "kind": "press"
     },
     {
       "title": "Rogue Agents Hacked His Company. Why Is Clément Delangue So Optimistic About AI?",
@@ -157,32 +192,11 @@
       "kind": "press"
     },
     {
-      "title": "The Apple Watch’s Live Rewind Can Record and Rewind Spoken Conversations. It’s Pretty Awkward",
-      "url": "https://www.wired.com/story/apple-watch-audio-intelligence-live-rewind-siri-recap/",
-      "source": "Wired",
-      "time": "2026-11-17T11:00:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "AI Told These Ex-Google Guys How to Build a Billion-Dollar Weapons Business",
-      "url": "https://www.wired.com/story/ai-told-these-ex-google-guys-how-to-build-a-billion-dollar-weapons-business/",
-      "source": "Wired",
-      "time": "2026-11-17T10:47:45.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Engineers must be retrained to review, certify AI-written code, not write it: Infosys' Gopalakrishnan",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/engineers-must-be-retrained-to-review-certify-ai-written-code-not-write-it-infosys-gopalakrishnan/articleshow/135919337.cms",
-      "source": "The Economic Times",
-      "time": "2026-11-17T10:06:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex boss",
-      "url": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "time": "2026-11-17T02:37:53.000Z",
-      "kind": "press"
+      "title": "Introducing ChatGPT for Sales",
+      "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+      "source": "OpenAI",
+      "time": "2026-11-17T08:00:00.000Z",
+      "kind": "lab"
     },
     {
       "title": "Strengthening NATO and allied cyber defenses with AI",
@@ -190,20 +204,6 @@
       "source": "OpenAI",
       "time": "2026-11-17T00:00:00.000Z",
       "kind": "lab"
-    },
-    {
-      "title": "Introducing OpenAI for Chile",
-      "url": "https://openai.com/index/introducing-openai-for-chile",
-      "source": "OpenAI",
-      "time": "2026-11-17T00:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "The AI start-ups fixing India's broken roads and messy land records",
-      "url": "https://www.bbc.co.uk/news/articles/c820vnln2lzpo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "time": "2026-11-16T23:25:53.000Z",
-      "kind": "press"
     },
     {
       "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
