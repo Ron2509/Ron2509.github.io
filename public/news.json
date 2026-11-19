@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T20:47:47.589Z",
+  "updated": "2026-11-19T07:45:08.424Z",
   "sources": [
     "MIT Technology Review",
     "The Guardian",
@@ -17,17 +17,108 @@
   ],
   "items": [
     {
-      "title": "Sam Altman says his life is so weird that he’s unfazed by Andrew Garfield portraying him in upcoming movie",
-      "url": "https://techcrunch.com/2026/11/18/sam-altman-says-his-life-is-so-weird-that-hes-unfazed-by-andrew-garfield-portraying-him-in-upcoming-movie/",
-      "source": "TechCrunch",
-      "time": "2026-11-18T20:07:01.000Z",
+      "title": "Ka-Naada Phonetics unveils universal Indic keyboard at Bangalore Tech Summit",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/ka-naada-phonetics-unveils-universal-indic-keyboard-at-bangalore-tech-summit/articleshow/135979252.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-19T06:50:28.000Z",
       "kind": "press"
     },
     {
-      "title": "Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor",
-      "url": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
+      "title": "Ram through datacentres no one wants and hope the AI bubble never bursts: that’s the UK’s growth plan | George Monbiot",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/19/uk-growth-plan-datacentres-ai-bubble-big-tech",
+      "source": "The Guardian",
+      "time": "2026-11-19T06:00:19.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "‘Don’t put all your eggs into one basket’ says Kris Gopalakrishnan on AI sovereignty, Microsoft outages",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/dont-put-all-your-eggs-into-one-basket-says-kris-gopalakrishnan-on-ai-sovereignty-microsoft-outages/articleshow/135979012.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-19T05:51:13.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "AI giant Anthropic valued at $1.5 trillion ahead of stock market debut",
+      "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "time": "2026-11-19T02:20:15.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
+      "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
       "source": "TechCrunch",
-      "time": "2026-11-18T19:56:39.000Z",
+      "time": "2026-11-19T00:42:56.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Four Maryland high school students sue after AI mistakes Doritos bag for gun",
+      "url": "https://www.theguardian.com/us-news/2026/nov/18/maryland-baltimore-county-doritos-gun-ai-lawsuit",
+      "source": "The Guardian",
+      "time": "2026-11-18T23:53:51.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
+      "url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
+      "source": "TechCrunch",
+      "time": "2026-11-18T23:45:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "The seven Anthropic founders who are about to become multi-billionaires",
+      "url": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "time": "2026-11-18T23:42:07.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Elon Musk says ousting Jensen Huang is like ‘kicking Michael Jordan off your team’",
+      "url": "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/",
+      "source": "TechCrunch",
+      "time": "2026-11-18T23:25:17.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "The nation’s largest school districts consider ditching Google Search",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
+      "source": "The Verge",
+      "time": "2026-11-18T23:18:35.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Does Nvidia Got This? Interim CEO Colette Kress Says It’s Got This",
+      "url": "https://www.wired.com/story/guys-really-we-got-this/",
+      "source": "Wired",
+      "time": "2026-11-18T22:16:23.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Even His Own Officials Don’t Think Trump’s China Trip Will Lead to Progress on AI",
+      "url": "https://www.wired.com/story/administration-officials-dont-think-much-ai-progress-will-come-of-trumps-china-visit/",
+      "source": "Wired",
+      "time": "2026-11-18T22:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Anthropic sets share price at $83 for stock market debut, above expected range",
+      "url": "https://www.theguardian.com/technology/2026/nov/18/anthropic-share-price-stock-market-ipo",
+      "source": "The Guardian",
+      "time": "2026-11-18T21:39:15.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Introducing Gemini 4 Neon",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+      "source": "Google DeepMind",
+      "time": "2026-11-18T21:35:43.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "America’s AI Chip War Is Heating Up in the Dumbest Possible Ways",
+      "url": "https://www.wired.com/story/the-ai-chip-war-meets-the-jensen-huang-affair/",
+      "source": "Wired",
+      "time": "2026-11-18T21:15:00.000Z",
       "kind": "press"
     },
     {
@@ -45,7 +136,7 @@
       "kind": "press"
     },
     {
-      "title": "What’s next for Nvidia? Whatever doesn’t rock the mind-bogglingly profitable boat",
+      "title": "Nvidia’s rise, visualized",
       "url": "https://www.theverge.com/tech/1035924/nvidia-visualized-revenue-profit-earnings-after-huang",
       "source": "The Verge",
       "time": "2026-11-18T19:30:00.000Z",
@@ -56,13 +147,6 @@
       "url": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/",
       "source": "Ars Technica",
       "time": "2026-11-18T19:19:33.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Tech lawsuits defined 2026 — and lawmakers want more",
-      "url": "https://www.theverge.com/policy/1036935/congress-forced-arbitration-deepfakes-defiance-act",
-      "source": "The Verge",
-      "time": "2026-11-18T19:07:29.000Z",
       "kind": "press"
     },
     {
@@ -87,27 +171,6 @@
       "kind": "press"
     },
     {
-      "title": "Google’s AI feature in Search gets its own incognito mode",
-      "url": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/",
-      "source": "TechCrunch",
-      "time": "2026-11-18T18:04:05.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Inside Nvidia’s First Post-Jensen All-Hands: Pay Raises and More Equity",
-      "url": "https://www.wired.com/story/inside-nvidias-first-all-hands-without-jensen-huang-as-ceo/",
-      "source": "Wired",
-      "time": "2026-11-18T17:33:07.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "US senators urge White House AI chief to fix vulnerabilities after mass outages",
-      "url": "https://www.theguardian.com/us-news/2026/nov/18/jay-clayton-ai-tech-outages-infrastructure",
-      "source": "The Guardian",
-      "time": "2026-11-18T17:25:00.000Z",
-      "kind": "press"
-    },
-    {
       "title": "The Gemini app is now available on lower-memory Android devices.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
       "source": "Google AI",
@@ -115,24 +178,10 @@
       "kind": "lab"
     },
     {
-      "title": "Artex Is Criminals’ New Favorite ‘Point-and-Shoot’ AI Hacking Tool",
-      "url": "https://www.wired.com/story/artex-ai-hacking-tools/",
-      "source": "Wired",
-      "time": "2026-11-18T16:35:24.000Z",
-      "kind": "press"
-    },
-    {
       "title": "China has the AI models, India has the AI services edge: Business Sweden’s Jaani Heinonen",
       "url": "https://economictimes.indiatimes.com/ai/ai-insights/china-has-the-ai-models-india-has-the-ai-services-edge-business-swedens-jaani-heinonen/articleshow/135965142.cms",
       "source": "The Economic Times",
       "time": "2026-11-18T15:03:17.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "‘Just Ridiculous’: A Famed Philosopher Takes on AI Consciousness",
-      "url": "https://www.wired.com/story/just-ridiculous-a-famed-philosopher-takes-on-ai-consciousness/",
-      "source": "Wired",
-      "time": "2026-11-18T15:02:40.000Z",
       "kind": "press"
     },
     {
@@ -157,60 +206,11 @@
       "kind": "lab"
     },
     {
-      "title": "The seven Anthropic founders who are about to become multi-billionaires",
-      "url": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "time": "2026-11-18T13:55:14.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Hacks, AI or just overdue updates - why have there been so many outages?",
       "url": "https://www.bbc.co.uk/news/articles/c6z0kly2lll7o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "time": "2026-11-18T13:16:53.000Z",
       "kind": "press"
-    },
-    {
-      "title": "Pax Silica moment: What India must build for its ambitions",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/pax-silica-moment-what-india-must-build-for-its-ambitions/articleshow/135962978.cms",
-      "source": "The Economic Times",
-      "time": "2026-11-18T12:21:22.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Physical AI startup Humyn Labs raises $47 million; founder Manish Agarwal says 'data collection is not the real game'",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/physical-ai-startup-humyn-labs-raises-47-million-founder-manish-agarwal-says-data-collection-is-not-the-real-game/articleshow/135949247.cms",
-      "source": "The Economic Times",
-      "time": "2026-11-18T12:00:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Aria awards: how do Australian artists feel about their music being used to train AI? – video",
-      "url": "https://www.theguardian.com/music/video/2026/nov/18/aria-awards-how-do-australian-artists-feel-about-their-music-being-used-to-train-ai-video",
-      "source": "The Guardian",
-      "time": "2026-11-18T10:22:44.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "This smell startup says its AI nose is as good as a human’s",
-      "url": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
-      "source": "MIT Technology Review",
-      "time": "2026-11-18T10:20:30.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Elton John backs Australian artists in fight against AI in surprise Aria awards appearance",
-      "url": "https://www.theguardian.com/music/2026/nov/18/elton-john-ai-campaign-australia-artists-aria-awards-copyright",
-      "source": "The Guardian",
-      "time": "2026-11-18T08:29:57.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Inside the Codex sandbox",
-      "url": "https://openai.com/index/inside-the-codex-sandbox",
-      "source": "OpenAI",
-      "time": "2026-11-18T08:00:00.000Z",
-      "kind": "lab"
     }
   ]
 }
