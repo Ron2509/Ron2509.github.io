@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T20:53:02.250Z",
+  "updated": "2026-11-20T07:37:22.824Z",
   "sources": [
     "MIT Technology Review",
     "The Guardian",
@@ -16,6 +16,90 @@
     "Hugging Face"
   ],
   "items": [
+    {
+      "title": "Should AI be judging our credit worthiness?",
+      "url": "https://www.bbc.co.uk/news/articles/c6d94pzk9vleo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "time": "2026-11-20T07:32:19.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "‘We will become cyborgs!’ Peter Gabriel on bonobo ape duets, building a Jurassic Park for plants – and why AI will make great music",
+      "url": "https://www.theguardian.com/music/2026/nov/20/peter-gabriel-interview-ai-music-bonobo-ape-duets-jurassic-park-plants",
+      "source": "The Guardian",
+      "time": "2026-11-20T05:00:22.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Anthropic’s historic stock market debut: key takeaways, and what comes next for the AI industry",
+      "url": "https://www.theguardian.com/technology/2026/nov/20/anthropic-ipo-historic-stock-market-debut-key-takeaways-what-next-for-ai",
+      "source": "The Guardian",
+      "time": "2026-11-20T03:33:45.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "From anti-war physicist to AI power broker, Anthropic's Amodei takes his safety approach public",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/from-anti-war-physicist-to-ai-power-broker-amodei-takes-his-safety-approach-public/articleshow/136009226.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-20T01:21:45.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Apple may be developing its own AI agent that runs your Mac",
+      "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+      "source": "TechCrunch",
+      "time": "2026-11-20T00:56:01.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
+      "source": "TechCrunch",
+      "time": "2026-11-20T00:43:50.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Anthropic becomes one of world's most valuable public companies in stock market debut",
+      "url": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "time": "2026-11-19T23:33:51.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Apple is hiring engineers to build its own AI agent",
+      "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+      "source": "The Verge",
+      "time": "2026-11-19T22:31:41.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Anthropic shares end first day of trading at $97 as Wall Street closes sharply lower – as it happened",
+      "url": "https://www.theguardian.com/business/live/2026/nov/19/anthropic-float-stock-market-nasdaq-raises-81bn-record-ipo-latest-news-updates",
+      "source": "The Guardian",
+      "time": "2026-11-19T22:13:52.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "A brief history of Nvidia’s recent stock fluctuations",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
+      "source": "The Verge",
+      "time": "2026-11-19T21:59:35.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Meta’s new Muse Charm device may cost $300",
+      "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
+      "source": "TechCrunch",
+      "time": "2026-11-19T21:58:06.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "What’s With All These Outages?",
+      "url": "https://www.wired.com/story/uncanny-valley-podcast-whats-with-all-these-outages/",
+      "source": "Wired",
+      "time": "2026-11-19T21:57:01.000Z",
+      "kind": "press"
+    },
     {
       "title": "The Jensen Huang Blast Radius Has Hit His Favorite Restaurants",
       "url": "https://www.wired.com/story/jensen-huangs-favorite-restaurants-are-caught-up-in-his-scandals-too/",
@@ -38,67 +122,11 @@
       "kind": "press"
     },
     {
-      "title": "The unfolding Jensen Huang scandal: a timeline",
-      "url": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-      "source": "TechCrunch",
-      "time": "2026-11-19T20:18:49.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Anthropic valued at $2tn as shares begin trading after record-breaking IPO – business live",
-      "url": "https://www.theguardian.com/business/live/2026/nov/19/anthropic-float-stock-market-nasdaq-raises-81bn-record-ipo-latest-news-updates",
-      "source": "The Guardian",
-      "time": "2026-11-19T20:18:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Who are Anthropic’s seven co-founders, now worth $180bn?",
-      "url": "https://www.theguardian.com/technology/2026/nov/19/who-are-anthropic-founders",
-      "source": "The Guardian",
-      "time": "2026-11-19T20:05:13.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Google is putting AI chats right on the homepage",
-      "url": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
-      "source": "The Verge",
-      "time": "2026-11-19T20:05:06.000Z",
-      "kind": "press"
-    },
-    {
       "title": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
       "url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
       "source": "NVIDIA",
       "time": "2026-11-19T20:00:15.000Z",
       "kind": "lab"
-    },
-    {
-      "title": "Anthropic’s IPO could deliver $156 billion to charity",
-      "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
-      "source": "TechCrunch",
-      "time": "2026-11-19T19:10:45.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Gemini on Mac can now use your computer",
-      "url": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
-      "source": "The Verge",
-      "time": "2026-11-19T18:21:13.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Anthropic keeps the AI party swinging, but the atmosphere is bubbly | Nils Pratley",
-      "url": "https://www.theguardian.com/technology/nils-pratley-on-finance/2026/nov/19/anthropic-keeps-ai-party-swinging-but-atmosphere-bubbly",
-      "source": "The Guardian",
-      "time": "2026-11-19T18:15:48.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Google gives Gemini the ability to use your Mac for you",
-      "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
-      "source": "TechCrunch",
-      "time": "2026-11-19T18:09:11.000Z",
-      "kind": "press"
     },
     {
       "title": "Introducing Tool Retrieval in the Gemini API",
@@ -136,20 +164,6 @@
       "kind": "press"
     },
     {
-      "title": "Anthropic raises $81bn in record-breaking stock market debut",
-      "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "time": "2026-11-19T15:58:58.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Anthropic’s Record-Breaking IPO Highlights the AI Giant’s Worst Enemy—Itself",
-      "url": "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself/",
-      "source": "Wired",
-      "time": "2026-11-19T12:00:00.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Karnataka leads India's GCC ecosystem with 51% share, says state IT-BT Minister Priyank Kharge",
       "url": "https://economictimes.indiatimes.com/ai/ai-insights/karnataka-leads-indias-gcc-ecosystem-with-51-share-says-state-it-bt-minister-priyank-kharge/articleshow/135989665.cms",
       "source": "The Economic Times",
@@ -171,18 +185,18 @@
       "kind": "lab"
     },
     {
-      "title": "Ka-Naada Phonetics unveils universal Indic keyboard at Bangalore Tech Summit",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/ka-naada-phonetics-unveils-universal-indic-keyboard-at-bangalore-tech-summit/articleshow/135979252.cms",
-      "source": "The Economic Times",
-      "time": "2026-11-19T06:50:28.000Z",
-      "kind": "press"
+      "title": "Deploying Daybreak Red",
+      "url": "https://openai.com/business/learn/deploying-daybreak-red",
+      "source": "OpenAI",
+      "time": "2026-11-19T00:00:00.000Z",
+      "kind": "lab"
     },
     {
-      "title": "The seven Anthropic founders who are about to become multi-billionaires",
-      "url": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "time": "2026-11-18T23:42:07.000Z",
-      "kind": "press"
+      "title": "See PR scans in action",
+      "url": "https://openai.com/business/learn/pr-scans-demo",
+      "source": "OpenAI",
+      "time": "2026-11-19T00:00:00.000Z",
+      "kind": "lab"
     },
     {
       "title": "Introducing Gemini 4 Neon",
@@ -196,20 +210,6 @@
       "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
       "source": "Hugging Face",
       "time": "2026-11-18T19:54:56.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Muse privacy invasions are freaking out Meta staffers, internal chats show",
-      "url": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/",
-      "source": "Ars Technica",
-      "time": "2026-11-18T19:19:33.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Why your fine-tuning job takes longer than the FLOPs say",
-      "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
-      "source": "Hugging Face",
-      "time": "2026-11-18T18:53:43.000Z",
       "kind": "lab"
     }
   ]
