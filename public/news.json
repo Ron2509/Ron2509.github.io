@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T07:37:22.824Z",
+  "updated": "2026-11-20T20:38:12.505Z",
   "sources": [
     "MIT Technology Review",
     "The Guardian",
@@ -17,6 +17,139 @@
   ],
   "items": [
     {
+      "title": "Trump threatens ban on US firms building AI data centres overseas",
+      "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "time": "2026-11-20T20:35:26.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Anthropic shares fall after blockbuster opening as wider tech sell-off continues",
+      "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "time": "2026-11-20T20:00:53.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
+      "url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+      "source": "TechCrunch",
+      "time": "2026-11-20T19:53:41.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Jensen Huang’s ‘Lying’ Alarmed Nvidia Board Ahead of His Resignation",
+      "url": "https://www.wired.com/story/jensen-huangs-lying-alarmed-nvidia-board-ahead-of-his-resignation/",
+      "source": "Wired",
+      "time": "2026-11-20T19:52:21.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "AI claimed a solution to the 167-year-old Riemann Hypothesis — and a human did, too",
+      "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+      "source": "TechCrunch",
+      "time": "2026-11-20T19:32:08.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Forget rogue robots, it’s tech billionaires and AI cricket that should really terrify us | Barney Ronay",
+      "url": "https://www.theguardian.com/sport/2026/nov/20/cricket-rogue-robots-tech-billionaires-artificial-intelligence",
+      "source": "The Guardian",
+      "time": "2026-11-20T19:00:36.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Is Claude creator Anthropic really worth $1.3 trillion? - The Latest",
+      "url": "https://www.theguardian.com/news/video/2026/nov/20/is-claude-creator-anthropic-really-worth-15-trillion-the-latest",
+      "source": "The Guardian",
+      "time": "2026-11-20T18:53:50.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
+      "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+      "source": "The Verge",
+      "time": "2026-11-20T18:50:19.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Is Anthropic really worth $1.3 trillion? - The Latest",
+      "url": "https://www.theguardian.com/news/audio/2026/nov/20/anthropic-1-trillion-valuation-the-latest",
+      "source": "The Guardian",
+      "time": "2026-11-20T18:33:06.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "The most misunderstood graph in AI just got a major update",
+      "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+      "source": "MIT Technology Review",
+      "time": "2026-11-20T18:15:15.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Chips can survive the space environment — can their financing?",
+      "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
+      "source": "TechCrunch",
+      "time": "2026-11-20T17:40:01.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+      "source": "The Verge",
+      "time": "2026-11-20T16:34:13.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "The week everything fell apart",
+      "url": "https://www.theverge.com/podcast/1038419/outage-outlook-ground-stop-tech-failure-vergecast",
+      "source": "The Verge",
+      "time": "2026-11-20T14:06:59.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Muse Is Unleashing a World of Pettiness on Instagram",
+      "url": "https://www.wired.com/story/muse-is-unleashing-a-world-of-pettiness-on-instagram/",
+      "source": "Wired",
+      "time": "2026-11-20T12:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Regular Tech Bros Are Worried About Honeypots",
+      "url": "https://www.wired.com/story/regular-tech-bros-are-worried-about-honeypots/",
+      "source": "Wired",
+      "time": "2026-11-20T11:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Combatting adversarial distillation",
+      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "source": "OpenAI",
+      "time": "2026-11-20T10:00:00.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Why AI agents are bringing CPUs back into focus, according to Intel India’s Gokul Subramaniam",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/why-ai-agents-are-bringing-cpus-back-into-focus-according-to-intel-indias-gokul-subramaniam/videoshow/136021044.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-20T09:25:43.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Why Kris Gopalakrishnan believes AI will reinvent Indian IT",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/why-kris-gopalakrishnan-believes-ai-will-reinvent-indian-it/videoshow/136020472.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-20T09:09:46.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Privacy must come first in AI note-taking, says Plaud’s Megumi Yoshinaga",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/privacy-must-come-first-in-ai-note-taking-says-plauds-megumi-yoshinaga/videoshow/136018744.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-20T08:00:29.000Z",
+      "kind": "press"
+    },
+    {
       "title": "Should AI be judging our credit worthiness?",
       "url": "https://www.bbc.co.uk/news/articles/c6d94pzk9vleo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -24,95 +157,25 @@
       "kind": "press"
     },
     {
-      "title": "‘We will become cyborgs!’ Peter Gabriel on bonobo ape duets, building a Jurassic Park for plants – and why AI will make great music",
-      "url": "https://www.theguardian.com/music/2026/nov/20/peter-gabriel-interview-ai-music-bonobo-ape-duets-jurassic-park-plants",
-      "source": "The Guardian",
-      "time": "2026-11-20T05:00:22.000Z",
-      "kind": "press"
+      "title": "Can AI help scientists identify promising drug candidates?",
+      "url": "https://openai.com/index/introducing-medchembench",
+      "source": "OpenAI",
+      "time": "2026-11-20T00:00:00.000Z",
+      "kind": "lab"
     },
     {
-      "title": "Anthropic’s historic stock market debut: key takeaways, and what comes next for the AI industry",
-      "url": "https://www.theguardian.com/technology/2026/nov/20/anthropic-ipo-historic-stock-market-debut-key-takeaways-what-next-for-ai",
-      "source": "The Guardian",
-      "time": "2026-11-20T03:33:45.000Z",
-      "kind": "press"
+      "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+      "url": "https://huggingface.co/blog/inkling2mini",
+      "source": "Hugging Face",
+      "time": "2026-11-20T00:00:00.000Z",
+      "kind": "lab"
     },
     {
-      "title": "From anti-war physicist to AI power broker, Anthropic's Amodei takes his safety approach public",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/from-anti-war-physicist-to-ai-power-broker-amodei-takes-his-safety-approach-public/articleshow/136009226.cms",
-      "source": "The Economic Times",
-      "time": "2026-11-20T01:21:45.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Apple may be developing its own AI agent that runs your Mac",
-      "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
-      "source": "TechCrunch",
-      "time": "2026-11-20T00:56:01.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
-      "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
-      "source": "TechCrunch",
-      "time": "2026-11-20T00:43:50.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Anthropic becomes one of world's most valuable public companies in stock market debut",
-      "url": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "time": "2026-11-19T23:33:51.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Apple is hiring engineers to build its own AI agent",
-      "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
-      "source": "The Verge",
-      "time": "2026-11-19T22:31:41.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Anthropic shares end first day of trading at $97 as Wall Street closes sharply lower – as it happened",
-      "url": "https://www.theguardian.com/business/live/2026/nov/19/anthropic-float-stock-market-nasdaq-raises-81bn-record-ipo-latest-news-updates",
-      "source": "The Guardian",
-      "time": "2026-11-19T22:13:52.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "A brief history of Nvidia’s recent stock fluctuations",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
-      "source": "The Verge",
-      "time": "2026-11-19T21:59:35.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Meta’s new Muse Charm device may cost $300",
-      "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
-      "source": "TechCrunch",
-      "time": "2026-11-19T21:58:06.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "What’s With All These Outages?",
-      "url": "https://www.wired.com/story/uncanny-valley-podcast-whats-with-all-these-outages/",
-      "source": "Wired",
-      "time": "2026-11-19T21:57:01.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "The Jensen Huang Blast Radius Has Hit His Favorite Restaurants",
-      "url": "https://www.wired.com/story/jensen-huangs-favorite-restaurants-are-caught-up-in-his-scandals-too/",
-      "source": "Wired",
-      "time": "2026-11-19T20:34:17.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Meta’s Muse Charm might cost $300",
-      "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
-      "source": "The Verge",
-      "time": "2026-11-19T20:22:17.000Z",
-      "kind": "press"
+      "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+      "url": "https://huggingface.co/blog/harness-adapters-at-scale",
+      "source": "Hugging Face",
+      "time": "2026-11-20T00:00:00.000Z",
+      "kind": "lab"
     },
     {
       "title": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
@@ -143,73 +206,10 @@
       "kind": "lab"
     },
     {
-      "title": "Google Built a Giant ‘Mirror Dimension’ Internet to Test Its Chrome AI Agents",
-      "url": "https://www.wired.com/story/google-built-a-giant-mirror-dimension-internet-to-test-its-chrome-ai-agents/",
-      "source": "Wired",
-      "time": "2026-11-19T17:00:00.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Walter Isaacson on curiosity and creativity in the AI age.",
       "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
       "source": "Google AI",
       "time": "2026-11-19T17:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Dutch watchdog tells people not to buy AI smart glasses",
-      "url": "https://www.bbc.co.uk/news/articles/ckq6eyrzrzy5o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "time": "2026-11-19T16:33:17.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Karnataka leads India's GCC ecosystem with 51% share, says state IT-BT Minister Priyank Kharge",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/karnataka-leads-indias-gcc-ecosystem-with-51-share-says-state-it-bt-minister-priyank-kharge/articleshow/135989665.cms",
-      "source": "The Economic Times",
-      "time": "2026-11-19T11:41:18.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "New Delhi must recognise Bengaluru as the future of India: Mohandas Pai",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/new-delhi-must-recognise-bengaluru-as-the-future-of-india-mohandas-pai/articleshow/135985497.cms",
-      "source": "The Economic Times",
-      "time": "2026-11-19T11:16:43.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
-      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
-      "source": "OpenAI",
-      "time": "2026-11-19T08:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Deploying Daybreak Red",
-      "url": "https://openai.com/business/learn/deploying-daybreak-red",
-      "source": "OpenAI",
-      "time": "2026-11-19T00:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "See PR scans in action",
-      "url": "https://openai.com/business/learn/pr-scans-demo",
-      "source": "OpenAI",
-      "time": "2026-11-19T00:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Introducing Gemini 4 Neon",
-      "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
-      "source": "Google DeepMind",
-      "time": "2026-11-18T21:35:43.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
-      "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
-      "source": "Hugging Face",
-      "time": "2026-11-18T19:54:56.000Z",
       "kind": "lab"
     }
   ]
