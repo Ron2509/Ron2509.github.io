@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T07:33:41.739Z",
+  "updated": "2026-11-21T19:38:18.250Z",
   "sources": [
     "MIT Technology Review",
     "The Guardian",
@@ -17,10 +17,80 @@
   ],
   "items": [
     {
-      "title": "Is India’s infrastructure ready for AI agents? Kyndryl’s Lingaraj Sawkar explains",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/is-indias-infrastructure-ready-for-ai-agents-kyndryls-lingaraj-sawkar-explains/videoshow/136045629.cms",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "source": "TechCrunch",
+      "time": "2026-11-21T17:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Anthropic mathematician claims he used Claude to prove 19th-century Riemann hypothesis",
+      "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
+      "source": "The Guardian",
+      "time": "2026-11-21T16:39:49.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+      "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+      "source": "TechCrunch",
+      "time": "2026-11-21T16:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Can Anthropic afford to put safety first?",
+      "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+      "source": "The Verge",
+      "time": "2026-11-21T15:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "‘I was shaking, crying, having trouble breathing’: the unchartered trauma of breaking up with AI companions",
+      "url": "https://www.theguardian.com/technology/ng-interactive/2026/nov/21/shaking-crying-trouble-breathing-breaking-up-with-ai-companions",
+      "source": "The Guardian",
+      "time": "2026-11-21T14:00:01.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
+      "url": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+      "source": "The Verge",
+      "time": "2026-11-21T14:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "‘Little room for error’: what a debt-laden cloud computing company says about the AI boom",
+      "url": "https://www.theguardian.com/business/2026/nov/21/debt-laden-cloud-computing-company-coreweave-ai-boom",
+      "source": "The Guardian",
+      "time": "2026-11-21T13:00:01.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "The Outages Are Just Getting Started",
+      "url": "https://www.wired.com/story/brace-yourself-for-years-of-outage-chaos/",
+      "source": "Wired",
+      "time": "2026-11-21T13:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "AGNIT CEO on why AI data centres need gallium nitride chips",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/agnit-ceo-on-why-ai-data-centres-need-gallium-nitride-chips/videoshow/136046271.cms",
       "source": "The Economic Times",
-      "time": "2026-11-21T05:17:53.000Z",
+      "time": "2026-11-21T11:30:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Why Priyank Kharge calls data centres a \"necessary evil\"",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/why-priyank-kharge-calls-data-centres-a-necessary-evil/videoshow/136046024.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-21T08:30:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Data centres a ‘necessary evil’ for Karnataka’s AI ambitions: Priyank Kharge",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/data-centres-a-necessary-evil-for-karnatakas-ai-ambitions-priyank-kharge/articleshow/136048362.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-21T08:01:07.000Z",
       "kind": "press"
     },
     {
@@ -38,7 +108,7 @@
       "kind": "press"
     },
     {
-      "title": "In a year of AI solving maths problems, Anthropic may have just solved the biggest",
+      "title": "In a year of AI solving maths problems, an Anthropic worker says he may have cracked the biggest",
       "url": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "time": "2026-11-20T23:08:57.000Z",
@@ -66,13 +136,6 @@
       "kind": "press"
     },
     {
-      "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading",
-      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-      "source": "The Guardian",
-      "time": "2026-11-20T21:38:17.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
       "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
       "source": "Ars Technica",
@@ -94,27 +157,6 @@
       "kind": "press"
     },
     {
-      "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
-      "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
-      "source": "TechCrunch",
-      "time": "2026-11-20T19:32:08.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Forget rogue robots, it’s tech billionaires and AI cricket that should really terrify us | Barney Ronay",
-      "url": "https://www.theguardian.com/sport/2026/nov/20/cricket-rogue-robots-tech-billionaires-artificial-intelligence",
-      "source": "The Guardian",
-      "time": "2026-11-20T19:00:36.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Is Claude creator Anthropic really worth $1.3 trillion? - The Latest",
-      "url": "https://www.theguardian.com/news/video/2026/nov/20/is-claude-creator-anthropic-really-worth-15-trillion-the-latest",
-      "source": "The Guardian",
-      "time": "2026-11-20T18:53:50.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
       "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
       "source": "The Verge",
@@ -129,87 +171,10 @@
       "kind": "press"
     },
     {
-      "title": "Chips can survive the space environment — can their financing?",
-      "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
-      "source": "TechCrunch",
-      "time": "2026-11-20T17:40:01.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
-      "source": "The Verge",
-      "time": "2026-11-20T16:34:13.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "The week everything fell apart",
-      "url": "https://www.theverge.com/podcast/1038419/outage-outlook-ground-stop-tech-failure-vergecast",
-      "source": "The Verge",
-      "time": "2026-11-20T14:06:59.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Muse Is Unleashing a World of Pettiness on Instagram",
-      "url": "https://www.wired.com/story/muse-is-unleashing-a-world-of-pettiness-on-instagram/",
-      "source": "Wired",
-      "time": "2026-11-20T12:00:00.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Combatting adversarial distillation",
       "url": "https://openai.com/index/combatting-adversarial-distillation",
       "source": "OpenAI",
       "time": "2026-11-20T10:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Why AI agents are bringing CPUs back into focus, according to Intel India’s Gokul Subramaniam",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/why-ai-agents-are-bringing-cpus-back-into-focus-according-to-intel-indias-gokul-subramaniam/videoshow/136021044.cms",
-      "source": "The Economic Times",
-      "time": "2026-11-20T09:25:43.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Why Kris Gopalakrishnan believes AI will reinvent Indian IT",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/why-kris-gopalakrishnan-believes-ai-will-reinvent-indian-it/videoshow/136020472.cms",
-      "source": "The Economic Times",
-      "time": "2026-11-20T09:09:46.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
-      "url": "https://openai.com/business/customer-stories/hebbia",
-      "source": "OpenAI",
-      "time": "2026-11-20T00:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Can AI help scientists identify promising drug candidates?",
-      "url": "https://openai.com/index/introducing-medchembench",
-      "source": "OpenAI",
-      "time": "2026-11-20T00:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
-      "url": "https://huggingface.co/blog/inkling2mini",
-      "source": "Hugging Face",
-      "time": "2026-11-20T00:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
-      "url": "https://huggingface.co/blog/harness-adapters-at-scale",
-      "source": "Hugging Face",
-      "time": "2026-11-20T00:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
-      "url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
-      "source": "NVIDIA",
-      "time": "2026-11-19T20:00:15.000Z",
       "kind": "lab"
     }
   ]
