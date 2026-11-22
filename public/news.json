@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T19:38:18.250Z",
+  "updated": "2026-11-22T07:15:40.977Z",
   "sources": [
     "MIT Technology Review",
     "The Guardian",
@@ -17,24 +17,45 @@
   ],
   "items": [
     {
+      "title": "‘Serious error of judgment’: outrage over military AI event at Berlin arts complex",
+      "url": "https://www.theguardian.com/world/2026/nov/22/military-ai-event-berlin-kraftwerk-arts-complex",
+      "source": "The Guardian",
+      "time": "2026-11-22T06:00:21.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "South Korea education minister resigns after AI cheating scandal engulfs university exams",
+      "url": "https://www.theguardian.com/world/2026/nov/22/south-korea-education-minister-resigns-after-ai-cheating-scandal-engulfs-university-exams",
+      "source": "The Guardian",
+      "time": "2026-11-22T05:04:39.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+      "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+      "source": "TechCrunch",
+      "time": "2026-11-21T21:37:10.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "A tale of two Nvidias",
+      "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+      "source": "TechCrunch",
+      "time": "2026-11-21T21:07:42.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Two groups verify mathematician’s claim that Claude helped prove mathematics problem",
+      "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
+      "source": "The Guardian",
+      "time": "2026-11-21T20:15:57.000Z",
+      "kind": "press"
+    },
+    {
       "title": "Here are the top AI agents that can live in your text messages",
       "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
       "source": "TechCrunch",
       "time": "2026-11-21T17:00:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Anthropic mathematician claims he used Claude to prove 19th-century Riemann hypothesis",
-      "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
-      "source": "The Guardian",
-      "time": "2026-11-21T16:39:49.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
-      "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
-      "source": "TechCrunch",
-      "time": "2026-11-21T16:00:00.000Z",
       "kind": "press"
     },
     {
@@ -45,24 +66,10 @@
       "kind": "press"
     },
     {
-      "title": "‘I was shaking, crying, having trouble breathing’: the unchartered trauma of breaking up with AI companions",
-      "url": "https://www.theguardian.com/technology/ng-interactive/2026/nov/21/shaking-crying-trouble-breathing-breaking-up-with-ai-companions",
-      "source": "The Guardian",
-      "time": "2026-11-21T14:00:01.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
       "url": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
       "source": "The Verge",
       "time": "2026-11-21T14:00:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "‘Little room for error’: what a debt-laden cloud computing company says about the AI boom",
-      "url": "https://www.theguardian.com/business/2026/nov/21/debt-laden-cloud-computing-company-coreweave-ai-boom",
-      "source": "The Guardian",
-      "time": "2026-11-21T13:00:01.000Z",
       "kind": "press"
     },
     {
@@ -143,39 +150,11 @@
       "kind": "press"
     },
     {
-      "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
-      "url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
-      "source": "TechCrunch",
-      "time": "2026-11-20T19:53:41.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Jensen Huang’s ‘Lying’ Alarmed Nvidia Board Ahead of His Resignation",
       "url": "https://www.wired.com/story/jensen-huangs-lying-alarmed-nvidia-board-ahead-of-his-resignation/",
       "source": "Wired",
       "time": "2026-11-20T19:52:21.000Z",
       "kind": "press"
-    },
-    {
-      "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
-      "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
-      "source": "The Verge",
-      "time": "2026-11-20T18:50:19.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "The most misunderstood graph in AI just got a major update",
-      "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
-      "source": "MIT Technology Review",
-      "time": "2026-11-20T18:15:15.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Combatting adversarial distillation",
-      "url": "https://openai.com/index/combatting-adversarial-distillation",
-      "source": "OpenAI",
-      "time": "2026-11-20T10:00:00.000Z",
-      "kind": "lab"
     }
   ]
 }
