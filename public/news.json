@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T07:15:40.977Z",
+  "updated": "2026-11-22T19:54:25.705Z",
   "sources": [
     "MIT Technology Review",
     "The Guardian",
@@ -17,18 +17,60 @@
   ],
   "items": [
     {
-      "title": "‘Serious error of judgment’: outrage over military AI event at Berlin arts complex",
-      "url": "https://www.theguardian.com/world/2026/nov/22/military-ai-event-berlin-kraftwerk-arts-complex",
-      "source": "The Guardian",
-      "time": "2026-11-22T06:00:21.000Z",
+      "title": "Why data centers are at the center of the Big Tech backlash",
+      "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+      "source": "TechCrunch",
+      "time": "2026-11-22T18:08:43.000Z",
       "kind": "press"
     },
     {
-      "title": "South Korea education minister resigns after AI cheating scandal engulfs university exams",
-      "url": "https://www.theguardian.com/world/2026/nov/22/south-korea-education-minister-resigns-after-ai-cheating-scandal-engulfs-university-exams",
+      "title": "Two groups verify mathematician’s claim that Claude helped prove mathematics problem",
+      "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
       "source": "The Guardian",
-      "time": "2026-11-22T05:04:39.000Z",
+      "time": "2026-11-22T17:55:27.000Z",
       "kind": "press"
+    },
+    {
+      "title": "Binding of Isaac developer removes AI music from Repentance Plus",
+      "url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+      "source": "The Verge",
+      "time": "2026-11-22T17:25:20.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "I stopped talking to my husband and let AI do it instead. He didn’t even notice | Polly Hudson",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/22/stopped-talking-to-husband-let-ai-do-it-instead",
+      "source": "The Guardian",
+      "time": "2026-11-22T16:00:31.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Will fragile bipartisanship on AI survive the silly season, or is parliament heading for a holiday meltdown? | Josh Butler",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/23/will-fragile-bipartisanship-on-ai-survive-silly-season-or-is-parliament-heading-for-a-holiday-meltdown-the-agenda",
+      "source": "The Guardian",
+      "time": "2026-11-22T14:00:32.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "The vibe-coding revolution is coming to all the gadgets",
+      "url": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
+      "source": "The Verge",
+      "time": "2026-11-22T13:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Banks Have Had It Up to Here With Your AI Agent",
+      "url": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/",
+      "source": "Wired",
+      "time": "2026-11-22T11:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Perplexity and Intelligence",
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "source": "OpenAI",
+      "time": "2026-11-22T00:00:00.000Z",
+      "kind": "lab"
     },
     {
       "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
@@ -45,31 +87,10 @@
       "kind": "press"
     },
     {
-      "title": "Two groups verify mathematician’s claim that Claude helped prove mathematics problem",
-      "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
-      "source": "The Guardian",
-      "time": "2026-11-21T20:15:57.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Here are the top AI agents that can live in your text messages",
-      "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
-      "source": "TechCrunch",
-      "time": "2026-11-21T17:00:00.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Can Anthropic afford to put safety first?",
       "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
       "source": "The Verge",
       "time": "2026-11-21T15:00:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
-      "url": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
-      "source": "The Verge",
-      "time": "2026-11-21T14:00:00.000Z",
       "kind": "press"
     },
     {
@@ -98,62 +119,6 @@
       "url": "https://economictimes.indiatimes.com/ai/ai-insights/data-centres-a-necessary-evil-for-karnatakas-ai-ambitions-priyank-kharge/articleshow/136048362.cms",
       "source": "The Economic Times",
       "time": "2026-11-21T08:01:07.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Can AI really help spot Black Friday deals? We put it to the test",
-      "url": "https://www.bbc.co.uk/news/articles/cw8dv4jmnle2o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "time": "2026-11-21T00:06:11.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Cops Are Pushing Extremely Corny ‘Grand Theft Auto 6’ Slop",
-      "url": "https://www.wired.com/story/cops-are-being-extremely-corny-about-gta-vi/",
-      "source": "Wired",
-      "time": "2026-11-20T23:24:02.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "In a year of AI solving maths problems, an Anthropic worker says he may have cracked the biggest",
-      "url": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "time": "2026-11-20T23:08:57.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Tech stock sell-off drags markets down as Anthropic shares slide",
-      "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "time": "2026-11-20T22:42:47.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Google rolls out new search homepage with AI chat history and no search button",
-      "url": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
-      "source": "Ars Technica",
-      "time": "2026-11-20T21:58:29.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
-      "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
-      "source": "Ars Technica",
-      "time": "2026-11-20T21:47:10.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
-      "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
-      "source": "Ars Technica",
-      "time": "2026-11-20T20:59:08.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Jensen Huang’s ‘Lying’ Alarmed Nvidia Board Ahead of His Resignation",
-      "url": "https://www.wired.com/story/jensen-huangs-lying-alarmed-nvidia-board-ahead-of-his-resignation/",
-      "source": "Wired",
-      "time": "2026-11-20T19:52:21.000Z",
       "kind": "press"
     }
   ]
