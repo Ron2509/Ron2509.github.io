@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T19:54:25.705Z",
+  "updated": "2026-11-23T07:59:21.500Z",
   "sources": [
     "MIT Technology Review",
     "The Guardian",
@@ -16,6 +16,48 @@
     "Hugging Face"
   ],
   "items": [
+    {
+      "title": "AI’s hunger for turbines is sucking in entire industries",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/ais-hunger-for-turbines-is-sucking-in-entire-industries-data-center/articleshow/136092147.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-23T06:42:07.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Victorian Liberal party uses AI to write Jess Wilson’s tribute to Molly Meldrum",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/23/victorian-liberal-party-uses-ai-to-write-jess-wilsons-tribute-to-molly-meldrum",
+      "source": "The Guardian",
+      "time": "2026-11-23T03:23:44.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+      "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+      "source": "TechCrunch",
+      "time": "2026-11-23T01:25:53.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "San Francisco is enjoying an AI boom, but worries about a crash are growing",
+      "url": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "time": "2026-11-23T00:08:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "We haven’t seen the last of the major tech outages",
+      "url": "https://www.theverge.com/tech/1039851/major-tech-outages",
+      "source": "The Verge",
+      "time": "2026-11-22T22:48:02.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+      "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+      "source": "TechCrunch",
+      "time": "2026-11-22T21:14:07.000Z",
+      "kind": "press"
+    },
     {
       "title": "Why data centers are at the center of the Big Tech backlash",
       "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
@@ -45,13 +87,6 @@
       "kind": "press"
     },
     {
-      "title": "Will fragile bipartisanship on AI survive the silly season, or is parliament heading for a holiday meltdown? | Josh Butler",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/23/will-fragile-bipartisanship-on-ai-survive-silly-season-or-is-parliament-heading-for-a-holiday-meltdown-the-agenda",
-      "source": "The Guardian",
-      "time": "2026-11-22T14:00:32.000Z",
-      "kind": "press"
-    },
-    {
       "title": "The vibe-coding revolution is coming to all the gadgets",
       "url": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
       "source": "The Verge",
@@ -71,55 +106,6 @@
       "source": "OpenAI",
       "time": "2026-11-22T00:00:00.000Z",
       "kind": "lab"
-    },
-    {
-      "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
-      "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
-      "source": "TechCrunch",
-      "time": "2026-11-21T21:37:10.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "A tale of two Nvidias",
-      "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
-      "source": "TechCrunch",
-      "time": "2026-11-21T21:07:42.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Can Anthropic afford to put safety first?",
-      "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
-      "source": "The Verge",
-      "time": "2026-11-21T15:00:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "The Outages Are Just Getting Started",
-      "url": "https://www.wired.com/story/brace-yourself-for-years-of-outage-chaos/",
-      "source": "Wired",
-      "time": "2026-11-21T13:00:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "AGNIT CEO on why AI data centres need gallium nitride chips",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/agnit-ceo-on-why-ai-data-centres-need-gallium-nitride-chips/videoshow/136046271.cms",
-      "source": "The Economic Times",
-      "time": "2026-11-21T11:30:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Why Priyank Kharge calls data centres a \"necessary evil\"",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/why-priyank-kharge-calls-data-centres-a-necessary-evil/videoshow/136046024.cms",
-      "source": "The Economic Times",
-      "time": "2026-11-21T08:30:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Data centres a ‘necessary evil’ for Karnataka’s AI ambitions: Priyank Kharge",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/data-centres-a-necessary-evil-for-karnatakas-ai-ambitions-priyank-kharge/articleshow/136048362.cms",
-      "source": "The Economic Times",
-      "time": "2026-11-21T08:01:07.000Z",
-      "kind": "press"
     }
   ]
 }
