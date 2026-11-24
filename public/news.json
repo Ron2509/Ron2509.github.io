@@ -1,8 +1,7 @@
 {
-  "updated": "2026-11-23T07:59:21.500Z",
+  "updated": "2026-11-24T00:11:06.009Z",
   "sources": [
     "MIT Technology Review",
-    "The Guardian",
     "BBC News",
     "Ars Technica",
     "Wired",
@@ -17,6 +16,167 @@
   ],
   "items": [
     {
+      "title": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
+      "url": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "time": "2026-11-23T23:16:08.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Trump engineered a risky comeback for Jensen Huang",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
+      "source": "The Verge",
+      "time": "2026-11-23T22:25:12.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Nvidia CEO Jensen Huang is back. What happens next?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+      "source": "The Verge",
+      "time": "2026-11-23T22:10:32.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Welcome to elite impunity, Jensen Huang",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040819/welcome-to-elite-impunity-jensen-huang",
+      "source": "The Verge",
+      "time": "2026-11-23T22:09:26.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+      "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+      "source": "TechCrunch",
+      "time": "2026-11-23T22:05:50.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+      "url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
+      "source": "TechCrunch",
+      "time": "2026-11-23T22:02:05.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Elon Musk and others rejoice as Jensen Huang is reinstated at Nvidia amid scandal",
+      "url": "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal/",
+      "source": "TechCrunch",
+      "time": "2026-11-23T21:47:41.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Nvidia value climbs by almost $1tn and tech stocks rally after Jensen Huang returns",
+      "url": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "time": "2026-11-23T21:23:42.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "OpenAI and Cisco introduce Shirudo",
+      "url": "https://openai.com/index/introducing-shirudo",
+      "source": "OpenAI",
+      "time": "2026-11-23T21:20:00.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Jensen Huang Is Back, and So Is Nvidia’s Stock",
+      "url": "https://www.wired.com/story/jensens-back-stocks-up-what-the-hell-sure/",
+      "source": "Wired",
+      "time": "2026-11-23T17:52:56.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
+      "url": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
+      "source": "MIT Technology Review",
+      "time": "2026-11-23T17:36:08.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "RoboTrack: Point tracking for real-world robotic manipulation",
+      "url": "https://huggingface.co/blog/allenai/robotrack",
+      "source": "Hugging Face",
+      "time": "2026-11-23T17:20:37.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Merry Making: Play, Build and Create With NVIDIA Technologies This Holiday Season",
+      "url": "https://blogs.nvidia.com/blog/nvidia-technologies-holidays-2026/",
+      "source": "NVIDIA",
+      "time": "2026-11-23T17:00:08.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "A more tailored Google Search that’s uniquely yours",
+      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+      "source": "Google AI",
+      "time": "2026-11-23T17:00:00.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Finding faster quantum algorithms with agents and formal verification",
+      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+      "source": "Google DeepMind",
+      "time": "2026-11-23T16:59:40.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "How important are Nvidia and Jensen Huang to the US economy?",
+      "url": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "time": "2026-11-23T16:12:35.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Jensen Huang reinstated as Nvidia CEO, board chair",
+      "url": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/",
+      "source": "Ars Technica",
+      "time": "2026-11-23T15:46:18.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Jensen Huang Is Back as Nvidia CEO",
+      "url": "https://www.wired.com/story/jensen-huang-is-back-as-nvidia-ceo/",
+      "source": "Wired",
+      "time": "2026-11-23T14:27:35.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Is India’s infrastructure ready for AI agents? Kyndryl’s Lingraju Sawkar explains",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/is-indias-infrastructure-ready-for-ai-agents-kyndryls-lingraju-sawkar-explains/videoshow/136105406.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-23T13:58:38.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Nvidia Is Powering Brain-Computer Interfaces Now",
+      "url": "https://www.wired.com/story/nvidia-is-powering-brain-computer-interfaces-now/",
+      "source": "Wired",
+      "time": "2026-11-23T13:11:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Review: The Asus ProArt P16 offers a glimpse of a future powered by local AI",
+      "url": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai/",
+      "source": "Ars Technica",
+      "time": "2026-11-23T12:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Connected intelligence for in-house legal",
+      "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+      "source": "OpenAI",
+      "time": "2026-11-23T08:00:00.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Richpanel helps companies automate 50% of support in 30 days",
+      "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+      "source": "OpenAI",
+      "time": "2026-11-23T08:00:00.000Z",
+      "kind": "lab"
+    },
+    {
       "title": "AI’s hunger for turbines is sucking in entire industries",
       "url": "https://economictimes.indiatimes.com/ai/ai-insights/ais-hunger-for-turbines-is-sucking-in-entire-industries-data-center/articleshow/136092147.cms",
       "source": "The Economic Times",
@@ -24,87 +184,10 @@
       "kind": "press"
     },
     {
-      "title": "Victorian Liberal party uses AI to write Jess Wilson’s tribute to Molly Meldrum",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/23/victorian-liberal-party-uses-ai-to-write-jess-wilsons-tribute-to-molly-meldrum",
-      "source": "The Guardian",
-      "time": "2026-11-23T03:23:44.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
-      "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
-      "source": "TechCrunch",
-      "time": "2026-11-23T01:25:53.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "San Francisco is enjoying an AI boom, but worries about a crash are growing",
-      "url": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "time": "2026-11-23T00:08:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "We haven’t seen the last of the major tech outages",
-      "url": "https://www.theverge.com/tech/1039851/major-tech-outages",
-      "source": "The Verge",
-      "time": "2026-11-22T22:48:02.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
-      "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
-      "source": "TechCrunch",
-      "time": "2026-11-22T21:14:07.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Why data centers are at the center of the Big Tech backlash",
-      "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
-      "source": "TechCrunch",
-      "time": "2026-11-22T18:08:43.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Two groups verify mathematician’s claim that Claude helped prove mathematics problem",
-      "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
-      "source": "The Guardian",
-      "time": "2026-11-22T17:55:27.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Binding of Isaac developer removes AI music from Repentance Plus",
-      "url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
-      "source": "The Verge",
-      "time": "2026-11-22T17:25:20.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "I stopped talking to my husband and let AI do it instead. He didn’t even notice | Polly Hudson",
-      "url": "https://www.theguardian.com/commentisfree/2026/nov/22/stopped-talking-to-husband-let-ai-do-it-instead",
-      "source": "The Guardian",
-      "time": "2026-11-22T16:00:31.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "The vibe-coding revolution is coming to all the gadgets",
-      "url": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
-      "source": "The Verge",
-      "time": "2026-11-22T13:00:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Banks Have Had It Up to Here With Your AI Agent",
-      "url": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/",
-      "source": "Wired",
-      "time": "2026-11-22T11:00:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Perplexity and Intelligence",
-      "url": "https://openai.com/index/perplexity-and-intelligence",
-      "source": "OpenAI",
-      "time": "2026-11-22T00:00:00.000Z",
+      "title": "How to build and maintain an agentic evaluation",
+      "url": "https://huggingface.co/blog/agentic-evals",
+      "source": "Hugging Face",
+      "time": "2026-11-23T00:00:00.000Z",
       "kind": "lab"
     }
   ]
