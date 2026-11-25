@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T22:40:04.138Z",
+  "updated": "2026-11-25T08:57:58.491Z",
   "sources": [
     "MIT Technology Review",
     "BBC News",
@@ -16,6 +16,48 @@
   ],
   "items": [
     {
+      "title": "‘AI adoption is faster than it can be measured and governed’: Siddhant Rastogi & Adhil Shetty",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/ai-adoption-is-faster-than-it-can-be-measured-and-governed-siddhant-rastogi-adhil-shetty/videoshow/136153843.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-25T08:23:13.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "India has moved beyond outsourcing to building AI end to end, says USIBC’s Jay Gullish",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/india-has-moved-beyond-outsourcing-to-building-ai-end-to-end-says-usibcs-jay-gullish/videoshow/136152213.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-25T07:16:26.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "ET FOKW 2026 | ‘India Thrives in turbulence & those who adapt …’: Rashesh Shah shares a secret",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/et-fokw-2026-india-thrives-in-turbulence-those-who-adapt-rashesh-shah-shares-a-secret/videoshow/136151988.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-25T07:07:06.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "US attorney general dodges questions about Nvidia investigation",
+      "url": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "time": "2026-11-25T03:44:07.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion",
+      "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
+      "source": "TechCrunch",
+      "time": "2026-11-25T00:12:02.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Jensen Huang’s Return Shows Nvidia Is Too Big to Police",
+      "url": "https://www.wired.com/story/jensen-huang-nvidia-us-national-security-risks/",
+      "source": "Wired",
+      "time": "2026-11-24T23:39:04.000Z",
+      "kind": "press"
+    },
+    {
       "title": "Jensen Huang still thinks a succession plan creates unnecessary hierarchy",
       "url": "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/",
       "source": "TechCrunch",
@@ -27,20 +69,6 @@
       "url": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
       "source": "TechCrunch",
       "time": "2026-11-24T21:48:27.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Even the best AI agents struggle with everyday life",
-      "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
-      "source": "TechCrunch",
-      "time": "2026-11-24T21:33:29.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "US attorney general dodges questions about Nvidia investigation",
-      "url": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "time": "2026-11-24T21:19:42.000Z",
       "kind": "press"
     },
     {
@@ -121,13 +149,6 @@
       "kind": "lab"
     },
     {
-      "title": "Raising the stakes for enterprise networks with AI modernization",
-      "url": "https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/",
-      "source": "MIT Technology Review",
-      "time": "2026-11-24T15:15:16.000Z",
-      "kind": "press"
-    },
-    {
       "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
       "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
       "source": "OpenAI",
@@ -142,13 +163,6 @@
       "kind": "lab"
     },
     {
-      "title": "Don’t Bring Up AI if You Want to Enjoy Your Thanksgiving",
-      "url": "https://www.wired.com/story/dont-bring-up-ai-if-you-want-to-enjoy-your-thanksgiving/",
-      "source": "Wired",
-      "time": "2026-11-24T10:45:00.000Z",
-      "kind": "press"
-    },
-    {
       "title": "How Intentful uses dots to make more time for growth",
       "url": "https://openai.com/business/customer-stories/intentful-dots",
       "source": "OpenAI",
@@ -160,48 +174,6 @@
       "url": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "time": "2026-11-23T23:16:08.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
-      "url": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
-      "source": "MIT Technology Review",
-      "time": "2026-11-23T17:36:08.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "RoboTrack: Point tracking for real-world robotic manipulation",
-      "url": "https://huggingface.co/blog/allenai/robotrack",
-      "source": "Hugging Face",
-      "time": "2026-11-23T17:20:37.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Merry Making: Play, Build and Create With NVIDIA Technologies This Holiday Season",
-      "url": "https://blogs.nvidia.com/blog/nvidia-technologies-holidays-2026/",
-      "source": "NVIDIA",
-      "time": "2026-11-23T17:00:08.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "A more tailored Google Search that’s uniquely yours",
-      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
-      "source": "Google AI",
-      "time": "2026-11-23T17:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Finding faster quantum algorithms with agents and formal verification",
-      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
-      "source": "Google DeepMind",
-      "time": "2026-11-23T16:59:40.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Is India’s infrastructure ready for AI agents? Kyndryl’s Lingraju Sawkar explains",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/is-indias-infrastructure-ready-for-ai-agents-kyndryls-lingraju-sawkar-explains/videoshow/136105406.cms",
-      "source": "The Economic Times",
-      "time": "2026-11-23T13:58:38.000Z",
       "kind": "press"
     }
   ]
