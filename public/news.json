@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T08:44:21.162Z",
+  "updated": "2026-11-26T21:48:56.175Z",
   "sources": [
     "MIT Technology Review",
     "BBC News",
@@ -16,7 +16,42 @@
   ],
   "items": [
     {
-      "title": "AI gives hackers a slight edge, says Accenture’s Harpreet Sidhu",
+      "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+      "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+      "source": "TechCrunch",
+      "time": "2026-11-26T20:03:54.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
+      "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+      "source": "TechCrunch",
+      "time": "2026-11-26T16:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "source": "Hugging Face",
+      "time": "2026-11-26T11:37:17.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "Meta Refused to Share Muse for Testing, UK Financial Watchdog Complains",
+      "url": "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/",
+      "source": "Wired",
+      "time": "2026-11-26T10:51:27.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+      "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+      "source": "The Verge",
+      "time": "2026-11-26T09:54:40.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Accenture’s Harpreet Sidhu says hackers have the AI edge, but…",
       "url": "https://economictimes.indiatimes.com/ai/ai-insights/ai-gives-hackers-a-slight-edge-says-accentures-harpreet-sidhu/videoshow/136159267.cms",
       "source": "The Economic Times",
       "time": "2026-11-26T05:31:00.000Z",
@@ -37,6 +72,13 @@
       "kind": "press"
     },
     {
+      "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+      "url": "https://huggingface.co/blog/training-swarms",
+      "source": "Hugging Face",
+      "time": "2026-11-26T00:00:00.000Z",
+      "kind": "lab"
+    },
+    {
       "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
       "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
       "source": "TechCrunch",
@@ -51,27 +93,6 @@
       "kind": "press"
     },
     {
-      "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
-      "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
-      "source": "TechCrunch",
-      "time": "2026-11-25T20:03:27.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
-      "url": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
-      "source": "TechCrunch",
-      "time": "2026-11-25T19:54:57.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Where scientists draw the line on AI agents",
-      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
-      "source": "Hugging Face",
-      "time": "2026-11-25T18:52:55.000Z",
-      "kind": "lab"
-    },
-    {
       "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
       "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
       "source": "The Verge",
@@ -83,13 +104,6 @@
       "url": "https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop/",
       "source": "Ars Technica",
       "time": "2026-11-25T16:47:14.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Nothing offers a full look at its AI earbuds and charging case",
-      "url": "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
-      "source": "The Verge",
-      "time": "2026-11-25T16:00:59.000Z",
       "kind": "press"
     },
     {
@@ -114,13 +128,6 @@
       "kind": "press"
     },
     {
-      "title": "An Indic Voice Agent with CUGA",
-      "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
-      "source": "Hugging Face",
-      "time": "2026-11-25T10:22:09.000Z",
-      "kind": "lab"
-    },
-    {
       "title": "EA adds AI-generated John Motson to FC 27 video game",
       "url": "https://www.bbc.co.uk/news/articles/c65y10j841jpo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -132,20 +139,6 @@
       "url": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
       "source": "MIT Technology Review",
       "time": "2026-11-25T10:00:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "US attorney general dodges questions about Nvidia investigation",
-      "url": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "time": "2026-11-25T03:44:07.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Jensen Huang’s Return Shows Nvidia Is Too Big to Police",
-      "url": "https://www.wired.com/story/jensen-huang-nvidia-us-national-security-risks/",
-      "source": "Wired",
-      "time": "2026-11-24T23:39:04.000Z",
       "kind": "press"
     }
   ]
