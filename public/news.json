@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T21:54:33.559Z",
+  "updated": "2026-11-26T08:44:21.162Z",
   "sources": [
     "MIT Technology Review",
     "BBC News",
@@ -15,6 +15,34 @@
     "Hugging Face"
   ],
   "items": [
+    {
+      "title": "AI gives hackers a slight edge, says Accenture’s Harpreet Sidhu",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/ai-gives-hackers-a-slight-edge-says-accentures-harpreet-sidhu/videoshow/136159267.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-26T05:31:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+      "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "source": "Hugging Face",
+      "time": "2026-11-26T05:05:36.000Z",
+      "kind": "lab"
+    },
+    {
+      "title": "BharatGen’s 7-billion-parameter Patram 1.5 is trained to hold back rather than guess",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/bharatgens-7-billion-parameter-patram-1-5-is-trained-to-hold-back-rather-than-guess/articleshow/136172471.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-26T03:30:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+      "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+      "source": "TechCrunch",
+      "time": "2026-11-25T22:44:32.000Z",
+      "kind": "press"
+    },
     {
       "title": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
       "url": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
@@ -34,13 +62,6 @@
       "url": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
       "source": "TechCrunch",
       "time": "2026-11-25T19:54:57.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
-      "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
-      "source": "TechCrunch",
-      "time": "2026-11-25T19:44:24.000Z",
       "kind": "press"
     },
     {
@@ -86,20 +107,6 @@
       "kind": "press"
     },
     {
-      "title": "‘Don’t boil the ocean, it’s a costly affair’: Arundhati Bhattacharya on small language models",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/dont-boil-the-ocean-its-a-costly-affair-arundhati-bhattacharya-on-small-language-models/videoshow/136160697.cms",
-      "source": "The Economic Times",
-      "time": "2026-11-25T11:58:16.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "‘Even Chat GPT can read report but a Doc saying it is different'",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/even-chat-gpt-can-read-report-but-a-doc-saying-it-is-different/videoshow/136159920.cms",
-      "source": "The Economic Times",
-      "time": "2026-11-25T11:34:11.000Z",
-      "kind": "press"
-    },
-    {
       "title": "Airplane Turbulence Is Extremely Hard to Predict, but Maybe Not for Long",
       "url": "https://www.wired.com/story/airplane-turbulence-is-extremely-hard-to-predict-and-avoid/",
       "source": "Wired",
@@ -135,67 +142,11 @@
       "kind": "press"
     },
     {
-      "title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
-      "url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
-      "source": "Hugging Face",
-      "time": "2026-11-25T00:00:00.000Z",
-      "kind": "lab"
-    },
-    {
       "title": "Jensen Huang’s Return Shows Nvidia Is Too Big to Police",
       "url": "https://www.wired.com/story/jensen-huang-nvidia-us-national-security-risks/",
       "source": "Wired",
       "time": "2026-11-24T23:39:04.000Z",
       "kind": "press"
-    },
-    {
-      "title": "What's going on with the Riemann hypothesis?",
-      "url": "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/",
-      "source": "Ars Technica",
-      "time": "2026-11-24T20:34:53.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Faisal Islam: Fears over the AI boom haven't gone away",
-      "url": "https://www.bbc.co.uk/news/articles/c6894evgpel5o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "time": "2026-11-24T18:21:43.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Jensen Huang Apologizes to Nvidia Employees in First All-Hands Since His Return",
-      "url": "https://www.wired.com/story/jensen-huang-apologizes-to-nvidia-employees-in-first-all-hands-since-his-return/",
-      "source": "Wired",
-      "time": "2026-11-24T17:44:53.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "How Gemini is changing the game for Golden State's organization and fans.",
-      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
-      "source": "Google AI",
-      "time": "2026-11-24T16:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity",
-      "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
-      "source": "Google DeepMind",
-      "time": "2026-11-24T13:07:53.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
-      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
-      "source": "OpenAI",
-      "time": "2026-11-24T13:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "Searching for distant planets with Astra",
-      "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
-      "source": "OpenAI",
-      "time": "2026-11-24T11:00:00.000Z",
-      "kind": "lab"
     }
   ]
 }
