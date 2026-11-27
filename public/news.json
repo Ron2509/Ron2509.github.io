@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T08:55:03.880Z",
+  "updated": "2026-11-27T21:31:12.875Z",
   "sources": [
     "MIT Technology Review",
     "BBC News",
@@ -16,11 +16,32 @@
   ],
   "items": [
     {
+      "title": "Android’s DIY widgets are a bit of vibe-coding fun",
+      "url": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+      "source": "The Verge",
+      "time": "2026-11-27T14:00:00.000Z",
+      "kind": "press"
+    },
+    {
+      "title": "India has adopted AI faster than it can measure, own or govern it: ET AI Adoption Index",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/india-has-adopted-ai-faster-than-it-can-measure-own-or-govern-it-et-ai-adoption-index/articleshow/136221444.cms",
+      "source": "The Economic Times",
+      "time": "2026-11-27T12:03:50.000Z",
+      "kind": "press"
+    },
+    {
       "title": "A New Breed of Chip Runs AI Models Using Waves of Light",
       "url": "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/",
       "source": "Wired",
       "time": "2026-11-27T07:00:00.000Z",
       "kind": "press"
+    },
+    {
+      "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+      "url": "https://huggingface.co/blog/video-trainium3",
+      "source": "Hugging Face",
+      "time": "2026-11-27T00:00:00.000Z",
+      "kind": "lab"
     },
     {
       "title": "Asia made a big AI bet on Nvidia. What happens now?",
@@ -62,48 +83,6 @@
       "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
       "source": "The Verge",
       "time": "2026-11-26T09:54:40.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Accenture’s Harpreet Sidhu says hackers have the AI edge, but…",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/ai-gives-hackers-a-slight-edge-says-accentures-harpreet-sidhu/videoshow/136159267.cms",
-      "source": "The Economic Times",
-      "time": "2026-11-26T05:31:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
-      "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
-      "source": "Hugging Face",
-      "time": "2026-11-26T05:05:36.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "BharatGen’s 7-billion-parameter Patram 1.5 is trained to hold back rather than guess",
-      "url": "https://economictimes.indiatimes.com/ai/ai-insights/bharatgens-7-billion-parameter-patram-1-5-is-trained-to-hold-back-rather-than-guess/articleshow/136172471.cms",
-      "source": "The Economic Times",
-      "time": "2026-11-26T03:30:00.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
-      "url": "https://huggingface.co/blog/training-swarms",
-      "source": "Hugging Face",
-      "time": "2026-11-26T00:00:00.000Z",
-      "kind": "lab"
-    },
-    {
-      "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
-      "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
-      "source": "TechCrunch",
-      "time": "2026-11-25T22:44:32.000Z",
-      "kind": "press"
-    },
-    {
-      "title": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
-      "url": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
-      "source": "The Verge",
-      "time": "2026-11-25T21:51:26.000Z",
       "kind": "press"
     }
   ]
